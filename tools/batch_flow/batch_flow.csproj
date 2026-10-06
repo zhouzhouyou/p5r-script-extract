@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>batch_flow</AssemblyName>
+    <RootNamespace>batch_flow</RootNamespace>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AtlusScriptLibrary">
+      <HintPath>C:\Users\14453\Downloads\Atlus-Script-Tools\AtlusScriptLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr4.Runtime">
+      <HintPath>C:\Users\14453\Downloads\Atlus-Script-Tools\Antlr4.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="MoreLinq">
+      <HintPath>C:\Users\14453\Downloads\Atlus-Script-Tools\MoreLinq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>C:\Users\14453\Downloads\Atlus-Script-Tools\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
+

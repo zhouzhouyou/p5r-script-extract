@@ -1,0 +1,96 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR7000_050_000.BF
+对话条目: 30 条
+================================================================================
+
+【选项】YESNO_SEL
+    ▸ 是
+    ▸ 否
+    «ID YESNO_SEL  选项»
+
+〔旁白〕梦到了龙司。
+    «ID MND_YUME_RYUJI  对话»
+
+〔旁白〕感觉与龙司更要好了。
+    «ID MND_YUME_RYUJI_2  对话»
+
+〔旁白〕梦到了杏。
+    «ID MND_YUME_ANNE  对话»
+
+〔旁白〕感觉与杏更要好了。
+    «ID MND_YUME_ANNE_2  对话»
+
+〔旁白〕梦到了佑介。
+    «ID MND_YUME_YUSUKE  对话»
+
+〔旁白〕感觉与佑介更要好了。
+    «ID MND_YUME_YUSUKE_2  对话»
+
+〔旁白〕梦到了真。
+    «ID MND_YUME_MAKOTO  对话»
+
+〔旁白〕感觉与真更要好了。
+    «ID MND_YUME_MAKOTO_2  对话»
+
+〔旁白〕梦到了双叶。
+    «ID MND_YUME_FUTABA  对话»
+
+〔旁白〕感觉与双叶更要好了。
+    «ID MND_YUME_FUTABA_2  对话»
+
+〔旁白〕梦到了春。
+    «ID MND_YUME_HARU  对话»
+
+〔旁白〕感觉与春更要好了。
+    «ID MND_YUME_HARU_2  对话»
+
+〔旁白〕梦到了惣次郎。
+    «ID MND_YUME_SOJIRO  对话»
+
+〔旁白〕感觉与惣次郎更要好了。
+    «ID MND_YUME_SOJIRO_2  对话»
+
+〔旁白〕梦到了岩井。
+    «ID MND_YUME_IWAI  对话»
+
+〔旁白〕感觉与岩井更要好了。
+    «ID MND_YUME_IWAI_2  对话»
+
+〔旁白〕梦到了武美。
+    «ID MND_YUME_TAKEMI  对话»
+
+〔旁白〕感觉与武美更要好了。
+    «ID MND_YUME_TAKEMI_2  对话»
+
+〔旁白〕梦到了占卜师。
+    «ID MND_YUME_URANAI  对话»
+
+〔旁白〕感觉与占卜师更要好了。
+    «ID MND_YUME_URANAI_2  对话»
+
+〔旁白〕梦到了川上。
+    «ID MND_YUME_KAWAKAMI  对话»
+
+〔旁白〕感觉与川上更要好了。
+    «ID MND_YUME_KAWAKAMI_2  对话»
+
+〔旁白〕梦到了大宅。
+    «ID MND_YUME_OOYA  对话»
+
+〔旁白〕感觉与大宅更要好了。
+    «ID MND_YUME_OOYA_2  对话»
+
+〔旁白〕梦到了织田。
+    «ID MND_YUME_ODA  对话»
+
+〔旁白〕感觉与织田更要好了。
+    «ID MND_YUME_ODA_2  对话»
+
+〔旁白〕梦到了一二三。
+    «ID MND_YUME_HIFUMI  对话»
+
+〔旁白〕感觉与一二三更要好了。
+    «ID MND_YUME_HIFUMI_2  对话»
+
+〔旁白〕睡得很香！
+    «ID MND_YUME_MINE  对话»

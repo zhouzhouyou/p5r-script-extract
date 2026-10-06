@@ -1,0 +1,467 @@
+================================================================================
+来源文件: EVENT_DATA\SCRIPT\E700\E767_101.BF
+对话条目: 115 条
+================================================================================
+
+【摩尔加纳】你拿着ＣＵＥ的样子
+    还挺有模有样的呢。
+    «ID MSG_Start_1st_000  对话»
+
+【坂本　龙司】真的呢。
+    很有老手的感觉呢……！
+    «ID MSG_Start_1st_001  对话»
+
+【高卷　杏】难道你在哪里用过吗？
+    毕竟你懂的出乎意料的多……
+    «ID MSG_Start_1st_002  对话»
+
+【选项】SEL_Start_1st
+    ▸ 随你想象
+    ▸ 什么是ＣＵＥ？
+    «ID SEL_Start_1st  选项»
+
+【摩尔加纳】一副故弄玄虚的态度啊……！
+    还真令人期待呢。
+    «ID MSG_Start_1st_003_00  对话»
+
+【摩尔加纳】就是你手上的球杆啦！
+    看起来很像老手啦。真是的……
+    «ID MSG_Start_1st_003_01  对话»
+
+【坂本　龙司】嘿嘿，气氛都烘托起来啦。
+    那我们开始吧！
+    «ID MSG_Start_1st_004  对话»
+
+【坂本　龙司】嘿嘿……令人跃跃欲试啊！
+    我们赶快开始吧！
+    «ID MSG_Start_Common_Ryuji  对话»
+
+【摩尔加纳】大家都到齐了吧！
+    吾辈会好好为你们加油的！
+    «ID MSG_Start_Common_moru  对话»
+
+【高卷　杏】那我们开始吧！
+    我们能做到的吧……！
+    «ID MSG_Start_Common_Anne  对话»
+
+【喜多川　佑介】这个空间……刺激到了我的感官……！
+    来，我们开始吧！
+    «ID MSG_Start_Common_Yusuke  对话»
+
+【新岛　真】我已经做好心理准备了。
+    那我们开始吧。
+    «ID MSG_Start_Common_Makoto  对话»
+
+【佐仓　双叶】各位都到齐了吧！
+    支援就交给我吧！
+    «ID MSG_Start_Common_Futaba  对话»
+
+【奥村　春】跟大家在一起就令人兴奋！
+    好～我会加油的！
+    «ID MSG_Start_Common_Haru  对话»
+
+【明智　吾郎】那我们开始吧。
+    可别因为紧张而戳到手指哦？
+    «ID MSG_Start_Common_Akechi  对话»
+
+【明智　吾郎】那我们开始吧。
+    «ID MSG_Start_Common_Akechi_  对话»
+
+【芳泽　堇】虽然有点紧张呢……！
+    但我对专注力很有自信哦！
+    «ID MSG_Start_Common_Yoshiza  对话»
+
+【坂本　龙司】游戏开始前的紧张感……
+    真是太赞啦！
+    «ID MSG_PreBreak_Ryuji  对话»
+
+【摩尔加纳】该大胆前进，还是慎重行事……
+    如何判断是很重要的哦。
+    «ID MSG_PreBreak_moru  对话»
+
+【高卷　杏】姿态很重要对吧！
+    如果姿势不正确，球就会打偏。
+    «ID MSG_PreBreak_Anne  对话»
+
+【喜多川　佑介】嗯～这个独特的姿势……
+    可以感受到经过磨练的美……！
+    «ID MSG_PreBreak_Yusuke  对话»
+
+【新岛　真】让姿势保持稳定正确……
+    学到了不少知识呢。
+    «ID MSG_PreBreak_Makoto  对话»
+
+【佐仓　双叶】球撞击的声音……
+    听起来实在很舒畅呢！
+    «ID MSG_PreBreak_Futaba  对话»
+
+【奥村　春】要是身体僵硬就会失败呢。
+    要放轻松、放轻松……
+    «ID MSG_PreBreak_Haru  对话»
+
+【明智　吾郎】让我领教你的本领吧。
+    «ID MSG_PreBreak_Akechi  对话»
+
+【明智　吾郎】嗯，姿势摆得不错呢……
+    «ID MSG_PreBreak_Akechi_Blac  对话»
+
+【芳泽　堇】注意力若放在指尖，姿势就会歪掉……
+    得好好维持整体的平衡感呢！
+    «ID MSG_PreBreak_Yoshizawa  对话»
+
+【坂本　龙司】唔哦！真强！
+    «ID MSG_ShotGood_Ryuji  对话»
+
+【摩尔加纳】好厉害！简直就像职业选手一样嘛！
+    «ID MSG_ShotGood_moru  对话»
+
+【高卷　杏】好厉害！简直就像职业选手一样嘛！
+    «ID MSG_ShotGood_Anne  对话»
+
+【喜多川　佑介】目光简直就像被吸住了……！
+    «ID MSG_ShotGood_Yusuke  对话»
+
+【新岛　真】真厉害……不禁看入迷了。
+    «ID MSG_ShotGood_Makoto  对话»
+
+【佐仓　双叶】打得漂亮……！
+    简直就是在表演嘛！
+    «ID MSG_ShotGood_Futaba  对话»
+
+【奥村　春】哇……真厉害……！
+    看起来好像魔法啊！
+    «ID MSG_ShotGood_Haru  对话»
+
+【明智　吾郎】哦？你打得挺不错呢。
+    几乎可以称得上完美吧？
+    «ID MSG_ShotGood_Akechi  对话»
+
+【明智　吾郎】你打得挺不错呢。
+    «ID MSG_ShotGood_Akechi_Blac  对话»
+
+【芳泽　堇】太、太厉害了！
+    我都看得出神了……！
+    «ID MSG_ShotGood_Yoshizawa  对话»
+
+【坂本　龙司】该怎么说呢～别在意啦。
+    «ID MSG_ShotBad_Ryuji  对话»
+
+【摩尔加纳】没、没事吧……？
+    «ID MSG_ShotBad_moru  对话»
+
+【高卷　杏】没、没事吧……？
+    别太在意哦……？
+    «ID MSG_ShotBad_Anne  对话»
+
+【喜多川　佑介】你放心，我能感受你的热情。
+    «ID MSG_ShotBad_Yusuke  对话»
+
+【新岛　真】嗯，可以感受到你的干劲。
+    接下来只要成功打出球就可以了……！
+    «ID MSG_ShotBad_Makoto  对话»
+
+【佐仓　双叶】如果太在意就输啦……！
+    «ID MSG_ShotBad_Futaba  对话»
+
+【奥村　春】别气馁哦……？
+    俗话说失败是成功之母。
+    «ID MSG_ShotBad_Haru  对话»
+
+【明智　吾郎】……真可惜。
+    过于有勇无谋也会遇到这种事。
+    «ID MSG_ShotBad_Akechi  对话»
+
+【明智　吾郎】你不会是……故意的吧？
+    «ID MSG_ShotBad_Akechi_Black  对话»
+
+【芳泽　堇】请不要放在心上。
+    人都是从失败中学习的……！
+    «ID MSG_ShotBad_Yoshizawa  对话»
+
+【坂本　龙司】真是千钧一发……！
+    你的反射神经真好。
+    «ID MSG_ShotBad_Ryuji_JumpMi  对话»
+
+【摩尔加纳】没、没事吧……？
+    «ID MSG_ShotBad_moru_JumpMis  对话»
+
+【高卷　杏】刚才好危险……！
+    我还以为会被打中。
+    «ID MSG_ShotBad_Anne_JumpMis  对话»
+
+【喜多川　佑介】幸好没有被打中。
+    不过你的飞翔真是华丽……！
+    «ID MSG_ShotBad_Yusuke_JumpM  对话»
+
+【新岛　真】你刚才竟然能躲开……！
+    啊，现在不是佩服的时候……
+    «ID MSG_ShotBad_Makoto_JumpM  对话»
+
+【佐仓　双叶】没事就好！
+    你的闪躲技能是以帧数为单位呢。
+    «ID MSG_ShotBad_Futaba_JumpM  对话»
+
+【奥村　春】太、太好了。
+    幸好没有被打中。
+    «ID MSG_ShotBad_Haru_JumpMis  对话»
+
+【明智　吾郎】……专注力很重要哦？
+    «ID MSG_ShotBad_Akechi_JumpM  对话»
+
+【明智　吾郎】你要不要再专心一点？
+    «ID MSG_ShotBad_Akechi_Black_2  对话»
+
+【芳泽　堇】闪、闪得真漂亮呢！
+    似乎没打中摩尔加纳前辈，我就放心了。
+    «ID MSG_ShotBad_Yoshizawa_Ju  对话»
+
+【坂本　龙司】哎呀～玩得真开心！
+    手腕都觉得酸痛啦。
+    «ID MSG_PlayEnd_Ryuji  对话»
+
+【摩尔加纳】就算没打赢，仅仅是把球
+    打进球袋就很好玩呢！
+    «ID MSG_PlayEnd_moru  对话»
+
+【高卷　杏】就算没打赢，仅仅是把球
+    打进球袋就很好玩呢！
+    «ID MSG_PlayEnd_Anne  对话»
+
+【喜多川　佑介】球转动的声音、掉进球袋的声音……
+    听起来真的很美妙……！
+    «ID MSG_PlayEnd_Yusuke  对话»
+
+【新岛　真】虽然不是每次都能成功，但是能打出
+    理想的球真的很开心呢！
+    «ID MSG_PlayEnd_Makoto  对话»
+
+【佐仓　双叶】辛苦啦～！
+    我紧张到满手大汗呢！
+    «ID MSG_PlayEnd_Futaba  对话»
+
+【奥村　春】球平滑转动的样子……
+    我看得很陶醉呢。
+    «ID MSG_PlayEnd_Haru  对话»
+
+【明智　吾郎】大家一起打台球也不错呢。
+    这种紧张感恰到好处。
+    «ID MSG_PlayEnd_Akechi  对话»
+
+【明智　吾郎】当成余兴节目还不错。
+    ……我开玩笑的。
+    «ID MSG_PlayEnd_Akechi_Black  对话»
+
+【芳泽　堇】自己迷茫的心情
+    会直接表现在球上……真有趣！
+    «ID MSG_PlayEnd_Yoshizawa  对话»
+
+【坂本　龙司】[coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 10 2 8]真开心啊！
+    下次记得还要找我啊。
+    «ID MSG_Happy_Ryuji  对话»
+
+【高卷　杏】[coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 10 2 8]真的好开心。
+    要再约我哦。
+    «ID MSG_Happy_Anne  对话»
+
+【喜多川　佑介】[coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 10 2 8]已经过了这么久啊……
+    这段时间真够刺激。
+    «ID MSG_Happy_Yusuke  对话»
+
+【新岛　真】[coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 10 2 8]真开心。
+    你下次还要约我哦。
+    «ID MSG_Happy_Makoto  对话»
+
+【佐仓　双叶】[coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 10 2 8]这种一喜一忧的感觉……真让人上瘾！
+    记得再约我哦！
+    «ID MSG_Happy_Futaba  对话»
+
+【奥村　春】[coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 10 2 8]好开心啊！
+    下次再约我哦。
+    «ID MSG_Happy_Haru  对话»
+
+【明智　吾郎】[coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 10 2 8]这消遣很不错呢。
+    谢谢你邀我来。
+    «ID MSG_Happy_Akechi  对话»
+
+【明智　吾郎】[coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 10 2 8]台球果然很好玩。
+    气氛很高涨对吧？
+    «ID MSG_Happy_Akechi_Black  对话»
+
+【芳泽　堇】[coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 10 2 8]气氛很热络呢！
+    下次请再邀我玩！
+    «ID MSG_Happy_Yoshizawa  对话»
+
+【坂本　龙司】那么再见啦！
+    «ID MSG_BillBye_Ryuji  对话»
+
+【摩尔加纳】回去吧。
+    «ID MSG_BillBye_Moru  对话»
+
+【高卷　杏】拜拜～！
+    «ID MSG_BillBye_Anne  对话»
+
+【喜多川　佑介】那就下次见啦。
+    «ID MSG_BillBye_Yusuke  对话»
+
+【新岛　真】那么，再见啦。
+    «ID MSG_BillBye_Makoto  对话»
+
+【佐仓　双叶】拜拜见再！
+    «ID MSG_BillBye_Futaba  对话»
+
+【奥村　春】就先这样，再见啦。
+    «ID MSG_BillBye_Haru  对话»
+
+【明智　吾郎】再会。
+    «ID MSG_BillBye_Akechi  对话»
+
+【明智　吾郎】那走吧。
+    «ID MSG_BillBye_Akechi_Black  对话»
+
+【芳泽　堇】那我先失陪了！
+    «ID MSG_BillBye_Yoshizawa  对话»
+
+〔旁白〕这球的位置……
+    打那个球说不定能成功……！
+    «ID MND_SpecialShot_Thinking  对话»
+
+【摩尔加纳】竟然让那一杆成功了……！
+    团长之名真不是盖的！
+    你的挑战……似乎深深地
+    打动了大家的心哦？
+    «ID MSG_TechRankUp_Info  对话»
+
+【摩尔加纳】虽然花式杆法失败了，
+    但是也别畏缩，继续挑战吧。
+    对了……如果多打几次[stIcon 2][stLabel 2]
+    或许就会更顺利。
+    «ID MSG_TechRankUp_Miss  对话»
+
+〔旁白〕若想成功打出背后击球，
+    就要把[stIcon 2][stLabel 2]提升为[stLvLabel 2 2]才行。
+    «ID SYS_NeedParamRank_Back  对话»
+
+〔旁白〕若想成功打出跳球，
+    就要把[stIcon 2][stLabel 2]提升为[stLvLabel 2 3]才行。
+    «ID SYS_NeedParamRank_Jump  对话»
+
+〔旁白〕若想成功打出剁杆，
+    就要把[stIcon 2][stLabel 2]提升为[stLvLabel 2 5]才行。
+    «ID SYS_NeedParamRank_Masse  对话»
+
+【摩尔加纳】大家玩得开心比什么都重要啊。
+    话说回来……
+    «ID MSG_HumanParam_PreInfo  对话»
+
+【摩尔加纳】玩了台球以后……
+    学会了分析情况的能力啦！
+    «ID MSG_HumanParam_Atama  对话»
+
+【摩尔加纳】玩了台球以后……
+    是不是变得比较有男子气概了？
+    «ID MSG_HumanParam_Miryoku  对话»
+
+【摩尔加纳】玩了台球以后……
+    是不是学会了纤细的手法啦？
+    «ID MSG_HumanParam_Kiyousa  对话»
+
+【摩尔加纳】玩了台球以后……
+    学会了抓准时机行动的胆量啦！
+    «ID MSG_HumanParam_Dokyo  对话»
+
+【穿着简便的店长】嗨，在兴头上打扰你们真不好意思。
+    «ID MSG_TenchoInfo_1st_000  对话»
+
+【穿着简便的店长】台球很深奥吧？
+    如果你能迷上它，我会很高兴的……
+    «ID MSG_TenchoInfo_1st_001  对话»
+
+【穿着简便的店长】若你想更了解台球，
+    我有本书可以推荐给你。
+    『[var 0]』这本书。
+    从基础到应用都写得很清楚。
+    «ID MSG_TenchoInfo_1st_002  对话»
+
+【穿着简便的店长】只不过这本书挺稀有的。
+    可能不太好找。
+    与其去一般书店，还不如到运动用品的
+    专卖店这种地方会更容易买到吧。
+    哎呀，打扰了你们玩台球的雅兴呢。
+    再见，下次再来玩吧。
+    «ID MSG_TenchoInfo_1st_003  对话»
+
+【摩尔加纳】台球的书吗……
+    下次去找找看吧。
+    «ID MSG_TenchoInfo_1st_010  对话»
+
+【穿着简便的店长】嗨，在兴头上打扰你们真不好意思。
+    «ID MSG_TenchoInfo_2nd_000  对话»
+
+【穿着简便的店长】你似乎在尝试打出
+    有技巧性的球呢。
+    «ID MSG_TenchoInfo_2nd_001  对话»
+
+【穿着简便的店长】这样啊……我就传授你
+    高级台球技巧吧。
+    这招叫做『剁杆』……
+    打球时抬高杆尾……嗯。
+    «ID MSG_TenchoInfo_2nd_002  对话»
+
+【穿着简便的店长】一下子解讲这么多也无法吸收对吧。
+    这本书送你。
+    我想对你会很有帮助的。
+    «ID MSG_TenchoInfo_2nd_003  对话»
+
+【摩尔加纳】剁杆吗……你对[stIcon 2][stLabel 2]有自信的话，
+    下次来挑战看看吧！
+    «ID MSG_TenchoInfo_2nd_010  对话»
+
+【摩尔加纳】哇哦！
+    难道……你要打出那种球……！？
+    «ID MSG_ShotType_Back_000  对话»
+
+【摩尔加纳】那样握球杆……
+    难道……你要打出那种球……！？
+    «ID MSG_ShotType_Jump_000  对话»
+
+【摩尔加纳】那样的姿势……
+    难道……你要打出那种球……！？
+    «ID MSG_ShotType_Masse_000  对话»
+
+【摩尔加纳】虽然之前买了球杆，
+    今天却没机会用到啊……
+    台球之路不是１天就能练成的。
+    下次再来玩吧。
+    «ID MSG_BackEnd_MyQueIsHave  对话»
+
+【摩尔加纳】话说回来……台球书上
+    也写了其他花式杆法呢。
+    吾辈记得……似乎需要专用的球杆？
+    下次去找找看吧。
+    «ID MSG_BackEnd_MyQueIsNotHa  对话»
+
+〔旁白〕要列哪些同伴入队？
+    «ID MND_chr_haiti  对话»
+
+【选项】SEL_chr_haiti_dbg
+    ▸ 到佑介加入为止
+    ▸ 到真加入为止
+    ▸ 到双叶加入为止
+    ▸ 到春加入为止
+    ▸ 到明智加入为止
+    ▸ 到堇加入为止
+    ▸ 以目前状态开始
+    «ID SEL_chr_haiti_dbg  选项»
+
+【选项】DBG_ShotProgress
+    ▸ 不知道特技球
+    ▸ 知道背后击球：失败
+    ▸ 知道背后击球：成功
+    ▸ 不知道跳球
+    ▸ 知道跳球：失败
+    ▸ 知道跳球：成功
+    ▸ 不知道剁杆
+    ▸ 知道剁杆：失败
+    ▸ 知道剁杆：成功
+    ▸ 完成所有挑战
+    «ID DBG_ShotProgress  选项»

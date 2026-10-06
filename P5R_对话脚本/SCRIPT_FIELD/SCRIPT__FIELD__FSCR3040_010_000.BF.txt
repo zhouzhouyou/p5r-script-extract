@@ -1,0 +1,74 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR3040_010_000.BF
+对话条目: 18 条
+================================================================================
+
+〔旁白〕关掉
+    正在播放的ＣＤ
+    «ID MSG_CD_HELP_01  对话»
+
+〔旁白〕※ｄｕｍｍｙ信息
+    ＣＤ１的解说
+    «ID MSG_CD_HELP_02  对话»
+
+〔旁白〕※ｄｕｍｍｙ信息
+    ＣＤ２的解说
+    «ID MSG_CD_HELP_03  对话»
+
+〔旁白〕※ｄｕｍｍｙ信息
+    ＣＤ３的解说
+    «ID MSG_CD_HELP_04  对话»
+
+【摩尔加纳】有这个就能听ＣＤ了呢！
+    «ID MSG_CD_Access_1ST  对话»
+
+【摩尔加纳】要播放哪张ＣＤ？
+    «ID MSG_CD_Start  对话»
+
+〔旁白〕播放哪张ＣＤ呢……
+    «ID MND_CD_Start  对话»
+
+〔旁白〕现在正在播放的就是这张ＣＤ……
+    «ID MND_CD_SelectMiss  对话»
+
+【摩尔加纳】打算做什么？
+    更换ＣＤ吗？
+    «ID MSG_CD_ChangeThink  对话»
+
+【选项】SEL_CD_ChangeThink
+    ▸ 更换ＣＤ吧
+    ▸ 关掉音乐
+    ▸ 保持这样就可以
+    «ID SEL_CD_ChangeThink  选项»
+
+【摩尔加纳】什么啊，不听了啊……
+    «ID MSG_CD_Cancel_NotPlayCD  对话»
+
+【摩尔加纳】咦，不换ＣＤ吗？
+    «ID MSG_CD_Cancel_PlayCD  对话»
+
+【选项】SEL_MGK_CD_START
+    ▸ 关掉ＣＤ
+    ▸ [var 0]
+    ▸ [var 1]
+    ▸ [var 2]
+    «ID SEL_MGK_CD_START  选项»
+
+【摩尔加纳】嗯……听这首吗？
+    «ID MSG_PrePlay_Think  对话»
+
+【选项】SEL_PrePlay_Think
+    ▸ 选这张ＣＤ
+    ▸ 选别的曲子
+    «ID SEL_PrePlay_Think  选项»
+
+【摩尔加纳】这个，是现在播放的那张吧。
+    «ID MSG_NowCD_Equal  对话»
+
+【摩尔加纳】一张ＣＤ也没有啊……
+    只好去买些回来听了。
+    «ID MSG_CDNotHave  对话»
+
+〔旁白〕目前手上没有ＣＤ。
+    去买些回来听好了……
+    «ID MND_CDNotHave  对话»

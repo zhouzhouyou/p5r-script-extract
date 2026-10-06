@@ -1,0 +1,30 @@
+# 构建产物与临时文件
+bin/
+obj/
+__pycache__/
+*.pyc
+*.user
+*.suo
+
+# 反编译中间产物（体积大、可由 _tools 重新生成，故不入库）
+_staging/
+!samples/
+
+# 上游工具的本地副本（GPL，不重新分发；见 SOURCES.md）
+upstream-source/
+
+# 本地草稿与调试
+_probe/
+_repo/
+*.log
+AtlusScriptCompiler.log
+*.tmp
+*.bak
+
+# 编辑器 / 系统
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

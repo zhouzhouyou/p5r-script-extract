@@ -1,0 +1,120 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR5000_100_020.BF
+对话条目: 29 条
+================================================================================
+
+〔旁白〕恢复
+    所有队伍成员的１００％ＨＰ。
+    （安全屋专用）
+    «ID SAFE_ROOM_Item_help_01  对话»
+
+〔旁白〕恢复
+    所有队伍成员的５０％ＨＰ。
+    （安全屋专用）
+    «ID SAFE_ROOM_Item_help_02  对话»
+
+〔旁白〕恢复
+    所有队伍成员的７５％ＨＰ。
+    （安全屋专用）
+    «ID SAFE_ROOM_Item_help_03  对话»
+
+〔旁白〕恢复
+    所有队伍成员的１００％ＨＰ。
+    （安全屋专用）
+    «ID SAFE_ROOM_Item_help_04  对话»
+
+〔旁白〕放弃使用道具
+    «ID SAFE_ROOM_Item_help_00  对话»
+
+〔旁白〕安全屋专用道具
+    «ID SAFE_ROOM_Item_TITLE  对话»
+
+【选项】SAFE_ROOM_Item_SEL
+    ▸ （[var 11]个）
+    ▸ （[var 13]个）
+    ▸ （[var 15]个）
+    ▸ （[var 17]个）
+    ▸ 放弃
+    «ID SAFE_ROOM_Item_SEL  选项»
+
+【摩尔加纳】那么就稍微休息一下吧！
+    你们可得要好好休息哦。
+    «ID SAFE_RECOVERY_OK_PC03_me  对话»
+
+【明智　吾郎】那就休息一下吧。
+    «ID SAFE_RECOVERY_OK_PC09_me  对话»
+
+【摩尔加纳】呼……
+    这样就能再撑一下了。
+    «ID SAFE_RECOVERY_OK_END_PC0  对话»
+
+【明智　吾郎】这样应该可以再撑一下。
+    «ID SAFE_RECOVERY_OK_END_PC0_2  对话»
+
+【摩尔加纳】呼……
+    这样就恢复不少了。
+    «ID SAFE_RECOVERY_OK_END_PC0_3  对话»
+
+【明智　吾郎】这样应该恢复不少了。
+    «ID SAFE_RECOVERY_OK_END_PC0_4  对话»
+
+【摩尔加纳】喂，
+    你没有带些能用的道具吗？
+    事前的准备要确实做好哦。
+    «ID SAFE_RECOVERY_NG_PC03_me  对话»
+
+【明智　吾郎】你身上好像没带着能用的道具哦？
+    难道你还没准备好吗？
+    «ID SAFE_RECOVERY_NG_PC09_me  对话»
+
+【摩尔加纳】嗯？好像还没有人觉得累哦？
+    «ID SAFE_RECOVERY_NG_PC03_me_2  对话»
+
+【明智　吾郎】好像还没有人感到疲劳哦。
+    «ID SAFE_RECOVERY_NG_PC09_me_2  对话»
+
+〔旁白〕所有成员在休息之后，
+    ＨＰ与ＳＰ稍微恢复了。
+    «ID SAFE_RECOVERY_SYSTEM_mes  对话»
+
+〔旁白〕所有成员在使用了之后，
+    ＨＰ恢复了。
+    «ID SAFE_RECOVERY_SYSTEM_mes_2  对话»
+
+〔旁白〕所有成员在使用了之后，
+    ＳＰ恢复了。
+    «ID SAFE_RECOVERY_SYSTEM_mes_3  对话»
+
+【摩尔加纳】你身上有能减轻疲劳的道具啊，
+    要使用它来休息吗？
+    «ID DUNGEON_BREIFING_USE_ITE  对话»
+
+【明智　吾郎】你好像带了能减轻疲劳的道具啊，
+    要使用它来休息吗？
+    «ID DUNGEON_BREIFING_USE_ITE_2  对话»
+
+【选项】DUNGEON_BREIFING_USE_ITE_3
+    ▸ 用[bitflag 0 0 106 1]
+    ▸ 不用[bitflag 0 0 106 1]
+    «ID DUNGEON_BREIFING_USE_ITE_3  选项»
+
+【摩尔加纳】ＪＯＫＥＲ，准备得真好，
+    赶快来休息吧。
+    «ID CHECK_USE_ITEM_PC03_mes0  对话»
+
+【明智　吾郎】准备得很周全啊，
+    赶快休息吧。
+    «ID CHECK_USE_ITEM_PC09_mes0  对话»
+
+【摩尔加纳】嗯？改变心意了吗？
+    «ID CANCEL_USE_ITEM_PC03_mes  对话»
+
+【明智　吾郎】嗯？不想用了吗？
+    «ID CANCEL_USE_ITEM_PC09_mes  对话»
+
+【摩尔加纳】那个就算用了，也不会有帮助的哦。
+    «ID NO_EFF_USE_ITEM_PC03_mes  对话»
+
+【明智　吾郎】就算用了那个，
+    也不会有帮助的吧？
+    «ID NO_EFF_USE_ITEM_PC09_mes  对话»

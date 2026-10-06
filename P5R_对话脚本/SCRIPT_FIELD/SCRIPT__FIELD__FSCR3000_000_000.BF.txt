@@ -1,0 +1,762 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR3000_000_000.BF
+对话条目: 190 条
+================================================================================
+
+【摩尔加纳】喂喂，你要睡了吗……
+    还有其他该做的事对吧？
+    «ID MSG_BED_MORGANA_HOUKAGO_  对话»
+
+【摩尔加纳】难得的休息日，你要拿来睡午觉吗？
+    好浪费啊……
+    «ID MSG_BED_MORGANA_GOGO_00  对话»
+
+【摩尔加纳】在这么热的天气里睡午觉吗？
+    还真佩服你可以睡得着啊……
+    «ID MSG_BED_MORGANA_HEATISLA  对话»
+
+【摩尔加纳】马上要考试了哦。
+    不去学习吗？
+    «ID MSG_BED_MORGANA_NIGHT_TE  对话»
+
+【摩尔加纳】喂……你真的要睡啊？
+    «ID MSG_BED_MORGANA_FriendVi  对话»
+
+【摩尔加纳】已经要睡了吗？
+    «ID MSG_BED_MORGANA_NIGHT_00  对话»
+
+【选项】MY_BED_SEL_00
+    ▸ 睡觉
+    ▸ 在期限到来前低调行事
+    ▸ 还不想睡
+    «ID MY_BED_SEL_00  选项»
+
+【摩尔加纳】已经拜托川上了吧？
+    等她做好吧。
+    «ID MSG_BED_MORGANA_KAWAKAMI  对话»
+
+【选项】MY_BED_KAWAKAMI_SEL_01
+    ▸ 等待川上
+    ▸ 在期限到来前低调行事
+    ▸ 还是算了
+    «ID MY_BED_KAWAKAMI_SEL_01  选项»
+
+【摩尔加纳】今天差不多该睡啦。
+    «ID MSG_BED_MORGANA_NIGHT_01  对话»
+
+【选项】MY_BED_SEL_01
+    ▸ 睡觉
+    ▸ 在期限到来前低调行事
+    ▸ 还不想睡
+    «ID MY_BED_SEL_01  选项»
+
+【摩尔加纳】明天就是一决胜负的时刻了。
+    漂亮地做个了断吧！
+    «ID MSG_BED_MORGANA_NIGHT_02  对话»
+
+【选项】MY_BED_SEL_02
+    ▸ 睡觉
+    ▸ 在期限到来前低调行事
+    ▸ 还不想睡
+    «ID MY_BED_SEL_02  选项»
+
+【摩尔加纳】剩下就是等对方悔改了。
+    今天先好好休息吧。
+    «ID MSG_BED_MORGANA_NIGHT_03  对话»
+
+【选项】MY_BED_SEL_03
+    ▸ 睡觉
+    ▸ 在期限到来前低调行事
+    ▸ 还不想睡
+    «ID MY_BED_SEL_03  选项»
+
+【摩尔加纳】事到如今再想也没用。
+    今天该睡了。
+    «ID MSG_BED_MORGANA_NIGHT_04  对话»
+
+【选项】MY_BED_SEL_04
+    ▸ 睡觉
+    ▸ 在期限到来前低调行事
+    ▸ 还不想睡
+    «ID MY_BED_SEL_04  选项»
+
+〔旁白〕身体已经很疲惫了。
+    是因为那个特别的体验吗……
+    «ID MSG_BED_NIGHT_0411  对话»
+
+〔旁白〕身体已经很疲惫了。
+    是因为异世界的关系吗……
+    «ID MSG_BED_NIGHT_0412  对话»
+
+〔旁白〕今天跑了好多地方已经精疲力尽了……
+    «ID MSG_BED_NIGHT_0413  对话»
+
+〔旁白〕盗取鸭志田扭曲的欲望……
+    这种事情真的可以办得到吗？
+    不管怎么样，今天就先睡了吧……
+    «ID MSG_BED_NIGHT_0414  对话»
+
+【摩尔加纳】明天起就要忙起来了哦。
+    你可要准备充分一点哦？
+    «ID MSG_BED_MORGANA_NIGHT_04_2  对话»
+
+【摩尔加纳】明天要和龙司碰面。
+    可不要睡过头了哦？
+    «ID MSG_BED_MORGANA_NIGHT_04_3  对话»
+
+【摩尔加纳】想再多也没用。
+    快去睡吧。
+    «ID MSG_BED_MORGANA_NIGHT_05  对话»
+
+【摩尔加纳】好期待庆功宴啊！
+    «ID MSG_BED_MORGANA_NIGHT_05_2  对话»
+
+【摩尔加纳】啊～真是的！
+    好期待庆功宴啊！
+    «ID MSG_BED_MORGANA_NIGHT_05_3  对话»
+
+【摩尔加纳】唔～！
+    等不及要迎接明天的到来啦！
+    «ID MSG_BED_MORGANA_NIGHT_05_4  对话»
+
+【摩尔加纳】明天怪盗团正式开始行动啦。
+    要是可以早点发现大人物就好了。
+    «ID MSG_BED_MORGANA_NIGHT_05_5  对话»
+
+【摩尔加纳】你快要考试了吧？
+    不去学习吗？
+    «ID MSG_BED_MORGANA_NIGHT_05_6  对话»
+
+【摩尔加纳】明天是考试最后一天啊……
+    赶快睡吧。
+    «ID MSG_BED_MORGANA_NIGHT_05_7  对话»
+
+【摩尔加纳】明天可是要去展览会的哦？
+    可不要睡过头了哦？
+    『斑目一流斋，其无限构思之泉』吗……
+    刚才看了门票上的说明，
+    斑目那家伙，还真是个厉害角色呢。
+    说不定画也意外地值得一看呢……
+    «ID MSG_BED_MORGANA_NIGHT_05_8  对话»
+
+【摩尔加纳】明天要花一整天来打扫街道吧？
+    先去睡吧，不然会累倒哦。
+    «ID MSG_BED_MORGANA_NIGHT_05_9  对话»
+
+【摩尔加纳】明天，为了改变斑目的认知，
+    我要和杏大人去一趟斑目的宅邸。
+    别担心。有吾辈陪着，
+    你可以放一百个心。
+    «ID MSG_BED_MORGANA_NIGHT_D0  对话»
+
+【摩尔加纳】佑介也加入了。
+    从明天开始要重振旗鼓了。
+    绝对要让斑目悔改。
+    «ID MSG_BED_MORGANA_NIGHT_D0_2  对话»
+
+【摩尔加纳】这样应该会引起大家对怪盗团的关注。
+    暂时先不要太招摇哦？
+    «ID MSG_BED_MORGANA_NIGHT_06  对话»
+
+【摩尔加纳】不过，无论如何，
+    得赶快寻找下个大目标呢。
+    «ID MSG_BED_MORGANA_NIGHT_06_2  对话»
+
+【喜多川　佑介】至于明天的早餐，不用太周到。
+    有烤鱼和味噌汤就够了。
+    «ID MSG_BED_MORGANA_NIGHT_06_3  对话»
+
+【摩尔加纳】对付下个大目标也绝对要成功，
+    然后再办个庆功宴吧。
+    «ID MSG_BED_MORGANA_NIGHT_06_4  对话»
+
+【摩尔加纳】算了，事已至此
+    也只有下定决心了。
+    想办法撑过去吧。
+    «ID MSG_BED_MORGANA_NIGHT_06_5  对话»
+
+【摩尔加纳】只要知道对手是谁，
+    接下来总是会有办法的。
+    明天感觉也会很忙碌的，
+    今天该睡了。
+    «ID MSG_BED_MORGANA_NIGHT_06_6  对话»
+
+【摩尔加纳】没办法潜入的话都是空谈。
+    总之只有先想想办法了。
+    «ID MSG_BED_MORGANA_NIGHT_06_7  对话»
+
+【摩尔加纳】新的同伴也加入了，好期待之后的行动呢！
+    «ID MSG_BED_MORGANA_NIGHT_06_8  对话»
+
+【摩尔加纳】这可是连警察都觉得棘手的坏蛋悔改了呢。
+    社会大众会惊讶也是当然的吧。
+    «ID MSG_BED_MORGANA_NIGHT_07  对话»
+
+【摩尔加纳】明天就要考试了哦。
+    复习得怎么样了？
+    «ID MSG_BED_MORGANA_NIGHT_07_2  对话»
+
+【摩尔加纳】无论结果如何，还好全都考完了。
+    赶快睡觉吧。
+    «ID MSG_BED_MORGANA_NIGHT_07_3  对话»
+
+【摩尔加纳】明天的烟花大会，好期待呢！
+    «ID MSG_BED_MORGANA_NIGHT_07_4  对话»
+
+【摩尔加纳】世界级的对手吗……
+    要是能找到厉害的攻略方法就好了呢！
+    «ID MSG_BED_MORGANA_NIGHT_07_5  对话»
+
+【摩尔加纳】总之目前情报还太少。
+    现在只能等待对方的动向……
+    «ID MSG_BED_MORGANA_NIGHT_07_6  对话»
+
+【摩尔加纳】梅吉多、阿里巴巴，之后是
+    『佐仓双叶』吗……
+    都是些真实身份不明的家伙……
+    到底是怎么一回事？
+    «ID MSG_BED_MORGANA_NIGHT_07_7  对话»
+
+【摩尔加纳】想再多也没用吗……
+    今天先睡了吧。
+    «ID MSG_BED_MORGANA_NIGHT_07_8  对话»
+
+【摩尔加纳】和梅吉多的决斗，
+    这可是关系到怪盗团的面子，绝对要赢哦！
+    «ID MSG_BED_MORGANA_NIGHT_07_9  对话»
+
+【摩尔加纳】手忙脚乱也没有用。
+    今天就先去睡吧。
+    «ID MSG_BED_MORGANA_NIGHT_08  对话»
+
+【摩尔加纳】只能相信双叶了……
+    今天先睡吧。
+    «ID MSG_BED_MORGANA_NIGHT_08_2  对话»
+
+【摩尔加纳】好了，看看明天会怎么样吧……
+    «ID MSG_BED_MORGANA_NIGHT_08_3  对话»
+
+【摩尔加纳】接着是龙司和杏大人吗？
+    虽然看起来很有自信……
+    «ID MSG_BED_MORGANA_NIGHT_08_4  对话»
+
+【摩尔加纳】看来戒心放下许多了。
+    离海边出游，就差那一步了。
+    «ID MSG_BED_MORGANA_NIGHT_08_5  对话»
+
+【摩尔加纳】明天也要继续进行特训哦。
+    勇往直前迈向最终的海边舞台吧！
+    «ID MSG_BED_MORGANA_NIGHT_08_6  对话»
+
+【摩尔加纳】明天要去海边！
+    我们至今为止做的一切都是为了这个！
+    «ID MSG_BED_MORGANA_NIGHT_08_7  对话»
+
+【摩尔加纳】暑假也只剩２天了……
+    感觉，真是弹指之间呢。
+    不过，可靠的同伴也增加了，
+    也算过得很充实吧？
+    «ID MSG_BED_MORGANA_NIGHT_08_8  对话»
+
+【摩尔加纳】昨晚，我跟你说的话
+    还记得吧？
+    如果万一，吾辈……
+    ……不，没事。
+    快去睡吧！
+    «ID MSG_BED_MORGANA_NIGHT_08_9  对话»
+
+【摩尔加纳】寿司……
+    感觉可能会梦到它……
+    «ID MSG_BED_MORGANA_NIGHT_08_10  对话»
+
+【摩尔加纳】我说……
+    不，没事……
+    ……旅行，要好好享受哦。
+    «ID MSG_BED_MORGANA_NIGHT_09  对话»
+
+【摩尔加纳】其实有些话想跟你说……
+    ……算了，今天最好先睡觉再说。
+    不是什么重要的事情啦！
+    «ID MSG_BED_MORGANA_NIGHT_09_2  对话»
+
+【摩尔加纳】那么，去睡觉吧……
+    «ID MSG_BED_MORGANA_NIGHT_09_3  对话»
+
+【摩尔加纳】吾辈想救救春。
+    帮帮吾辈吧。
+    «ID MSG_BED_MORGANA_NIGHT_09_4  对话»
+
+【摩尔加纳】明天就开始处理奥村那件事。
+    这也是为了春，拜托你了！
+    «ID MSG_BED_MORGANA_NIGHT_09_5  对话»
+
+【摩尔加纳】到底发生什么事了……？
+    «ID MSG_BED_MORGANA_NIGHT_10  对话»
+
+【摩尔加纳】什么都不知道吗……
+    «ID MSG_BED_MORGANA_NIGHT_10_2  对话»
+
+【摩尔加纳】现在，只能按兵不动吗……？
+    «ID MSG_BED_MORGANA_NIGHT_10_3  对话»
+
+【摩尔加纳】这周过后就是考试了哦。
+    复习得怎么样了？
+    «ID MSG_BED_MORGANA_NIGHT_10_4  对话»
+
+【摩尔加纳】就算无法冷静下来，也要学习哦？
+    «ID MSG_BED_MORGANA_NIGHT_10_5  对话»
+
+【摩尔加纳】明天开始就是考试了。
+    来个最后冲刺怎么样？
+    «ID MSG_BED_MORGANA_NIGHT_10_6  对话»
+
+【摩尔加纳】怎么可能甘愿就这样
+    因为受到陷害而被逮捕啊！
+    这个危机，要想办法撑过去！
+    «ID MSG_BED_MORGANA_NIGHT_10_7  对话»
+
+【摩尔加纳】绝对要把在背后操弄一切的家伙
+    给找出来！
+    «ID MSG_BED_MORGANA_NIGHT_10_8  对话»
+
+【摩尔加纳】没问题，一定会很顺利的。
+    好了，今天就赶快先去睡觉吧。
+    «ID MSG_BED_MORGANA_NIGHT_10_9  对话»
+
+【佐仓　双叶】啊，都这么晚了……
+    «ID MSG_BED_MORGANA_NIGHT_10_10  对话»
+
+【选项】SEL_BED_MORGANA_NIGHT_10
+    ▸ 睡觉
+    ▸ 还不想睡
+    «ID SEL_BED_MORGANA_NIGHT_10  选项»
+
+【佐仓　双叶】惣治郎，不知道还是不是醒着……
+    总觉得有点尴尬啊……
+    «ID MSG_BED_MORGANA_NIGHT_10_11  对话»
+
+【选项】SEL_BED_MORGANA_NIGHT_10_2
+    ▸ 你不回家他会担心的
+    ▸ 沙发的话可以借你睡
+    «ID SEL_BED_MORGANA_NIGHT_10_2  选项»
+
+【摩尔加纳】一般这种情况，应该是你睡沙发，
+    床给双叶睡才对吧……
+    «ID MSG_BED_MORGANA_NIGHT_10_12  对话»
+
+【佐仓　双叶】……回去了。
+    晚安。
+    «ID MSG_BED_MORGANA_NIGHT_10_14  对话»
+
+【摩尔加纳】还没结束呢……
+    现在才刚要开始哦！
+    «ID MSG_BED_MORGANA_NIGHT_10_15  对话»
+
+【摩尔加纳】怎能在这种地方结束……！
+    绝对要挖出幕后黑手的所在地。
+    «ID MSG_BED_MORGANA_NIGHT_10_16  对话»
+
+【摩尔加纳】明天在法庭上
+    让吾辈等人欣赏一下新岛惊讶的表情吧。
+    «ID MSG_BED_MORGANA_NIGHT_D0_3  对话»
+
+【摩尔加纳】发布预告信后就准备好行动吧。
+    记得在今晚做好准备哦？
+    «ID MSG_BED_MORGANA_NIGHT_11  对话»
+
+【摩尔加纳】明天要发布预告信了哦？
+    只剩今晚能准备哦？
+    «ID MSG_BED_MORGANA_NIGHT_11_2  对话»
+
+【佐仓　惣治郎】我也差不多要收工了……
+    你也是，乖乖去睡觉吧。
+    «ID MSG_BED_MORGANA_NIGHT_11_3  对话»
+
+【摩尔加纳】只要知道关键词就……
+    «ID MSG_BED_MORGANA_NIGHT_11_4  对话»
+
+【摩尔加纳】吾辈也来帮忙。
+    要找狮童算总账。
+    «ID MSG_BED_MORGANA_NIGHT_11_5  对话»
+
+【摩尔加纳】明天要跟大家一起穿校服集合，
+    你可别忘记换装噢？
+    «ID MSG_BED_NIGHT_1123_000  对话»
+
+〔旁白〕明天，换上校服再出门吧……
+    «ID MND_BED_NIGHT_1123_001  对话»
+
+【摩尔加纳】对方对认知世界了如指掌。
+    虽然对方放松了警惕，但也不能太急哦。
+    «ID MSG_BED_MORGANA_NIGHT_11_6  对话»
+
+【摩尔加纳】那么……猜猜会不会说中呢？
+    «ID MSG_BED_MORGANA_NIGHT_12  对话»
+
+【选项】MY_BED_SEL_06
+    ▸ 睡觉
+    ▸ 在期限到来前低调行事
+    ▸ 还不想睡
+    «ID MY_BED_SEL_06  选项»
+
+【摩尔加纳】……已经要睡了吗？
+    «ID MSG_BED_MORGANA_NIGHT_12_2  对话»
+
+【选项】MY_BED_SEL_08
+    ▸ 睡觉
+    ▸ 在期限到来前低调行事
+    ▸ 还不想睡
+    «ID MY_BED_SEL_08  选项»
+
+【摩尔加纳】是吗……晚安。
+    «ID MSG_BED_MORGANA_NIGHT_12_3  对话»
+
+【摩尔加纳】睡不着吗？
+    其实吾辈也是。
+    «ID MSG_BED_MORGANA_NIGHT_12_4  对话»
+
+【摩尔加纳】想让大家都幸福是吗？
+    为什么要做这种事……
+    ……算了。
+    明天再来烦恼吧。
+    «ID MSG_BED_MORGANA_NIGHT_01_2  对话»
+
+【摩尔加纳】你今天还不休息吗……？
+    吾辈想留点时间思索……
+    «ID MSG_BED_MORGANA_NIGHT_01_3  对话»
+
+【摩尔加纳】看来普通方法行不通呢……
+    还是谨慎行事吧。
+    «ID MSG_BED_MORGANA_NIGHT_01_4  对话»
+
+【摩尔加纳】现在起会相当忙碌。
+    好好休息，为明天做准备吧。
+    «ID MSG_BED_MORGANA_NIGHT_01_5  对话»
+
+〔旁白〕差不多去睡觉了吧……
+    «ID MY_BED_LONELY_NIGHT  对话»
+
+〔旁白〕不然来睡个午觉吧……
+    «ID MY_BED_LONELY_GOGO  对话»
+
+【选项】MY_BED_SEL_LONELY
+    ▸ 睡觉
+    ▸ 在期限到来前低调行事
+    ▸ 还不想睡
+    «ID MY_BED_SEL_LONELY  选项»
+
+【选项】MY_BED_SEL_DAYTIME
+    ▸ 睡觉
+    ▸ 在期限到来前低调行事
+    ▸ 还是算了
+    «ID MY_BED_SEL_DAYTIME  选项»
+
+〔旁白〕真的要在期限之前
+    都低调度日吗……
+    «ID MND_BED_GOTO_RESULTDAY  对话»
+
+【选项】SEL_BED_GOTO_RESULTDAY
+    ▸ 在期限到来前低调行事
+    ▸ 重新考虑一下
+    «ID SEL_BED_GOTO_RESULTDAY  选项»
+
+【坂本　龙司】要睡了吗？
+    那我回去啦。
+    «ID MSG_MY_BED_RYUJI_OUT  对话»
+
+【高卷　杏】你要睡了？
+    那我就回去了。
+    «ID MSG_MY_BED_ANNE_OUT  对话»
+
+【喜多川　佑介】嗯？你要睡觉了？
+    那我先回去了。
+    «ID MSG_MY_BED_YUSUKE_OUT  对话»
+
+【新岛　真】你要睡了？
+    那我就回去了。
+    «ID MSG_MY_BED_MAKOTO_OUT  对话»
+
+【明智　吾郎】要睡了啊？
+    那么，我先告辞了。
+    «ID MSG_MY_BED_AKECHI_OUT  对话»
+
+【佐仓　双叶】你要睡了？
+    那我就回去了。
+    «ID MSG_MY_BED_FUTABA_OUT  对话»
+
+【奥村　春】要睡了吗？
+    那我回去了哦。
+    «ID MSG_MY_BED_HARU_OUT  对话»
+
+【三岛　由辉】要睡了啊？
+    那我就回去吧。再见。
+    «ID MSG_MY_BED_MISHIMA_OUT  对话»
+
+【摩尔加纳】哦？群里有人在呼叫呢。
+    什么事啊？
+    «ID MSG_CHK_BED_CALL_GROUPCH  对话»
+
+〔旁白〕铺上毯子吧……
+    «ID BED_CHECK_mes01  对话»
+
+〔旁白〕感觉总算有地方能睡觉……
+    «ID BED_CHECK_mes02  对话»
+
+【选项】MSG_BED_SHEET_SEL
+    ▸ 铺上毯子
+    ▸ 还是算了
+    «ID MSG_BED_SHEET_SEL  选项»
+
+〔旁白〕无视日记直接睡觉好了……
+    «ID BED_CHECK_0410_EV_mes01  对话»
+
+【选项】BED_CHECK_0410_EV_SEL
+    ▸ 睡觉
+    ▸ 还是算了
+    «ID BED_CHECK_0410_EV_SEL  选项»
+
+〔旁白〕坐在沙发上
+    写个日记吧。
+    «ID BED_CHECK_0410_EV_mes02  对话»
+
+〔旁白〕换睡衣，睡觉吧。
+    «ID BED_CHECK_0410_END_mes01  对话»
+
+〔旁白〕梦见自己在学校天台与[var 0]
+    聊起与将来有关的话题……
+    «ID MSG_DREAM_Good_Type01_St  对话»
+
+〔旁白〕梦见自己在安静的咖啡店找
+    [var 0]做人生咨询……
+    «ID MSG_DREAM_Good_Type01_02  对话»
+
+〔旁白〕梦见自己让[var 0]品尝
+    亲手做的料理……
+    «ID MSG_DREAM_Good_Type02_St  对话»
+
+〔旁白〕梦见自己与[var 0]一同登山
+    并观看日出……
+    «ID MSG_DREAM_Good_Type02_02  对话»
+
+〔旁白〕梦见自己因电影而感动，
+    与[var 0]一起落泪……
+    «ID MSG_DREAM_Good_Type03_St  对话»
+
+〔旁白〕梦见自己与[var 0]一起
+    坐电车去旅行……
+    «ID MSG_DREAM_Good_Type04_St  对话»
+
+〔旁白〕梦见自己与[var 0]
+    一起眺望星空……
+    «ID MSG_DREAM_Good_Type05_St  对话»
+
+〔旁白〕感觉稍微加深了
+    与[var 0]的关系……
+    «ID MSG_DREAM_Good_End  对话»
+
+〔旁白〕梦见自己与[var 0]
+    前往雪山并遇难……
+    «ID MSG_DREAM_Bad_Type01_Sta  对话»
+
+〔旁白〕梦见自己与[var 0]去用餐
+    却忘了带钱包……
+    «ID MSG_DREAM_Bad_Type02_Sta  对话»
+
+〔旁白〕梦见自己被[var 0]看穿谎言……
+    «ID MSG_DREAM_Bad_Type03_Sta  对话»
+
+〔旁白〕梦见自己与[var 0]去海边，
+    结果泳衣被冲走了……
+    «ID MSG_DREAM_Bad_Type04_Sta  对话»
+
+〔旁白〕梦见自己与[var 0]去海边，
+    结果人被冲走了……
+    «ID MSG_DREAM_Bad_Type04_02_  对话»
+
+〔旁白〕梦见自己被
+    巨大化的[var 0]追赶……
+    «ID MSG_DREAM_Bad_Type05_Sta  对话»
+
+〔旁白〕梦见自己未能抵达
+    与[var 0]约定的场所……
+    «ID MSG_DREAM_Bad_Type05_02_  对话»
+
+〔旁白〕太好了，只是梦而已……
+    «ID MSG_DREAM_Bad_End  对话»
+
+〔旁白〕梦见巨大的排球
+    朝自己逼近……
+    «ID MSG_DREAM_Nightmare_KAMO  对话»
+
+〔旁白〕梦见自己退学后迷失在街头……
+    «ID MSG_DREAM_Nightmare_KAMO_2  对话»
+
+〔旁白〕梦见自己成了裸体模特，
+    站在了许多人面前……
+    «ID MSG_DREAM_Nightmare_MADA  对话»
+
+〔旁白〕梦见自己成为被告，站上法庭……
+    «ID MSG_DREAM_Nightmare_MADA_2  对话»
+
+〔旁白〕梦见自己埋头在数一捆捆的钞票……
+    «ID MSG_DREAM_Nightmare_KANE  对话»
+
+〔旁白〕梦见自己的不雅照被四处散布……
+    «ID MSG_DREAM_Nightmare_KANE_2  对话»
+
+〔旁白〕梦见自己的手机被黑，
+    收到了数字惊人的账单……
+    «ID MSG_DREAM_Nightmare_FUTA  对话»
+
+〔旁白〕梦见自己在沙漠里漫无目的地行走……
+    «ID MSG_DREAM_Nightmare_FUTA_2  对话»
+
+〔旁白〕梦见自己被丢进外太空，
+    而氧气正在逐渐流失……
+    «ID MSG_DREAM_Nightmare_OKU  对话»
+
+〔旁白〕梦见自己在传送带前
+    不断地工作……
+    «ID MSG_DREAM_Nightmare_OKU_  对话»
+
+〔旁白〕梦见自己与发牌员
+    整晚都在尔虞我诈……
+    «ID MSG_DREAM_Nightmare_KENJ  对话»
+
+〔旁白〕梦见自己在赌场输光了所有财产……
+    «ID MSG_DREAM_Nightmare_KENJ_2  对话»
+
+〔旁白〕梦见自己在无数人面前
+    进行演讲……
+    «ID MSG_DREAM_Nightmare_SHID  对话»
+
+〔旁白〕梦见自己未能及时从沉船逃走……
+    «ID MSG_DREAM_Nightmare_SHID_2  对话»
+
+〔旁白〕梦见自己失去了一切……
+    «ID MSG_DREAM_Nightmare_LAST  对话»
+
+〔旁白〕太好了，只是个梦……
+    «ID MSG_DREAM_Nightmare_LAST_2  对话»
+
+〔旁白〕梦见自己不断往下坠落……
+    «ID MSG_DREAM_Nightmare_Comm  对话»
+
+〔旁白〕觉得[stIcon 0][stLabel 0]稍微提升了……
+    «ID MSG_DREAM_Nightmare_Atam  对话»
+
+〔旁白〕觉得[stIcon 1][stLabel 1]稍微提升了……
+    «ID MSG_DREAM_Nightmare_Irok  对话»
+
+〔旁白〕觉得[stIcon 2][stLabel 2]稍微提升了……
+    «ID MSG_DREAM_Nightmare_Kiyo  对话»
+
+〔旁白〕觉得[stIcon 3][stLabel 3]稍微提升了……
+    «ID MSG_DREAM_Nightmare_Doky  对话»
+
+〔旁白〕感到一股莫名的压力……
+    «ID MSG_DREAM_MoruOn_Start  对话»
+
+〔旁白〕是日积月累下来的压力吗……？
+    «ID MSG_DREAM_MoruOn_End  对话»
+
+〔旁白〕感觉胃有点胀……
+    «ID MSG_DREAM_MoruOn_Start_A  对话»
+
+〔旁白〕有吃到什么奇怪的东西吗……？
+    «ID MSG_DREAM_MoruOn_End_A  对话»
+
+〔旁白〕总觉得透不过气……
+    «ID MSG_DREAM_MoruOn_Start_B  对话»
+
+〔旁白〕是不是体内积压了太多疲劳呢……
+    «ID MSG_DREAM_MoruOn_End_B  对话»
+
+〔旁白〕感到一股莫名的压力……
+    «ID MSG_DREAM_MoruOn_Start_0  对话»
+
+〔旁白〕是因为要被退学了吗……？
+    «ID MSG_DREAM_MoruOn_End_041  对话»
+
+〔旁白〕好重……
+    «ID MSG_DREAM_MoruOn_Start_0_2  对话»
+
+〔旁白〕不知道为什么今天特别沉重……
+    «ID MSG_DREAM_MoruOn_End_091  对话»
+
+〔旁白〕做了一场在公园和[var 0]
+    聊天的梦……
+    «ID MSG_DREAM_Doubt_Off_Star  对话»
+
+〔旁白〕好像原谅了什么似的在微笑……
+    «ID MSG_DREAM_Doubt_Off_End  对话»
+
+【摩尔加纳】嗯？你今天要睡啦？
+    «ID MSG_BED_MORGANA_NIGHT_04_4  对话»
+
+【选项】SEL_MSG_BED_MORGANA_NIGH
+    ▸ 睡觉
+    ▸ 还不想睡
+    «ID SEL_MSG_BED_MORGANA_NIGH  选项»
+
+【摩尔加纳】你要睡了吗？
+    明天绝对要去宫殿哦！别忘记啦！
+    «ID MSG_BED_MORGANA_NIGHT_04_5  对话»
+
+【选项】SEL_MSG_BED_MORGANA_NIGH_2
+    ▸ 睡觉
+    ▸ 还不想睡
+    «ID SEL_MSG_BED_MORGANA_NIGH_2  选项»
+
+【摩尔加纳】你要睡了吗？
+    不过现在的确是束手无策……
+    «ID MSG_BED_MORGANA_NIGHT_04_6  对话»
+
+【选项】SEL_MSG_BED_MORGANA_NIGH_3
+    ▸ 睡觉
+    ▸ 还不想睡
+    «ID SEL_MSG_BED_MORGANA_NIGH_3  选项»
+
+【摩尔加纳】……要睡啦？
+    也是……毕竟木已成舟……
+    «ID MSG_BED_MORGANA_NIGHT_04_7  对话»
+
+【选项】SEL_MSG_BED_MORGANA_NIGH_4
+    ▸ 睡觉
+    ▸ 还不想睡
+    «ID SEL_MSG_BED_MORGANA_NIGH_4  选项»
+
+【摩尔加纳】嗯？你今天要睡啦？
+    «ID MSG_BED_MORGANA_NIGHT_04_8  对话»
+
+【摩尔加纳】你要睡了吗？
+    赶快丢出预告信吧。
+    «ID MSG_BED_MORGANA_NIGHT_04_9  对话»
+
+【摩尔加纳】你要睡啦？
+    明天一定要去秘密基地哦！
+    «ID MSG_BED_MORGANA_NIGHT_04_10  对话»
+
+【摩尔加纳】你要睡啦？
+    明天一定要去秘密基地哦！
+    «ID MSG_BED_MORGANA_NIGHT_04_11  对话»
+
+【摩尔加纳】……要睡啦？
+    也是……毕竟木已成舟……
+    «ID MSG_BED_MORGANA_NIGHT_04_12  对话»
+
+【摩尔加纳】你要睡觉啦！？
+    你啊……搞清楚状况了吗……
+    «ID MSG_BED_MORGANA_GOGO_042  对话»
+
+【摩尔加纳】你怎么睡得着……
+    ……算了，现在也束手无策了。
+    «ID MSG_BED_MORGANA_GOGO_050  对话»
+
+【摩尔加纳】你要睡觉啦！？
+    你啊……搞清楚状况了吗……
+    «ID MSG_BED_MORGANA_GOGO_042_2  对话»
+
+【摩尔加纳】你啊！
+    现在不是睡觉的时候吧！？
+    «ID MSG_BED_MORGANA_GOGO_050_2  对话»

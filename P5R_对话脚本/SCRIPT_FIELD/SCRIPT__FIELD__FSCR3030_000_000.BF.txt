@@ -1,0 +1,143 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR3030_000_000.BF
+对话条目: 36 条
+================================================================================
+
+〔旁白〕等稳定之后，
+    再去收拾其他地方吧……
+    «ID MY_ROOM_TV_YET_PLAY_0411  对话»
+
+【摩尔加纳】不是那里。
+    都说了是里面那张桌子了。
+    «ID MY_ROOM_TV_YET_PLAY_MONA  对话»
+
+【摩尔加纳】这里的空间，还真浪费啊。
+    这间房间怎么这么多垃……东西？
+    打扫干净的话，或许还可以摆台电视。
+    «ID MSG_NotSetTV_NothingHave  对话»
+
+〔旁白〕房间里至少要有台电视
+    比较好……
+    «ID MND_NotSetTV_NothingHave  对话»
+
+【摩尔加纳】虽然买了ＤＶＤ播放机……
+    可是没有电视啊。
+    这间房间怎么这么多垃……东西？
+    打扫干净的话，或许可以摆台电视。
+    «ID MSG_Myroom_TVNotSet_Have  对话»
+
+〔旁白〕买了游戏机，
+    但是没有电视……
+    «ID MND_Myroom_TVNotSet_Have  对话»
+
+【摩尔加纳】虽然买了游戏机……
+    可是没有电视啊。
+    这间房间怎么这么多垃……东西？
+    只要打扫干净，或许还可以摆台电视。
+    «ID MSG_Myroom_TVNotSet_Have_2  对话»
+
+〔旁白〕买了游戏机，
+    但是没有电视……
+    «ID MND_Myroom_TVNotSet_Have_2  对话»
+
+【摩尔加纳】买了播放机，也买了游戏机……
+    但就是没有电视。
+    这间房间怎么这么多垃……东西？
+    打扫干净的话，或许还可以摆台电视。
+    «ID MSG_Myroom_TVNotSet_Have_3  对话»
+
+〔旁白〕虽然买了很多东西，
+    但没有电视……
+    «ID MND_Myroom_TVNotSet_Have_3  对话»
+
+【摩尔加纳】好不容易才有一台电视，
+    但它太旧了，什么都看不了……
+    要不要去二手杂货铺找找呢？
+    毕竟距离也不远。
+    «ID MSG_SetTV_NoIdea  对话»
+
+〔旁白〕电视是有了，
+    但这样还是没办法看……
+    «ID MND_SetTV_NoIdea  对话»
+
+【摩尔加纳】有ＤＶＤ播放机啊。
+    «ID MSG_DVDTutorial  对话»
+
+〔旁白〕之前买了ＤＶＤ播放机……
+    «ID MND_DVDTutorial  对话»
+
+【摩尔加纳】话说你买了游戏机回来对吧。
+    «ID MSG_GameTutorial  对话»
+
+〔旁白〕说起来，买了游戏机呢……
+    «ID MND_GameTutorial  对话»
+
+【摩尔加纳】好，用这个就可以玩游戏啦。
+    «ID MSG_GameSetUP  对话»
+
+【摩尔加纳】上次玩的那款游戏……
+    玩得还挺开心的呢。
+    «ID MSG_GameTutorial_irreg  对话»
+
+〔旁白〕上次玩的那款游戏……
+    玩得还挺开心的呢。
+    «ID MND_GameTutorial_irreg  对话»
+
+【摩尔加纳】你要干什么？
+    «ID MSG_MyRoomTable_Q  对话»
+
+【选项】SEL_MyRoomTable_Think
+    ▸ 看ＤＶＤ
+    ▸ 玩游戏
+    ▸ 还是算了
+    «ID SEL_MyRoomTable_Think  选项»
+
+【摩尔加纳】对了，你租了ＤＶＤ吧？
+    «ID MSG_MyRoomTable_DvdQ  对话»
+
+【摩尔加纳】难得有播放机，
+    要不要去租个ＤＶＤ来看呢？
+    «ID MSG_DVDNotHave  对话»
+
+【摩尔加纳】那套ＤＶＤ真的很好看呢，
+    把它还了，再借点别的来看吧！
+    «ID MSG_ThisDVD_END  对话»
+
+【摩尔加纳】这套ＤＶＤ已经看过了……
+    «ID MND_ThisDVD_END  对话»
+
+【摩尔加纳】在这个房间里看了不少ＤＶＤ……
+    来做点别的事情吧？
+    «ID MSG_AllDVD_END  对话»
+
+【摩尔加纳】震撼人心的拍摄技巧也已经读完了，
+    可以好好体会观赏影片的乐趣了。
+    «ID MSG_DvdBoosBook  对话»
+
+【摩尔加纳】对了，你有买东西对吧？
+    «ID MSG_MyRoomTable_GameQ  对话»
+
+【摩尔加纳】喂喂，你这不是连一个游戏也没有吗？
+    这要怎么玩啊……
+    «ID MSG_GAME_NO_SOFT  对话»
+
+〔旁白〕手上的游戏全部都通关了……
+    «ID MSG_GAME_ALL_CLEAR  对话»
+
+【摩尔加纳】咦……这个已经通关了啊。
+    «ID MSG_Complete  对话»
+
+〔旁白〕这盘游戏已经通关了……
+    «ID MND_Complete  对话»
+
+【摩尔加纳】今天就好好休息，为明天做好准备。
+    «ID MSG_TableNG_OnlySleep  对话»
+
+〔旁白〕早一点去休息，为明天做好准备吧……
+    «ID MND_TableNG_OnlySleep  对话»
+
+【摩尔加纳】现在还有其他事要做吧？
+    «ID MSG_TableNG_BadTime  对话»
+
+〔旁白〕现在还有其他事要做……
+    «ID MND_TableNG_BadTime  对话»

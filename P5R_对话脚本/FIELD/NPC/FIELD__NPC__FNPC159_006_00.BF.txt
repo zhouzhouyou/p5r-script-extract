@@ -1,0 +1,100 @@
+================================================================================
+来源文件: FIELD\NPC\FNPC159_006_00.BF
+对话条目: 32 条
+================================================================================
+
+【男性乘客】我们是被选中之人！
+    «ID D159_MOB_VOICE_GUY01_mes  对话»
+
+【男性乘客】正是所谓的胜利组！
+    «ID D159_MOB_VOICE_GUY01_mes_2  对话»
+
+【男性乘客】哇哈哈！
+    «ID D159_MOB_VOICE_GUY01_mes_3  对话»
+
+【男性乘客】真好啊……
+    «ID D159_MOB_VOICE_GUY01_mes_4  对话»
+
+【男性乘客】正是所谓的胜利组！
+    «ID D159_MOB_VOICE_GUY01_mes_5  对话»
+
+【男性乘客】酒还没送来吗？
+    «ID D159_MOB_VOICE_GUY01_mes_6  对话»
+
+【男性乘客】只有我们这些高等人才适合。
+    «ID D159_MOB_VOICE_GUY01_mes_7  对话»
+
+【男性乘客】就算像蚂蚁一样勤劳也没用啊……
+    «ID D159_MOB_VOICE_GUY01_mes_8  对话»
+
+【男性乘客】我们是被选中之人！
+    «ID D159_MOB_VOICE_GUY02_mes  对话»
+
+【男性乘客】正是所谓的胜利组！
+    «ID D159_MOB_VOICE_GUY02_mes_2  对话»
+
+【男性乘客】哇哈哈！
+    «ID D159_MOB_VOICE_GUY02_mes_3  对话»
+
+【男性乘客】真好啊……
+    «ID D159_MOB_VOICE_GUY02_mes_4  对话»
+
+【男性乘客】正是所谓的胜利组！
+    «ID D159_MOB_VOICE_GUY02_mes_5  对话»
+
+【男性乘客】酒还没送来吗？
+    «ID D159_MOB_VOICE_GUY02_mes_6  对话»
+
+【男性乘客】只有我们这些高等人才适合。
+    «ID D159_MOB_VOICE_GUY02_mes_7  对话»
+
+【男性乘客】就算像蚂蚁一样勤劳也没用啊……
+    «ID D159_MOB_VOICE_GUY02_mes_8  对话»
+
+【女性乘客】哇，真是漂亮的指甲彩绘。
+    «ID D159_MOB_VOICE_LADY01_me  对话»
+
+【女性乘客】景色真美啊。
+    «ID D159_MOB_VOICE_LADY01_me_2  对话»
+
+【女性乘客】哦呵呵呵呵！
+    «ID D159_MOB_VOICE_LADY01_me_3  对话»
+
+【女性乘客】啊，又喝酒了。
+    «ID D159_MOB_VOICE_LADY01_me_4  对话»
+
+【女性乘客】再来一杯葡萄酒。
+    «ID D159_MOB_VOICE_LADY01_me_5  对话»
+
+【女性乘客】我讨厌庶民……
+    «ID D159_MOB_VOICE_LADY01_me_6  对话»
+
+【女性乘客】这宴会真不错啊。
+    «ID D159_MOB_VOICE_LADY01_me_7  对话»
+
+【女性乘客】我们和庶民可不一样。
+    «ID D159_MOB_VOICE_LADY01_me_8  对话»
+
+【女性乘客】哇，真是漂亮的指甲彩绘。
+    «ID D159_MOB_VOICE_LADY02_me  对话»
+
+【女性乘客】景色真美啊。
+    «ID D159_MOB_VOICE_LADY02_me_2  对话»
+
+【女性乘客】哦呵呵呵呵！
+    «ID D159_MOB_VOICE_LADY02_me_3  对话»
+
+【女性乘客】啊，又喝酒了。
+    «ID D159_MOB_VOICE_LADY02_me_4  对话»
+
+【女性乘客】再来一杯葡萄酒。
+    «ID D159_MOB_VOICE_LADY02_me_5  对话»
+
+【女性乘客】我讨厌庶民……
+    «ID D159_MOB_VOICE_LADY02_me_6  对话»
+
+【女性乘客】这宴会真不错啊。
+    «ID D159_MOB_VOICE_LADY02_me_7  对话»
+
+【女性乘客】我们和庶民可不一样。
+    «ID D159_MOB_VOICE_LADY02_me_8  对话»

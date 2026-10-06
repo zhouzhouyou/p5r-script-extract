@@ -1,0 +1,403 @@
+================================================================================
+来源文件: EVENT_DATA\SCRIPT\E700\E760_501.BF
+对话条目: 85 条
+================================================================================
+
+【坂本　龙司】太厉害了！
+    你看到了吗？刚才的直传球！！
+    国外这种高水平的选手到处都是啊，
+    真的好厉害……
+    我不是很懂足球，
+    不过一开始看就停不下来啊。
+    «ID MSG_DVDStart_1st_Ryuji  对话»
+
+【坂本　龙司】足球和棒球
+    你喜欢哪个？
+    «ID MSG_DVDStart_1st_Ryuji_2  对话»
+
+【选项】SEL_Ryuji_1st
+    ▸ 足球
+    ▸ 棒球吧
+    ▸ 都不太喜欢……
+    «ID SEL_Ryuji_1st  选项»
+
+【坂本　龙司】[coop 8 10 2]哦，真的？
+    你很了解？
+    能告诉我哪场比赛好看吗？
+    还有不太起眼却很能干的选手之类的。
+    世界各地的比赛多得数都数不过来，
+    我都不知道该从哪里开始看起呢。
+    «ID MSG_DVD1stAns01_Ryuji  对话»
+
+【坂本　龙司】[coop 8 5 2]噢，真的？
+    我以前也是。
+    我非常喜欢看选拔赛。
+    还会去买体育新闻的报纸来看。
+    可是棒球凑不齐９个人就不能打，
+    这点很麻烦啊。
+    «ID MSG_DVD1stAns02_Ryuji  对话»
+
+【坂本　龙司】[coop 8 10 2]真的假的？
+    足球和棒球都不看，也太夸张了吧！
+    一般来说大家将来的梦想
+    不都是成为足球选手或棒球选手吗？
+    «ID MSG_DVD1stAns03_Ryuji  对话»
+
+【喜多川　佑介】不仅是西方，南美的画
+    也相当有趣……
+    看，这种上色。
+    这是日本画所想不到的技法……
+    不过因为你电视的关系，色差也太严重了吧。
+    «ID MSG_DVDStart_1st_Yusuke  对话»
+
+【喜多川　佑介】你不去换一台最新款吗？
+    «ID MSG_DVDStart_1st_Yusuke_  对话»
+
+【选项】SEL_Yusuke_1st
+    ▸ 有好的就换
+    ▸ 这个就够了
+    ▸ 你出一半吗？
+    «ID SEL_Yusuke_1st  选项»
+
+【喜多川　佑介】[coop 5 15 5]原来如此，意思是你正在考虑？
+    在这个物质过剩的时代，你会认真思考，
+    再做出选择……我欣赏这种态度。
+    «ID MSG_DVD1stAns01_Yusuke  对话»
+
+【喜多川　佑介】[coop 5 10 5]钱不是为了存而存，
+    而是为了在关键时刻使用。
+    不过我也没在存钱。
+    呵呵呵……
+    «ID MSG_DVD1stAns02_Yusuke  对话»
+
+【喜多川　佑介】[coop 5 5 5]我怎么可能出得起呢。
+    呵呵呵……
+    你真是个天真的男人。
+    «ID MSG_DVD1stAns03_Yusuke  对话»
+
+【喜多川　佑介】不过，这也太旧了吧……？
+    «ID MSG_DVD1stEnd_Yusuke  对话»
+
+【喜多川　佑介】唔……
+    将一切奉献给艺术，
+    孤独地迎接自己的末日……
+    «ID MSG_DVDStart_2nd_Yusuke  对话»
+
+【喜多川　佑介】只要我变得孤独，
+    也能画出更好的画吗？
+    «ID MSG_DVDStart_2nd_Yusuke_  对话»
+
+【选项】SEL_Yusuke_2nd
+    ▸ 没那回事
+    ▸ 也许吧
+    ▸ 不会让你孤独一人
+    «ID SEL_Yusuke_2nd  选项»
+
+【喜多川　佑介】[coop 5 10 5]呵……说的也是。
+    变得孤独，视野也会变狭隘。
+    我还想拓展自己的可能性……
+    我好像不自觉地说了软弱的话。
+    抱歉。
+    «ID MSG_DVD2ndAns01_Yusuke  对话»
+
+【喜多川　佑介】[coop 5 10 5]呵……偏偏不去否定吗？
+    最终，答案还是要靠自己去寻找。
+    变得孤独，视野可能也会变狭隘。
+    可是，也有可能踏入自己心中的深渊……
+    最终……也许还是看自己吧。
+    «ID MSG_DVD2ndAns02_Yusuke  对话»
+
+【喜多川　佑介】[coop 5 5 5]呵……是嘛。
+    现在的我还有你们。
+    共度的时间尽管短暂，
+    却是朝向同一方向前进的同伴。
+    我可能暂时无法孤独一人了……
+    «ID MSG_DVD2ndAns03_Yusuke  对话»
+
+【佐仓　双叶】看，一大群僵尸！
+    村里的幸存者……唔，要往那边逃吗？
+    躲在那里……也没用！
+    这僵尸跑得很快哦！
+    哎呀……
+    看，我就说嘛……
+    «ID MSG_DVDStart_1st_Futaba  对话»
+
+【佐仓　双叶】喂，[fName]。
+    要是僵尸来了你会逃到哪里去？
+    «ID MSG_DVDStart_1st_Futaba_  对话»
+
+【选项】SEL_Futaba_1st
+    ▸ 百货公司
+    ▸ 大海
+    ▸ 躲在家里
+    «ID SEL_Futaba_1st  选项»
+
+【佐仓　双叶】[coop 10 5 8]嗯，怎么想都觉得这才是正确答案！
+    百货商店有地下街可以吃饭，有床可以睡觉，
+    无聊的时候还有玩具可以玩！
+    随时都可以来哦，僵尸！
+    «ID MSG_DVD1stAns01_Futaba  对话»
+
+【佐仓　双叶】[coop 10 5 8]你觉得海里就没有僵尸了吗？
+    哼哼，太天真了，[fName]。
+    最近的僵尸会跑步，会游泳，会潜水。
+    还会登山，会上宇宙。
+    ……僵尸，好像挺开心的呢！
+    «ID MSG_DVD1stAns02_Futaba  对话»
+
+【佐仓　双叶】[coop 10 10 8]在这里！？
+    太愚蠢了！
+    这种破房子，僵尸一下就能打飞！
+    因为最近的僵尸都肌肉发达啊！
+    «ID MSG_DVD1stAns03_Futaba  对话»
+
+【坂本　龙司】啊～好开心！
+    我想去跑个步！
+    «ID MSG_DVDEnd_Ryuji  对话»
+
+【坂本　龙司】那我差不多该回去了。
+    今天多谢了。
+    «ID MSG_Gohome_Ryuji  对话»
+
+【喜多川　佑介】今天非常尽兴。
+    «ID MSG_DVDEnd_Yusuke  对话»
+
+【喜多川　佑介】那我回去了。
+    感觉有一股创作欲涌上心头……
+    «ID MSG_Gohome_Yusuke  对话»
+
+【佐仓　双叶】呼～余甚满足。
+    «ID MSG_DVDEnd_Futaba  对话»
+
+【佐仓　双叶】那回去啦。
+    拜拜见再！
+    «ID MSG_Gohome_Futaba  对话»
+
+〔旁白〕接受同伴的邀请，虽然关系会加深，
+    但也会消耗掉夜晚的时间。
+    «ID SYSTEM_InviteRule  对话»
+
+【选项】SEL_HUNGOUT_CURRY
+    ▸ 就这么办
+    ▸ 暂定　去澡堂
+    ▸ 拒绝吧
+    «ID SEL_HUNGOUT_CURRY  选项»
+
+【选项】SEL_HUNGOUT_COFFEE
+    ▸ 就这么办
+    ▸ 暂定　去澡堂
+    ▸ 拒绝吧
+    «ID SEL_HUNGOUT_COFFEE  选项»
+
+〔旁白〕先跟惣治郎报备一下好了……
+    «ID MND_MakeCancel  对话»
+
+〔旁白〕去澡堂吧。
+    «ID MND_Sentou  对话»
+
+【坂本　龙司】话说……你饿不饿？
+    我能吃这里的咖喱吗？
+    «ID MSG_CURRY_R  对话»
+
+【坂本　龙司】话说……我口渴了。
+    你能帮我泡杯咖啡吗？
+    超级甜的那种。
+    «ID MSG_COFFEE_R  对话»
+
+〔旁白〕和龙司一起度过夜晚吧……
+    «ID MSG_NextTime_Ryuji  对话»
+
+【坂本　龙司】真的吗！谢了！
+    请做出超级好吃的咖喱！
+    «ID MSG_FRIEND_OK_R  对话»
+
+【坂本　龙司】是吗……太可惜了……
+    那我回去了。
+    «ID MSG_FRIEND_NO_R  对话»
+
+【喜多川　佑介】……肚子饿了。
+    唔……
+    糟糕，看到了咖喱的幻觉……
+    抱歉。
+    我想吃这里的咖喱……
+    «ID MSG_CURRY_Y  对话»
+
+【喜多川　佑介】……口渴了呢。
+    大概因为房间染上了咖啡的香味，
+    让我忍不住想喝了……
+    你愿意为我泡一杯吗？
+    «ID MSG_COFFEE_Y  对话»
+
+〔旁白〕和佑介一起度过夜晚吧……
+    «ID MSG_NextTime_Yusuke  对话»
+
+【喜多川　佑介】真的吗！？感激不尽！
+    «ID MSG_FRIEND_OK_Y  对话»
+
+【喜多川　佑介】这样啊……
+    那我回去了……
+    «ID MSG_FRIEND_NO_Y  对话»
+
+【佐仓　双叶】……唔。
+    饿肚子开关打开了……
+    想吃咖喱。
+    «ID MSG_CURRY_F  对话»
+
+【佐仓　双叶】……唔。
+    口渴了。
+    [fName]，我想喝咖啡。
+    «ID MSG_COFFEE_F  对话»
+
+〔旁白〕和双叶一起度过夜晚吧……
+    «ID MSG_NextTime_Futaba  对话»
+
+【佐仓　双叶】真的！？
+    快点！快点！我等不及了！
+    «ID MSG_FRIEND_OK_F  对话»
+
+【佐仓　双叶】唔，是吗？
+    那我放弃吧……
+    拜拜见再……
+    «ID MSG_FRIEND_NO_F  对话»
+
+〔旁白〕和龙司一起看了体育节目……
+    看到运动选手们认真的样子，
+    [stIcon 1][stLabel 1]好像得到了磨练……
+    «ID MND_RYUJI_DVD_1ST  对话»
+
+〔旁白〕用显像管电视
+    和佑介欣赏了艺术……
+    感觉涌出了不一样的灵感……
+    «ID MND_YUSUKE_DVD_1ST  对话»
+
+〔旁白〕和佑介看了艺术家的自传电影……
+    观看了孤独男人的一生，
+    似乎陶冶了艺术情操……
+    «ID MND_YUSUKE_DVD_2ND  对话»
+
+〔旁白〕和双叶看了僵尸电影……
+    直面大群逼近的僵尸，
+    似乎学到了[stIcon 3][stLabel 3]……
+    «ID MND_FUTABA_DVD_1ST  对话»
+
+【坂本　龙司】既然都来到这里了，
+    我还想再多玩一会儿……
+    «ID MSG_NextTimeQ01_Ryuji  对话»
+
+【坂本　龙司】嘿，你等一下还有空吗？
+    «ID MSG_NextTimeQ02_Ryuji  对话»
+
+【坂本　龙司】噢，你真配合啊！
+    谢了！
+    «ID MSG_NextTimeOK_Ryuji  对话»
+
+【坂本　龙司】是吗……太可惜了……
+    也是，突然这么问一下……也难怪啊。
+    那我回去了。
+    «ID MSG_NextTimeNG_Ryuji  对话»
+
+【坂本　龙司】我肚子正好饿了……
+    添饭就麻烦你咯。
+    «ID MSG_NextTimeOK_Curry_Ryu  对话»
+
+【坂本　龙司】咖啡啊……
+    我要加很多糖和奶。
+    «ID MSG_NextTimeOK_Coffee_Ry  对话»
+
+【坂本　龙司】坦诚相见的裸体交流……
+    感觉就像集训一样，好兴奋啊。
+    «ID MSG_NextTimeOK_Sento_Ryu  对话»
+
+【喜多川　佑介】既然都来了，
+    就这么回去好像有点可惜……
+    «ID MSG_NextTimeQ01_Yusuke  对话»
+
+【喜多川　佑介】你在这之后还有什么事吗？
+    «ID MSG_NextTimeQ02_Yusuke  对话»
+
+【喜多川　佑介】真的吗！
+    不好意思，非常感谢。
+    «ID MSG_NextTimeOK_Yusuke  对话»
+
+【喜多川　佑介】这样啊……真是可惜。
+    毕竟是我临时提出来的……抱歉。
+    那我就回去了。
+    «ID MSG_NextTimeNG_Yusuke  对话»
+
+【喜多川　佑介】我的胃可是无底洞哦？
+    别担心，添饭我自己来就行。
+    «ID MSG_NextTimeOK_Curry_Yus  对话»
+
+【喜多川　佑介】卢布朗的咖啡豆这么讲究，
+    真是值得细细品尝……
+    «ID MSG_NextTimeOK_Coffee_Yu  对话»
+
+【喜多川　佑介】和朋友一起泡澡……
+    嗯，感觉能激发一些灵感。
+    «ID MSG_NextTimeOK_Sento_Yus  对话»
+
+【佐仓　双叶】怎么说，好想再玩一会儿啊。
+    «ID MSG_NextTimeQ01_Futaba  对话»
+
+【佐仓　双叶】你之后还有事吗？
+    «ID MSG_NextTimeQ02_Futaba  对话»
+
+【佐仓　双叶】真的吗！
+    幸好我问了你！
+    «ID MSG_NextTimeOK_Futaba  对话»
+
+【佐仓　双叶】唔……真是太可惜了。
+    不过我也只是一时心血来潮，
+    现在就乖乖撤退吧。
+    «ID MSG_NextTimeNG_Futaba  对话»
+
+【佐仓　双叶】我对咖喱可是很挑剔的哦？
+    有缺点的话，我会一个一个挑出来。
+    «ID MSG_NextTimeOK_Curry_Fut  对话»
+
+【佐仓　双叶】咖啡的香味真棒啊，
+    连瞌睡虫都被赶跑了。
+    «ID MSG_NextTimeOK_Coffee_Fu  对话»
+
+【佐仓　双叶】咖喱啊……嗯～我现在不想吃！
+    «ID MSG_NextTimeOK_CurryNG_F  对话»
+
+【选项】SEL_WhatNextTime
+    ▸ 我来煮咖喱吧
+    ▸ 我帮你泡咖啡吧
+    ▸ 去澡堂好了
+    ▸ 我晚上有事情……
+    «ID SEL_WhatNextTime  选项»
+
+〔旁白〕先跟惣治郎报备一下好了……
+    «ID MND_ThanksSojiro  对话»
+
+【ＤＥＢＵＧ】ＤＥＢＵＧ模式
+    «ID MSG_DEBUG  对话»
+
+【选项】SEL_DEBUG
+    ▸ 坂本龙司
+    ▸ 喜多川佑介
+    ▸ 佐仓双叶
+    «ID SEL_DEBUG  选项»
+
+【ＤＥＢＵＧ】看第１次还是第２次？
+    «ID MSG_DEBUG_YUSUKE  对话»
+
+【选项】SEL_DEBUG_YUSUKE
+    ▸ 第１次
+    ▸ 第２次
+    «ID SEL_DEBUG_YUSUKE  选项»
+
+【ＤＥＢＵＧ】咖喱和咖啡的延长战设定
+    «ID MSG_DEBUG_02  对话»
+
+【选项】SEL_DEBUG_02
+    ▸ 不发生延长战
+    ▸ 发生咖喱延长战
+    ▸ 发生咖啡延长战
+    «ID SEL_DEBUG_02  选项»
+
+〔旁白〕为了咖喱和咖啡的延长，
+    将惣治郎的协助级别设定为９。
+    «ID MSG_DEBUG_5  对话»

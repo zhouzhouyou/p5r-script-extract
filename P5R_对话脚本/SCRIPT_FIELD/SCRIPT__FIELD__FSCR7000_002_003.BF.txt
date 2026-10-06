@@ -1,0 +1,179 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR7000_002_003.BF
+对话条目: 40 条
+================================================================================
+
+〔旁白〕描绘稀世大怪盗亚森
+    以及其活跃的小说
+    华丽的手法能启发读者的知性
+    «ID HELP_BOOK_01  对话»
+
+〔旁白〕连神也无所畏惧的大海盗
+    船长基德的故事
+    过人的胆量似乎能当作参考
+    «ID HELP_BOOK_02  对话»
+
+〔旁白〕既是盗贼又是温柔的绅士
+    怪盗佐罗的冒险小说
+    读了它之后也请拿出绅士风度
+    «ID HELP_BOOK_03  对话»
+
+〔旁白〕活在爱与热情之中的舞者
+    卡门的故事
+    献给想要沉浸于感官世界的人
+    «ID HELP_BOOK_04  对话»
+
+〔旁白〕石川五右卫门的豪放剧作
+    可以亲身体验
+    大盗不屈于权威的勇气
+    «ID HELP_BOOK_05  对话»
+
+〔旁白〕本书描述传说中的女教皇
+    琼安的一生，笔触丝丝入扣
+    令人能萌生博爱世人的体贴
+    «ID HELP_BOOK_06  对话»
+
+〔旁白〕记载架空的神话世界之书
+    只要研读该书惊悚的世界观
+    似乎就能锻炼勇气
+    «ID HELP_BOOK_07  对话»
+
+〔旁白〕谜之贵妇米莱迪的故事
+    感觉读了这本书就能学会
+    如何灵巧地活用各种面貌
+    «ID HELP_BOOK_08  对话»
+
+〔旁白〕一位遭遇不幸的女性
+    不屈不挠活出人生的故事
+    感觉能学到充满魅力的生活方式
+    «ID HELP_BOOK_09  对话»
+
+〔旁白〕汇总弓箭高手罗宾汉
+    所有传奇的一本书
+    似乎可以学到一些勇敢
+    «ID HELP_BOOK_10  对话»
+
+〔旁白〕简单明了地解说
+    速读技巧的一本书
+    能提升读书的速度
+    «ID HELP_BOOK_11  对话»
+
+【摩尔加纳】这本书你已经看完了吧？
+    改看别的书吧。
+    «ID MSG_SELECT_END_BOOK  对话»
+
+【担任图书委员的女学生】……可以租借的新书增加了。
+    有兴趣的话请自由翻阅……
+    «ID MSG_BOOK_SYS_NEW_BOOK_IN  对话»
+
+【担任图书委员的女学生】……有什么事吗？
+    «ID MSG_BOOK_SYS_START  对话»
+
+【担任图书委员的女学生】……还有什么事吗？
+    «ID MSG_BOOK_SYS_START_RE  对话»
+
+【选项】SEL_StartThink
+    ▸ 借书[bitflag 0 0 106 1]
+    ▸ 还书[bitflag 0 0 106 1]
+    ▸ 没事[bitflag 0 0 106 1]
+    «ID SEL_StartThink  选项»
+
+【担任图书委员的女学生】……只能借１本书。
+    看完之后请务必归还。
+    «ID MSG_BOOK_SYS_USE_1ST  对话»
+
+【担任图书委员的女学生】……现在能借的只有这些。
+    «ID MSG_BookListOpen  对话»
+
+【担任图书委员的女学生】……好的，书给你。
+    请注意爱护书籍。
+    «ID MSG_BOOK_SYS_RENTAL_INFO  对话»
+
+【担任图书委员的女学生】现在能借的书只有１本……
+    «ID MSG_Error_RentalOver  对话»
+
+【担任图书委员的女学生】……你现在没有借任何书呀？
+    «ID MSG_Error_NotHaveRentalB  对话»
+
+【担任图书委员的女学生】……你要归还[var 0]吗？
+    «ID MSG_Return_BookTitleConf  对话»
+
+【担任图书委员的女学生】……感谢归还。
+    «ID MSG_Return_BookThanks  对话»
+
+【担任图书委员的女学生】……要还书吗？
+    要还哪一本？
+    «ID MSG_BOOK_SYS_BACK  对话»
+
+【选项】MSG_BOOK_SYS_BACK_SEL
+    ▸ [var 0][bitflag 0 0 106 1]
+    ▸ [var 1][bitflag 0 0 106 1]
+    ▸ 还是算了[bitflag 0 0 106 1]
+    «ID MSG_BOOK_SYS_BACK_SEL  选项»
+
+【摩尔加纳】要还回去吗？
+    这本书还没看完吧？
+    «ID MSG_Return_NotFinBook  对话»
+
+【担任图书委员的女学生】……确定要归还这本书吗？
+    «ID MSG_BOOK_RETURN_STOP_NPC  对话»
+
+【选项】MSG_BOOK_RETURN_STOP_SEL
+    ▸ 归还[bitflag 0 0 106 1]
+    ▸ 不归还[bitflag 0 0 106 1]
+    «ID MSG_BOOK_RETURN_STOP_SEL  选项»
+
+【选项】SEL_ReturnOrNot
+    ▸ 归还[bitflag 0 0 106 1]
+    ▸ 不归还[bitflag 0 0 106 1]
+    «ID SEL_ReturnOrNot  选项»
+
+【担任图书委员的女学生】……那么，
+    请归还[var 0]。
+    «ID MSG_BOOK_RETURN_BOOK_A_G  对话»
+
+【担任图书委员的女学生】……那么，
+    请归还[var 1]。
+    «ID MSG_BOOK_RETURN_BOOK_B_G  对话»
+
+【担任图书委员的女学生】……确定不看了吗？
+    那么要归还哪本书呢？
+    «ID MSG_BOOK_RETURN_CANCEL  对话»
+
+【担任图书委员的女学生】……好的。
+    有问题可以再来问我。
+    «ID MSG_BOOK_SYS_NOT_USE  对话»
+
+【摩尔加纳】[var 20]啊？
+    感觉是很有趣的书呢！
+    «ID MSG_BOOK_SYS_RENTAL_TITL  对话»
+
+【担任图书委员的女学生】啊……那本书……
+    已经有人借了……
+    所以现在没办法借给您。
+    那本书比想象中更受欢迎，就算还回来，
+    马上就会有下一个人借……
+    «ID MSG_BOOK_SpeedBook_NG_1s  对话»
+
+【担任图书委员的女学生】对不起。
+    已经有人借了那本书……
+    «ID MSG_BOOK_SpeedBook_NG_Co  对话»
+
+【摩尔加纳】既然已经有人借就没办法了。
+    下次再来吧。
+    «ID MSG_SpeedBook_SetRemind  对话»
+
+【摩尔加纳】还没看完[var 0]……
+    要先还回去吗？
+    «ID MSG_BOOK_Change_yet  对话»
+
+【选项】SEL_Change
+    ▸ 还书
+    ▸ 重新考虑
+    «ID SEL_Change  选项»
+
+【担任图书委员的女学生】感谢归还
+    [var 0]。
+    那么，你是否要
+    再借别的书呢？
+    «ID MSG_BOOK_Change_Seito  对话»

@@ -1,0 +1,22 @@
+# Normalise line endings for text sources; never touch the data/binary files.
+* text=auto eol=lf
+
+# Generated data must stay byte-exact (the reader fetches and parses it).
+reader/data/**        -text
+*.json                -text
+*.BF                  -text
+*.BMD                 -text
+*.MSG                 -text
+*.msg                 -text
+*.msg.h               -text
+*.flow                -text
+*.tsv                 -text
+
+# Keep diffs meaningful for these
+*.py                  text eol=lf
+*.js                  text eol=lf
+*.cs                  text eol=lf
+*.csproj              text eol=lf
+*.md                  text eol=lf
+*.html                text eol=lf
+*.css                 text eol=lf

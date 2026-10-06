@@ -1,0 +1,1694 @@
+================================================================================
+来源文件: EVENT_DATA\MESSAGE\E000\E090_001.BMD
+对话条目: 407 条
+================================================================================
+
+【空栏】空栏
+    «ID msg_combine_PERSONA000  对话»
+
+【梅塔特隆】吾乃[var 1]。
+    维持世界的『神之代理人』的力量
+    吾将成为汝最强的面具，扫平黑暗势力……
+    «ID msg_combine_PERSONA001  对话»
+
+【别西卜】我是[var 1]。
+    我的灵魂生杀秘术……
+    我将成为你新的面具，让凡人见识一下地狱吧！
+    «ID msg_combine_PERSONA002  对话»
+
+【库夫林】我是[var 1]。
+    挥舞魔枪，让热血沸腾吧。
+    来吧，让我成为你的面具！
+    «ID msg_combine_PERSONA003  对话»
+
+【杰克灯笼】我是[var 1]吼。
+    好像我连地狱也去不了，
+    所以就当你的面具吧吼！
+    «ID msg_combine_PERSONA004  对话»
+
+【杰克霜精】我是[var 1]吼！
+    在此成为你的面具。
+    今后也请多多关照……咯吼！
+    «ID msg_combine_PERSONA005  对话»
+
+【皮克希】我是[var 1]！
+    我会成为你的面具，
+    和你一起欢闹的！
+    «ID msg_combine_PERSONA006  对话»
+
+【克鲁贝洛斯】我是[var 1]。
+    从现在开始我就是你的面具。
+    来接受异世界的引导吧。
+    «ID msg_combine_PERSONA007  对话»
+
+【莉莉姆】我是[var 1]。
+    从梦境里出来，
+    成为你的面具……
+    «ID msg_combine_PERSONA008  对话»
+
+【埃力格】我是[var 1]。
+    我将成为你的面具，
+    让你的每一天都充满爱和战斗……
+    «ID msg_combine_PERSONA009  对话»
+
+【奥丁】吾乃[var 1]。
+    以一只眼睛为代价得到的力量，
+    吾将成为汝灵魂的面具，引导汝前往战场……
+    «ID msg_combine_PERSONA010  对话»
+
+【花魄】我是……[var 1]！
+    为了活着的你，
+    我将成为你的面具……
+    «ID msg_combine_PERSONA011  对话»
+
+【单卡拉比】我是[var 1]。
+    我的力量象征着星星，
+    从现在开始将成为你的面具之一。
+    «ID msg_combine_PERSONA012  对话»
+
+【魔罗】我是魔王[var 1]。
+    ……隐瞒也是没用的。
+    你内心的烦恼……也是你的另一个面具。
+    «ID msg_combine_PERSONA013  对话»
+
+【欧赛】我是[var 1]。
+    在这冷静和疯狂交错的世界，
+    我将成为新的面具带领你向前。
+    «ID msg_combine_PERSONA014  对话»
+
+【托尔】我是[var 1]。
+    我的铁锤之力，
+    和你所持的面具同在。
+    «ID msg_combine_PERSONA015  对话»
+
+【独角兽】我是[var 1]。
+    我将成为你的面具，
+    从污秽之物中拯救你。
+    «ID msg_combine_PERSONA016  对话»
+
+【乌列尔】我是[var 1]。
+    作为正义执行者的力量，
+    和你所持的面具同在。
+    «ID msg_combine_PERSONA017  对话»
+
+【妙音天女】我是[var 1]。
+    唤来心灵之力的音调……
+    我今后将会成为你的面具，与你同在……
+    «ID msg_combine_PERSONA018  对话»
+
+【女武神】我是[var 1]。
+    不畏惧死亡的勇气，
+    将和此面具与你同在！
+    «ID msg_combine_PERSONA019  对话»
+
+【母夜叉】我是[var 1]。
+    与你为敌的不轨之徒，
+    我将化作面具将其吞噬……
+    «ID msg_combine_PERSONA020  对话»
+
+【葛内舍】吾名乃[var 1]。
+    拥有吾之面具。
+    汝毫无疑问是幸运的！
+    «ID msg_combine_PERSONA021  对话»
+
+【阿努比斯】我是[var 1]。
+    为了你善良的灵魂，
+    我就化作面具帮助你吧。
+    «ID msg_combine_PERSONA022  对话»
+
+【莫特】我是[var 1]。
+    赌上性命的战斗才是我追求的地方……
+    我将成为面具和你一起前行吧……
+    «ID msg_combine_PERSONA023  对话»
+
+【拉斐尔】我是[var 1]。
+    让我化为面具使你的
+    身心更为强健吧。
+    «ID msg_combine_PERSONA024  对话»
+
+【斯卡哈】我是[var 1]。
+    我将成为你新的面具，
+    锻炼你的灵魂向前迈进吧……
+    «ID msg_combine_PERSONA025  对话»
+
+【高等皮克希】我是[var 1]。
+    『高等』可不是吹的！
+    让我成为面具让你见识一下吧！
+    «ID msg_combine_PERSONA026  对话»
+
+【巴隆】我是[var 1]。
+    我将化作面具守护你，
+    阻挡那降临的灾难。
+    «ID msg_combine_PERSONA027  对话»
+
+【基力梅卡拉】我是[var 1]。
+    我拥有光和影的正反面，
+    现在起就是你的面具了。
+    «ID msg_combine_PERSONA028  对话»
+
+【霜精之王】我是[var 1]吼。
+    你的敌人就是我的敌人吼！
+    我将成为面具让他们吃不了兜着走吼！
+    «ID msg_combine_PERSONA029  对话»
+
+【那耳喀索斯】我是[var 1]……
+    当你戴上我的面具时，
+    你就得到了毫无瑕疵的美……
+    «ID msg_combine_PERSONA030  对话»
+
+【伊西斯】我是[var 1]。
+    你是位居这个世界的宝座之人……
+    拥有我这个面具就是铁证……
+    «ID msg_combine_PERSONA031  对话»
+
+【拉弥亚】我是[var 1]。
+    让我复仇的火焰……
+    化作你的面具和你一起燃烧吧。
+    «ID msg_combine_PERSONA032  对话»
+
+【恶灵军团】我们是[var 1]……
+    吾等军团之力……
+    将成为你的面具与你同在……
+    «ID msg_combine_PERSONA033  对话»
+
+【罗刹】我是[var 1]。
+    我将成为你的面具，
+    投身破坏的盛宴。
+    «ID msg_combine_PERSONA034  对话»
+
+【莫克伊】我是[var 1]。
+    我是你影子的灵魂……
+    所以将成为面具和你一起……
+    «ID msg_combine_PERSONA035  对话»
+
+【佛钮司】我是[var 1]。
+    让我化作这个面具……
+    为你献上秘密的咏唱吧……
+    «ID msg_combine_PERSONA036  对话»
+
+【瑟坦特】我是[var 1]。
+    给你添麻烦的家伙，
+    就让我化作面具来消灭吧。
+    «ID msg_combine_PERSONA037  对话»
+
+【缇坦妮雅】我是[var 1]。
+    我将成为你的面具，
+    和你一起度过如同夏夜之梦般快乐的一刻吧。
+    «ID msg_combine_PERSONA038  对话»
+
+【男梦魔】我是[var 1]！
+    既然我成为了你的面具，
+    那你今晚就别想睡了！
+    «ID msg_combine_PERSONA039  对话»
+
+【鬼】我是[var 1]。
+    我既然已经成为了你的面具，
+    那阻挡你去路的家伙将由我全部吃光！
+    «ID msg_combine_PERSONA040  对话»
+
+【莉莉丝】我是[var 1]。
+    从现在起我就是你的面具了……
+    我会给你一个难忘的夜晚……
+    «ID msg_combine_PERSONA041  对话»
+
+【兰达】我是[var 1]。
+    我会成为你的面具的。
+    你是不会丢下我自己先走一步的吧？
+    «ID msg_combine_PERSONA042  对话»
+
+【真神】我是[var 1]。
+    我将成为你的面具，
+    把所有威胁你的东西都吓跑……！
+    «ID msg_combine_PERSONA043  对话»
+
+【帕尔瓦蒂】我是[var 1]。
+    我从现在开始将成为面具，
+    把如同广阔山脉般的恩惠赋予你。
+    «ID msg_combine_PERSONA044  对话»
+
+【加百列】我是[var 1]。
+    我将成为你的面具，在此宣告，
+    你全新的力量就此诞生……
+    «ID msg_combine_PERSONA045  对话»
+
+【藏王权现】吾乃[var 1]。
+    为汝挥动封入三尊之力的三叉金刚杵，
+    吾也将成为汝愤怒的面具之一……
+    «ID msg_combine_PERSONA046  对话»
+
+【爱丽丝】我是[var 1]！
+    嘿嘿嘿，我成为你的面具了……
+    可以一直和我玩吗？
+    «ID msg_combine_PERSONA047  对话»
+
+【迦梨】我是[var 1]。
+    只要有这个面具，忘我的愤怒
+    就将属于你！
+    «ID msg_combine_PERSONA048  对话»
+
+【鞍马天狗】我是[var 1]。
+    我现在开始就是你的面具，
+    可以尽情地教你了。
+    «ID msg_combine_PERSONA049  对话»
+
+【奥伯隆】我是[var 1]。
+    让我的妖精王之力，
+    成为你的面具为你所用……
+    «ID msg_combine_PERSONA050  对话»
+
+【式王子】我是[var 1]。
+    有此面具在你手里，
+    也就是说你和我是同一条战线的！
+    «ID msg_combine_PERSONA051  对话»
+
+【八岐大蛇】我是[var 1]。
+    我拥有洪水般的力量。
+    只要持有此面具，它就属于你了……
+    «ID msg_combine_PERSONA052  对话»
+
+【欧若博司】我是[var 1]。
+    只要拥有此面具，
+    我就能告诉你，你所期盼的未来。
+    «ID msg_combine_PERSONA053  对话»
+
+【哈奴曼】我是[var 1]。
+    我拥有着随心所欲的剑之力。
+    有此面具的话，它就是你的了！
+    «ID msg_combine_PERSONA054  对话»
+
+【大天使】我是[var 1]。
+    持有此面具也就代表着，
+    你得到了……我的守护。
+    «ID msg_combine_PERSONA055  对话»
+
+【背背鬼】我是[var 1]。
+    因为你拥有此面具，
+    所以你的背后由我来守护，大哥哥！
+    «ID msg_combine_PERSONA056  对话»
+
+【妖精女王】吾乃[var 1]……
+    让妖精女王的力量……
+    为拥有此面具的你而奋斗吧。
+    «ID msg_combine_PERSONA057  对话»
+
+【圣德芬】我是[var 1]。
+    拥有面具的你将祈祷化为力量，
+    让我们一起战斗下去吧。
+    «ID msg_combine_PERSONA058  对话»
+
+【亚巴顿】我是[var 1]。
+    这无穷尽的力量……
+    就交给拥有面具的你吧……
+    «ID msg_combine_PERSONA059  对话»
+
+【狮爷】我是[var 1]。
+    只要有此面具……还有我和你，
+    一切都能解决的了～
+    «ID msg_combine_PERSONA060  对话»
+
+【睡魔】我是[var 1]。
+    拥有此面具的你很特别。
+    让你做个好梦吧！
+    «ID msg_combine_PERSONA061  对话»
+
+【彼列】我是[var 1]。
+    不管是战斗还是殒落之时，
+    我都会和拥有此面具的你在一起。
+    «ID msg_combine_PERSONA062  对话»
+
+【莲南希】我是[var 1]。
+    我已经离不开你了。
+    有此面具就是最好的证明……嘿嘿。
+    «ID msg_combine_PERSONA063  对话»
+
+【库柏勒】妾身是[var 1]。
+    如果你花心的话，逃到天涯海角妾身都会杀了你。
+    现在开始就是你这小子的面具了，做好觉悟吧……
+    «ID msg_combine_PERSONA064  对话»
+
+【切尔诺伯格】我是[var 1]。
+    拥有面具的你……
+    一起来被我的黑暗之力染黑吧……
+    «ID msg_combine_PERSONA065  对话»
+
+【佛劳洛斯】吾乃[var 1]。
+    通过透视过去和未来的力量，
+    吾将成为汝内心毫无虚假的激昂面具……
+    «ID msg_combine_PERSONA066  对话»
+
+【一本踏鞴】我是[var 1]。
+    既然你有此面具，
+    那我就要好好地锻炼你一下了……！
+    «ID msg_combine_PERSONA067  对话»
+
+【欧特鲁斯】我是[var 1]！
+    既然你拥有此面具，
+    那我就成为你忠实的看门狗吧……！
+    «ID msg_combine_PERSONA068  对话»
+
+【女梦魔】我是[var 1]。
+    让我成为面具也要和我在一起吗？
+    ……可以哦，我是你的了。
+    «ID msg_combine_PERSONA069  对话»
+
+【天蛾人】我是[var 1]。
+    我是……什么……？
+    ……对了，我是你拥有的面具之一。
+    «ID msg_combine_PERSONA070  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA071  对话»
+
+【主天使】我是[var 1]。
+    和你所持的面具一起……
+    讨伐黑暗的光之力……
+    «ID msg_combine_PERSONA072  对话»
+
+【猫又】我是[var 1]。
+    如果你能好好珍惜此面具，
+    我就用和我年龄相符的力量来帮助你。
+    «ID msg_combine_PERSONA073  对话»
+
+【邪恶霜精】我是[var 1]大人吼！
+    那我就做你的面具吧吼！
+    今后也请你多多关照……咯吼！
+    «ID msg_combine_PERSONA074  对话»
+
+【荒霸吐】我是[var 1]。
+    你也不喜欢盲目的服从……
+    那么就成为面具和你一起向前吧……
+    «ID msg_combine_PERSONA075  对话»
+
+【天使】我是[var 1]。
+    那我就成为你的面具，
+    以正义之名开始行动吧。
+    «ID msg_combine_PERSONA076  对话»
+
+【丝卡蒂】我是[var 1]。
+    我从你内心阴暗处来赋予你力量了……
+    好了，把面具拿去吧……
+    «ID msg_combine_PERSONA077  对话»
+
+【菊理媛】我是[var 1]。
+    我将成为你的面具，
+    带领你走向生死的分界线……
+    «ID msg_combine_PERSONA078  对话»
+
+【蚩尤】老夫乃[var 1]。
+    发明了无数武器，对这个世界产生威胁的力量，
+    现在就化作面具之一，赋予你吧。
+    «ID msg_combine_PERSONA079  对话»
+
+【能天使】我是[var 1]。
+    我将成为你的面具之一，
+    作为守护你的盾牌直到最后一刻。
+    «ID msg_combine_PERSONA080  对话»
+
+【犬神】我是[var 1]。
+    如果你要复仇，那我就来帮你实现……
+    把面具拿去吧……
+    «ID msg_combine_PERSONA081  对话»
+
+【奈比洛斯】吾乃[var 1]。
+    吾将成为汝新的面具，
+    和汝交织的命运一同前进吧……
+    «ID msg_combine_PERSONA082  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA083  对话»
+
+【软泥怪】我是[var 1]……
+    你，你……面具！
+    请，请，请多关照……
+    «ID msg_combine_PERSONA084  对话»
+
+【安祖】我是[var 1]。
+    如果你是面具的持有者，
+    那就一起前往更高的地方吧……
+    «ID msg_combine_PERSONA085  对话»
+
+【八咫乌】我是[var 1]。
+    你看得见我的至高灵气啊。
+    那我就化作面具引导你吧……跟我来。
+    «ID msg_combine_PERSONA086  对话»
+
+【义经】吾名乃[var 1]。
+    汝有听闻吾之智勇双全了吧？
+    欢欣鼓舞吧！吾誓为汝之面具，助你得胜……
+    «ID msg_combine_PERSONA087  对话»
+
+【建御名方】我是[var 1]。
+    我将成为你新的面具，
+    成为解放你内心枷锁的力量……
+    «ID msg_combine_PERSONA088  对话»
+
+【天钿女】我是[var 1]。
+    成为新的面具共舞吧。
+    以呼唤力量的乐曲……
+    «ID msg_combine_PERSONA089  对话»
+
+【奇稻田姬】我是[var 1]。
+    我将成为你新的面具，
+    发挥你所拥有的纯洁之力……
+    «ID msg_combine_PERSONA090  对话»
+
+【鸠盘荼】我是[var 1]。
+    如果和拥有面具的你在一起，
+    我原本干涸的灵魂就能尽情释放愤怒了！
+    «ID msg_combine_PERSONA091  对话»
+
+【隐形鬼】我是[var 1]。
+    呼呼……你好像看得见我……
+    不愧是拥有面具之人……
+    «ID msg_combine_PERSONA092  对话»
+
+【金鬼】我是[var 1]。
+    如果你拥有面具的话，
+    我就赋予你让内心百折不挠的力量。
+    «ID msg_combine_PERSONA093  对话»
+
+【水鬼】我是[var 1]。
+    川流不息的力量……
+    将和新的面具与你同在……
+    «ID msg_combine_PERSONA094  对话»
+
+【风鬼】我是[var 1]。
+    我将成为你的面具，
+    如同心灵的暴风般起舞！
+    «ID msg_combine_PERSONA095  对话»
+
+【佳塔由】吾乃[var 1]。
+    若能拯救主人，牺牲吾身亦在所不辞。
+    吾为汝之荣誉祈祷，将成为汝之面具。
+    «ID msg_combine_PERSONA096  对话»
+
+【迦温】我是[var 1]。
+    我将成为你新的面具，
+    助你改变命运吧……
+    «ID msg_combine_PERSONA097  对话»
+
+【凯尔派】我是[var 1]。
+    我从你内心的深渊中赶来！
+    成为你的面具！
+    «ID msg_combine_PERSONA098  对话»
+
+【托特】我是[var 1]。
+    我将成为你新的面具，
+    释放你内心的魔力。
+    «ID msg_combine_PERSONA099  对话»
+
+【狄俄尼索斯】我是[var 1]。
+    我将成为新的面具待在你的身边。
+    在战斗的舞台上展现改变自己的力量吧！
+    «ID msg_combine_PERSONA100  对话»
+
+【飞天】我是[var 1]。
+    奏响你的感情吧。
+    只要有新的面具就能实现……
+    «ID msg_combine_PERSONA101  对话»
+
+【安德拉斯】我是[var 1]。
+    想要让我成为面具……你疯了吧。
+    要是被我捅了也别埋怨哦……？
+    «ID msg_combine_PERSONA102  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA103  对话»
+
+【克鲁波克鲁】我是[var 1]。
+    要我成为面具，始终和你在一起……
+    也就是说，不能混水摸鱼了呢……
+    «ID msg_combine_PERSONA104  对话»
+
+【木叶天狗】我是[var 1]。
+    我将成为你新的面具。
+    可别老是使唤我哦……！
+    «ID msg_combine_PERSONA105  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA114  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA115  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA116  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA117  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA118  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA119  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA120  对话»
+
+【曼陀罗】我是[var 1]。
+    我是在你心中盛开着的危险花朵哦！
+    可别让我这个新的面具枯萎了！
+    «ID msg_combine_PERSONA121  对话»
+
+【巴力】吾乃[var 1]。
+    降雨滋润大地的丰收之力，
+    将化作面具献给拥有高贵灵魂之汝，吾之主。
+    «ID msg_combine_PERSONA122  对话»
+
+【荼吉尼】我是[var 1]。
+    拥有新面具的你！
+    用你的心之力和我一起狂燃吧！
+    «ID msg_combine_PERSONA123  对话»
+
+【希路奇】我是[var 1]。
+    拥有新面具的你。
+    你的心就由我来照顾吧。
+    «ID msg_combine_PERSONA124  对话»
+
+【巴古斯】我是[var 1]。
+    大哥哥就是有着面具的坏男孩吗？
+    这样的话，我就陪你玩吧！
+    «ID msg_combine_PERSONA125  对话»
+
+【黑软泥怪】我是[var 1]……
+    我，我，我……要成为面具了！
+    那样我就能拥有固定型态了吧……！
+    «ID msg_combine_PERSONA126  对话»
+
+【双角兽】我是[var 1]。
+    动机越是不纯力量越是强大呢！
+    你要珍惜新的面具哦！
+    «ID msg_combine_PERSONA127  对话»
+
+【米特拉斯】我是[var 1]。
+    在拥有新面具的你的心中……
+    我将撒下阳光般的希望。
+    «ID msg_combine_PERSONA128  对话»
+
+【山灵】我，我是[var 1]！
+    我是大哥哥的面具了！
+    已经不用再『躲躲藏藏』了呢！
+    «ID msg_combine_PERSONA129  对话»
+
+【木灵】我是[var 1]！
+    我要成为面具跟着大哥哥！
+    回荡在大哥哥的心中……呀呼～！
+    «ID msg_combine_PERSONA130  对话»
+
+【阿珈席翁】我是[var 1]。
+    从现在开始，我就是新的面具啦！
+    尽情使唤我、命令我吧～！
+    «ID msg_combine_PERSONA131  对话»
+
+【阴摩罗鬼】我是[var 1]。
+    我是大哥哥的面具哦！
+    就算大哥哥死了我也会陪着！
+    «ID msg_combine_PERSONA132  对话»
+
+【奴延】我是[var 1]……
+    虽然你这家伙很让人搞不懂，
+    但从现在起我就是你新的面具了，请多关照。
+    «ID msg_combine_PERSONA133  对话»
+
+【毕舍遮】我是[var 1]……
+    ……你看起来好好吃。
+    但我已经成为了你的面具，那就不吃你了……
+    «ID msg_combine_PERSONA134  对话»
+
+【麦基洗德】我是[var 1]。
+    既然成为你新的面具了，
+    那我就用身体来守护你的正义吧。
+    «ID msg_combine_PERSONA135  对话»
+
+【巴风特】我是[var 1]。
+    我将成为你的面具。
+    相信我和你的力量就不会有错了……
+    «ID msg_combine_PERSONA136  对话»
+
+【那伽王】我是[var 1]。
+    如果你持有此面具，
+    那我们一族的力量就属于你了！
+    «ID msg_combine_PERSONA137  对话»
+
+【那伽】我是[var 1]。
+    既然我成为了你的面具，那就尽管相信我吧。
+    ……就像看天气预报那样。
+    «ID msg_combine_PERSONA138  对话»
+
+【迦楼罗】我是[var 1]。
+    我要成为你的面具，
+    让你的志向，比星星还要高。
+    «ID msg_combine_PERSONA139  对话»
+
+【摩洛】我是[var 1]。
+    我的业火将使你的灵魂化作红莲……
+    来，把面具拿去吧。
+    «ID msg_combine_PERSONA140  对话»
+
+【诺伦】我是[var 1]。
+    愿拥有面具的你
+    会有好的命运……
+    «ID msg_combine_PERSONA141  对话»
+
+【贝尔芬格】我是[var 1]。
+    ……你是男人吧？
+    那我就成为面具和你一起行动吧……
+    «ID msg_combine_PERSONA142  对话»
+
+【比利士】我是[var 1]。
+    心灵的主人啊，不用感到恐怖……
+    我将成为你的面具，宣誓……忠诚。
+    «ID msg_combine_PERSONA143  对话»
+
+【克伦佐】我是[var 1]。
+    居然还有能召唤我的人出现。
+    那就把邪恶之力化作面具交给你吧。
+    «ID msg_combine_PERSONA144  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA145  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA146  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA147  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA148  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA149  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA150  对话»
+
+【和魂】吾乃[var 1]。
+    体贴和宁静才是安息的庇护之所……
+    吾将化作汝之面具，带给灵魂安详……
+    «ID msg_combine_PERSONA151  对话»
+
+【奇魂】我是[var 1]。
+    我将让你的身体变得强壮，
+    那么，一起看看吧，这个神奇的世界……！
+    «ID msg_combine_PERSONA152  对话»
+
+【荒魂】我是……[var 1]！
+    狂怒吧！勇猛就是我的力量！
+    在你脸上也刻下愤怒吧！
+    «ID msg_combine_PERSONA153  对话»
+
+【幸魂】我是[var 1]。
+    爱情和关怀才是应该培养的东西。
+    为了不让你的爱迷茫，我就成为你的面具吧……
+    «ID msg_combine_PERSONA154  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA155  对话»
+
+【湿婆】我是[var 1]。
+    见识一下吧，破坏和再生的力量。
+    我将成为你新的面具，一起舞蹈吧……
+    «ID msg_combine_PERSONA156  对话»
+
+【米迦勒】我是[var 1]。
+    我将在你的光之尊名下，
+    化作新的面具。
+    «ID msg_combine_PERSONA157  对话»
+
+【阿修罗王】我是[var 1]。
+    让摧毁一切的这道光……
+    化作你的面具，赋予你力量吧。
+    «ID msg_combine_PERSONA158  对话»
+
+【摩陀】我是……[var 1]。
+    把全宇宙都吞噬的……无尽之力……
+    献给你的……面具……
+    «ID msg_combine_PERSONA159  对话»
+
+【巴比伦大淫妇】妾身是[var 1]。
+    污秽就是美丽，美丽就是强大，强大就是你……
+    妾身是污秽女王，女王的面具……
+    «ID msg_combine_PERSONA160  对话»
+
+【克洛托】我是[var 1]。
+    编织命运的丝线……
+    看见你的过去，成为你力量的面具。
+    «ID msg_combine_PERSONA161  对话»
+
+【拉刻西斯】我是[var 1]。
+    测量命运的丝线……
+    预测你的命运，成为你力量的面具。
+    «ID msg_combine_PERSONA162  对话»
+
+【阿特罗波斯】我是[var 1]……
+    切断命运的丝线……
+    陪你走到最后的面具……
+    «ID msg_combine_PERSONA163  对话»
+
+【阿尔达】吾乃[var 1]。
+    汝终于得手的完全宇宙之力。
+    汝与吾将从此流芳百世。
+    «ID msg_combine_PERSONA164  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA165  对话»
+
+【毗湿奴】吾乃[var 1]。
+    维持宇宙，消灭邪恶。
+    吾乃汝之心灵化生的无敌面具。
+    «ID msg_combine_PERSONA166  对话»
+
+【诃梨帝母】我是[var 1]。
+    我将如同守护孩童成长般，
+    化作慈爱的面具守护你……
+    «ID msg_combine_PERSONA167  对话»
+
+【虹蛇】吾乃[var 1]。
+    连接天空和大地的力量，
+    将化作汝的面具，交给汝吧。
+    «ID msg_combine_PERSONA168  对话»
+
+【百臂巨人】吾乃[var 1]。
+    在战乱中胜利的这一百只手，
+    现在起就是汝所持有的面具之一了！
+    «ID msg_combine_PERSONA169  对话»
+
+【撒旦耶尔】吾名乃[var 1]。
+    为了自己所坚信的正义，连弑神也不在乎的人啊。
+    好吧……吾现在再次化作汝之面具吧。
+    «ID msg_combine_PERSONA170  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA171  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA172  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA173  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA174  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA175  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA176  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA177  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA178  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA179  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA180  对话»
+
+【俄耳甫斯】我是[var 1]。
+    只要成为你的面具就好了吗？
+    那就一起去寻找生命的答案吧。
+    «ID msg_combine_PERSONA181  对话»
+
+【塔纳托斯】吾乃[var 1]……
+    吾出自于汝，伴汝左右……
+    «ID msg_combine_PERSONA182  对话»
+
+【伊邪那岐】吾乃[var 1]……
+    张开双眼吧！
+    汝啊，现在正是扬帆之时……！
+    «ID msg_combine_PERSONA183  对话»
+
+【祸津伊邪那岐】是何人在呼唤吾……
+    照亮无数黑暗的人啊，
+    连虚无也要收作力量吗……
+    吾乃[var 1]。
+    让吾注视着汝前进的道路吧……
+    «ID msg_combine_PERSONA184  对话»
+
+【辉夜】是何人在呼唤吾……
+    让照亮黑夜光芒的眩目之心……
+    吾就成为汝的力量吧……
+    吾乃[var 1]。
+    愿此光永不消逝……
+    «ID msg_combine_PERSONA185  对话»
+
+【阿里阿德涅】奴家是[var 1]。
+    是带领你走向胜利的女神！
+    将成为你的面具与你同行！
+    «ID msg_combine_PERSONA186  对话»
+
+【阿斯忒里俄斯】啊哈哈哈哈！我的名字是[var 1]！
+    要我成为面具……？
+    呼呼……你要是疏忽大意的话我就摧毁你！
+    «ID msg_combine_PERSONA187  对话»
+
+【月读】我是[var 1]。
+    右手是疯狂，左手是执着……
+    那么……要先从哪个家伙开始摧毁呢！？
+    «ID msg_combine_PERSONA188  对话»
+
+【弥赛亚】我是[var 1]。
+    从现在起与你同在……
+    «ID msg_combine_PERSONA189  对话»
+
+【弥赛亚・贼神】我是[var 1]。
+    从现在起将成为诡骗师的面具，
+    与你同在……
+    «ID msg_combine_PERSONA190  对话»
+
+【俄耳甫斯・贼神】我是[var 1]。
+    成为诡骗师的面具啊……
+    明白了，让我来帮你澄清事实吧……
+    «ID msg_combine_PERSONA191  对话»
+
+【塔纳托斯・贼神】吾乃[var 1]……
+    吾出自于汝，伴汝左右……
+    吾从现在起将成为诡骗师的面具。
+    «ID msg_combine_PERSONA192  对话»
+
+【伊邪那岐・贼神】吾乃[var 1]……
+    张开双眼吧。
+    诡骗师啊，现在正是扬帆之时……！
+    «ID msg_combine_PERSONA193  对话»
+
+【祸津伊邪那岐・贼神】是何人在呼唤吾……
+    照亮无数黑暗的诡骗师啊，
+    连虚无也要收作力量吗……
+    吾乃[var 1]。
+    让吾注视着汝前进的道路吧……
+    «ID msg_combine_PERSONA194  对话»
+
+【辉夜・贼神】是何人在呼唤吾……
+    让照亮黑夜光芒的眩目之心……
+    吾就成为汝，诡骗师的面具吧……
+    吾乃[var 1]。
+    愿此光永不消逝……
+    «ID msg_combine_PERSONA195  对话»
+
+【阿里阿德涅・贼神】奴家是[var 1]。
+    诡骗师，加油啊！
+    奴家要成为面具，去哪儿都跟着你！
+    «ID msg_combine_PERSONA196  对话»
+
+【阿斯忒里俄斯・贼神】啊哈哈哈哈！　我的名字是[var 1]！
+    要我成为诡骗师的面具啊……
+    好啊……把敌人彻底破坏掉！
+    «ID msg_combine_PERSONA197  对话»
+
+【月读・贼神】我是[var 1]。
+    诡骗师的面具……？
+    没关系，只要能放纵我的任性就好！！
+    «ID msg_combine_PERSONA198  对话»
+
+【ＲＥＳＥＲＶＥ】０
+    «ID msg_combine_PERSONA199  对话»
+
+【亚森】吾名为逢魔时刻的掠夺者，[var 1]！
+    如今还需要吾的力量……？
+    好吧，汝就好好发挥这股力量吧。
+    «ID msg_combine_PERSONA201  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA229  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA239  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA240  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA241  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA242  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA243  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA244  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA245  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA246  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA247  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA248  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA249  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA250  对话»
+
+【船长基德】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA251  对话»
+
+【撒旦】吾乃[var 1]。
+    统治一切的存在。
+    汝，无畏之人啊，罪人啊。
+    吾将成为汝的面具，见证世界的终结……
+    «ID msg_combine_PERSONA252  对话»
+
+【路西法】吾乃[var 1]。
+    在叹息的黑暗中升起的拂晓明星是也。
+    从冥界前往黑暗的心之世界的人啊。
+    吾遵从秘密的约定，成为汝的面具。
+    «ID msg_combine_PERSONA253  对话»
+
+【黄龙】吾乃[var 1]。
+    驱动万物的尊贵法力……
+    将成为汝新的面具之一。
+    «ID msg_combine_PERSONA254  对话»
+
+【大国主】我是[var 1]。
+    成就立国伟业的这太刀和弓箭……
+    将成为你的面具，赋予你力量……
+    «ID msg_combine_PERSONA255  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA256  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA257  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA258  对话»
+
+【经津主】老夫乃[var 1]。
+    平定苇原中国的刀剑之神是也。
+    让老夫来锻炼你内心的刀剑吧。
+    «ID msg_combine_PERSONA259  对话»
+
+【经津主】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA260  对话»
+
+【赛特】我是[var 1]。
+    即使被人憎恨嫌弃，也想要获得杀生之力吗？
+    那么，让我成为你的面具吧。
+    «ID msg_combine_PERSONA261  对话»
+
+【伊丝塔】我是[var 1]。
+    集男人宠爱于一身的人。
+    当然，你也一样，作为你的面具……
+    «ID msg_combine_PERSONA262  对话»
+
+【伊丝塔】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA263  对话»
+
+【斯尔特】吾乃[var 1]……
+    让毁灭世界的火焰之力，
+    通过我的面具，深深地印刻在你的眼中吧……
+    «ID msg_combine_PERSONA264  对话»
+
+【齐格飞】吾名乃[var 1]。
+    这勇猛果断的力量，
+    因汝之魂，化作无敌的面具。
+    «ID msg_combine_PERSONA265  对话»
+
+【吉祥天女】我是[var 1]。
+    不要继续沉迷于我的美貌了……
+    让我成为面具，来教你召唤幸福的舞蹈吧……
+    «ID msg_combine_PERSONA266  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA267  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA268  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA269  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA270  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA271  对话»
+
+【福尔图娜】我是[var 1]。
+    你的幸运，一定会来的……！
+    看，这是命运的面具……哦。
+    «ID msg_combine_PERSONA272  对话»
+
+【朱雀】吾乃[var 1]。
+    照亮未来的火光……
+    现在将成为你新的面具……
+    «ID msg_combine_PERSONA273  对话»
+
+【青龙】吾乃[var 1]。
+    此四圣兽中最尊贵之力，
+    将化作面具赋予少年……
+    «ID msg_combine_PERSONA274  对话»
+
+【玄武】吾乃[var 1]。
+    吾通晓美好未来的智慧……
+    将化作面具来为汝尽力。
+    «ID msg_combine_PERSONA275  对话»
+
+【白虎】吾乃[var 1]。
+    吾之咆哮能让百兽降服……！
+    汝诞生了吾之灵魂，吾化为汝之面具……！
+    «ID msg_combine_PERSONA276  对话»
+
+【毘沙门天】吾名乃[var 1]。
+    让吾来摧毁汝所有的仇敌吧。
+    现在将成为汝之面具，赋予汝新的力量……！
+    «ID msg_combine_PERSONA277  对话»
+
+【广目天王】吾名乃[var 1]。
+    监视魔物就交给吾了……
+    监视世界的面具，现在就交予汝了……
+    «ID msg_combine_PERSONA278  对话»
+
+【持国天王】吾名乃[var 1]。
+    安泰和守护就交给吾了……
+    吾将成为汝之面具，尽力而为！
+    «ID msg_combine_PERSONA279  对话»
+
+【增长天王】吾乃[var 1]。
+    受到供奉就能促使万物成长的力量，
+    吾现在将成为加持汝之魂的面具……
+    «ID msg_combine_PERSONA280  对话»
+
+【地狱天使】我的名字是[var 1]。
+    憎恶和暴力最棒了……
+    戴上我的面具，把敌人打入地狱……！
+    «ID msg_combine_PERSONA281  对话»
+
+【大僧正】吾乃[var 1]……
+    拥有永不腐败的身体……
+    吾将成为面具，与汝一同等待救赎的到来……
+    «ID msg_combine_PERSONA282  对话»
+
+【吹号者】我是[var 1]。
+    喇叭预告着灾难和死亡……
+    我将成为你的面具，和你一起吹奏……
+    «ID msg_combine_PERSONA283  对话»
+
+【白骑士】吾乃[var 1]。
+    将吾呼唤胜利的力量，
+    化为面具赋予汝……
+    «ID msg_combine_PERSONA284  对话»
+
+【斗牛士】我是[var 1]。
+    此身诞生于血脉偾张的战斗，
+    自此成为你的面具。
+    «ID msg_combine_PERSONA285  对话»
+
+【苍白骑士】吾乃[var 1]。
+    吾之黄泉的诅咒力，
+    将成为面具供奉予汝……
+    «ID msg_combine_PERSONA286  对话»
+
+【荷鲁斯】我是[var 1]。
+    从现在起我就是你的面具了！
+    一起朝着光明飞翔吧！
+    «ID msg_combine_PERSONA287  对话»
+
+【荷鲁斯】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA288  对话»
+
+【阿提斯】我是[var 1]。
+    解放流淌之血的诅咒……
+    那么，请你把我作为面具使用吧。
+    «ID msg_combine_PERSONA289  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA290  对话»
+
+【ＲＥＳＥＲＶＥ】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA291  对话»
+
+【斯拉欧加】我是[var 1]。
+    你的愿望，全数说给我听吧。
+    你高贵的灵魂，让我化作面具来报答。
+    «ID msg_combine_PERSONA292  对话»
+
+【斯拉欧加】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA293  对话»
+
+【斯拉欧加】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA294  对话»
+
+【密特拉】我是[var 1]。
+    遵守所有约定之人。
+    我在此和你约定，将成为你的面具……
+    «ID msg_combine_PERSONA295  对话»
+
+【凤凰】吾乃[var 1]。
+    所有有翼生物的尊长……
+    吾将化作为汝之战斗带来安宁的面具……
+    «ID msg_combine_PERSONA296  对话»
+
+【权天使】我是[var 1]。
+    我视权威与纪律重于一切。
+    我将成为你的面具，守护荣耀。
+    «ID msg_combine_PERSONA297  对话»
+
+【猫将军】我是[var 1]。
+    我来让你的未来变得明亮吧！
+    从现在起我就是你的面具了喵。
+    «ID msg_combine_PERSONA298  对话»
+
+【婆苏吉】吾乃[var 1]……
+    便是污秽亦为吾之力，即汝之力。
+    让吾作为面具，献身与汝吧。
+    «ID msg_combine_PERSONA299  对话»
+
+【阿难陀】我是[var 1]。
+    在你体内觉醒的创造之力……
+    我将化作面具和你一同前行。
+    «ID msg_combine_PERSONA300  对话»
+
+【座天使】我是[var 1]。
+    让我为您的王权尽一臂之力吧。
+    请带走化为面具的我。
+    «ID msg_combine_PERSONA301  对话»
+
+【座天使】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA302  对话»
+
+【羽蛇神】我是[var 1]。
+    我将带来丰收，引导未来。
+    现在起我就是你的面具了。
+    «ID msg_combine_PERSONA303  对话»
+
+【红骑士】吾乃[var 1]。
+    吾统领战乱的权力，
+    将化作面具展现于汝……
+    «ID msg_combine_PERSONA304  对话»
+
+【黑骑士】吾乃[var 1]。
+    为仇敌带去厄运的力量，
+    将化作面具展现于汝……
+    «ID msg_combine_PERSONA305  对话»
+
+【娑提】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA306  对话»
+
+【娑提】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA307  对话»
+
+【帕祖祖】吾乃[var 1]。
+    吾今后将成为你的面具，即便在
+    如同沙漠般荒凉的现世，也会与你共筑霸业。
+    «ID msg_combine_PERSONA308  对话»
+
+【帕祖祖】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA309  对话»
+
+【帕祖祖】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA322  对话»
+
+【帕祖祖】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA323  对话»
+
+【帕祖祖】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA324  对话»
+
+【帕祖祖】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA325  对话»
+
+【帕祖祖】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA326  对话»
+
+【帕祖祖】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA327  对话»
+
+【帕祖祖】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA328  对话»
+
+【帕祖祖】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA329  对话»
+
+【玛利亚】我是[var 1]。
+    我就心怀慈悲，
+    当你的面具吧……
+    «ID msg_combine_PERSONA330  对话»
+
+【瓦胡・马纳】吾乃[var 1]。
+    吾将成为汝之面具，
+    照亮一切黑暗。
+    «ID msg_combine_PERSONA331  对话»
+
+【凯特西】我是[var 1]。
+    既然我成为了你的面具，
+    一切就没问题了喵。
+    «ID msg_combine_PERSONA332  对话»
+
+【御社宫司神】老夫乃[var 1]。
+    既然你戴上了老夫的面具，
+    大自然的活力就会源源不绝……
+    «ID msg_combine_PERSONA333  对话»
+
+【罗瓦】吾乃[var 1]。
+    将成为你的面具，
+    一起纵饮、歌唱、手舞足蹈……
+    «ID msg_combine_PERSONA334  对话»
+
+【奇美拉】吾乃[var 1]。
+    吾身为异形，
+    化为面具栖于你身，备感安心……
+    «ID msg_combine_PERSONA335  对话»
+
+【大元帅明王】吾乃[var 1]。
+    将化身汝之面具，
+    将恶鬼驱逐。
+    «ID msg_combine_PERSONA336  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA337  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA338  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA339  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA340  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA341  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA342  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA343  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA344  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA345  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA346  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA347  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA348  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA349  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA350  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA351  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA352  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA353  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA354  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA355  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA356  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA357  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA358  对话»
+
+【大元帅明王】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA359  对话»
+
+【伊邪那岐大神】吾乃起源之神……
+    名为[var 1]……
+    吾乃一切起源之契机，
+    照亮并指引汝之前路……
+    «ID msg_combine_PERSONA360  对话»
+
+【伊邪那岐大神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA361  对话»
+
+【雅典娜】我是[var 1]。
+    我的面具，将成为守护你的盾牌……
+    «ID msg_combine_PERSONA362  对话»
+
+【劳尔】吾名为[var 1]！
+    让吾真正的面貌觉醒了啊……
+    好……你就贯彻自己相信的道路吧！
+    «ID msg_combine_PERSONA363  对话»
+
+【劳尔】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA364  对话»
+
+【俄耳甫斯】我是[var 1]。
+    只要成为你的面具就好了吗？
+    那就一起去寻找生命的答案吧。
+    «ID msg_combine_PERSONA365  对话»
+
+【伊邪那岐大神・贼神】吾乃起源之神……
+    名为[var 1]……
+    吾将化为诡骗师之面具，
+    照亮并指引汝之前路……
+    «ID msg_combine_PERSONA366  对话»
+
+【伊邪那岐大神・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA367  对话»
+
+【雅典娜・贼神】我是[var 1]。
+    我将化为诡骗师之面具，
+    成为守护你的盾牌……
+    «ID msg_combine_PERSONA368  对话»
+
+【雅典娜・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA369  对话»
+
+【雅典娜・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA370  对话»
+
+【俄耳甫斯・贼神】我是[var 1]。
+    诡骗师之面具？
+    明白了，我就协助你造就自己的证明吧。
+    «ID msg_combine_PERSONA371  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA372  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA373  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA374  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA375  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA376  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA377  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA378  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA379  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA380  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA381  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA382  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA383  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA384  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA385  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA386  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA387  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA388  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA389  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA390  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA391  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA392  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA393  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA394  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA395  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA396  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA397  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA398  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA399  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA400  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA401  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA402  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA403  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA404  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA405  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA406  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA407  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA408  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA409  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA410  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA411  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA412  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA413  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA414  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA415  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA416  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA417  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA418  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA419  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA420  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA421  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA422  对话»
+
+【俄耳甫斯・贼神】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA423  对话»
+
+【马卡布】我是[var 1]。
+    将成为你的面具，
+    邀你共赴死亡之舞……
+    «ID msg_combine_PERSONA424  对话»
+
+【艾里拉特】我是[var 1]。
+    将成为你坚硬无比的面具，
+    保护你不受威胁……
+    «ID msg_combine_PERSONA425  对话»
+
+【雷鸟】我是[var 1]。
+    这股灵鸟之力……
+    你能运用自如吗？
+    «ID msg_combine_PERSONA426  对话»
+
+【法夫纳】我是[var 1]。
+    既然你有了面具，
+    黄金就是属于我们的了……
+    «ID msg_combine_PERSONA427  对话»
+
+【拜亚基】我是[var 1]。
+    只要你愿意，
+    我会跟随你的灵魂直到天涯海角……
+    «ID msg_combine_PERSONA428  对话»
+
+【哈斯塔】我是[var 1]。
+    深渊的黑暗正是起源，亦是终焉。
+    操控面具之人，掌握整个宇宙吧！
+    «ID msg_combine_PERSONA429  对话»
+
+【塔姆林】我是妖精骑士[var 1]。
+    无论何时，都可呼唤我的名字。
+    为了你，我愿意杀出一条血路！
+    «ID msg_combine_PERSONA430  对话»
+
+【座天使】我是[var 1]。
+    我会守候你的旅途，
+    请带走身为面具的我吧。
+    «ID msg_combine_PERSONA431  对话»
+
+【斯尔特】我是[var 1]……
+    足以毁灭世界的火焰之力，
+    你就通过我的面具，好好见证吧……
+    «ID msg_combine_PERSONA432  对话»
+
+【罗瓦】我是[var 1]。
+    既然成为了你的面具，
+    就一起纵饮、歌唱、手舞足蹈吧……
+    «ID msg_combine_PERSONA433  对话»
+
+【奇美拉】我是[var 1]。
+    对我这个合成的身体，
+    你能控制得了吗……？
+    «ID msg_combine_PERSONA434  对话»
+
+【大元帅明王】我是[var 1]。
+    我将成为你的面具，
+    驱除恶鬼。
+    «ID msg_combine_PERSONA435  对话»
+
+【凯特西】我是[var 1]。
+    既然我成为了你的面具，
+    一切就没问题了喵。
+    «ID msg_combine_PERSONA436  对话»
+
+【齐格飞】吾名乃[var 1]。
+    这勇猛果断的力量，
+    因汝之魂，化作无敌的面具。
+    «ID msg_combine_PERSONA437  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA438  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA439  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA440  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA441  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA442  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA443  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA444  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA445  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA446  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA447  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA448  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA449  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA450  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA451  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA452  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA453  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA454  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA455  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA456  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA457  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA458  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA459  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA460  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA461  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA462  对话»
+
+【齐格飞】ＲＥＳＥＲＶＥ
+    «ID msg_combine_PERSONA463  对话»

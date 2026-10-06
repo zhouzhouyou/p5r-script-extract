@@ -1,0 +1,340 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR3010_100_000.BF
+对话条目: 66 条
+================================================================================
+
+【摩尔加纳】要更换哪里？
+    «ID MSG_INTERIOR_START_THINK  对话»
+
+【选项】SEL_INTERIOR_CHANGE
+    ▸ 床单
+    ▸ 沙发
+    ▸ 窗户周围
+    ▸ 地板周围
+    ▸ 还是算了
+    «ID SEL_INTERIOR_CHANGE  选项»
+
+【选项】Interior_Enter_SEL
+    ▸ 决定
+    ▸ 返回
+    «ID Interior_Enter_SEL  选项»
+
+【摩尔加纳】要换成哪一种床单？
+    «ID MSG_CHANGE_BED_START  对话»
+
+【摩尔加纳】要继续换床单吗？
+    «ID MSG_CHANGE_BED_START_RE  对话»
+
+【选项】SEL_CHANGE_BED_START
+    ▸ [var 0]
+    ▸ [var 1]
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ 还是算了吧
+    «ID SEL_CHANGE_BED_START  选项»
+
+【摩尔加纳】要换成哪种沙发？
+    «ID MSG_CHANGE_SOFA_START  对话»
+
+【摩尔加纳】要继续换沙发吗？
+    «ID MSG_CHANGE_SOFA_START_RE  对话»
+
+【选项】SEL_CHANGE_SOFA_START
+    ▸ [var 0]
+    ▸ [var 1]
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ 恢复原状
+    ▸ 还是算了吧
+    «ID SEL_CHANGE_SOFA_START  选项»
+
+【摩尔加纳】要更换哪里？
+    «ID MSG_CHANGE_WND_START  对话»
+
+【选项】SEL_CHANGE_WND_START
+    ▸ 更换窗帘
+    ▸ 更换吊饰
+    ▸ 还是算了吧
+    «ID SEL_CHANGE_WND_START  选项»
+
+【摩尔加纳】要换成哪种窗帘？
+    «ID MSG_CHANGE_CTN_START  对话»
+
+【摩尔加纳】要继续更换窗帘吗？
+    «ID MSG_CHANGE_CTN_START_RE  对话»
+
+【选项】SEL_CHANGE_CTN_START
+    ▸ [var 0]
+    ▸ [var 1]
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ 拆下窗帘
+    ▸ 还是算了吧
+    «ID SEL_CHANGE_CTN_START  选项»
+
+【摩尔加纳】要换成哪种吊饰？
+    «ID MSG_CHANGE_HNG_START  对话»
+
+【摩尔加纳】要继续更换吊饰吗？
+    «ID MSG_CHANGE_HNG_START_RE  对话»
+
+【选项】SEL_CHANGE_HNG_START
+    ▸ [var 0]
+    ▸ [var 1]
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ 拆下吊饰
+    ▸ 还是算了吧
+    «ID SEL_CHANGE_HNG_START  选项»
+
+【摩尔加纳】要更换哪里？
+    «ID MSG_CHANGE_FLR_START  对话»
+
+【选项】SEL_CHANGE_FLR_START
+    ▸ 更换地毯
+    ▸ 更换摆饰
+    ▸ 还是算了吧
+    «ID SEL_CHANGE_FLR_START  选项»
+
+【摩尔加纳】要换成哪种地毯？
+    «ID MSG_CHANGE_CPT_START  对话»
+
+【摩尔加纳】要继续更换地毯吗？
+    «ID MSG_CHANGE_CPT_START_RE  对话»
+
+【选项】SEL_CHANGE_CPT_START
+    ▸ [var 0]
+    ▸ [var 1]
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ 移走地毯
+    ▸ 还是算了吧
+    «ID SEL_CHANGE_CPT_START  选项»
+
+【摩尔加纳】要换成哪种摆饰？
+    «ID MSG_CHANGE_ORN_START  对话»
+
+【摩尔加纳】要继续更换摆饰吗？
+    «ID MSG_CHANGE_ORN_START_RE  对话»
+
+【选项】SEL_CHANGE_ORN_START
+    ▸ [var 0]
+    ▸ [var 1]
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ 移开摆饰
+    ▸ 还是算了吧
+    «ID SEL_CHANGE_ORN_START  选项»
+
+〔旁白〕刚才找到的毛毯……
+    铺上这个就可以睡觉了。
+    «ID MSG_INTERIOR_START_TUTOR  对话»
+
+〔旁白〕现在床的周围空无一物。
+    «ID Bed_Choice_mes00  对话»
+
+〔旁白〕现在挂着『[var 0]』，
+    没有放置任何香氛。
+    «ID Bed_Choice_mes01  对话»
+
+〔旁白〕目前没铺床单，
+    放置着『[var 1]』。
+    «ID Bed_Choice_mes02  对话»
+
+〔旁白〕现在挂着『[var 0]』，
+    放着『[var 1]』。
+    «ID Bed_Choice_mes03  对话»
+
+【选项】Bed_Choice_main_SEL
+    ▸ 更换床单
+    ▸ 更换香氛
+    ▸ 还是算了
+    «ID Bed_Choice_main_SEL  选项»
+
+〔旁白〕要换成哪条床单呢……
+    «ID Bed_Choice_sub01_mes01  对话»
+
+【选项】Bed_Choice_sub01_SEL
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ [var 5]
+    ▸ [var 6]
+    ▸ 移走床单
+    ▸ 还是算了
+    «ID Bed_Choice_sub01_SEL  选项»
+
+【摩尔加纳】要、要在这种状态睡觉吗？
+    这是什么修行吗？
+    «ID Sheet_sel_Not_MORU_mes01  对话»
+
+【摩尔加纳】嗯嗯……
+    虽然不够显眼，不过简朴一点也不赖。
+    «ID Sheet_sel_A_MORU_mes01  对话»
+
+【摩尔加纳】这是……
+    你的嗜好还挺狂野的嘛。
+    «ID Sheet_sel_B_MORU_mes01  对话»
+
+〔旁白〕要选哪种香味呢……
+    «ID Bed_Choice_sub02_mes01  对话»
+
+【选项】Bed_Choice_sub02_SEL
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ [var 5]
+    ▸ [var 6]
+    ▸ 不放香氛
+    ▸ 还是算了
+    «ID Bed_Choice_sub02_SEL  选项»
+
+〔旁白〕现在沙发周围空无一物。
+    «ID Sofa_Choice_mes00  对话»
+
+〔旁白〕目前沙发是『[var 0]』，
+    没有贴任何海报。
+    «ID Sofa_Choice_mes01  对话»
+
+〔旁白〕目前沙发维持原状，
+    墙壁上贴着『[var 1]』。
+    «ID Sofa_Choice_mes02  对话»
+
+〔旁白〕目前沙发是『[var 0]』，
+    墙壁上贴着『[var 1]』。
+    «ID Sofa_Choice_mes03  对话»
+
+【选项】Sofa_Choice_main_SEL
+    ▸ 更换沙发套
+    ▸ 更换海报
+    ▸ 还是算了
+    «ID Sofa_Choice_main_SEL  选项»
+
+〔旁白〕要换成哪种沙发套呢……
+    «ID Sofa_Choice_sub01_mes01  对话»
+
+【选项】Sofa_Choice_sub01_SEL
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ [var 5]
+    ▸ [var 6]
+    ▸ 取下沙发套
+    ▸ 还是算了
+    «ID Sofa_Choice_sub01_SEL  选项»
+
+〔旁白〕要贴哪张海报呢……
+    «ID Sofa_Choice_sub02_mes01  对话»
+
+【选项】Sofa_Choice_sub02_SEL
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ [var 5]
+    ▸ [var 6]
+    ▸ 移走海报
+    ▸ 还是算了
+    «ID Sofa_Choice_sub02_SEL  选项»
+
+〔旁白〕现在窗边空无一物。
+    «ID Wind_Choice_mes00  对话»
+
+〔旁白〕目前有『[var 0]』，
+    没有任何装饰。
+    «ID Wind_Choice_mes01  对话»
+
+〔旁白〕目前不装窗帘，
+    装饰着『[var 1]』。
+    «ID Wind_Choice_mes02  对话»
+
+〔旁白〕目前有『[var 0]』，
+    装饰着『[var 1]』。
+    «ID Wind_Choice_mes03  对话»
+
+【选项】Wind_Choice_main_SEL
+    ▸ 更换窗帘
+    ▸ 更换装饰
+    ▸ 还是算了
+    «ID Wind_Choice_main_SEL  选项»
+
+〔旁白〕要换哪种窗帘呢……
+    «ID Wind_Choice_sub01_mes01  对话»
+
+【选项】Wind_Choice_sub01_SEL
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ [var 5]
+    ▸ [var 6]
+    ▸ 拆下窗帘
+    ▸ 还是算了
+    «ID Wind_Choice_sub01_SEL  选项»
+
+〔旁白〕要装饰什么呢……
+    «ID Wind_Choice_sub02_mes01  对话»
+
+【选项】Wind_Choice_sub02_SEL
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ [var 5]
+    ▸ [var 6]
+    ▸ 什么都不装饰
+    ▸ 还是算了
+    «ID Wind_Choice_sub02_SEL  选项»
+
+〔旁白〕现在地板上空无一物。
+    «ID Floor_Choice_mes00  对话»
+
+〔旁白〕现在铺着『[var 0]』，
+    没有装饰任何东西。
+    «ID Floor_Choice_mes01  对话»
+
+〔旁白〕目前地板上什么都没铺，
+    放着『[var 1]』。
+    «ID Floor_Choice_mes02  对话»
+
+〔旁白〕目前铺着『[var 0]』，
+    放着『[var 1]』。
+    «ID Floor_Choice_mes03  对话»
+
+【选项】Floor_Choice_main_SEL
+    ▸ 更换地毯
+    ▸ 更换摆饰
+    ▸ 还是算了
+    «ID Floor_Choice_main_SEL  选项»
+
+〔旁白〕要铺上什么呢……
+    «ID Floor_Choice_sub01_mes01  对话»
+
+【选项】Floor_Choice_sub01_SEL
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ [var 5]
+    ▸ [var 6]
+    ▸ 什么都不铺
+    ▸ 还是算了
+    «ID Floor_Choice_sub01_SEL  选项»
+
+〔旁白〕要放什么当摆饰呢……
+    «ID Floor_Choice_sub02_mes01  对话»
+
+【选项】Floor_Choice_sub02_SEL
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ [var 5]
+    ▸ [var 6]
+    ▸ 什么都不放
+    ▸ 还是算了
+    «ID Floor_Choice_sub02_SEL  选项»
+
+〔旁白〕（暂定ＳＥ）沙沙……沙沙……
+    «ID Interior_Change_dummy01  对话»

@@ -1,0 +1,105 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR3150_010_000.BF
+对话条目: 22 条
+================================================================================
+
+【摩尔加纳】怎么办？
+    要做咖喱吗？
+    «ID MSG_CurryStart_morugana  对话»
+
+【摩尔加纳】要为了明天做咖喱吗……
+    这想法也许不错。
+    «ID MSG_CurryStart_StandBy  对话»
+
+〔旁白〕做咖喱吧……
+    «ID MSG_CurryStart  对话»
+
+【选项】SEL_CurryStart_Think
+    ▸ 制作
+    ▸ 拜托川上
+    ▸ 还是算了
+    «ID SEL_CurryStart_Think  选项»
+
+【摩尔加纳】话说回来，你可以
+    拜托川上来做哦。
+    «ID MSG_CurryStart_KakawamiI  对话»
+
+【佐仓　惣治郎】什么嘛，准备做饭吗……？
+    我要回去了……
+    用火时要小心哦？
+    «ID MSG_Curry_SojiroGoHome  对话»
+
+【佐仓　惣治郎】准备做饭吗……
+    我要回去了，要小心用火哦？
+    «ID MSG_Curry_SojiroGoHome_c  对话»
+
+【明智　吾郎】那，我先回去了。
+    老板，谢谢招待。
+    «ID MSG_Curry_AkechiGoHome_C  对话»
+
+【摩尔加纳】拜托川上会花费[var 0]元哦？
+    手上的钱不够吧。
+    «ID MSG_TeacherOrder_NoMoney  对话»
+
+〔旁白〕叫川上需要[var 0]元。
+    现在手头没有……
+    «ID MND_TeacherOrder_NoMoney  对话»
+
+【摩尔加纳】那个老师，叫她要花费[var 0]元对吧？
+    就算这样也行吗？
+    «ID MSG_TeaCherOrder_Think  对话»
+
+〔旁白〕叫川上需要花费[var 0]元……
+    «ID MND_TeaCherOrder_Think  对话»
+
+【选项】SEL_TeacherOrder
+    ▸ 拜托她
+    ▸ 还是算了
+    «ID SEL_TeacherOrder  选项»
+
+【摩尔加纳】原来如此，拜托她的话也可以去做别的事了。
+    «ID MSG_TeaCherOrder_GO  对话»
+
+【摩尔加纳】什么，不要拜托她吗？
+    那么，只有自己来做了呢。
+    «ID MSG_TeaCherOrder_Cancel  对话»
+
+【摩尔加纳】嗯，已经拜托川上做其他事情了吧？
+    她没办法同时做两件事哦。
+    «ID MSG_Curry_KawaAnotherOn  对话»
+
+【川上　贞代】主人，您好～
+    感谢您的来电，我是贝琦。
+    什么嘛，原来是你啊……
+    需要上门服务吗？
+    ……那么，请稍等片刻～
+    «ID MSG_PHONE_KAWAKAMI  对话»
+
+【川上　贞代】您好，我是贝琦。
+    非常抱歉，我今天休假……
+    啊，是你啊……
+    我今天休息，不过只是做家务的话没问题。
+    这也算是工作，我先换个衣服再去，
+    稍等一下。
+    «ID MSG_PHONE_KAWAKAMI_OffDa  对话»
+
+【川上　贞代】你好，我是川上。
+    啊，是你啊……
+    我已经离职了，不过你的委托我会接的。
+    ……我现在就过去。
+    稍等一下。
+    «ID MSG_PHONE_RMAX_KAWAKAMI  对话»
+
+【川上　贞代】哦……只要做咖喱就可以了对吧？
+    «ID MSG_START_KAWAKAMI  对话»
+
+【川上　贞代】久等了！
+    只要做咖喱就可以了对吧？
+    «ID MSG_RANK_MAX_KAWAKAMI  对话»
+
+【川上　贞代】啊，这身打扮吗？
+    虽然店里的工作辞了，但老师私下跑到学生家里……
+    这种事如果泄漏出去，会有不少麻烦的……
+    为了避免身份曝光，以后来帮你的时候
+    我都会穿这样，请多关照了。
+    «ID MSG_Kawakami_Maid_Talk  对话»

@@ -1,0 +1,371 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR7000_009_030.BF
+对话条目: 79 条
+================================================================================
+
+〔旁白〕洗过以后就能使用的男女通用防具
+    用脏兮兮的古城风格素材制成
+    «ID HELP_ITEM_01  对话»
+
+〔旁白〕洗过以后就能使用的女性用防具
+    用脏兮兮的古城风格素材制成
+    «ID HELP_ITEM_02  对话»
+
+〔旁白〕洗过以后就能使用的猫用防具
+    用脏兮兮的古城风格素材制成
+    «ID HELP_ITEM_03  对话»
+
+〔旁白〕洗过以后就能使用的男性用防具
+    用脏兮兮的古城风格素材制成
+    «ID HELP_ITEM_04  对话»
+
+〔旁白〕洗过以后就能使用的男性用防具
+    用被颜料玷污的简陋素材制成
+    «ID HELP_ITEM_05  对话»
+
+〔旁白〕洗过以后就能使用的猫用防具
+    用被颜料玷污的简陋素材制成
+    «ID HELP_ITEM_06  对话»
+
+〔旁白〕洗过以后就能使用的女性用防具
+    用被颜料玷污的简陋素材制成
+    «ID HELP_ITEM_07  对话»
+
+〔旁白〕洗过以后就能使用的男性用防具
+    用被金钱污染的普通素材制成
+    «ID HELP_ITEM_08  对话»
+
+〔旁白〕洗过以后就能使用的猫用防具
+    用被金钱污染的普通素材制成
+    «ID HELP_ITEM_09  对话»
+
+〔旁白〕洗过以后就能使用的女性用防具
+    用被金钱污染的普通素材制成
+    «ID HELP_ITEM_10  对话»
+
+〔旁白〕洗过以后就能使用的男性用防具
+    用被沙子弄脏的较佳素材制成
+    «ID HELP_ITEM_11  对话»
+
+〔旁白〕洗过以后就能使用的女性用防具
+    用被沙子弄脏的较佳素材制成
+    «ID HELP_ITEM_12  对话»
+
+〔旁白〕洗过以后就能使用的猫用防具
+    用被沙子弄脏的较佳素材制成
+    «ID HELP_ITEM_13  对话»
+
+〔旁白〕洗过以后就能使用的女性用防具
+    用被宇宙尘玷污的良质素材制成
+    «ID HELP_ITEM_14  对话»
+
+〔旁白〕洗过以后就能使用的猫用防具
+    用被宇宙尘玷污的良质素材制成
+    «ID HELP_ITEM_15  对话»
+
+〔旁白〕洗过以后就能使用的男性用防具
+    用被宇宙尘玷污的良质素材制成
+    «ID HELP_ITEM_16  对话»
+
+〔旁白〕洗过以后就能使用的男性用防具
+    用被赌博污染的精良素材制成
+    «ID HELP_ITEM_17  对话»
+
+〔旁白〕洗过以后就能使用的猫用防具
+    用被赌博污染的精良素材制成
+    «ID HELP_ITEM_18  对话»
+
+〔旁白〕洗过以后就能使用的女性用防具
+    用被赌博污染的精良素材制成
+    «ID HELP_ITEM_19  对话»
+
+〔旁白〕洗过以后就能使用的猫用防具
+    用被腐败污染的高品质素材制成
+    «ID HELP_ITEM_20  对话»
+
+〔旁白〕洗过以后就能使用的男性用防具
+    用被腐败污染的高品质素材制成
+    «ID HELP_ITEM_21  对话»
+
+〔旁白〕洗过以后就能使用的女性用防具
+    用被腐败污染的高品质素材制成
+    «ID HELP_ITEM_22  对话»
+
+〔旁白〕洗过以后就能使用的女性用防具
+    用被欲望污染的超高级素材制成
+    «ID HELP_ITEM_23  对话»
+
+〔旁白〕洗过以后就能使用的男性用防具
+    用被欲望污染的超高级素材制成
+    «ID HELP_ITEM_24  对话»
+
+〔旁白〕洗过以后就能使用的猫用防具
+    用被欲望污染的超高级素材制成
+    «ID HELP_ITEM_25  对话»
+
+〔旁白〕洗过以后就能使用的男性用防具
+    用神秘的最高级素材制成
+    «ID HELP_ITEM_26  对话»
+
+〔旁白〕洗过以后就能使用的女性用防具
+    用神秘的最高级素材制成
+    «ID HELP_ITEM_27  对话»
+
+〔旁白〕洗过以后就能使用的猫用防具
+    用神秘的最高级素材制成
+    «ID HELP_ITEM_28  对话»
+
+〔旁白〕像是敌人穿着的老旧防具
+    洗过以后也许能发挥真正价值
+    «ID HELP_ITEM_29  对话»
+
+〔旁白〕像是敌人穿着的老旧防具
+    洗过以后也许能发挥真正价值
+    «ID HELP_ITEM_30  对话»
+
+〔旁白〕像是敌人穿着的老旧防具
+    洗过以后也许能发挥真正价值
+    «ID HELP_ITEM_31  对话»
+
+【选项】MSG_GEN_SEL
+    ▸ [itemIcon 8 0 0 31][var 0]
+    ▸ [itemIcon 8 0 0 31][var 1]
+    ▸ [itemIcon 8 0 0 31][var 2]
+    ▸ [itemIcon 8 0 0 31][var 3]
+    ▸ [itemIcon 8 0 0 31][var 4]
+    ▸ [itemIcon 8 0 0 31][var 5]
+    ▸ [itemIcon 8 0 0 31][var 6]
+    ▸ [itemIcon 8 0 0 31][var 7]
+    ▸ [itemIcon 8 0 0 31][var 8]
+    ▸ [itemIcon 8 0 0 31][var 9]
+    ▸ [itemIcon 8 0 0 31][var 10]
+    ▸ [itemIcon 8 0 0 31][var 11]
+    ▸ [itemIcon 8 0 0 31][var 12]
+    ▸ [itemIcon 8 0 0 31][var 13]
+    ▸ [itemIcon 8 0 0 31][var 14]
+    ▸ [itemIcon 8 0 0 31][var 15]
+    ▸ [itemIcon 8 0 0 31][var 16]
+    ▸ [itemIcon 8 0 0 31][var 17]
+    «ID MSG_GEN_SEL  选项»
+
+【选项】MSG_GEN_SEL_KAI
+    ▸ [itemIcon 8 0 0 31][var 0]
+    ▸ [itemIcon 8 0 0 31][var 1]
+    ▸ [itemIcon 8 0 0 31][var 2]
+    ▸ [itemIcon 8 0 0 31][var 3]
+    ▸ [itemIcon 8 0 0 31][var 4]
+    ▸ [itemIcon 8 0 0 31][var 5]
+    ▸ [itemIcon 8 0 0 31][var 6]
+    ▸ [itemIcon 8 0 0 31][var 7]
+    ▸ [itemIcon 8 0 0 31][var 8]
+    ▸ [itemIcon 8 0 0 31][var 9]
+    ▸ [itemIcon 8 0 0 31][var 10]
+    ▸ [itemIcon 8 0 0 31][var 11]
+    ▸ [itemIcon 8 0 0 31][var 12]
+    ▸ [itemIcon 8 0 0 31][var 13]
+    ▸ [itemIcon 8 0 0 31][var 14]
+    ▸ [itemIcon 8 0 0 31][var 15]
+    ▸ [itemIcon 8 0 0 31][var 16]
+    ▸ [itemIcon 8 0 0 31][var 17]
+    ▸ [itemIcon 8 0 0 31][var 18]
+    ▸ [itemIcon 8 0 0 31][var 19]
+    ▸ [itemIcon 8 0 0 31][var 20]
+    ▸ [itemIcon 8 0 0 31][var 21]
+    ▸ [itemIcon 8 0 0 31][var 22]
+    ▸ [itemIcon 8 0 0 31][var 23]
+    ▸ [itemIcon 8 0 0 31][var 24]
+    ▸ [itemIcon 8 0 0 31][var 25]
+    ▸ [itemIcon 8 0 0 31][var 26]
+    ▸ [itemIcon 8 0 0 31][var 27]
+    ▸ [itemIcon 8 0 0 31][var 28]
+    ▸ [itemIcon 8 0 0 31][var 29]
+    ▸ [itemIcon 8 0 0 31][var 30]
+    «ID MSG_GEN_SEL_KAI  选项»
+
+【摩尔加纳】怎么……你不洗哦。
+    «ID MSG_TradeItem_NotSelect  对话»
+
+【摩尔加纳】好像只要付钱就可以使用了。
+    «ID MSG_Coin_Tutorial  对话»
+
+【摩尔加纳】你已经拜托川上了吧？
+    把时间花在其他事情上吧。
+    «ID MSG_NG_Already_Kawakami  对话»
+
+【摩尔加纳】喂，就算想清洗，
+    也得带着需要洗的衣物才行吧？
+    «ID MSG_Laundry_NotHaveDarty  对话»
+
+【摩尔加纳】使用费用要４００元啊，
+    手边没有这么多钱……
+    «ID MSG_Laundry_Pay  对话»
+
+【摩尔加纳】使用费用要４００元啊，
+    虽然有老旧防具，但是没那么多钱……
+    «ID MSG_Laundry_Pay_HaveItem  对话»
+
+【摩尔加纳】使用费用要４００元啊，
+    虽然有老旧防具，但是没那么多钱……
+    对了，吉祥寺有旧衣店……！
+    你要不要去那边卖掉？
+    «ID MSG_Laundry_Pay_HaveItem_2  对话»
+
+【摩尔加纳】咦？你没带老旧防具吧？
+    那就没有需要洗的东西了吧？
+    «ID MSG_ItemNotHave  对话»
+
+【摩尔加纳】已经没有老旧防具了呀……
+    就这样进行洗涤吗？
+    «ID MSG_ItemNotHave01  对话»
+
+【摩尔加纳】你要洗老旧防具吗？
+    １次４００元，最多可以洗４件哦？
+    «ID MSG_ItemHave  对话»
+
+【摩尔加纳】或许不用自己洗，可以去拜托川上吧。
+    这叫有效利用时间。
+    «ID MSG_KawakamiPreInfo  对话»
+
+【摩尔加纳】但是只有晚上才能去拜托川上。
+    只能自己洗了。
+    «ID MSG_KawakamiPreInfoNGTim  对话»
+
+【摩尔加纳】已经拜托川上其他事情了。
+    只能自己洗了。
+    «ID MSG_KawakamiPreInfoNGAct  对话»
+
+【摩尔加纳】这个洗衣机……看起来破烂，其实性能很不错。
+    据说『再顽固的污渍也能轻松洗去！』。
+    现在也没有需要洗的衣物了，
+    等有机会再用吧。
+    «ID MSG_ItemNotHave_NotUse  对话»
+
+【摩尔加纳】对了，你现在……不是有老旧防具吗？
+    要不要用这个来洗一洗？
+    «ID MSG_ItemHave_NotUseMae  对话»
+
+【摩尔加纳】还是要去吉祥寺的旧衣店卖掉呢？
+    反正看你怎么决定吧。
+    «ID MSG_FurugiInfo  对话»
+
+【摩尔加纳】怎么样？
+    «ID MSG_ItemHave_NotUseAto  对话»
+
+【选项】SEL_WashSelect
+    ▸ 试着洗洗
+    ▸ 还是算了
+    «ID SEL_WashSelect  选项»
+
+【摩尔加纳】好啊！
+    快拿出来吧！
+    «ID MSG_WashSelect_Ok  对话»
+
+【摩尔加纳】对了……捡到的脏东西，
+    洗干净说不定还能用哦？
+    «ID MSG_WashSelect_Ng  对话»
+
+【摩尔加纳】还能再放３件呢，怎么办？
+    «ID MSG_Wash_more3  对话»
+
+【摩尔加纳】还能再放２件呢，怎么办？
+    «ID MSG_Wash_more2  对话»
+
+【摩尔加纳】还能再放１件呢，怎么办？
+    «ID MSG_Wash_more1  对话»
+
+【选项】SEL_Wash_select
+    ▸ 把其他的也洗了吧
+    ▸ 就洗这么多吧
+    ▸ 不洗了
+    «ID SEL_Wash_select  选项»
+
+【摩尔加纳】已经放不下了呢，要洗这么多吗？
+    «ID MSG_Wash_last  对话»
+
+【摩尔加纳】把川上叫来，就可以拜托她洗衣服……
+    但现在这个时间她不会接的吧。
+    «ID MSG_Kawakami_OrderNGTime  对话»
+
+【摩尔加纳】所以呢，你要怎么办？
+    家务代理的价钱是[var 18]元。
+    «ID MSG_Kawakami_Money  对话»
+
+【摩尔加纳】所以呢，你要怎么办？
+    家务代理是免费的……
+    «ID MSG_Kawakami_NotMoney  对话»
+
+【摩尔加纳】那么……要怎么办呢？
+    «ID MSG_Kawakami_OrderThink_  对话»
+
+【选项】SEL_KawakamiOrder
+    ▸ 把川上叫来
+    ▸ 自己来
+    «ID SEL_KawakamiOrder  选项»
+
+【摩尔加纳】不过，一个人也能洗啦。
+    而且是全自动的。
+    «ID MSG_SoloWash  对话»
+
+【选项】SEL_KawakamiOrder_Re
+    ▸ 洗衣服
+    ▸ 还是算了
+    «ID SEL_KawakamiOrder_Re  选项»
+
+【摩尔加纳】真～可惜。
+    手上的钱好像不够哦？
+    «ID MSG_Kawakami_Money_NG  对话»
+
+【摩尔加纳】那就打电话吧！
+    «ID MSG_Kawakami_Money_OK  对话»
+
+【摩尔加纳】很好，
+    干净到看不出是同一个东西了！
+    «ID MSG_SoloWash_Start_Re  对话»
+
+【摩尔加纳】咦……？
+    都来到这里了，你却不洗吗……
+    «ID MSG_SoloWash_Cancel_Re  对话»
+
+【摩尔加纳】啊，已经拜托川上
+    制作潜入道具了呢。
+    «ID MSG_ToolMake_requested  对话»
+
+【摩尔加纳】啊，已经拜托川上
+    制作咖喱了呢。
+    «ID MSG_curry_requested  对话»
+
+【摩尔加纳】啊，已经拜托川上
+    泡咖啡了呢。
+    «ID MSG_coffee_requested  对话»
+
+【川上　贞代】感谢惠顾……喂，洗衣服！？
+    这值得特地叫我来吗……？
+    «ID MSG_DispKawakami_NotMax0  对话»
+
+【川上　贞代】好吧……那就向您收取费用……
+    [var 19]元哦！
+    «ID MSG_DispKawakami_NotMax0_2  对话»
+
+【川上　贞代】感谢惠顾……
+    我可是在下班后过来的，你要感谢我哦。
+    毕竟算是工作，所以就穿女仆装来了。
+    «ID MSG_DispKawakami_NotMax0_3  对话»
+
+【川上　贞代】就算下班了，
+    价钱也一样是[var 19]元。
+    «ID MSG_DispKawakami_NotMax0_4  对话»
+
+【川上　贞代】虽然我已经辞了这份工作，但毕竟是你的请求嘛。
+    所以，今天有何贵干呢？
+    «ID MSG_DispKawakami_Max01  对话»
+
+【川上　贞代】知道了，洗衣服对吧！
+    就交给我吧～
+    «ID MSG_DispKawakami_Max02  对话»
+
+【川上　贞代】啊，这身打扮吗？
+    虽然店里的工作辞了，但老师私下跑到学生家里……
+    这种事如果泄漏出去，会有不少麻烦的……
+    为了避免身份曝光，以后来帮你的时候
+    我都会穿这样，请多关照了。
+    «ID MSG_Kawakami_Maid_Talk  对话»

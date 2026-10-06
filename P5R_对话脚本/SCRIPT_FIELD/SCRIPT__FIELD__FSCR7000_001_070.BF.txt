@@ -1,0 +1,119 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR7000_001_070.BF
+对话条目: 26 条
+================================================================================
+
+【摩尔加纳】租赁店吗……
+    你的房间连电视都没有，
+    看来和现在的你是无缘的。
+    «ID MSG_NG_NotSetTv_NoIdea  对话»
+
+【摩尔加纳】租赁店吗……
+    就算有电视，没有播放机也不能看……
+    看来和现在的你是无缘的。
+    «ID MSG_NG_SetTv_NoIdea  对话»
+
+【摩尔加纳】租赁店吗……
+    喂，你看这个广告，
+    是年费会员活动呢。
+    «ID MSG_Rental_SetUp_OK_1ST  对话»
+
+【租赁店店员】欢迎光临！
+    请问是要申请年费会员活动吗？
+    如果是学生的话，会员年费只要４８００元！
+    ＤＶＤ旧片可以无限制租借！没有逾期费用！
+    不过条件是一次只能借１套……
+    «ID MSG_YearSp_Info01  对话»
+
+【摩尔加纳】吾辈等人也很忙，
+    没有逾期费用的话，就安心了！
+    如果你有闲钱的话，要不要办个会员？
+    «ID MSG_YearSp_Info02  对话»
+
+【租赁店店员】年费会员活动，学生只要４８００元！
+    您觉得如何呢？
+    «ID MSG_YearSp_Info03  对话»
+
+【选项】SEL_RentalAdmin
+    ▸ 成为会员
+    ▸ 还是算了
+    «ID SEL_RentalAdmin  选项»
+
+【租赁店店员】谢谢！
+    可以看一下您的学生证吗？
+    地址是……住在四轩茶屋……
+    然后请签名……好了，登记完成了！
+    «ID MSG_YearSp_Info04  对话»
+
+【摩尔加纳】你写的时候，手在发抖呢。
+    你紧张了吧？
+    «ID MSG_YearSp_Info05  对话»
+
+【租赁店店员】恭喜您成为会员，
+    从今天开始就可以借ＤＶＤ哦！
+    «ID MSG_YearSp_Info06  对话»
+
+【摩尔加纳】咦？
+    你不加入吗……
+    «ID MSG_YearSp_Cancel  对话»
+
+【摩尔加纳】怎么搞的……看一下钱包吧。
+    钱不够哦……要不要去打个工？
+    «ID MSG_YearSp_NoMoney  对话»
+
+【租赁店店员】还有其他事情吗？
+    «ID MSG_Rental_LoopStart  对话»
+
+【租赁店店员】欢迎光临！
+    你好，请问需要什么呢？
+    «ID MSG_Rental_ShopStart  对话»
+
+【租赁店店员】那么接下来……
+    «ID MSG_RentalGreetingBefore  对话»
+
+【租赁店店员】欢迎光临！
+    新的ＤＶＤ到货了哦！
+    «ID MSG_Rental_ShopStart_New  对话»
+
+【租赁店店员】期待您再次光临。
+    «ID MSG_Rental_ShopStart_Can  对话»
+
+【选项】SEL_Rental_Q
+    ▸ 想借ＤＶＤ
+    ▸ 想归还
+    ▸ 没事
+    «ID SEL_Rental_Q  选项»
+
+【选项】SEL_Rental_Q2
+    ▸ 想借ＤＶＤ
+    ▸ 没事
+    «ID SEL_Rental_Q2  选项»
+
+【租赁店店员】谢谢惠顾！
+    期待您再度光临！
+    «ID MSG_Rental_ShopUse  对话»
+
+【租赁店店员】是要归还吗？
+    «ID MSG_Rental_ReturnStart  对话»
+
+【摩尔加纳】咦……但是你还没看完吧？
+    真的要还吗？
+    «ID MSG_Rental_NotComp_Q  对话»
+
+【选项】SEL_Rental_NotComp_Q
+    ▸ 归还
+    ▸ 还是算了
+    «ID SEL_Rental_NotComp_Q  选项»
+
+【选项】SEL_Rental_Return_Q
+    ▸ 付钱
+    ▸ 下次再说
+    «ID SEL_Rental_Return_Q  选项»
+
+【租赁店店员】明白了。
+    感谢您的归还。
+    «ID MSG_Rental_Over_Return  对话»
+
+【租赁店店员】明白了。
+    期待您早日归还。
+    «ID MSG_Rental_Over_ReturnCa  对话»

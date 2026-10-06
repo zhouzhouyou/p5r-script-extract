@@ -1,0 +1,247 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR8000_001_000.BF
+对话条目: 57 条
+================================================================================
+
+〔旁白〕获得了八十神高中校服
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_P4  对话»
+
+〔旁白〕获得了月光馆学园校服
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_P3  对话»
+
+〔旁白〕获得了七姐妹学园校服
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_P2  对话»
+
+〔旁白〕获得了圣艾尔敏学园校服
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_IBUNR  对话»
+
+〔旁白〕获得了轻子坂高中校服
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_IF  对话»
+
+〔旁白〕获得了舞蹈服装
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_P4D  对话»
+
+〔旁白〕获得了暗影行者制服
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_P4U  对话»
+
+〔旁白〕获得了武士众服装
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_MEGAM  对话»
+
+〔旁白〕获得了高级师范学校校服
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_RAIDO  对话»
+
+〔旁白〕获得了迷途成年人的服装
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_CATHE  对话»
+
+〔旁白〕获得了便服、校服、居家服。
+    «ID SYSTEM_GET_COSTUME_P5  对话»
+
+〔旁白〕获得了泳装。
+    «ID SYSTEM_GET_COSTUME_SWIM  对话»
+
+〔旁白〕获得了女仆装＆管家服。
+    «ID SYSTEM_GET_COSTUME_BUTLE  对话»
+
+〔旁白〕获得了圣诞节服装。
+    «ID SYSTEM_GET_COSTUME_XMAS  对话»
+
+〔旁白〕部分道具数量会到达上限，
+    因此无法收下。
+    «ID SYSTEM_GET_ITEM_NG  对话»
+
+〔旁白〕持有金钱会到达上限，
+    因此无法收下。
+    «ID SYSTEM_GET_MONEY_NG  对话»
+
+〔旁白〕获得了俄耳甫斯的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_ORPHE  对话»
+
+〔旁白〕获得了伊邪那岐的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_IZANA  对话»
+
+〔旁白〕获得了塔纳托斯的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_THANA  对话»
+
+〔旁白〕获得了祸津伊邪那岐的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_MAGAT  对话»
+
+〔旁白〕获得了辉夜的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_KAGUY  对话»
+
+〔旁白〕获得了阿里阿德涅的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_ARIAD  对话»
+
+〔旁白〕获得了阿斯忒里俄斯的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_ASTER  对话»
+
+〔旁白〕获得了月读的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_TUKIY  对话»
+
+〔旁白〕获得了弥赛亚的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_MESSI  对话»
+
+〔旁白〕获得了恢复道具套组。
+    «ID SYSTEM_GET_ITEM_START01  对话»
+
+〔旁白〕获得了技能卡套组。
+    «ID SYSTEM_GET_ITEM_START02  对话»
+
+〔旁白〕获得了星夜服
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_P5_DA  对话»
+
+〔旁白〕获得了群青色服装
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_VELVE  对话»
+
+〔旁白〕获得了翔羽侠战斗服
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_FEATG  对话»
+
+〔旁白〕获得了含头盔恶魔兵装
+    与无头盔恶魔兵装
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_DEEPS  对话»
+
+〔旁白〕获得了反抗的运动服。
+    «ID SYSTEM_GET_COSTUME_JERSE  对话»
+
+〔旁白〕获得了新电影服装
+    与[var 0]。
+    «ID SYSTEM_GET_COSTUME_PQ2  对话»
+
+〔旁白〕获得了[var 0]
+    与[var 1]
+    与[var 2]
+    与[var 3]
+    与[var 4]
+    与[var 5]
+    与[var 6]
+    与[var 7]。
+    «ID SYSTEM_GET_COSTUME_VIOLE  对话»
+
+〔旁白〕获得了[var 0]
+    与[var 1]
+    与[var 2]
+    与[var 3]
+    与[var 4]
+    与[var 5]
+    与[var 6]
+    与[var 7]
+    与[var 8]。
+    «ID SYSTEM_GET_COSTUME_VIOLE_2  对话»
+
+〔旁白〕获得了[var 0]
+    与[var 1]
+    与[var 2]
+    与[var 3]
+    与[var 4]
+    与[var 5]
+    与[var 6]
+    与[var 7]。
+    «ID SYSTEM_GET_COSTUME_VIOLE_3  对话»
+
+〔旁白〕获得了[var 0]
+    与[var 1]
+    与[var 2]
+    与[var 3]
+    与[var 4]
+    与[var 5]
+    与[var 6]
+    与[var 7]
+    与[var 8]
+    与[var 9]
+    与[var 10]。
+    «ID SYSTEM_GET_COSTUME_VIOLE_4  对话»
+
+〔旁白〕获得了伊邪那岐大神的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_IZANA_3  对话»
+
+〔旁白〕获得了俄耳甫斯的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_ORPHE_3  对话»
+
+〔旁白〕获得了雅典娜的下载特典
+    [var 0]与[var 1]。
+    «ID SYSTEM_GET_PERSONA_ATENA  对话»
+
+〔旁白〕获得了劳尔的下载特典
+    [var 0]。
+    «ID SYSTEM_GET_PERSONA_RAULU  对话»
+
+〔旁白〕获得了探索支援组合包。
+    «ID SYSTEM_GET_ITEM_DUNGEON_  对话»
+
+〔旁白〕持有金钱会到达上限，
+    因此无法收下。
+    «ID SYSTEM_GET_ITEM_DUNGEON__3  对话»
+
+〔旁白〕获得了战斗支援组合包。
+    «ID SYSTEM_GET_ITEM_BATTLE_P  对话»
+
+〔旁白〕获得了战斗支援组合包。
+    «ID SYSTEM_GET_ITEM_BATTLE_P_2  对话»
+
+〔旁白〕获得了女神异闻录５保存数据继承特典。
+    «ID SYSTEM_GET_P5_SAVEDATA  对话»
+
+〔旁白〕通过读取女神异闻录５的保存数据，
+    可以获得各种各样的特典。
+    要使用特典吗？
+    «ID SYSTEM_CHECK_P5_SAVEDATA  对话»
+
+〔旁白〕通过查看自己房间里的纸箱，
+    可以随时确认保存数据继承特典。
+    «ID SYSTEM_CHECK_P5_SAVEDATA_3  对话»
+
+〔旁白〕获得了特典○○、○○。
+    «ID SYSTEM_CHECK_P5_SAVEDATA_4  对话»
+
+【选项】SYSTEM_CHECK_P5_SAVEDATA_5
+    ▸ 是
+    ▸ 否
+    «ID SYSTEM_CHECK_P5_SAVEDATA_5  选项»
+
+〔旁白〕即将接收下载内容。
+    «ID SYSTEM_DLC_GET_TOP  对话»
+
+〔旁白〕即将接收购买特典。
+    «ID SYSTEM_DLC_GET_TOP_Fiber  对话»
+
+〔旁白〕纸箱里面好像有东西……
+    «ID MIND_MYPALACE_COMPLETE  对话»
+
+〔旁白〕即将接收ＡＷＡＲＤ搜集完成的报酬。
+    «ID SYSTEM_MYPALACE_COMPLETE  对话»
+
+〔旁白〕[var 0]将达到获取上限，
+    因此无法收下。
+    «ID SYSTEM_GET_GENERAL_UPPER  对话»
+
+〔旁白〕[var 0]将达到获取上限，
+    因此无法收下。
+    «ID SYSTEM_GET_GENERAL_UPPER_2  对话»
+
+〔旁白〕[var 0]将达到获取上限，
+    因此无法收下。
+    «ID SYSTEM_GET_ITEM_UPPER_LI  对话»

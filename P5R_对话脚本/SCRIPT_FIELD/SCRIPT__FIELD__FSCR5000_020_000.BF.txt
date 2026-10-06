@@ -1,0 +1,195 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR5000_020_000.BF
+对话条目: 50 条
+================================================================================
+
+【选项】GOTO_MEMENTOS_SEL
+    ▸ 走吧
+    ▸ 重新考虑
+    «ID GOTO_MEMENTOS_SEL  选项»
+
+【选项】GOTO_MEMENTOS_NO_TARGET_
+    ▸ 走吧
+    ▸ 重新考虑
+    «ID GOTO_MEMENTOS_NO_TARGET_  选项»
+
+【新岛　真】后天起就要考试了哦。
+    今天就算了吧。
+    «ID GOTO_MEME_NG_0713_01  对话»
+
+【坂本　龙司】别在意那些小事情啦。
+    出发吧！
+    «ID GOTO_MEME_NG_0713_02  对话»
+
+【高卷　杏】我也反对。
+    我想复习……
+    «ID GOTO_MEME_NG_0713_03  对话»
+
+【坂本　龙司】那就没办法了。
+    我也复习吧……
+    «ID GOTO_MEME_NG_0713_04  对话»
+
+【喜多川　佑介】明天可能会下雨呀……
+    «ID GOTO_MEME_NG_0713_05  对话»
+
+【坂本　龙司】我多少也是要学习的！
+    «ID GOTO_MEME_NG_0713_06  对话»
+
+【新岛　真】你认真的？
+    明天就要开始考试了哦？
+    «ID GOTO_MEME_NG_0714_01  对话»
+
+【坂本　龙司】昨天晚上不是复习了吗！
+    不用再复习了吧？
+    «ID GOTO_MEME_NG_0714_02  对话»
+
+【新岛　真】不行。
+    你还要坚持的话，
+    我可要取消庆功宴了哦？
+    «ID GOTO_MEME_NG_0714_03  对话»
+
+【坂本　龙司】你是魔鬼吗……
+    «ID GOTO_MEME_NG_0714_04  对话»
+
+【新岛　真】魔鬼就魔鬼。
+    «ID GOTO_MEME_NG_0714_05  对话»
+
+【坂本　龙司】没办法。
+    今天就放弃吧……
+    «ID GOTO_MEME_NG_0714_06  对话»
+
+【新岛　真】现在行动太危险了。
+    在考试结束前都暂停活动吧。
+    «ID GOTO_MEME_NG_1008_01  对话»
+
+【高卷　杏】而且春也不在……
+    «ID GOTO_MEME_NG_1008_02  对话»
+
+【佐仓　双叶】我现在正在调查很多东西，
+    你就乖乖等着吧。
+    «ID GOTO_MEME_NG_1008_03  对话»
+
+【喜多川　佑介】在调查……？调查什么？
+    «ID GOTO_MEME_NG_1008_04  对话»
+
+【佐仓　双叶】秘密！
+    «ID GOTO_MEME_NG_1008_05  对话»
+
+【明智　吾郎】现在可不是做那种事情的时候。
+    赶快发布预告信给冴小姐吧。
+    «ID GOTO_MEME_NG_1118_01  对话»
+
+【坂本　龙司】印象空间里没有需要处理的目标哦。
+    那就去探索一下吧。
+    «ID GOTO_MEME_NO_TARGET_mes0  对话»
+
+【摩尔加纳】印象空间并没有需要处理的目标啊。
+    那就和往常一样，去探索一下吧。
+    «ID GOTO_MEME_NO_TARGET_mes0_2  对话»
+
+【高卷　杏】印象空间并没有需要处理的目标啊。
+    那就去探索一下吧？
+    «ID GOTO_MEME_NO_TARGET_mes0_3  对话»
+
+【喜多川　佑介】印象空间好像并没有需要处理的目标啊。
+    那就和往常一样，进行探索吧。
+    «ID GOTO_MEME_NO_TARGET_mes0_4  对话»
+
+【新岛　真】印象空间好像并没有需要处理的目标呢。
+    那就专心探索吧。
+    «ID GOTO_MEME_NO_TARGET_mes0_5  对话»
+
+【佐仓　双叶】印象空间虽说并没有需要处理的目标，
+    总之去探索一下吧。
+    «ID GOTO_MEME_NO_TARGET_mes0_6  对话»
+
+【奥村　春】印象空间并没有需要处理的目标呢。
+    那就和往常一样，进行探索吧。
+    «ID GOTO_MEME_NO_TARGET_mes0_7  对话»
+
+【明智　吾郎】印象空间好像并没有需要处理的目标啊。
+    要进行探索吗？
+    «ID GOTO_MEME_NO_TARGET_mes0_8  对话»
+
+【芳泽　堇】印象空间并没有需要处理的目标呢。
+    要去探索吗？
+    «ID GOTO_MEME_NO_TARGET_mes0_9  对话»
+
+【明智　吾郎】印象空间好像并没有需要处理的目标啊。
+    要进行探索吗？
+    «ID GOTO_MEME_NO_TARGET_mes0_10  对话»
+
+【坂本　龙司】目前印象空间里的目标一共有[var 0]人。
+    那就上吧。
+    «ID GOTO_MEME_EXIST_TARGET_m  对话»
+
+【摩尔加纳】目前印象空间里的目标一共有[var 0]人。
+    出发吧。
+    «ID GOTO_MEME_EXIST_TARGET_m_2  对话»
+
+【高卷　杏】目前印象空间里的目标一共有[var 0]人。
+    那就走吧。
+    «ID GOTO_MEME_EXIST_TARGET_m_3  对话»
+
+【喜多川　佑介】目前印象空间里的目标一共有[var 0]人。
+    走，出发吧。
+    «ID GOTO_MEME_EXIST_TARGET_m_4  对话»
+
+【新岛　真】目前印象空间里的目标一共有[var 0]人。
+    出发吧。
+    «ID GOTO_MEME_EXIST_TARGET_m_5  对话»
+
+【佐仓　双叶】目前印象空间里的目标一共有[var 0]人。
+    那么，我们走吧。
+    «ID GOTO_MEME_EXIST_TARGET_m_6  对话»
+
+【奥村　春】目前印象空间里的目标一共有[var 0]人。
+    我们出发吧。
+    «ID GOTO_MEME_EXIST_TARGET_m_7  对话»
+
+【明智　吾郎】目前印象空间里的目标一共有[var 0]人。
+    出发吧。
+    «ID GOTO_MEME_EXIST_TARGET_m_8  对话»
+
+【芳泽　堇】目前印象空间里的目标一共有[var 0]人。
+    要出发了吗？
+    «ID GOTO_MEME_EXIST_TARGET_m_9  对话»
+
+【明智　吾郎】目前印象空间里的目标一共有[var 0]人。
+    出发吧。
+    «ID GOTO_MEME_EXIST_TARGET_m_10  对话»
+
+【坂本　龙司】要为明天做准备，今天就算了吧。
+    «ID GOTO_MEME_YOKOKU_NG_mes0  对话»
+
+【摩尔加纳】明天就要执行作战了。
+    今天就别工作了吧。
+    «ID GOTO_MEME_YOKOKU_NG_mes0_2  对话»
+
+【高卷　杏】要为明天做准备，今天就算了吧。
+    «ID GOTO_MEME_YOKOKU_NG_mes0_3  对话»
+
+【喜多川　佑介】要为明天做准备，今天就算了吧。
+    «ID GOTO_MEME_YOKOKU_NG_mes0_4  对话»
+
+【新岛　真】要为明天做准备，今天就算了吧。
+    «ID GOTO_MEME_YOKOKU_NG_mes0_5  对话»
+
+【佐仓　双叶】要为明天做准备，今天不行！
+    «ID GOTO_MEME_YOKOKU_NG_mes0_6  对话»
+
+【奥村　春】要为明天做准备，今天就算了吧。
+    «ID GOTO_MEME_YOKOKU_NG_mes0_7  对话»
+
+【明智　吾郎】要为明天做准备，今天就算了吧。
+    «ID GOTO_MEME_YOKOKU_NG_mes0_8  对话»
+
+【摩尔加纳】嗯？
+    你很在意印象空间吗？
+    虽说是在行动前，
+    但多余的时间留着也没用。
+    «ID QUEST_TALK_D7_PLAYABLE1  对话»
+
+【坂本　龙司】在最后的重要工作前，
+    我们能做的事都去做吧。
+    «ID QUEST_TALK_D7_PLAYABLE2  对话»

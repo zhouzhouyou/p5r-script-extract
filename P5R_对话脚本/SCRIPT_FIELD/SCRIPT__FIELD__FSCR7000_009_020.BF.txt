@@ -1,0 +1,191 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR7000_009_020.BF
+对话条目: 41 条
+================================================================================
+
+【摩尔加纳】对啊！
+    你必须要买电影票。
+    «ID MSG_CinemaBuyTicketSIBUY  对话»
+
+【摩尔加纳】怎么，改变主意了吗？
+    «ID MSG_CinemaCancel  对话»
+
+【摩尔加纳】马上就到上映时间了。
+    去座位上坐吧。
+    «ID MSG_CinemaOK  对话»
+
+【摩尔加纳】别再看『[var 7]』了吧……
+    期待下一部作品吧。
+    «ID MSG_CinemaWatched  对话»
+
+【摩尔加纳】要看电影的话，就得先买票呀。
+    «ID MSG_CinemaBuyTicket  对话»
+
+【摩尔加纳】现在正在上映什么呢？
+    «ID MSG_CINEMA_1ST_ACCESS_SI  对话»
+
+【摩尔加纳】好好看看钱包……
+    这样不够买电影票哦？
+    «ID MSG_Cinema_MoneyNG  对话»
+
+【摩尔加纳】这部电影你到底要看几次啊……
+    饶了吾辈吧……
+    «ID MSG_CINEMA_MEMBER_NG  对话»
+
+【摩尔加纳】噢噢，好大的电影院……！
+    现在在上映什么呢？
+    «ID MSG_CINEMA_1ST_ACCESS_SI_2  对话»
+
+【摩尔加纳】这里……是电影院吧。
+    一个人都没有，现在处于闭馆期间吗？
+    «ID MSG_CINEMA_NOT_OPEN  对话»
+
+〔旁白〕电影院现在处于闭馆期间……
+    «ID MND_CINEMA_NOT_OPEN  对话»
+
+【摩尔加纳】哦，终于重新营业了！
+    在上映什么电影呢？
+    «ID MSG_CINEMA_1ST_ACCESS_YO  对话»
+
+【摩尔加纳】这电影院真是破……真有时代气息呀。
+    现在在上映什么呢？
+    «ID MSG_CINEMA_1ST_ACCESS_YO_2  对话»
+
+【摩尔加纳】电影的原作小说也看完了，
+    现在看肯定更有趣。
+    «ID MSG_CINEMA_BOOK  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    贫穷少年用参加益智类节目获得的奖金当本钱，
+    成为『背心大富翁』的故事……
+    «ID MSG_COMMENT_LIST01_INFO  对话»
+
+【摩尔加纳】『[var 7]』现在正在上映，
+    要再看一遍吗？
+    «ID MSG_COMMENT_2ndINFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    男人为了给因打黑工变成废人的挚友报仇，
+    成为一名黑暗英雄的故事……
+    «ID MSG_COMMENT_LIST02_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    一个男人，就算失去了地位与财产，
+    也要向所爱的女性传达爱意的纯爱故事……
+    «ID MSG_COMMENT_LIST03_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    结束了长期服刑的男子，
+    想重新开始生活的故事……
+    «ID MSG_COMMENT_LIST04_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    弄丢钥匙的男子突破超级安保系统，
+    回公寓拿自己房间备用钥匙的故事……
+    «ID MSG_COMMENT_LIST05_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    男子在清洁公司注册之后，被要求在圣诞节当天，
+    清扫超高层大厦的故事……
+    «ID MSG_COMMENT_LIST06_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    涩谷电影１４
+    第三学期新增的新电影
+    «ID MSG_COMMENT_LIST014_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    通过严苛的订金制度来借出好用道具的
+    招财猫型机器人的故事……
+    «ID MSG_COMMENT_LIST07_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    全员强硬派。
+    午夜零点，史上最大的抗争将拉开帷幕……
+    «ID MSG_COMMENT_LIST08_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    世界上最差劲的废柴男团
+    用超乎寻常的方式对抗外星人的故事……
+    «ID MSG_COMMENT_LIST09_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    与狂暴的巨象一起被关进密室的
+    两个男人……究竟能否生还的故事……
+    «ID MSG_COMMENT_LIST10_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    新宿电影１５
+    第三学期新增的新电影
+    «ID MSG_COMMENT_LIST15_INFO  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    黑帮的老大其实是一名善良而溺爱孩子的父亲，
+    从而导致了家庭没落的悲剧故事……
+    «ID MSG_COMMENT_LIST11_12_IN  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    主角的挚友被忍者所杀，为了报仇
+    乘坐时光机器回到过去学习忍术的故事……
+    «ID MSG_COMMENT_LIST13_14_IN  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    集中营的俘虏们在圣诞节
+    遭遇到严酷任务的故事……
+    «ID MSG_COMMENT_LIST15_16_IN  对话»
+
+【摩尔加纳】现在这个时间的话……
+    正好可以看『[var 7]』这部电影。
+    四茶电影１６
+    第三学期新增的新电影
+    «ID MSG_COMMENT_LIST16_INFO  对话»
+
+〔旁白〕好像能从这部电影中学习到何谓[stIcon 0][stLabel 0]……
+    «ID MND_Sentou_ParamInfo_Chi  对话»
+
+〔旁白〕就算看了这部电影，
+    也学不到更多[stIcon 0][stLabel 0]了吧……
+    «ID MND_Sentou_ParamEndInfo_  对话»
+
+〔旁白〕好像能从这部电影中学习到何谓[stIcon 3][stLabel 3]……
+    «ID MND_Sentou_ParamInfo_Dok  对话»
+
+〔旁白〕就算看了这部电影，
+    也学不到更多[stIcon 3][stLabel 3]了吧……
+    «ID MND_Sentou_ParamEndInfo__2  对话»
+
+〔旁白〕好像能从这部电影中学习到何谓[stIcon 4][stLabel 4]……
+    «ID MND_Sentou_ParamInfo_Yas  对话»
+
+〔旁白〕就算看了这部电影，
+    也学不到更多[stIcon 4][stLabel 4]了吧……
+    «ID MND_Sentou_ParamEndInfo__3  对话»
+
+〔旁白〕好像能从这部电影中学习到何谓[stIcon 1][stLabel 1]……
+    «ID MND_Sentou_ParamInfo_Iro  对话»
+
+〔旁白〕就算看了这部电影，
+    也学不到更多[stIcon 1][stLabel 1]了吧……
+    «ID MND_Sentou_ParamEndInfo__4  对话»
+
+〔旁白〕好像能从这部电影中学习到何谓[stIcon 2][stLabel 2]……
+    «ID MND_Sentou_ParamInfo_Kiy  对话»
+
+〔旁白〕就算看了这部电影，
+    也学不到更多[stIcon 2][stLabel 2]了吧……
+    «ID MND_Sentou_ParamEndInfo__5  对话»

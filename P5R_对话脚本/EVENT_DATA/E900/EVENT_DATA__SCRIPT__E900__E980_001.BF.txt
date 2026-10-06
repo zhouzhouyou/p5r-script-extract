@@ -1,0 +1,124 @@
+================================================================================
+来源文件: EVENT_DATA\SCRIPT\E900\E980_001.BF
+对话条目: 30 条
+================================================================================
+
+〔旁白〕主旨为ＴＥＣＨＮＩＣＡＬ伤害提升的信息
+    «ID MSG_DAMAGEUP  对话»
+
+【坂本　龙司】噢噢！
+    按照你教的步骤做了以后成功了！
+    你果然很厉害！
+    «ID MSG_RYUJI_COMMENT2  对话»
+
+【摩尔加纳】唔～！太帅啦～！
+    ……吾辈也能拿那根棒子吗？
+    «ID MSG_MORU_COMMENT2  对话»
+
+【高卷　杏】怎么样！我厉不厉害？
+    不过要是没有[fName]教我，我也做不出来呢。
+    «ID MSG_ANNE_COMMENT2  对话»
+
+【佑介】球体弹跳的一刹那迸射出的光辉……！
+    很好，感觉能画出一幅好作品……！
+    «ID MSG_YUSUKE_COMMENT2  对话»
+
+【真】成功了……
+    你很擅长教人呢，[fName]。
+    «ID MSG_MAKOTO_COMMENT2  对话»
+
+【春】太好了，我做到了！
+    多亏了[fName]，谢谢你。
+    «ID MSG_HARU_COMMENT2  对话»
+
+【双叶】呜噢噢噢噢我会了好厉害～～～～！
+    难道说我是天才！？
+    «ID MSG_FUTABA_COMMENT2  对话»
+
+【吾郎】真了不起。
+    我也不能输呢。
+    «ID MSG_GORO_COMMENT2  对话»
+
+【霞】感觉学长什么都会呢。
+    令人刮目相看呢。
+    «ID MSG_UZUKI_COMMENT2  对话»
+
+【坂本　龙司】这个真够难的……
+    果然没这么顺利啊。
+    «ID MSG_RYUJI_COMMENT3  对话»
+
+【摩尔加纳】好难啊……
+    不过，熟能生巧嘛！
+    «ID MSG_MORU_COMMENT3  对话»
+
+【高卷　杏】惨了，我觉得我做不到……
+    有没有什么诀窍啊？
+    «ID MSG_ANNE_COMMENT3  对话»
+
+【佑介】确实有些难度……
+    虽然感觉快要抓到诀窍了……
+    «ID MSG_YUSUKE_COMMENT3  对话»
+
+【真】我还以为是力学的应用，
+    看样子并不是这么简单……
+    «ID MSG_MAKOTO_COMMENT3  对话»
+
+【春】好难啊。
+    不过，我会再试试看的。
+    «ID MSG_HARU_COMMENT3  对话»
+
+【双叶】唯有天选现充才能玩的游戏……
+    实在是太难了……
+    «ID MSG_FUTABA_COMMENT3  对话»
+
+【吾郎】果然做不到像专业人士一样顺利。
+    下次再来挑战吧。
+    «ID MSG_GORO_COMMENT3  对话»
+
+【霞】感觉还挺难的呢。
+    学长，我下次一定会成功的。
+    «ID MSG_UZUKI_COMMENT3  对话»
+
+【坂本　龙司】[coop 2 5 3][coop 3 5 6][coop 4 5 7][coop 5 5 5][coop 7 5 4][coop 8 5 2][coop 9 5 9][coop 10 5 8]哎呀～好久没笑得这么开心了。
+    今天谢谢你啦，我们下次再来吧。
+    «ID MSG_RYUJI_COMMENT  对话»
+
+【摩尔加纳】[coop 2 5 3][coop 3 5 6][coop 4 5 7][coop 5 5 5][coop 7 5 4][coop 8 5 2][coop 9 5 9][coop 10 5 8]大家都很开心呢。
+    这样一来，士气也就大大提升了！
+    «ID MSG_MORU_COMMENT  对话»
+
+【高卷　杏】[coop 2 5 3][coop 3 5 6][coop 4 5 7][coop 5 5 5][coop 7 5 4][coop 8 5 2][coop 9 5 9][coop 10 5 8]啊～好开心！
+    下次再和大家一起玩吧！
+    «ID MSG_ANNE_COMMENT  对话»
+
+【佑介】[coop 2 5 3][coop 3 5 6][coop 4 5 7][coop 5 5 5][coop 7 5 4][coop 8 5 2][coop 9 5 9][coop 10 5 8]度过了无比刺激的时光。
+    谢谢你，[lName]。
+    «ID MSG_YUSUKE_COMMENT  对话»
+
+【真】[coop 2 5 3][coop 3 5 6][coop 4 5 7][coop 5 5 5][coop 7 5 4][coop 8 5 2][coop 9 5 9][coop 10 5 8]偶尔像这样出来玩也不错呢。
+    下次再和大家一起来吧。
+    «ID MSG_MAKOTO_COMMENT  对话»
+
+【春】[coop 2 5 3][coop 3 5 6][coop 4 5 7][coop 5 5 5][coop 7 5 4][coop 8 5 2][coop 9 5 9][coop 10 5 8]好开心啊。
+    下次再和大家一起来玩吧！
+    «ID MSG_HARU_COMMENT  对话»
+
+【双叶】[coop 2 5 3][coop 3 5 6][coop 4 5 7][coop 5 5 5][coop 7 5 4][coop 8 5 2][coop 9 5 9][coop 10 5 8]呼、呼……
+    人界也还挺……不错的嘛，嗯。
+    «ID MSG_FUTABA_COMMENT  对话»
+
+【吾郎】[coop 2 5 3][coop 3 5 6][coop 4 5 7][coop 5 5 5][coop 7 5 4][coop 8 5 2][coop 9 5 9][coop 10 5 8]我很少和同龄人一起玩，
+    所以觉得还不错。
+    «ID MSG_GORO_COMMENT  对话»
+
+【霞】[coop 2 5 3][coop 3 5 6][coop 4 5 7][coop 5 5 5][coop 7 5 4][coop 8 5 2][coop 9 5 9][coop 10 5 8]有些事情不试试看就不知道呢。
+    我今天玩得很开心哦。
+    «ID MSG_UZUKI_COMMENT  对话»
+
+〔旁白〕要查看角色的分配位置吗？
+    «ID MND_chr_haiti  对话»
+
+【选项】SEL_chr_haiti_dbg
+    ▸ 要
+    ▸ 不要
+    «ID SEL_chr_haiti_dbg  选项»

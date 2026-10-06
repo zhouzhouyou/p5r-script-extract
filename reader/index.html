@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>P5R 剧本阅读器</title>
+<style>
+  :root{
+    --bg:#0f1116; --panel:#161a22; --panel2:#1b2029; --line:#262c38;
+    --fg:#dfe4ee; --fg2:#98a2b6; --fg3:#6b7488;
+    --accent:#e0474c; --accent2:#f0a04b; --sel:#232b3a;
+    --speech:#e8edf7; --narr:#9fb0c8;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;overflow:hidden}
+  body{
+    background:var(--bg); color:var(--fg);
+    font:14px/1.75 "Microsoft YaHei","PingFang SC","Hiragino Sans GB","Noto Sans CJK SC",system-ui,sans-serif;
+  }
+  button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+  input{font:inherit}
+
+  /* Absolute positioning instead of CSS grid tracks: a grid's implicit row grows
+     to its content (measured 24894px here), which left every inner pane with
+     nothing to scroll. Explicit insets keep all three columns viewport height. */
+  #app{position:fixed;inset:0}
+  #nav{position:absolute;top:0;left:0;bottom:0;width:236px;
+       background:var(--panel);border-right:1px solid var(--line);
+       display:flex;flex-direction:column;min-width:0;min-height:0;overflow:hidden}
+  #mid{position:absolute;top:0;left:236px;bottom:0;width:340px;
+       background:var(--panel2);border-right:1px solid var(--line);
+       display:flex;flex-direction:column;min-width:0;min-height:0;overflow:hidden}
+  #read{position:absolute;top:0;left:576px;right:0;bottom:0;
+        display:flex;flex-direction:column;min-width:0;min-height:0;overflow:hidden}
+  #brand{padding:14px 16px 10px;border-bottom:1px solid var(--line)}
+  #brand h1{margin:0;font-size:15px;letter-spacing:.5px}
+  #brand .sub{color:var(--fg3);font-size:11.5px;margin-top:3px}
+  #navBody{overflow-y:auto;flex:1;min-height:0;padding:8px 0 24px}
+  .navsec{padding:10px 14px 4px;color:var(--fg3);font-size:11px;letter-spacing:1px}
+  .catbtn{
+    display:flex;align-items:center;gap:8px;width:100%;padding:7px 14px;text-align:left;
+    color:var(--fg2);border-left:2px solid transparent;
+  }
+  .catbtn:hover{background:var(--panel2);color:var(--fg)}
+  .catbtn.on{background:var(--sel);color:#fff;border-left-color:var(--accent)}
+  .catbtn .k{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .catbtn .n{color:var(--fg3);font-size:11.5px;font-variant-numeric:tabular-nums}
+  .catbtn.on .n{color:var(--accent2)}
+  .chapters{margin:2px 0 8px}
+  .chbtn{
+    display:flex;gap:8px;width:100%;padding:4px 14px 4px 30px;text-align:left;
+    color:var(--fg3);font-size:12.5px;
+  }
+  .chbtn:hover{color:var(--fg);background:var(--panel2)}
+  .chbtn.on{color:var(--accent2)}
+  .chbtn .k{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .chbtn .n{font-variant-numeric:tabular-nums}
+
+  /* ---------- column 2: scene list ---------- */
+  #searchWrap{padding:10px 12px;border-bottom:1px solid var(--line);display:flex;gap:8px;align-items:center}
+  #q{
+    flex:1;min-width:0;background:#11151c;border:1px solid var(--line);border-radius:6px;
+    color:var(--fg);padding:7px 10px;outline:none;
+  }
+  #q:focus{border-color:#3d4759}
+  .chip{
+    font-size:11.5px;padding:3px 9px;border:1px solid var(--line);border-radius:11px;
+    color:var(--fg2);white-space:nowrap;
+  }
+  .chip:hover{border-color:#3d4759;color:var(--fg)}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  #listHead{padding:7px 12px;color:var(--fg3);font-size:11.5px;border-bottom:1px solid var(--line);
+            display:flex;justify-content:space-between;gap:8px}
+  #list{overflow-y:auto;flex:1;min-height:0;
+        /* the last row must be able to clear the bottom edge */
+        padding:0 0 96px}
+  .sc{
+    padding:8px 12px;border-bottom:1px solid #1f242f;cursor:pointer;display:flex;gap:9px;
+    scroll-margin:72px 0;
+  }
+  .sc:hover{background:#1f2531}
+  .sc.on{background:var(--sel);box-shadow:inset 2px 0 0 var(--accent)}
+  .sc .idx{color:var(--fg3);font-size:11px;min-width:34px;font-variant-numeric:tabular-nums;padding-top:2px}
+  .sc .body{min-width:0;flex:1}
+  .sc .t{color:var(--fg);font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .sc .p{color:var(--fg3);font-size:11.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:1px}
+  .sc .meta{color:var(--fg3);font-size:11px;margin-top:3px;display:flex;gap:8px;flex-wrap:wrap}
+  .sc .meta .tag{color:var(--accent2)}
+  #more{padding:10px;text-align:center;color:var(--fg2);font-size:12px;border-top:1px solid var(--line)}
+  #more:hover{color:#fff}
+  .sentinel{height:2px;width:100%}
+
+  /* ---------- column 3: reader ---------- */
+  #readHead{padding:11px 22px;border-bottom:1px solid var(--line);background:var(--panel);
+            display:flex;gap:14px;align-items:flex-start}
+  #rheadText{flex:1;min-width:0}
+  #rtitle{font-size:15px;margin:0 0 4px}
+  #rsub{color:var(--fg3);font-size:11.5px;display:flex;gap:12px;flex-wrap:wrap}
+  #rsub code{color:var(--fg2);background:#11151c;padding:1px 5px;border-radius:4px;font-size:11px}
+  #rnav{display:flex;gap:6px;align-items:center;flex-shrink:0}
+  .navbtn{
+    border:1px solid var(--line);border-radius:6px;padding:5px 11px;color:var(--fg2);font-size:12px;
+  }
+  .navbtn:hover:not(:disabled){border-color:#3d4759;color:#fff;background:var(--panel2)}
+  .navbtn:disabled{opacity:.35;cursor:default}
+  #rpos{color:var(--fg3);font-size:11.5px;font-variant-numeric:tabular-nums;min-width:74px;text-align:center}
+  #autoChip{font-size:11px}
+  /* Trailing breathing room inside a scene: the last line can always be
+     scrolled well clear of the bottom edge before the next page loads. */
+  #endSpacer{height:38vh;min-height:180px}
+  #endNote{color:var(--fg3);font-size:12px;text-align:center;padding:6px 0 0}
+  #readBody{overflow-y:auto;flex:1;min-height:0;padding:18px 22px 20px}
+  #readBody .inner{max-width:760px;margin:0 auto}
+  .sceneTitle{
+    color:var(--accent2);font-size:13px;letter-spacing:.5px;margin:26px 0 12px;
+    padding-bottom:6px;border-bottom:1px dashed #2e3646;
+  }
+  .sceneTitle:first-child{margin-top:0}
+  .dl{margin:0 0 15px}
+  .dl .who{font-size:12px;color:var(--accent2);margin-bottom:2px}
+  .dl.narr .who{color:var(--fg3)}
+  .dl.sel .who{color:#7fb0d8}
+  .dl .say{color:var(--speech);white-space:pre-wrap;word-break:break-word}
+  .dl.narr .say{color:var(--narr)}
+  .dl.sel .say{color:#a8cfe8}
+  .dl .ref{color:#4a5468;font-size:10.5px;margin-top:3px;font-family:Consolas,monospace}
+  .dl mark{background:#5a3a12;color:#ffd79a;border-radius:2px;padding:0 1px}
+
+  /* ---- timeline view: selections, branches, join points ---- */
+  .modeTag{
+    display:inline-block;margin-left:6px;padding:1px 8px;border-radius:10px;
+    border:1px solid #3a3320;background:#241f14;color:#b99a52;font-size:11px;
+  }
+  .tlSelect{
+    margin:19px 0;padding:11px 14px;border:1px solid #2f4a5e;border-left:3px solid #4a86b8;
+    border-radius:8px;background:#141c24;
+  }
+  .tlSelectHead{font-size:11.5px;color:#7fb0d8;letter-spacing:1px;margin-bottom:7px}
+  .tlOpt{display:flex;gap:9px;align-items:baseline;padding:3px 0;color:#c8e2f4}
+  .tlOptNo{
+    flex:none;min-width:17px;text-align:center;border-radius:9px;
+    background:#1f3446;color:#8fc4e8;font-size:10.5px;font-family:Consolas,monospace;
+  }
+  .tlOptText{white-space:pre-wrap;word-break:break-word}
+  .tlSelect .ref{color:#3f5568;font-size:10.5px;margin-top:6px;font-family:Consolas,monospace}
+
+  .tlBranch{
+    margin:19px 0;padding:0 0 2px;border-left:3px solid #6b5a2a;
+    background:linear-gradient(90deg,rgba(107,90,42,.10),rgba(107,90,42,0) 42%);
+    border-radius:0 8px 8px 0;
+  }
+  .tlBranchHead{
+    padding:8px 0 8px 13px;font-size:11.5px;color:#d8b96a;
+    font-family:Consolas,monospace;word-break:break-word;line-height:1.7;
+  }
+  .tlBranchRow{margin:0 0 10px 13px;border:1px solid var(--line);border-radius:7px;background:#151a22}
+  .tlBranchCond{
+    padding:6px 11px;border-bottom:1px solid var(--line);font-size:12px;
+    background:#1a2028;border-radius:7px 7px 0 0;
+  }
+  .tlArrow{color:#6b7488}
+  .tlBranchLabel{color:#ffd79a}
+  .tlBranchCondText{color:var(--fg3);font-size:10.5px;font-family:Consolas,monospace}
+  .tlBranchBody{padding:11px 13px 2px}
+  .tlBranchBody .dl{margin-left:-6px;border-left:2px solid #2b323f;padding-left:11px}
+  .tlNote{color:var(--fg3);font-size:11.5px;padding:2px 0 8px}
+  .tlJoin{
+    margin:14px 0 0 13px;padding:10px 13px 2px;border:1px dashed #3a4354;
+    border-radius:8px;background:#131820;
+  }
+  .tlJoinHead{font-size:11.5px;color:#8a94a8;margin-bottom:8px}
+  .tlDyn{
+    margin:22px 0 0;padding:11px 14px;border:1px solid #4a3a2a;border-radius:8px;
+    background:#1d1712;
+  }
+  .tlDynHead{font-size:11.5px;color:#c99a5c;margin-bottom:7px}
+  .tlDynCond{
+    color:#9a8b74;font-size:11px;font-family:Consolas,monospace;
+    padding:3px 0;word-break:break-word;line-height:1.7;
+  }
+  .tlDynNote{color:var(--fg3);font-size:11.5px;padding:8px 0 0}
+  .tlFoldToggle{
+    margin:2px 0 10px 13px;padding:5px 10px;border:1px dashed #3a4354;border-radius:6px;
+    color:#8a94a8;font-size:11.5px;background:#141a22;display:inline-block;
+  }
+  .tlFoldToggle:hover{border-color:var(--accent2);color:#d8b96a}
+  .tlBranchFold{margin-top:2px}
+  .tlRowMore{color:#6b7488;font-size:10.5px;font-family:Consolas,monospace}
+  .tlBranchCond:hover .tlRowMore{color:var(--accent2)}
+  .tlRowHas{color:#7fb0d8;font-size:10.5px;font-family:Consolas,monospace}
+  .tlSoloHead{color:#8a94a8}
+  .tlSoloCond{
+    margin:0 0 10px 13px;padding:5px 10px;border:1px dashed #3a4354;border-radius:6px;
+    color:#9a8b74;font-size:11px;font-family:Consolas,monospace;word-break:break-word;
+  }
+  /* messages that are empty in the game data (kept so indices stay aligned) */
+  .say.emptyLine{color:#3f4757;font-style:italic}
+
+  /* ---- variable placeholders: visually distinct from dialogue text ---- */
+  .var{
+    display:inline-block;vertical-align:baseline;margin:0 1px;padding:0 6px;
+    border:1px solid #6b5a2a;border-radius:4px;background:#2b2416;
+    color:#ffd79a;font-size:.88em;line-height:1.55;cursor:pointer;
+    font-family:Consolas,"Courier New",monospace;white-space:nowrap;
+  }
+  .var:hover{border-color:var(--accent2);background:#3a301a}
+  .var.undef{border-style:dashed;color:#b99a52;background:#241f14}
+  .var input{
+    background:transparent;border:0;outline:none;color:#ffe9bd;
+    font:inherit;width:7em;padding:0;min-width:3em;
+  }
+  .var.editing{border-color:var(--accent2);box-shadow:0 0 0 2px rgba(240,160,75,.2)}
+  #varPanel{
+    margin:0 0 18px;padding:12px 14px;border:1px solid #3a3320;border-radius:8px;
+    background:#1a1710;
+  }
+  #varPanel h3{margin:0 0 4px;font-size:12.5px;color:var(--accent2);font-weight:600}
+  #varPanel .tip{color:var(--fg3);font-size:11px;margin-bottom:9px;line-height:1.7}
+  .varRow{display:flex;align-items:center;gap:9px;margin:6px 0}
+  .varRow .nm{font-family:Consolas,monospace;color:#ffd79a;font-size:12px;min-width:74px}
+  .varRow input[type=text]{
+    flex:1;min-width:0;background:#11151c;border:1px solid var(--line);border-radius:5px;
+    color:var(--fg);padding:5px 9px;outline:none;font-size:12.5px;
+  }
+  .varRow input[type=text]:focus{border-color:var(--accent2)}
+  .varRow .cnt{color:var(--fg3);font-size:11px;min-width:52px;text-align:right;font-variant-numeric:tabular-nums}
+  .varRow .clr{color:var(--fg3);font-size:11px;padding:4px 7px;border:1px solid var(--line);border-radius:5px}
+  .varRow .clr:hover{color:#fff;border-color:#3d4759}
+  #varToggle{font-size:11px;padding:3px 9px;border:1px solid #3a3320;border-radius:11px;color:#b99a52}
+  #varToggle:hover{border-color:var(--accent2);color:#ffd79a}
+  #varToggle.has{background:#2b2416;color:#ffd79a;border-color:#6b5a2a}
+  .empty{color:var(--fg3);text-align:center;padding:60px 10px;line-height:2}
+  .hint{color:var(--fg3);font-size:11.5px;text-align:center;padding:8px}
+  #toast{
+    position:fixed;left:50%;bottom:22px;transform:translateX(-50%);
+    background:#232b3a;border:1px solid #3d4759;border-radius:6px;padding:7px 14px;
+    font-size:12px;color:var(--fg);opacity:0;pointer-events:none;transition:opacity .2s;
+  }
+  #toast.on{opacity:1}
+  ::-webkit-scrollbar{width:10px;height:10px}
+  ::-webkit-scrollbar-thumb{background:#2b323f;border-radius:5px}
+  ::-webkit-scrollbar-thumb:hover{background:#3a4354}
+  ::-webkit-scrollbar-track{background:transparent}
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="nav">
+    <div id="brand">
+      <h1>P5R 剧本阅读器</h1>
+      <div class="sub" id="brandSub">载入中…</div>
+    </div>
+    <div id="navBody"></div>
+  </aside>
+
+  <section id="mid">
+    <div id="searchWrap">
+      <input id="q" placeholder="搜索台词 / 说话人 / 场景…" autocomplete="off">
+      <button class="chip" id="clearBtn" title="清空搜索">清空</button>
+    </div>
+    <div id="listHead"><span id="listTitle">场景</span><span id="listCount"></span></div>
+    <div id="list"></div>
+  </section>
+
+  <section id="read">
+    <div id="readHead">
+      <div id="rheadText">
+        <h2 id="rtitle">选择一个场景开始阅读</h2>
+        <div id="rsub"></div>
+      </div>
+      <div id="rnav">
+        <button class="navbtn" id="prevBtn" title="上一个场景（快捷键 [ ）">‹ 上一篇</button>
+        <span id="rpos">— / —</span>
+        <button class="navbtn" id="nextBtn" title="下一个场景（快捷键 ] ）">下一篇 ›</button>
+        <button class="chip" id="modeChip"
+                title="时间线：按流程脚本的先后顺序显示，并标出选项的分支走向（默认）&#10;原序：按 .msg 文件里的原始顺序平铺显示">时间线</button>
+        <button class="chip" id="varToggle" title="名词表：统一设置 [fName] / [lName] / [group] 等占位符">名词表</button>
+        <button class="chip" id="autoChip" title="读到底部自动进入下一篇">连续阅读</button>
+      </div>
+    </div>
+    <div id="readBody"><div class="inner" id="inner">
+      <div class="empty">
+        左侧按「分类 → 章节」选择范围，中间点选具体场景。<br>
+        阅读时同场景的对话会连续展开，不再跳来跳去。
+      </div>
+    </div></div>
+  </section>
+</div>
+<div id="toast"></div>
+
+<script>
+'use strict';
+
+const PAGE = 500;                       // rows appended per load step
+const LOAD_MARGIN = 700;                // px from the bottom that triggers more rows
+const AUTO_ADVANCE_GAP = 120;           // px from the true bottom that turns the page
+const COLLAPSED = Symbol('collapsed');  // "no chapter row highlighted" marker; null is a real chapter id
+
+const S = {
+  index:null,
+  cat:null,            // selected category id
+  ch:null,             // selected chapter id (null = all chapters)
+  lastCh:{},           // category id -> chapter selected before it was collapsed
+  query:'',
+  list:[],             // filtered scene metas
+  shown:PAGE,
+  current:null,        // selected scene id
+  auto:true,           // continuous reading: advance at the bottom
+  cache:new Map(),     // category -> payload
+  fullCache:null,      // lazily built flat search corpus
+  searchHits:null,     // {sid: [lineIdx,...]}
+  autoArmed:false,
+  searching:false,
+  vars:{},             // placeholder name -> {label, value}
+  mode:'timeline',     // 'timeline' (choice-aware, default) | 'raw' (file order)
+  tlCache:new Map(),   // category -> timeline payload
+  base:'../',
+};
+
+const $ = s => document.querySelector(s);
+const el = (t,c,x)=>{const e=document.createElement(t); if(c)e.className=c; if(x!==undefined)e.textContent=x; return e;};
+
+function toast(msg){
+  const t=$('#toast'); t.textContent=msg; t.classList.add('on');
+  clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove('on'),1800);
+}
+
+/* ------------------------------------------------------------------ loading */
+
+async function boot(){
+  let index;
+  try{
+    index = await (await fetch('data/index.json')).json();
+  }catch(e){
+    $('#brandSub').textContent='数据载入失败';
+    $('#inner').innerHTML =
+      '<div class="empty">无法读取 <code>data/index.json</code>。<br>'+
+      '浏览器不允许 <code>file://</code> 页面读取本地数据文件，'+
+      '请通过本地服务器打开本页面。<br><br>'+
+      '在工作区根目录执行：<br><code>python -m http.server 8777</code><br>'+
+      '然后访问 <code>http://127.0.0.1:8777/reader/</code></div>';
+    return;
+  }
+  S.index = index;
+  // resolve the directory this page was served from, so links work from any mount
+  S.base = location.pathname.replace(/[^/]*$/, '');
+  S.vars = loadVars();
+  updateVarToggle();
+  initListObserver();
+  const t = index.totals;
+  $('#brandSub').textContent = `${t.scenes} 个场景 · ${t.lines.toLocaleString()} 条对话`;
+  // view mode: timeline (choice-aware) is the default; restore a saved choice
+  let saved='timeline';
+  try{ saved = localStorage.getItem('p5r.mode') || 'timeline'; }catch(e){}
+  if(saved!=='raw' && saved!=='timeline') saved='timeline';
+  if(!index.timeline) saved='raw';          // no flow data -> nothing to show
+  S.mode = saved;
+  const chip=$('#modeChip');
+  if(!index.timeline){
+    chip.disabled=true;
+    chip.textContent='时间线不可用';
+    chip.title='未找到 data/timeline/，请先运行 _tools/build_timeline.py 和 _tools/build_reader.py';
+  }else{
+    chip.onclick=()=>setMode(S.mode==='timeline'?'raw':'timeline');
+    setModeChip();
+  }
+  buildNav();
+  selectCategory(index.categories[0].id);
+}
+
+/** Update the mode chip's label / tooltip without re-rendering. */
+function setModeChip(){
+  const chip=$('#modeChip');
+  chip.textContent = S.mode==='timeline' ? '时间线' : '原序';
+  chip.classList.toggle('has', S.mode==='timeline');
+  chip.title = (S.mode==='timeline'
+      ? '时间线：按流程脚本的先后顺序显示，并标出选项走向（默认）'
+      : '原序：按 .msg 文件里的原始顺序平铺显示') + '\n点击切换';
+}
+
+async function loadCategory(cat){
+  if(S.cache.has(cat)) return S.cache.get(cat);
+  const p = await (await fetch('data/scenes/'+cat+'.json')).json();
+  S.cache.set(cat,p);
+  return p;
+}
+
+/** Timeline payload for a category (choice branches). Missing file = no data. */
+async function loadTimeline(cat){
+  if(S.tlCache.has(cat)) return S.tlCache.get(cat);
+  let p = {};
+  try{
+    p = await (await fetch('data/timeline/'+cat+'.json')).json();
+  }catch(e){
+    p = {};
+  }
+  S.tlCache.set(cat,p);
+  return p;
+}
+
+/* --------------------------------------------------------------- navigation */
+
+function buildNav(){
+  const box=$('#navBody'); box.innerHTML='';
+  for(const c of S.index.categories){
+    box.appendChild(el('div','navsec', c.scenes+' 个场景'));
+    const b=el('button','catbtn');
+    b.dataset.cat=c.id;
+    b.appendChild(el('span','k',c.label));
+    b.appendChild(el('span','n',c.scenes));
+    b.onclick=()=>selectCategory(c.id);
+    b.title='点击展开章节，再次点击收起';
+    box.appendChild(b);
+
+    const wrap=el('div','chapters'); wrap.dataset.chapters=c.id;
+    wrap.style.display='none';
+    const all=el('button','chbtn on');
+    all.dataset.ch='';
+    all.appendChild(el('span','k','全部章节'));
+    all.onclick=()=>selectChapter(c.id,null);
+    wrap.appendChild(all);
+    for(const ch of c.chapters){
+      const n=S.index.scenes.filter(s=>s.c===c.id&&s.ch===ch.id).length;
+      const x=el('button','chbtn'); x.dataset.ch=ch.id;
+      x.appendChild(el('span','k',ch.label));
+      x.appendChild(el('span','n',n));
+      x.onclick=()=>selectChapter(c.id,ch.id);
+      wrap.appendChild(x);
+    }
+    box.appendChild(wrap);
+  }
+}
+
+// Note: there is deliberately no filter bar. A day slot (D01..D10) looked like a
+// usable timeline filter but is not one: it appears in only ~1/5 of scenes and is
+// near-absent where it would matter most (1 of 744 main-story scenes, 11 of 37
+// confidant scenes). Offering it would silently hide most of the content.
+
+function selectCategory(cat){
+  // Clicking the already-open category collapses it. The chapter that was
+  // selected right before collapsing is remembered in S.lastCh, and is
+  // restored when the same category is opened again. S.ch is cleared while
+  // collapsed so the middle list shows the whole category.
+  if(S.cat===cat && isCatOpen(cat)){
+    S.lastCh[cat]=S.ch;
+    setCatExpanded(cat,false);
+    S.cat=cat; S.ch=null;
+    // chapter rows are hidden anyway while collapsed, but clear the highlight
+    // so reopening (which restores S.lastCh) never shows a stale selection
+    setCatButtons(cat,COLLAPSED);
+    applyFilters();
+    return;
+  }
+
+  S.cat=cat;
+  S.ch=(cat in S.lastCh) ? S.lastCh[cat] : null;
+  setCatExpanded(cat,true);
+  setCatButtons(cat);
+  applyFilters();
+}
+
+/** Show or hide one category's chapter list. */
+function setCatExpanded(cat,open){
+  document.querySelectorAll('.chapters').forEach(w=>{
+    w.style.display=(open && w.dataset.chapters===cat)?'':'none';
+  });
+}
+
+function isCatOpen(cat){
+  const w=document.querySelector(`.chapters[data-chapters="${cat}"]`);
+  return !!w && w.style.display!=='none';
+}
+
+/** Mark the active category and, within it, the active chapter row.
+ *  Pass COLLAPSED to leave every chapter row unhighlighted. Note that null is
+ *  a real chapter value here: it means the "全部章节" row. */
+function setCatButtons(cat,ch){
+  if(ch===undefined) ch=S.ch;
+  document.querySelectorAll('.catbtn').forEach(b=>b.classList.toggle('on',b.dataset.cat===cat));
+  const wrap=document.querySelector(`.chapters[data-chapters="${cat}"]`);
+  if(wrap) [...wrap.children].forEach(b=>b.classList.toggle('on',ch!==COLLAPSED && (b.dataset.ch||'')===(ch||'')));
+}
+
+function selectChapter(cat,ch){
+  S.cat=cat; S.ch=ch;
+  S.lastCh[cat]=ch;                 // so reopening the category restores it
+  setCatExpanded(cat,true);
+  setCatButtons(cat);
+  applyFilters();
+}
+
+/* ------------------------------------------------------------------ filters */
+
+function applyFilters(){
+  S.shown=0;                 // renderList() fills the first page again
+  S.searchHits=null;
+  S.searching=false;
+  const q=S.query.trim();
+  let list=S.index.scenes.filter(s=>{
+    if(S.cat && s.c!==S.cat) return false;
+    if(S.ch && s.ch!==S.ch) return false;
+    if(q){
+      const hay=(s.l+' '+s.chl+' '+s.src+' '+(s.sp||[]).join(' ')).toLowerCase();
+      const prev=applyVar(s.p||'').toLowerCase();
+      const needle=q.toLowerCase();
+      if(!hay.includes(needle) && !prev.includes(needle)) return false;
+    }
+    return true;
+  });
+  S.list=list;
+  const catLabel=(S.index.categories.find(c=>c.id===S.cat)||{}).label||'';
+  const chLabel=(S.ch?(' · '+((S.index.categories.find(c=>c.id===S.cat)||{chapters:[]}).chapters
+                    .find(x=>x.id===S.ch)||{}).label||S.ch):'');
+  $('#listTitle').textContent=catLabel+chLabel;
+  updateListCount();
+  renderList();
+  if(S.current) updatePos();
+}
+
+/** Append one page of rows. Rows are only ever added, so scroll position and
+ *  the selection stay put. */
+function appendRows(){
+  const box=$('#list');
+  const from=S.shown;
+  const to=Math.min(S.list.length, from+PAGE);
+  if(to<=from) return 0;
+  if(from===0) box.innerHTML='';
+  const old=box.querySelector('.hint'); if(old) old.remove();
+  const frag=document.createDocumentFragment();
+  for(let i=from;i<to;i++){
+    const s=S.list[i];
+    const row=el('div','sc'+(S.current===s.id?' on':''));
+    row.dataset.id=s.id;
+    row.appendChild(el('div','idx',String(i+1)));
+    const b=el('div','body');
+    b.appendChild(el('div','t',s.l));
+    const pv=el('div','p');
+    renderText(pv, s.p||'', null);
+    b.appendChild(pv);
+    const meta=el('div','meta');
+    meta.appendChild(el('span','tag',s.n+' 条'));
+    if(s.src) meta.appendChild(el('span',null,s.src.split('\\').pop()));
+    b.appendChild(meta);
+    row.appendChild(b);
+    row.onclick=()=>openScene(s.id,true);
+    frag.appendChild(row);
+  }
+  box.appendChild(frag);
+  S.shown=to;
+  updateListCount();
+  const hint=box.querySelector('.hint'); if(hint) hint.remove();
+  if(S.list.length>S.shown){
+    // a clickable affordance as well, so the list is never a dead end even if
+    // the user's browser does not deliver the observer/scroll signal
+    const more=el('button','hint more');
+    more.textContent='继续下滑自动加载，或点此再加载 '+Math.min(PAGE, S.list.length-S.shown)+' 个（还有 '+(S.list.length-S.shown)+' 个）';
+    more.onclick=()=>appendRows();
+    box.appendChild(more);
+  }else if(S.list.length>PAGE){
+    box.appendChild(el('div','hint','— 已到末尾 —'));
+  }
+  if(listSentinel && listSentinel.parentNode===box){
+    box.appendChild(listSentinel);      // keep the sentinel last
+  }
+  return to-from;
+}
+
+/** Appending rows pushes the bottom further away, so a scroll handler alone can
+ *  stall: after one append the user is no longer "near the bottom" even though
+ *  more content exists below. A sentinel watched by IntersectionObserver keeps
+ *  loading as long as it stays visible, which is self-sustaining. */
+let listSentinel=null, listObserver=null;
+
+function initListObserver(){
+  const box=$('#list');
+  listSentinel=el('div','sentinel');
+  listObserver=new IntersectionObserver(entries=>{
+    for(const e of entries){
+      if(e.isIntersecting) appendRows();
+    }
+  }, { root: box, rootMargin: '700px 0px' });
+}
+
+function renderList(){
+  const box=$('#list');
+  S.shown=0;
+  box.innerHTML='';
+  if(!S.list.length){
+    box.appendChild(el('div','hint','没有匹配的场景'));
+    updateListCount();
+    return;
+  }
+  appendRows();
+  box.appendChild(listSentinel);
+  listObserver.disconnect();
+  listObserver.observe(listSentinel);
+  updateListCount();
+}
+
+function updateListCount(){
+  if(S.searching) return;              // search mode prints its own wording
+  const n=S.list.length, s=S.shown;
+  $('#listCount').textContent = (n>s) ? ('显示 '+s+' / '+n+' 个场景') : (n+' 个场景');
+}
+
+/* ------------------------------------------------------------------- reader */
+
+/* -------- variable placeholders ([fName] / [lName] / [group] …) --------
+   These are engine variables that the game substitutes at runtime (player's
+   family/given name, team name). They get their own visual treatment and a
+   global definition panel so one edit applies everywhere. */
+
+const VAR_DEFAULTS = {
+  fName: { label: '主人公 姓',   value: '' },
+  lName: { label: '主人公 名',   value: '' },
+  group: { label: '怪盗团 名',   value: '' },
+};
+
+const VAR_STORE_KEY = 'p5r_reader_vars_v1';
+
+function loadVars(){
+  const out = {};
+  for(const k in VAR_DEFAULTS) out[k] = { ...VAR_DEFAULTS[k] };
+  try{
+    const raw = localStorage.getItem(VAR_STORE_KEY);
+    if(raw){
+      const saved = JSON.parse(raw);
+      for(const k in saved){
+        if(!out[k]) out[k] = { label: k, value: '' };
+        out[k].value = String(saved[k] ?? '');
+      }
+    }
+  }catch(e){ /* private mode / storage disabled — run with defaults */ }
+  return out;
+}
+
+function saveVars(){
+  try{ localStorage.setItem(VAR_STORE_KEY,
+        JSON.stringify(Object.fromEntries(Object.entries(S.vars).map(([k,v])=>[k,v.value])))); }
+  catch(e){}
+}
+
+function varDisplay(name){
+  const v = S.vars[name];
+  return (v && v.value) ? v.value : '[' + name + ']';
+}
+
+/** Split text into literal / variable segments. */
+const VAR_TAG = /\[([A-Za-z_][A-Za-z0-9_]*)\]/g;
+function tokenize(text){
+  const parts = [];
+  let last = 0, m;
+  VAR_TAG.lastIndex = 0;
+  while((m = VAR_TAG.exec(text)) !== null){
+    if(m.index > last) parts.push({ t:'lit', v:text.slice(last, m.index) });
+    parts.push({ t:'var', name:m[1] });
+    last = m.index + m[0].length;
+  }
+  if(last < text.length) parts.push({ t:'lit', v:text.slice(last) });
+  return parts.length ? parts : [{ t:'lit', v:text }];
+}
+
+/** Render text into a node, honouring search highlight + variable chips. */
+function renderText(container, text, hlRx){
+  for(const part of tokenize(text)){
+    if(part.t === 'lit'){
+      if(hlRx){
+        const bits = part.v.split(hlRx);
+        bits.forEach((b,i)=>{
+          if(i % 2) container.appendChild(el('mark',null,b));
+          else if(b) container.appendChild(document.createTextNode(b));
+        });
+      }else if(part.v){
+        container.appendChild(document.createTextNode(part.v));
+      }
+    }else{
+      const value = (S.vars[part.name] && S.vars[part.name].value) || '';
+      const chip = el('span','var' + (value ? '' : ' undef'));
+      chip.dataset.var = part.name;
+      chip.textContent = value || '[' + part.name + ']';
+      chip.title = (S.vars[part.name] ? S.vars[part.name].label : part.name)
+                 + '（点击修改）';
+      chip.onclick = ev => { ev.stopPropagation(); editVarInline(chip, part.name); };
+      container.appendChild(chip);
+    }
+  }
+}
+
+/** In-place editor for a variable chip. */
+function editVarInline(chip, name, after){
+  if(chip.querySelector('input')) return;
+  const cur = (S.vars[name] && S.vars[name].value) || '';
+  chip.classList.add('editing');
+  chip.textContent = '';
+  const inp = el('input');
+  inp.value = cur;
+  inp.placeholder = name;
+  inp.size = Math.max(4, Math.min(18, (cur || name).length + 2));
+  chip.appendChild(inp);
+  inp.focus(); inp.select();
+
+  let done = false;
+  const commit = ok => {
+    if(done) return; done = true;
+    if(ok){
+      if(!S.vars[name]) S.vars[name] = { label:name, value:'' };
+      S.vars[name].value = inp.value;
+      saveVars();
+    }
+    refreshVars();                 // re-render reader + list + panel
+    if(after) after();
+  };
+  inp.onblur = () => commit(true);
+  inp.onkeydown = e => {
+    if(e.key === 'Enter'){ e.preventDefault(); commit(true); }
+    else if(e.key === 'Escape'){ e.preventDefault(); commit(false); }
+    e.stopPropagation();
+  };
+}
+
+/* --------------------------- variable panel --------------------------- */
+
+let varPanelOpen = false;
+
+function varCounts(){
+  const c = {};
+  if(!S.index) return c;
+  for(const v of (S.index.vars || [])) c[v.n] = v.c;
+  for(const name in S.vars) if(!(name in c)) c[name] = 0;
+  return c;
+}
+
+function buildVarPanel(){
+  const counts = varCounts();
+  const wrap = el('div','dl');
+  wrap.id = 'varPanel';
+  wrap.appendChild(el('h3',null,'名词表 — 全局占位符'));
+  wrap.appendChild(el('div','tip',
+    '脚本里的 [fName]／[lName]／[group] 是游戏在运行时替换的变量（主人公姓名、队伍名）。'+
+    '在这里填一次，全部场景立即生效并保存在浏览器里；也可以直接点正文中的方框就地修改。'+
+    '留空则显示为 [名称]。'));
+
+  const names = Object.keys(S.vars);
+  for(const k of Object.keys(counts)) if(!names.includes(k)) names.push(k);
+
+  for(const name of names){
+    const row = el('div','varRow');
+    row.appendChild(el('span','nm','['+name+']'));
+    const inp = el('input');
+    inp.type = 'text';
+    inp.value = (S.vars[name] && S.vars[name].value) || '';
+    inp.placeholder = (S.vars[name] && S.vars[name].label) || '填入替换文本';
+    inp.oninput = () => {
+      if(!S.vars[name]) S.vars[name] = { label:name, value:'' };
+      S.vars[name].value = inp.value;
+      saveVars();
+      refreshVarsLive();
+    };
+    row.appendChild(inp);
+    row.appendChild(el('span','cnt',(counts[name]||0)+' 处'));
+    const clr = el('button','clr','清除');
+    clr.onclick = () => {
+      if(S.vars[name]) S.vars[name].value = '';
+      inp.value=''; saveVars(); refreshVars();
+    };
+    row.appendChild(clr);
+    wrap.appendChild(row);
+  }
+  return wrap;
+}
+
+function applyVar(text){
+  if(text.indexOf('[') < 0) return text;
+  return text.replace(VAR_TAG, (whole, name) => {
+    const v = S.vars[name];
+    return (v && v.value) ? v.value : whole;
+  });
+}
+
+/** Cheap path while typing in the panel: repaint chips without a full reload. */
+function refreshVarsLive(){
+  document.querySelectorAll('#inner .var').forEach(chip=>{
+    if(chip.querySelector('input')) return;
+    const name = chip.dataset.var;
+    const v = (S.vars[name] && S.vars[name].value) || '';
+    chip.textContent = v || '['+name+']';
+    chip.classList.toggle('undef', !v);
+  });
+  refreshListPreviews();
+}
+
+/** Repaint the reader (re-open current scene) and the list previews. */
+function refreshVars(){
+  S.fullCache = null;          // substituted text changed: rebuild search corpus lazily
+  if(S.current) openScene(S.current, false);
+  refreshListPreviews();
+  const t = varCounts();
+  document.querySelectorAll('#varPanel .varRow').forEach(row=>{
+    const nm = row.querySelector('.nm').textContent.replace(/[\[\]]/g,'');
+    const cnt = row.querySelector('.cnt'); if(cnt) cnt.textContent = (t[nm]||0)+' 处';
+  });
+  updateVarToggle();
+}
+
+function refreshListPreviews(){
+  document.querySelectorAll('.sc').forEach(row=>{
+    const meta = S.list.find(s=>s.id===row.dataset.id);
+    if(!meta) return;
+    const span = row.querySelector('.p');
+    if(!span) return;
+    span.textContent = '';
+    renderText(span, meta.p || '', null);
+  });
+}
+
+function updateVarToggle(){
+  const n = Object.values(S.vars).filter(v=>v.value).length;
+  const b = $('#varToggle');
+  b.textContent = n ? ('名词表 · '+n) : '名词表';
+  b.classList.toggle('has', n>0);
+}
+
+function toggleVarPanel(force){
+  varPanelOpen = (force === undefined) ? !varPanelOpen : force;
+  const body = $('#inner');
+  const existing = $('#varPanel');
+  if(varPanelOpen){
+    const p = buildVarPanel();
+    if(existing) existing.replaceWith(p); else body.insertBefore(p, body.firstChild);
+    $('#readBody').scrollTop = 0;
+  }else if(existing){
+    existing.remove();
+  }
+  if(S.current){
+    const meta=S.index.scenes.find(s=>s.id===S.current);
+    if(meta) openScene(S.current, false);
+  }
+}
+
+/** One dialog block, shared by both view modes.
+ *  `single` marks a [sel] that holds exactly one option: that is not a choice,
+ *  the game just shows one line to confirm, so it is styled as plain text. */
+function dlgNode(d, rx, fallbackSrc, single, idx){
+  const isSel = d.k==='sel' && !single;
+  const cls = isSel ? 'dl sel' : ((d.s==='旁白'||single) ? 'dl narr' : 'dl');
+  const wrap=el('div',cls);
+  if(idx !== undefined) wrap.dataset.idx = String(idx);
+  const who= isSel ? '选项' : (single ? '单项确认' : d.s);
+  wrap.appendChild(el('div','who', (!isSel && d.s==='旁白' && !single) ? '旁白' : who));
+  const say=el('div','say');
+  if(d.t){
+    renderText(say, d.t, rx);
+  }else{
+    say.className='say emptyLine';
+    say.textContent='（原文为空）';
+  }
+  wrap.appendChild(say);
+  const srcFile = d.f || fallbackSrc || '';
+  const ref = el('div','ref','ID '+d.i+(d.k==='sel'?'  (选项)':''));
+  ref.style.cursor='pointer';
+  ref.title='点击复制「来源文件 + 消息 ID」，便于回到 .msg 原文核对';
+  ref.onclick=()=>{
+    const txt=(srcFile||'?')+'  ::  '+d.i;
+    if(navigator.clipboard) navigator.clipboard.writeText(txt).then(()=>toast('已复制：'+txt),()=>toast(txt));
+    else toast(txt);
+  };
+  wrap.appendChild(ref);
+  return wrap;
+}
+
+/** Options of a selection dialog: its `t` is one option per line. */
+function optionsOf(d){
+  return (d.t||'').split('\n').map(s=>s.trim()).filter(Boolean);
+}
+
+/** A "you can still keep reading" marker for a branch that only adds text. */
+function joinNote(text){
+  return el('div','tlNote', text);
+}
+
+/**
+ * Count the dialog references a timeline item would render. Also walks rendered
+ * DOM nodes, so it can be called on an already-built element (a `.dl` block
+ * counts as one line).
+ */
+function countItemRefs(node, out){
+  out = out || {ok:0, total:0};
+  if(Array.isArray(node)){
+    node.forEach(x=>countItemRefs(x, out));
+  }else if(typeof node === 'number'){
+    out.total++;
+  }else if(node && typeof node === 'object'){
+    if(node.sel!==undefined) out.total++;
+    if(node.branches) node.branches.forEach(br=>countItemRefs(br, out));
+    // rendered element: count its dialog blocks
+    if(Array.isArray(node.children)){
+      const cls = String(node.className || '');
+      if(cls.split(/\s+/).includes('dl')) out.total++;
+      node.children.forEach(c=>countItemRefs(c, out));
+    }
+  }
+  return out;
+}
+
+/**
+ * Must this timeline item stay visible even though it is a game-state branch?
+ * True when it leads to a player choice at any depth. 66% of all selections
+ * live *inside* state branches, so folding blindly would hide real choices --
+ * which is exactly the bug this guards against.
+ */
+function mustShow(node){
+  if(Array.isArray(node)) return node.some(mustShow);
+  if(!node || typeof node !== 'object') return false;
+  if(node.sel !== undefined) return true;
+  if(node.branches){
+    if(node.varMsg !== null && node.varMsg !== undefined) return true;
+    return node.branches.some(mustShow);
+  }
+  return false;
+}
+
+/** True when a and b are equal by JSON value. */
+function sameItem(a,b){ return JSON.stringify(a)===JSON.stringify(b); }
+
+/** Longest common suffix length of a list of sequences (only real content counts). */
+function commonSuffixLen(seqs){
+  if(!seqs.length) return 0;
+  const min = Math.min(...seqs.map(s=>s.length));
+  let n = 0;
+  while(n < min){
+    const cand = seqs[0][seqs[0].length-1-n];
+    if(seqs.every(s=>sameItem(s[s.length-1-n], cand))) n++;
+    else break;
+  }
+  return n;
+}
+
+/**
+ * Render one timeline item.
+ *   int             -> a dialog
+ *   {sel:n}         -> a selection dialog
+ *   {cond,...}      -> a branch
+ */
+function timelineNode(item, scene, rx, fallbackSrc){
+  if(typeof item === 'number'){
+    const d = scene.dlg[item];
+    return d ? dlgNode(d, rx, fallbackSrc, false, item) : null;
+  }
+
+  if(item && item.sel !== undefined){
+    const d = scene.dlg[item.sel];
+    if(!d) return null;
+    const opts = optionsOf(d);
+
+    // A [sel] with a single option is not a choice -- the game just shows one
+    // line you confirm. Rendering it as "选择 1 项 / 1 ..." is nonsense, so show
+    // it as ordinary text and keep a neutral tag instead.
+    if(opts.length < 2){
+      // not a choice: show the line plainly (see dlgNode's `single` flag)
+      return dlgNode(d, rx, fallbackSrc, true, item.sel);
+    }
+
+    const box = el('div','tlSelect');
+    box.dataset.idx = String(item.sel);
+    box.appendChild(el('div','tlSelectHead','选择 '+opts.length+' 项'));
+    opts.forEach((o,i)=>{
+      const row=el('div','tlOpt');
+      row.appendChild(el('span','tlOptNo', String(i+1)));
+      row.appendChild(el('span','tlOptText', o));
+      box.appendChild(row);
+    });
+    if(d.i) box.appendChild(el('div','ref','ID '+d.i+'  (选项)'));
+    return box;
+  }
+
+  if(item && item.branches){
+    const branches = item.branches;
+    const conds = (item.cond||'').split(' / ');
+
+    // A *structured* chain tests one selection: we know which selection dialog
+    // the tested variable holds, so branches can be labelled by option text.
+    // Otherwise (game-state conditions) fall back to showing the condition.
+    const selIdx = item.varMsg;
+    const structured = item.varMsg !== null && item.varMsg !== undefined;
+    const selDlg = structured && scene.dlg[selIdx] ? scene.dlg[selIdx] : null;
+    const opts = selDlg ? optionsOf(selDlg) : [];
+
+    // Lifting is only meaningful if the chain actually forks.
+    const forks = branches.length > 1;
+
+    // Game-state branches (BIT_CHK / CHK_DAYS / …) are 96% of all branches
+    // (~197k rows) and only add noise around the actual choices, so they start
+    // folded -- but only when they lead nowhere: a chain that reaches a player
+    // choice, or that is short enough to read, stays open.
+    const foldRows = !structured && branches.length > 2 && !mustShow(branches);
+    const soloState = !structured && branches.length === 1;
+
+    // A chain gated on a *one-option* [sel] is not a fork at all: the game just
+    // waits for a keypress and always continues the same way. Drawing a branch
+    // for it invents a choice, and (worse) it pushes whatever comes next -- often
+    // the real 2-option menu that answers the preceding question -- one level
+    // down into a fake branch. Splice the content in instead.
+    if(structured && opts.length === 1 && branches.length >= 1){
+      return {__inline: branches[0]};
+    }
+
+    // Does this scene contain a player choice anywhere? If so, game-state rows
+    // stay expanded so the surrounding dialogue is readable around the choice.
+    const sceneHasChoice = scene.dlg.some(d=>d.k==='sel');
+
+    // Lift the shared continuation so it is not repeated once per branch.
+    const tailLen = forks ? commonSuffixLen(branches) : 0;
+    const tail = tailLen ? branches[0].slice(branches[0].length-tailLen) : [];
+
+    const box = el('div','tlBranch');
+    if(soloState){
+      // one state condition, one continuation: show it compactly, and let the
+      // condition itself be revealed on demand
+      const head = el('div','tlBranchHead tlSoloHead');
+      head.textContent = '⎇ 条件分支 ▸';
+      head.style.cursor='pointer';
+      const condLine = el('div','tlSoloCond', item.cond);
+      condLine.style.display='none';
+      head.onclick=()=>{
+        const open = condLine.style.display!=='none';
+        condLine.style.display = open ? 'none' : '';
+        head.textContent = open ? '⎇ 条件分支 ▸' : '⎇ 条件分支 ▾';
+      };
+      box.appendChild(head);
+      box.appendChild(condLine);
+    }else{
+      box.appendChild(el('div','tlBranchHead','⎇ '+item.cond));
+    }
+
+    const rowsHost = foldRows ? el('div','tlBranchFold') : box;
+
+    branches.forEach((items, bi)=>{
+      const value = item.values && item.values[bi]!==undefined ? item.values[bi] : null;
+      const cond  = conds[bi] || '';
+
+      const knownOpt = (value!==null && opts[value]!==undefined);
+      let label;
+      if(knownOpt){
+        label = '选「'+opts[value]+'」';
+      }else if(structured && value!==null){
+        label = '选第 '+(value+1)+' 项';
+      }else if(cond==='else' || (structured && opts.length && bi>=opts.length)){
+        label = '其他选择';          // the remaining options fall through here
+      }else if(structured){
+        label = '其他情况';
+      }else{
+        label = '满足 '+(cond||'?');   // game-state condition, show it verbatim
+      }
+
+      const row = el('div','tlBranchRow');
+      const head = el('div','tlBranchCond');
+      head.appendChild(el('span','tlArrow','→ '));
+      head.appendChild(el('span','tlBranchLabel', label));
+      if(cond && !soloState){ head.appendChild(el('span','tlBranchCondText','  ('+cond+')')); }
+      row.appendChild(head);
+
+      // Build the body first: whether this row may be collapsed depends on what
+      // is inside it (a nested choice must never end up hidden).
+      const body = el('div','tlBranchBody');
+      const shown = items.slice(0, items.length - tailLen);
+      if(!shown.length){
+        body.appendChild(joinNote(tailLen ? '（直接进入下面的后续）' : '（此分支没有额外台词）'));
+      }else{
+        shown.forEach(it=>{
+          const n = timelineNode(it, scene, rx, fallbackSrc);
+          if(n) body.appendChild(n);
+        });
+      }
+      row.appendChild(body);
+
+      // In a game-state chain every row is "if <state> then <lines>". Showing all
+      // of that text unprompted buries the story, so such rows start collapsed --
+      // unless the scene has a choice at all, the row itself leads to one, or
+      // there is barely any text to hide.
+      const rowHasChoice = mustShow(shown);
+      const bodyRefs = countItemRefs(body).total;
+      const autoShow = rowHasChoice || sceneHasChoice || bodyRefs <= 1;
+      if(!structured && branches.length > 1 && shown.length && !autoShow){
+        body.style.display='none';
+        head.style.cursor='pointer';
+        const nLines = shown.length;
+        const more = el('span','tlRowMore','  ▸ '+nLines+' 条');
+        head.appendChild(more);
+        head.onclick=()=>{
+          const open = body.style.display!=='none';
+          body.style.display = open ? 'none' : '';
+          more.textContent = open ? '  ▸ '+nLines+' 条' : '  ▾ '+nLines+' 条';
+        };
+      }else if(rowHasChoice && branches.length > 1){
+        head.appendChild(el('span','tlRowHas','  含选项'));
+      }
+
+      rowsHost.appendChild(row);
+    });
+
+    if(foldRows){
+      const shownRows = rowsHost.children.length;
+      const toggle = el('div','tlFoldToggle',
+        '▸ 游戏状态分支 '+shownRows+' 条（点此展开）');
+      toggle.style.cursor='pointer';
+      let open = false;
+      rowsHost.style.display='none';
+      toggle.onclick=()=>{
+        open=!open;
+        rowsHost.style.display = open ? '' : 'none';
+        toggle.textContent = (open?'▾ ':'▸ ')+'游戏状态分支 '+shownRows+' 条'
+                             + (open?'（点此收起）':'（点此展开）');
+      };
+      box.appendChild(toggle);
+      box.appendChild(rowsHost);
+    }
+
+    if(tail.length){
+      const join = el('div','tlJoin');
+      join.appendChild(el('div','tlJoinHead','↓ 各分支在此汇合，后续相同'));
+      tail.forEach(it=>{
+        const n = timelineNode(it, scene, rx, fallbackSrc);
+        if(n) join.appendChild(n);
+      });
+      box.appendChild(join);
+    }
+    return box;
+  }
+  return null;
+}
+
+/**
+ * Can this timeline be trusted against this scene's dlg array?
+ *
+ * A resolution *ratio* is not enough: if the index space is off, references can
+ * still land inside the array by coincidence and point at the wrong line. The
+ * decisive signal is structural -- a `{sel: n}` reference must land on a dialog
+ * that is actually a selection. That can only happen when the numbering lines
+ * up, so a single miss means the whole timeline is misaligned.
+ */
+function timelineAligned(seq, scene){
+  let selRefs = 0, selHits = 0, refs = 0, inRange = 0;
+  (function walk(node){
+    if(Array.isArray(node)){ node.forEach(walk); return; }
+    if(typeof node === 'number'){
+      refs++; if(node>=0 && node<scene.dlg.length) inRange++;
+      return;
+    }
+    if(!node || typeof node !== 'object') return;
+    if(node.sel !== undefined){
+      refs++;
+      const d = scene.dlg[node.sel];
+      selRefs++;
+      if(d && d.k==='sel'){ selHits++; inRange++; }
+      return;
+    }
+    (node.branches||[]).forEach(walk);
+  })(seq);
+
+  if(!refs) return false;
+  if(selRefs && selHits !== selRefs) return false;   // misaligned: bail out
+  return inRange / refs >= 0.5;
+}
+
+/** Count how many dialog references in a timeline item actually resolve. */
+function countRefs(node, n, out){
+  out = out || {ok:0, total:0};
+  if(Array.isArray(node)){
+    node.forEach(x=>countRefs(x, n, out));
+  }else if(typeof node === 'number'){
+    out.total++; if(node>=0 && node<n) out.ok++;
+  }else if(node && typeof node === 'object'){
+    if(node.sel!==undefined){ out.total++; if(node.sel>=0 && node.sel<n) out.ok++; }
+    (node.branches||[]).forEach(br=>countRefs(br, n, out));
+  }
+  return out;
+}
+
+/** Render a list of timeline items into `parent` (shared by openScene and the
+ *  inlining path). */
+function renderTimeline(items, parent, scene, rx, fallbackSrc){
+  items.forEach(item=>{
+    const n = timelineNode(item, scene, rx, fallbackSrc);
+    if(!n) return;
+    if(n.__inline){                      // not a real fork: splice it in place
+      renderTimeline(n.__inline, parent, scene, rx, fallbackSrc);
+      return;
+    }
+    parent.appendChild(n);
+  });
+}
+
+async function openScene(sid,scrollTop){
+  S.current=sid;
+  S.autoArmed=false;
+  document.querySelectorAll('.sc').forEach(r=>r.classList.toggle('on',r.dataset.id===sid));
+  const meta=S.index.scenes.find(s=>s.id===sid);
+  if(!meta) return;
+
+  const payload=await loadCategory(meta.c);
+  const scene=payload[sid];
+  $('#rtitle').textContent=meta.chl+' · '+meta.l;
+  const sub=$('#rsub'); sub.innerHTML='';
+  const fallbackSrc=(scene.src && scene.src[0]) || '';
+
+  let tl=null;
+  if(S.mode==='timeline'){
+    const tlp=await loadTimeline(meta.c);
+    tl = tlp[sid] || null;
+  }
+
+  // Trust the timeline only when its numbering demonstrably lines up with this
+  // scene's dialogs. Otherwise fall back to file order rather than showing
+  // plausible-looking but wrong dialogue.
+  const stat = (tl && tl.seq) ? countRefs(tl.seq, scene.dlg.length)
+                              : {ok:0, total:0};
+  const resolvable = (tl && tl.seq) ? timelineAligned(tl.seq, scene) : false;
+
+  sub.appendChild(el('span',null,scene.dlg.length+' 条对话'));
+  if(S.mode==='timeline'){
+    if(!tl){
+      sub.appendChild(el('span','modeTag','时间线不可用 · 按原序显示'));
+    }else if(!resolvable){
+      sub.appendChild(el('span','modeTag','流程与文本对不上 · 按原序显示'));
+    }else{
+      sub.appendChild(el('span','modeTag','时间线'));
+    }
+  }else{
+    sub.appendChild(el('span','modeTag','原序'));
+  }
+  (scene.src||[]).forEach(f=>{
+    const c=el('code',null,f); sub.appendChild(c);
+  });
+
+  const inner=$('#inner'); inner.innerHTML='';
+  if(varPanelOpen) inner.appendChild(buildVarPanel());
+  const title=el('div','sceneTitle',meta.chl+' · '+meta.l);
+  inner.appendChild(title);
+
+  const q=S.query.trim();
+  const rx = q ? new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi') : null;
+
+  const useTimeline = S.mode==='timeline' && tl && tl.seq && tl.seq.length && resolvable;
+  if(useTimeline){
+    let dropped = 0;
+    tl.seq.forEach(item=>{
+      const n=timelineNode(item, scene, rx, fallbackSrc);
+      if(!n){ if(typeof item === 'number') dropped++; return; }
+      if(n.__inline){ renderTimeline(n.__inline, inner, scene, rx, fallbackSrc); return; }
+      inner.appendChild(n);
+    });
+    if(tl.dyn && tl.dyn.length){
+      const box=el('div','tlDyn');
+      box.appendChild(el('div','tlDynHead','条件分支（由游戏状态决定，无法静态展开）'));
+      tl.dyn.forEach(c=>{
+        box.appendChild(el('div','tlDynCond', '⎇ '+c));
+      });
+      inner.appendChild(box);
+    }
+    if(dropped){
+      inner.appendChild(el('div','tlDynNote',
+        '另有 '+dropped+' 条流程引用在本场景的文本里找不到对应条目，未显示。'));
+    }
+  }else{
+    if(S.mode==='timeline' && tl && stat.total && !resolvable){
+      const box=el('div','tlDyn');
+      box.appendChild(el('div','tlDynHead',
+        '本场景的流程脚本与文本编号对不上（'+stat.ok+'/'+stat.total+' 条引用落在范围内），已退回按文件原序显示。'));
+      if(tl.dyn && tl.dyn.length){
+        box.appendChild(el('div','tlDynHead','流程里出现的条件：'));
+        tl.dyn.slice(0,20).forEach(c=>{
+          box.appendChild(el('div','tlDynCond','⎇ '+c));
+        });
+        if(tl.dyn.length>20){
+          box.appendChild(el('div','tlDynCond','… 等共 '+tl.dyn.length+' 条'));
+        }
+      }
+      inner.appendChild(box);
+    }
+    for(const d of scene.dlg){
+      inner.appendChild(dlgNode(d, rx, fallbackSrc));
+    }
+  }
+
+  inner.appendChild(el('div','endNote','— 本篇结束，继续下滑进入下一篇 —'));
+  const spacer=el('div','endSpacer');
+  spacer.id='endSpacer';
+  inner.appendChild(spacer);
+  updatePos();
+  if(scrollTop) $('#readBody').scrollTop=0;
+}
+
+/** Switch between the choice-aware timeline and the raw file order. */
+function setMode(mode){
+  S.mode = mode;
+  setModeChip();
+  try{ localStorage.setItem('p5r.mode', mode); }catch(e){}
+  if(S.current) openScene(S.current, true);
+}
+
+/* --------------------------------------------------- continuous navigation */
+
+function currentListIndex(){
+  return S.list.findIndex(s=>s.id===S.current);
+}
+
+function updatePos(){
+  const i=currentListIndex();
+  const n=S.list.length;
+  $('#rpos').textContent = (i<0||!n) ? '— / —' : (i+1)+' / '+n;
+  $('#prevBtn').disabled = i<=0;
+  $('#nextBtn').disabled = i<0 || i>=n-1;
+}
+
+function stepScene(delta){
+  const i=currentListIndex();
+  if(i<0) return;
+  const j=i+delta;
+  if(j<0||j>=S.list.length) return;
+  revealUpTo(j);                       // make sure the target row exists
+  const meta=S.list[j];
+  openScene(meta.id,true);
+  const row=document.querySelector(`.sc[data-id="${CSS.escape(meta.id)}"]`);
+  if(row) row.scrollIntoView({block:'nearest'});
+}
+
+/** Grow the rendered list until row `index` exists. */
+function revealUpTo(index){
+  let guard=0;
+  while(S.shown<=index && S.shown<S.list.length && guard++<200) appendRows();
+}
+
+$('#prevBtn').onclick=()=>stepScene(-1);
+$('#nextBtn').onclick=()=>stepScene(1);
+$('#autoChip').onclick=()=>{
+  S.auto=!S.auto;
+  $('#autoChip').classList.toggle('on',S.auto);
+  toast(S.auto?'连续阅读：开':'连续阅读：关');
+};
+$('#autoChip').classList.toggle('on',S.auto);
+$('#varToggle').onclick=()=>toggleVarPanel();
+
+$('#readBody').addEventListener('scroll',()=>{
+  if(!S.auto) return;
+  const box=$('#readBody');
+  // Turn the page only once the reader has actually reached the very bottom,
+  // i.e. after the end spacer has been scrolled through. The generous
+  // AUTO_ADVANCE area at the end of every scene is what makes the last line
+  // comfortably readable before the jump.
+  if(S.autoArmed) return;
+  if(box.scrollTop + box.clientHeight < box.scrollHeight - AUTO_ADVANCE_GAP) return;
+  const i=currentListIndex();
+  if(i<0 || i>=S.list.length-1) return;
+  S.autoArmed=true;
+  stepScene(1);
+});
+
+// Infinite list. The IntersectionObserver on the trailing sentinel is the main
+// mechanism; the scroll listener is a belt-and-braces fallback for the case
+// where one append leaves the sentinel just outside the margin.
+$('#list').addEventListener('scroll',()=>{
+  const box=$('#list');
+  if(S.shown >= S.list.length) return;
+  if(box.scrollTop + box.clientHeight >= box.scrollHeight - LOAD_MARGIN) appendRows();
+});
+
+/* ------------------------------------------------------------------- search */
+
+// Search that also looks inside the dialogue text. Builds a flat corpus of the
+// currently selected category files on first use and caches it.
+async function buildCorpus(){
+  if(S.fullCache) return S.fullCache;
+  const corpus=[];
+  for(const c of S.index.categories){
+    const p=await loadCategory(c.id);
+    for(const sid in p){
+      const sc=p[sid];
+      sc.dlg.forEach((d,i)=>corpus.push({sid,i,s:d.s,t:d.t,meta:S.index.scenes.find(x=>x.id===sid)}));
+    }
+  }
+  S.fullCache=corpus;
+  return corpus;
+}
+
+async function deepSearch(q){
+  toast('正在全文检索…');
+  const corpus=await buildCorpus();
+  const needle=q.toLowerCase();
+  const hits=new Map();
+  for(const row of corpus){
+    // match the raw placeholder text and the value the user defined for it
+    if(row.tlower === undefined){
+      row.tlower = row.t.toLowerCase();
+      row.slower = row.s.toLowerCase();
+      row.vlower = applyVar(row.t).toLowerCase();
+    }
+    if(row.tlower.includes(needle) || row.slower.includes(needle) || row.vlower.includes(needle)){
+      if(!hits.has(row.sid)) hits.set(row.sid,{n:0,meta:row.meta,first:row.t});
+      const h=hits.get(row.sid); h.n++;
+    }
+  }
+  const list=[...hits.values()].sort((a,b)=>b.n-a.n);
+  S.list=list.map(h=>({...h.meta,p:h.first,n:h.n,_hits:true}));
+  S.searching=true;
+  $('#listTitle').textContent='全文检索：'+q;
+  renderList();
+  $('#listCount').textContent=list.length+' 个场景命中';
+  if(S.current) updatePos();
+}
+
+/* --------------------------------------------------------------------- wire */
+
+let searchTimer=null;
+$('#q').addEventListener('input',e=>{
+  S.query=e.target.value;
+  clearTimeout(searchTimer);
+  searchTimer=setTimeout(()=>{
+    if(S.query.trim().length>=2) deepSearch(S.query.trim());
+    else applyFilters();
+  },320);
+});
+$('#q').addEventListener('keydown',e=>{
+  if(e.key==='Escape'){ $('#q').value=''; S.query=''; applyFilters(); }
+});
+$('#clearBtn').onclick=()=>{ $('#q').value=''; S.query=''; applyFilters(); };
+
+document.addEventListener('keydown',e=>{
+  if(e.target.tagName==='INPUT') return;
+  if(e.key==='['){ stepScene(-1); e.preventDefault(); return; }
+  if(e.key===']'){ stepScene(1);  e.preventDefault(); return; }
+  if(e.key==='t'||e.key==='T'){
+    if(S.index && S.index.timeline) setMode(S.mode==='timeline'?'raw':'timeline');
+    e.preventDefault(); return;
+  }
+  const rows=[...document.querySelectorAll('.sc')];
+  if(!rows.length) return;
+  const cur=rows.findIndex(r=>r.classList.contains('on'));
+  if(e.key==='ArrowDown'||e.key==='j'){
+    const n=Math.min(rows.length-1,(cur<0?-1:cur)+1); rows[n].click(); rows[n].scrollIntoView({block:'nearest'}); e.preventDefault();
+  }else if(e.key==='ArrowUp'||e.key==='k'){
+    const n=Math.max(0,(cur<0?rows.length:cur)-1); rows[n].click(); rows[n].scrollIntoView({block:'nearest'}); e.preventDefault();
+  }
+});
+
+boot();
+</script>
+</body>
+</html>

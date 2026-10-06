@@ -1,0 +1,184 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR3130_010_000.BF
+对话条目: 42 条
+================================================================================
+
+【摩尔加纳】这个地方……好像可以好好看书。
+    «ID MSG_RubuBook_Tuto  对话»
+
+〔旁白〕这里似乎可以专心看书……
+    «ID MND_RubuBook_Tuto  对话»
+
+【摩尔加纳】要看书打发时间吗？
+    «ID MSG_ReadStart  对话»
+
+〔旁白〕看个书打发时间好了……
+    «ID MND_ReadStart  对话»
+
+【摩尔加纳】还有客人在呢……
+    书等下次再看吧。
+    «ID MSG_BookNG_KyakuDay  对话»
+
+〔旁白〕还有客人在。
+    书等下次再看好了……
+    «ID MND_BookNG_KyakuDay  对话»
+
+【摩尔加纳】不一定要今天，其他时候也都能看书的。
+    比起这个还是赶快为明天做准备吧。
+    «ID MSG_BookNG_StandBy  对话»
+
+【摩尔加纳】今天已经累了吧。
+    就算现在看书，应该也读不进去吧。
+    «ID MSG_BookNG_PalaceAfter  对话»
+
+〔旁白〕今天已经累了。
+    书下次再看吧……
+    «ID MND_BookNG_PalaceAfter  对话»
+
+【摩尔加纳】为了让明天有精神，今天就先休息吧。
+    看书就改到下次吧。
+    «ID MSG_BookNG_SleepDay  对话»
+
+〔旁白〕明天也会很忙。
+    下次再看书好了……
+    «ID MND_BookNG_SleepDay  对话»
+
+【摩尔加纳】卢布朗还在营业吧？
+    要读书等晚上再说。
+    «ID MSG_BookNG_NotNight  对话»
+
+〔旁白〕卢布朗还在营业。
+    读书等晚上再说好了……
+    «ID MND_BookNG_NotNight  对话»
+
+【摩尔加纳】没有可以看的书……
+    «ID MSG_BookNG_NotHave  对话»
+
+〔旁白〕手上没有可看的书……
+    «ID MND_BookNG_NotHave  对话»
+
+【摩尔加纳】哦，要看书打发时间吗？
+    «ID MND_BOOK_START_THINK_MOR  对话»
+
+〔旁白〕要看书打发时间吗……
+    «ID MND_BOOK_START_THINK  对话»
+
+【选项】SEL_BOOK_START_THINK
+    ▸ 看书吧
+    ▸ 还是算了
+    «ID SEL_BOOK_START_THINK  选项»
+
+【摩尔加纳】要看哪本书？
+    «ID MSG_BOOK_TITLE_000  对话»
+
+【摩尔加纳】啊，是吗？
+    «ID MSG_BOOK_CANCEL  对话»
+
+【摩尔加纳】喂，那本书已经读完了吧？
+    «ID MSG_BookSelect_EndBook  对话»
+
+〔旁白〕这本书已经看完了……
+    «ID MND_BookSelect_EndBook  对话»
+
+【摩尔加纳】那本书好像很艰深……
+    依你现在的[stIcon 0][stLabel 0]可能会看不懂。
+    «ID MSG_NG_Atama  对话»
+
+〔旁白〕要读[var 0]的话
+    得先拥有[stLvLabel 0 3]程度的[stIcon 0][stLabel 0]才行。
+    «ID SYS_NG_Atama  对话»
+
+〔旁白〕要读[var 0]的话
+    得先拥有[stLvLabel 0 2]程度的[stIcon 0][stLabel 0]才行。
+    «ID SYS_NG_Atama_rank2  对话»
+
+〔旁白〕由于读了速读书，
+    可以阅读得更快了……
+    «ID MND_BOOK_NORMAL_SOKUDOKU  对话»
+
+〔旁白〕现在，就读这本书来打发时间吧？
+    «ID MND_BOOK_READ_CHK  对话»
+
+【选项】SEL_BOOK_READ_CHK
+    ▸ 是
+    ▸ 否
+    «ID SEL_BOOK_READ_CHK  选项»
+
+〔旁白〕变为已读状态。
+    «ID SYS_BookEnd  对话»
+
+【摩尔加纳】嗯？这本书……
+    介绍了元町中华街啊。
+    你已经对元町中华街有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id25  对话»
+
+【摩尔加纳】嗯？这本书……介绍了
+    埋滨的戴斯德尼乐园啊。
+    你已经对埋滨有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id26  对话»
+
+【摩尔加纳】嗯？这本书……介绍了浅草啊。
+    你已经对浅草有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id44  对话»
+
+【摩尔加纳】嗯？这本书……介绍了明治神宫啊。
+    你已经对明治神宫有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id45  对话»
+
+【摩尔加纳】嗯？这本书……介绍了
+    市谷的钓场啊。
+    你已经对市谷有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id46  对话»
+
+【摩尔加纳】嗯？这本书……介绍了
+    池袋的天文馆啊。
+    你已经对池袋有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id48  对话»
+
+【摩尔加纳】嗯？这本书……介绍了
+    神保町的古书店街啊。
+    你已经对神保町有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id49  对话»
+
+【摩尔加纳】嗯？这本书……介绍了
+    井之头公园啊。
+    你已经对井之头公园有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id55  对话»
+
+【摩尔加纳】嗯？这本书……介绍了
+    原宿的竹之子小路啊。
+    你已经对原宿有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id59  对话»
+
+【摩尔加纳】嗯？这本书……介绍了
+    海滨公园啊。
+    你已经对海滨公园有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id60  对话»
+
+【摩尔加纳】嗯？这本书……介绍了
+    四轩茶屋啊。
+    你已经在小巷里散过步了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id47  对话»
+
+【摩尔加纳】嗯？这本书……介绍了
+    品川啊。
+    你已经对品川有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id66  对话»
+
+【摩尔加纳】嗯？这本书……介绍了
+    中野啊。
+    你已经对中野有所了解了吧？
+    没必要特地去读了。
+    «ID MSG_SpotBookNG_id67  对话»

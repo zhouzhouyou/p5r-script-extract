@@ -1,0 +1,51 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR0151_003_115.BF
+对话条目: 13 条
+================================================================================
+
+【选项】SEARCH_TUTORIAL_GIM_SEL
+    ▸ 移动
+    ▸ 放弃
+    «ID SEARCH_TUTORIAL_GIM_SEL  选项»
+
+〔旁白〕这个烛台似乎可以移动……
+    «ID SEARCH_TUTORIAL_GIM01  对话»
+
+【摩尔加纳】小哥！
+    那个很可疑吧！？
+    赶快调查一下！
+    «ID SEARCH_TUTORIAL_GIM_MOR0  对话»
+
+【摩尔加纳】那个吗！那个是开关吧！？
+    赶快调查一下！
+    «ID SEARCH_TUTORIAL_GIM_MOR0_2  对话»
+
+【坂本　龙司】主角！那个很可疑吗！？
+    拜托了！赶快离开这里！
+    «ID SEARCH_TUTORIAL_GIM_RYU0  对话»
+
+【坂本　龙司】主角！有发现什么吗！？
+    «ID SEARCH_TUTORIAL_GIM_RYU0_2  对话»
+
+【摩尔加纳】那个是已经调查过的！
+    «ID SEARCH_TUTORIAL_GIM_AF_M  对话»
+
+【摩尔加纳】那个是已经调查过的！
+    找找其他的！
+    «ID SEARCH_TUTORIAL_GIM_AF_M_2  对话»
+
+【坂本　龙司】那个是已经调查过的！
+    «ID SEARCH_TUTORIAL_GIM_AF_R  对话»
+
+【坂本　龙司】那个是已经调查过的！
+    试试其他的！
+    «ID SEARCH_TUTORIAL_GIM_AF_R_2  对话»
+
+〔旁白〕似乎不是这个
+    «ID GIM_05_mes01  对话»
+
+〔旁白〕似乎不是这个
+    «ID GIM_06_mes01  对话»
+
+〔旁白〕门似乎锁着。
+    «ID Door_Lock_mes01  对话»

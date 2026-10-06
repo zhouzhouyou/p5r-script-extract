@@ -1,0 +1,490 @@
+================================================================================
+来源文件: FIELD\NPC\FNPC153_001_00.BF
+对话条目: 122 条
+================================================================================
+
+【选项】YESNO_SEL
+    ▸ 是
+    ▸ 否
+    «ID YESNO_SEL  选项»
+
+【选项】PTIN_YESNO_SEL
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PTIN_YESNO_SEL  选项»
+
+【坂本　龙司】我随时都准备好了！
+    要让我当主力哦！
+    «ID PARTY_IN_CHECK_PC02_mes0  对话»
+
+【坂本　龙司】终于来到这里了啊。
+    要让我来当主力吗？
+    «ID PARTY_IN_CHECK_PC02_EX_m  对话»
+
+【选项】PARTY_IN_CHECK_PC02_selA
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC02_selA  选项»
+
+【坂本　龙司】好！你可得看好了哦？
+    «ID PARTY_IN_CHECK_PC02_selA_2  对话»
+
+【坂本　龙司】是吗？
+    算了，你随时都可以来找我哦！
+    «ID PARTY_IN_CHECK_PC02_selA_3  对话»
+
+【坂本　龙司】主力阵容好像已经满了。
+    要替换谁呢？
+    «ID PARTY_IN_CHECK_PC02_mes0_2  对话»
+
+【摩尔加纳】吾辈来当主力吗？
+    嗯，可以哦！
+    «ID PARTY_IN_CHECK_PC03_mes0  对话»
+
+【摩尔加纳】这是最后的战斗。
+    如果要吾辈当主力话，吾辈会全力以赴的！
+    «ID PARTY_IN_CHECK_PC03_EX_m  对话»
+
+【选项】PARTY_IN_CHECK_PC03_selA
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC03_selA  选项»
+
+【摩尔加纳】好，一起上吧！
+    «ID PARTY_IN_CHECK_PC03_selA_2  对话»
+
+【摩尔加纳】如果需要吾辈的力量，
+    随时都可以说哦？
+    «ID PARTY_IN_CHECK_PC03_selA_3  对话»
+
+【摩尔加纳】主力已经满了啊……
+    来决定一下要替换谁吧。
+    «ID PARTY_IN_CHECK_PC03_mes0_2  对话»
+
+【高卷　杏】我真的可以做战斗成员吗？
+    «ID PARTY_IN_CHECK_PC04_mes0  对话»
+
+【高卷　杏】就以这一战结束一切吧，ＪＯＫＥＲ！
+    要让我当主力吗？
+    «ID PARTY_IN_CHECK_PC04_EX_m  对话»
+
+【选项】PARTY_IN_CHECK_PC04_selA
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC04_selA  选项»
+
+【高卷　杏】嗯！请多指教！
+    «ID PARTY_IN_CHECK_PC04_selA_2  对话»
+
+【高卷　杏】知道了。
+    要是改变主意了可以随时来找我哦？
+    «ID PARTY_IN_CHECK_PC04_selA_3  对话»
+
+【高卷　杏】战斗成员已经满了呢。
+    要替换谁才好呢？
+    «ID PARTY_IN_CHECK_PC04_mes0_2  对话»
+
+【喜多川　佑介】我也可以加入主力阵容吧？
+    «ID PARTY_IN_CHECK_PC05_mes0  对话»
+
+【喜多川　佑介】最后的战斗……我已经做好心理准备了。
+    有必要的话就把我加入主力阵容吧。
+    «ID PARTY_IN_CHECK_PC05_EX_m  对话»
+
+【选项】PARTY_IN_CHECK_PC05_selA
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC05_selA  选项»
+
+【喜多川　佑介】交给我吧，我不会让你失望的。
+    «ID PARTY_IN_CHECK_PC05_selA_2  对话»
+
+【喜多川　佑介】明白了，那我就继续做替补成员吧。
+    «ID PARTY_IN_CHECK_PC05_selA_3  对话»
+
+【喜多川　佑介】主力阵容似乎已经满了，
+    指示一下要替换谁吧。
+    «ID PARTY_IN_CHECK_PC05_mes0_2  对话»
+
+【喜多川　佑介】ＪＯＫＥＲ，让我也加入主力阵容吧。
+    我会全力以赴，不会让你失望的。
+    «ID PARTY_IN_CHECK_PC05_D02_  对话»
+
+【选项】PARTY_IN_CHECK_PC05_D02__2
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC05_D02__2  选项»
+
+【喜多川　佑介】谢谢你。
+    一定要让斑目悔改哦！
+    «ID PARTY_IN_CHECK_PC05_D02__3  对话»
+
+【喜多川　佑介】我会一直做好准备的。
+    随时都可以当主力。
+    «ID PARTY_IN_CHECK_PC05_D02__4  对话»
+
+【喜多川　佑介】主力阵容似乎已经满了，
+    指示一下要替换谁吧。
+    «ID PARTY_IN_CHECK_PC05_D02__5  对话»
+
+【新岛　真】让我做战斗成员？
+    嗯，没问题。
+    «ID PARTY_IN_CHECK_PC06_mes0  对话»
+
+【新岛　真】给一切都做个了结吧。
+    如果要我当主力的话，我会接受的。
+    «ID PARTY_IN_CHECK_PC06_EX_m  对话»
+
+【选项】PARTY_IN_CHECK_PC06_selA
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC06_selA  选项»
+
+【新岛　真】我不会辜负你的期待的！
+    «ID PARTY_IN_CHECK_PC06_selA_2  对话»
+
+【新岛　真】是啊，谨慎判断
+    并不是什么坏事。
+    «ID PARTY_IN_CHECK_PC06_selA_3  对话»
+
+【新岛　真】战斗成员似乎已经满了。
+    我要和谁替换呢？
+    «ID PARTY_IN_CHECK_PC06_mes0_2  对话»
+
+【新岛　真】能让我做战斗成员吗？
+    我一定会全力以赴的。
+    «ID PARTY_IN_CHECK_PC06_D03_  对话»
+
+【选项】PARTY_IN_CHECK_PC06_D03__2
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC06_D03__2  选项»
+
+【新岛　真】谢谢……
+    我绝对不会让你后悔。
+    «ID PARTY_IN_CHECK_PC06_D03__3  对话»
+
+【新岛　真】需要我帮忙的话就赶快说哦？
+    我会做好准备随时出击的。
+    «ID PARTY_IN_CHECK_PC06_D03__4  对话»
+
+【新岛　真】战斗成员似乎已经满了。
+    我要和谁替换呢？
+    «ID PARTY_IN_CHECK_PC06_D03__5  对话»
+
+【奥村　春】让我当主力？
+    交给我吧，我会努力的！
+    «ID PARTY_IN_CHECK_PC07_mes0  对话»
+
+【奥村　春】现在能拯救世界的只有我们……
+    ＪＯＫＥＲ，主力就让给我来吧！我会努力的！
+    «ID PARTY_IN_CHECK_PC07_EX_m  对话»
+
+【选项】PARTY_IN_CHECK_PC07_selA
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC07_selA  选项»
+
+【奥村　春】嗯！我会全力以赴的！
+    «ID PARTY_IN_CHECK_PC07_selA_2  对话»
+
+【奥村　春】这样啊，那替补成员就由我来吧。
+    «ID PARTY_IN_CHECK_PC07_selA_3  对话»
+
+【奥村　春】主力阵容似乎已经满了。
+    要替换谁呢？
+    «ID PARTY_IN_CHECK_PC07_mes0_2  对话»
+
+【奥村　春】ＪＯＫＥＲ，我不能当主力吗？
+    我想帮助大家。
+    «ID PARTY_IN_CHECK_PC07_D05_  对话»
+
+【选项】PARTY_IN_CHECK_PC07_D05__2
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC07_D05__2  选项»
+
+【奥村　春】我绝对会回应你的期待的！
+    «ID PARTY_IN_CHECK_PC07_D05__3  对话»
+
+【奥村　春】这样啊，那我就努力担任替补成员吧。
+    «ID PARTY_IN_CHECK_PC07_D05__4  对话»
+
+【奥村　春】主力阵容似乎已经满了。
+    要替换谁呢？
+    «ID PARTY_IN_CHECK_PC07_D05__5  对话»
+
+【佐仓　双叶】导航就交给我吧！
+    «ID FUTABA_PARTY_SCOUT  对话»
+
+【佐仓　双叶】别担心。有我在呢。
+    这次一定要赢哦，ＪＯＫＥＲ！
+    «ID FUTABA_PARTY_SCOUT_EX  对话»
+
+【佐仓　双叶】ＪＯＫＥＲ，没事吗？
+    先回到现实世界
+    准备一下装备和道具也无所谓哦！
+    «ID FUTABA_PARTY_SCOUT_EX02  对话»
+
+【明智　吾郎】没有比让我当主力更好的主意了。
+    你应该能明白的吧？
+    «ID PARTY_IN_CHECK_PC09_mes0  对话»
+
+【选项】PARTY_IN_CHECK_PC09_selA
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC09_selA  选项»
+
+【明智　吾郎】不愧是你，很准确的判断！
+    «ID PARTY_IN_CHECK_PC09_selA_2  对话»
+
+【明智　吾郎】好吧，既然你都这么说了。
+    «ID PARTY_IN_CHECK_PC09_selA_3  对话»
+
+【明智　吾郎】咦，主力阵容已经有很多人了。
+    能决定一下要替换谁吗？
+    «ID PARTY_IN_CHECK_PC09_mes0_2  对话»
+
+【sumi 10 0】让我加入主力成员？
+    没问题，我随时都可以上哦！
+    «ID PARTY_IN_CHECK_PC10_mes0 [  对话»
+
+【选项】PARTY_IN_CHECK_PC10_selA
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC10_selA  选项»
+
+【sumi 10 0】好的！
+    我不会辜负你的期待！
+    «ID PARTY_IN_CHECK_PC10_selA_2 [  对话»
+
+【sumi 10 0】我知道了。
+    我会注意不让身体凉下来的。
+    «ID PARTY_IN_CHECK_PC10_selA_3 [  对话»
+
+【sumi 10 0】啊，主力成员已经满了呢。
+    我该和谁替换呢？
+    «ID PARTY_IN_CHECK_PC10_mes0_2 [  对话»
+
+【坂本　龙司】我随时都准备好了！
+    要让我当主力哦！
+    «ID PARTY_IN_CHECK_PC02_NM_m  对话»
+
+【选项】PARTY_IN_CHECK_PC02_NM_s
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC02_NM_s  选项»
+
+【坂本　龙司】好！你可得看好了哦？
+    «ID PARTY_IN_CHECK_PC02_NM_s_2  对话»
+
+【坂本　龙司】是吗？
+    算了，你随时都可以来找我哦！
+    «ID PARTY_IN_CHECK_PC02_NM_s_3  对话»
+
+【坂本　龙司】主力阵容好像已经满了。
+    要替换谁呢？
+    «ID PARTY_IN_CHECK_PC02_NM_m_2  对话»
+
+【高卷　杏】我真的可以做战斗成员吗？
+    «ID PARTY_IN_CHECK_PC04_NM_m  对话»
+
+【选项】PARTY_IN_CHECK_PC04_NM_s
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC04_NM_s  选项»
+
+【高卷　杏】嗯！请多指教！
+    «ID PARTY_IN_CHECK_PC04_NM_s_2  对话»
+
+【高卷　杏】知道了。
+    要是改变主意了可以随时来找我哦？
+    «ID PARTY_IN_CHECK_PC04_NM_s_3  对话»
+
+【高卷　杏】战斗成员已经满了呢。
+    要替换谁才好呢？
+    «ID PARTY_IN_CHECK_PC04_NM_m_2  对话»
+
+【喜多川　佑介】我也可以加入主力阵容吧？
+    «ID PARTY_IN_CHECK_PC05_NM_m  对话»
+
+【选项】PARTY_IN_CHECK_PC05_NM_s
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC05_NM_s  选项»
+
+【喜多川　佑介】交给我吧，我不会让你失望的。
+    «ID PARTY_IN_CHECK_PC05_NM_s_2  对话»
+
+【喜多川　佑介】明白了，那我就继续做替补成员吧。
+    «ID PARTY_IN_CHECK_PC05_NM_s_3  对话»
+
+【喜多川　佑介】主力阵容似乎已经满了，
+    指示一下要替换谁吧。
+    «ID PARTY_IN_CHECK_PC05_NM_m_2  对话»
+
+【新岛　真】让我做战斗成员？
+    嗯，没问题。
+    «ID PARTY_IN_CHECK_PC06_NM_m  对话»
+
+【选项】PARTY_IN_CHECK_PC06_NM_s
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC06_NM_s  选项»
+
+【新岛　真】我不会辜负你的期待的！
+    «ID PARTY_IN_CHECK_PC06_NM_s_2  对话»
+
+【新岛　真】是啊，谨慎判断
+    并不是什么坏事。
+    «ID PARTY_IN_CHECK_PC06_NM_s_3  对话»
+
+【新岛　真】战斗成员似乎已经满了。
+    我要和谁替换呢？
+    «ID PARTY_IN_CHECK_PC06_NM_m_2  对话»
+
+【坂本　龙司】我随时都准备好了！
+    要让我当主力哦！
+    «ID PARTY_IN_CHECK_PC02_NM02  对话»
+
+【选项】PARTY_IN_CHECK_PC02_NM02_2
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC02_NM02_2  选项»
+
+【坂本　龙司】好！你可得看好了哦？
+    «ID PARTY_IN_CHECK_PC02_NM02_3  对话»
+
+【坂本　龙司】是吗？
+    算了，你随时都可以来找我哦！
+    «ID PARTY_IN_CHECK_PC02_NM02_4  对话»
+
+【坂本　龙司】主力阵容好像已经满了。
+    要替换谁呢？
+    «ID PARTY_IN_CHECK_PC02_NM02_5  对话»
+
+【高卷　杏】我真的可以做战斗成员吗？
+    «ID PARTY_IN_CHECK_PC04_NM02  对话»
+
+【选项】PARTY_IN_CHECK_PC04_NM02_2
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC04_NM02_2  选项»
+
+【高卷　杏】嗯！请多指教！
+    «ID PARTY_IN_CHECK_PC04_NM02_3  对话»
+
+【高卷　杏】知道了。
+    要是改变主意了可以随时来找我哦？
+    «ID PARTY_IN_CHECK_PC04_NM02_4  对话»
+
+【高卷　杏】战斗成员已经满了呢。
+    要替换谁才好呢？
+    «ID PARTY_IN_CHECK_PC04_NM02_5  对话»
+
+【喜多川　佑介】我也可以加入主力阵容吧？
+    «ID PARTY_IN_CHECK_PC05_NM02  对话»
+
+【选项】PARTY_IN_CHECK_PC05_NM02_2
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC05_NM02_2  选项»
+
+【喜多川　佑介】交给我吧，我不会让你失望的。
+    «ID PARTY_IN_CHECK_PC05_NM02_3  对话»
+
+【喜多川　佑介】明白了，那我就继续做替补成员吧。
+    «ID PARTY_IN_CHECK_PC05_NM02_4  对话»
+
+【喜多川　佑介】主力阵容似乎已经满了，
+    指示一下要替换谁吧。
+    «ID PARTY_IN_CHECK_PC05_NM02_5  对话»
+
+【新岛　真】让我做战斗成员？
+    嗯，没问题。
+    «ID PARTY_IN_CHECK_PC06_NM02  对话»
+
+【选项】PARTY_IN_CHECK_PC06_NM02_2
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC06_NM02_2  选项»
+
+【新岛　真】我不会辜负你的期待的！
+    «ID PARTY_IN_CHECK_PC06_NM02_3  对话»
+
+【新岛　真】是啊，谨慎判断
+    并不是什么坏事。
+    «ID PARTY_IN_CHECK_PC06_NM02_4  对话»
+
+【新岛　真】战斗成员似乎已经满了。
+    我要和谁替换呢？
+    «ID PARTY_IN_CHECK_PC06_NM02_5  对话»
+
+【奥村　春】让我当主力？
+    交给我吧，我会努力的！
+    «ID PARTY_IN_CHECK_PC07_NM02  对话»
+
+【选项】PARTY_IN_CHECK_PC07_NM02_2
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC07_NM02_2  选项»
+
+【奥村　春】嗯！我会全力以赴的！
+    «ID PARTY_IN_CHECK_PC07_NM02_3  对话»
+
+【奥村　春】这样啊，那替补成员就由我来吧。
+    «ID PARTY_IN_CHECK_PC07_NM02_4  对话»
+
+【奥村　春】主力阵容似乎已经满了。
+    要替换谁呢？
+    «ID PARTY_IN_CHECK_PC07_NM02_5  对话»
+
+【佐仓　双叶】导航就交给我吧！
+    «ID FUTABA_PARTY_SCOUT_NM02  对话»
+
+【明智　吾郎】没有比让我当主力更好的主意了。
+    你应该能明白的吧？
+    «ID PARTY_IN_CHECK_PC09_NM02  对话»
+
+【选项】PARTY_IN_CHECK_PC09_NM02_2
+    ▸ 请多指教
+    ▸ 等一下
+    «ID PARTY_IN_CHECK_PC09_NM02_2  选项»
+
+【明智　吾郎】不愧是你，很准确的判断！
+    «ID PARTY_IN_CHECK_PC09_NM02_3  对话»
+
+【明智　吾郎】好吧，既然你都这么说了。
+    «ID PARTY_IN_CHECK_PC09_NM02_4  对话»
+
+【明智　吾郎】咦，主力阵容已经有很多人了。
+    能决定一下要替换谁吗？
+    «ID PARTY_IN_CHECK_PC09_NM02_5  对话»
+
+【选项】PARTY_SEL
+    ▸ 坂本　龙司
+    ▸ 摩尔加纳
+    ▸ 高卷　杏
+    ▸ 喜多川　佑介
+    ▸ 新岛　真
+    ▸ 奥村　春
+    ▸ 佐仓　双叶
+    ▸ 明智　吾郎
+    ▸ 芳泽　堇
+    ▸ 还是算了吧
+    «ID PARTY_SEL  选项»
+
+【奥村　春】我也能战斗的！
+    拜托了，带我去前线吧！
+    «ID D156_01_npc_01_mes01  对话»
+
+【摩尔加纳】不，你人格面具的力量还太弱了，很危险。
+    就交给吾辈等人吧。
+    «ID D156_01_npc_01_mes02  对话»
+
+【奥村　春】好吧……
+    «ID D156_01_npc_01_mes03  对话»
+
+【sumi 10 0】我想和丸喜老师好好谈谈。
+    请让我和大家一起去吧。
+    «ID D162_01_npc_01_mes01 [  对话»

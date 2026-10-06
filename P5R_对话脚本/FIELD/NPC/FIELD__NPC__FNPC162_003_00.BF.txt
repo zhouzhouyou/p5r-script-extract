@@ -1,0 +1,121 @@
+================================================================================
+来源文件: FIELD\NPC\FNPC162_003_00.BF
+对话条目: 39 条
+================================================================================
+
+【身穿检查服的病人们】啊哈哈。
+    «ID D10_NPC_GREETING_M_LAUGH  对话»
+
+【身穿检查服的病人们】哎嘿嘿。
+    «ID D10_NPC_GREETING_M_LAUGH_2  对话»
+
+【身穿检查服的病人们】咻～！
+    «ID D10_NPC_GREETING_M_YEAH_  对话»
+
+【身穿检查服的病人们】耶～！
+    «ID D10_NPC_GREETING_M_YEAH__2  对话»
+
+【身穿检查服的病人们】唔噢噢噢噢……！
+    «ID D10_NPC_GREETING_M_YEAH__3  对话»
+
+【身穿检查服的病人们】太棒了！
+    «ID D10_NPC_GREETING_M_SAIKO  对话»
+
+【身穿检查服的病人们】我都快要哭了！
+    «ID D10_NPC_GREETING_M_SAIKO_2  对话»
+
+【身穿检查服的病人们】真开心啊。
+    «ID D10_NPC_GREETING_M_HAPPY  对话»
+
+【身穿检查服的病人们】好幸福啊。
+    «ID D10_NPC_GREETING_M_HAPPY_2  对话»
+
+【身穿检查服的病人们】真好呢。
+    «ID D10_NPC_GREETING_M_HAPPY_3  对话»
+
+【身穿检查服的病人们】真好。
+    «ID D10_NPC_GREETING_M_HAPPY_4  对话»
+
+【身穿检查服的病人们】恭喜！
+    «ID D10_NPC_GREETING_M_OMEDE  对话»
+
+【身穿检查服的病人们】太好了！
+    «ID D10_NPC_GREETING_M_OMEDE_2  对话»
+
+【身穿检查服的病人们】要幸福哦！
+    «ID D10_NPC_GREETING_M_OSHOA  对话»
+
+【身穿检查服的病人们】祝你幸福！
+    «ID D10_NPC_GREETING_M_OSHOA_2  对话»
+
+【身穿检查服的病人们】太棒了！
+    «ID D10_NPC_GREETING_M_NEGIR  对话»
+
+【身穿检查服的病人们】干得好！
+    «ID D10_NPC_GREETING_M_NEGIR_2  对话»
+
+【身穿检查服的病人们】我好感动！
+    «ID D10_NPC_GREETING_M_NEGIR_3  对话»
+
+【身穿检查服的病人们】实在是令人高兴！
+    «ID D10_NPC_GREETING_M_NEGIR_4  对话»
+
+【身穿检查服的病人们】呵呵呵。
+    «ID D10_NPC_GREETING_F_LAUGH  对话»
+
+【身穿检查服的病人们】啊哈哈。
+    «ID D10_NPC_GREETING_F_LAUGH_2  对话»
+
+【身穿检查服的病人们】耶～！
+    «ID D10_NPC_GREETING_F_YEAH_  对话»
+
+【身穿检查服的病人们】呀！
+    «ID D10_NPC_GREETING_F_YEAH__2  对话»
+
+【身穿检查服的病人们】呀！好棒哦～！
+    «ID D10_NPC_GREETING_F_YEAH__3  对话»
+
+【身穿检查服的病人们】真是太棒了呢！
+    «ID D10_NPC_GREETING_F_SAIKO  对话»
+
+【身穿检查服的病人们】我都快要哭了！
+    «ID D10_NPC_GREETING_F_SAIKO_2  对话»
+
+【身穿检查服的病人们】好高兴～！
+    «ID D10_NPC_GREETING_F_HAPPY  对话»
+
+【身穿检查服的病人们】很不错呢。
+    «ID D10_NPC_GREETING_F_HAPPY_2  对话»
+
+【身穿检查服的病人们】真是太开心了！
+    «ID D10_NPC_GREETING_F_HAPPY_3  对话»
+
+【身穿检查服的病人们】很棒吧。
+    «ID D10_NPC_GREETING_F_HAPPY_4  对话»
+
+【身穿检查服的病人们】好高兴！
+    «ID D10_NPC_GREETING_F_HAPPY_5  对话»
+
+【身穿检查服的病人们】真幸福啊。
+    «ID D10_NPC_GREETING_F_HAPPY_6  对话»
+
+【身穿检查服的病人们】恭喜！
+    «ID D10_NPC_GREETING_F_OMEDE  对话»
+
+【身穿检查服的病人们】太好了呢！
+    «ID D10_NPC_GREETING_F_OMEDE_2  对话»
+
+【身穿检查服的病人们】恭喜！
+    «ID D10_NPC_GREETING_F_OMEDE_3  对话»
+
+【身穿检查服的病人们】要永远幸福哦！
+    «ID D10_NPC_GREETING_F_OSHIA  对话»
+
+【身穿检查服的病人们】祝你幸福！
+    «ID D10_NPC_GREETING_F_OSHIA_2  对话»
+
+【身穿检查服的病人们】你很努力了呢！
+    «ID D10_NPC_GREETING_F_NEGIR  对话»
+
+【身穿检查服的病人们】我就知道会实现的！
+    «ID D10_NPC_GREETING_F_NEGIR_2  对话»

@@ -1,0 +1,92 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR7000_002_011.BF
+对话条目: 20 条
+================================================================================
+
+【选项】YESNO_SEL
+    ▸ 是
+    ▸ 否
+    «ID YESNO_SEL  选项»
+
+【奥村　春】那里还空着，能种点什么哦？
+    要不要种点什么？
+    «ID MSG_START_SeedSelect  对话»
+
+【选项】GSEL_SeedSelect
+    ▸ [var 0]
+    ▸ [var 1]
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ [var 5]
+    ▸ [var 6]
+    «ID GSEL_SeedSelect  选项»
+
+【奥村　春】想种的时候就用那里吧。
+    我会努力培育的。
+    «ID MSG_SeedSelect_Cancel  对话»
+
+【奥村　春】啊，要种这个吗？
+    «ID MSG_SeedSelect_Think  对话»
+
+【选项】SEL_SeedSelect_Think
+    ▸ 没错
+    ▸ 不种
+    «ID SEL_SeedSelect_Think  选项»
+
+【奥村　春】呵呵……
+    祝你能茁壮成长……
+    «ID MSG_NowPlant_Pattern01  对话»
+
+【奥村　春】嗯，这孩子非常努力。
+    肯定能长到很大很大的。
+    «ID MSG_NowPlant_Pattern02  对话»
+
+【奥村　春】希望不会伤到根……
+    也希望它们能长好。
+    «ID MSG_NowPlant_Pattern03  对话»
+
+【奥村　春】与植物对话，就能让植物长得更好哦？
+    要长得大大的哦～
+    «ID MSG_NowPlant_Pattern04  对话»
+
+【奥村　春】我想想……顺利的话，
+    再过[var 0]天应该就能收获了吧……
+    «ID MSG_EndPlant_DayCount  对话»
+
+【奥村　春】怎么样？　成长得很好吧？
+    再过[var 0]天应该就能收获了吧……
+    «ID MSG_DayCount  对话»
+
+【奥村　春】啊，这孩子已经可以收获了哦。
+    要收获吗？
+    «ID MSG_GetPlant_Think  对话»
+
+【选项】SEL_GetPlant_Think
+    ▸ 收获吧
+    ▸ 还是算了
+    «ID SEL_GetPlant_Think  选项»
+
+【奥村　春】这样啊……
+    记得要早点采收哦。
+    «ID MSG_GetPlant_Cancel  对话»
+
+【奥村　春】你看看，它长得可好了！
+    成长得非常茁壮哦！
+    «ID MSG_GetPlant_Pattern01  对话»
+
+【奥村　春】快看快看！
+    它们长得非常好哦！
+    «ID MSG_GetPlant_Pattern02  对话»
+
+【奥村　春】呵呵，长得非常好哦！
+    要好好使用哦！
+    «ID MSG_GetPlant_Pattern03  对话»
+
+【奥村　春】花盆空出来了，
+    要种点什么吗？
+    «ID MSG_RePlant_Think  对话»
+
+【奥村　春】这里空着太浪费了。
+    有幼苗的话，就可以种了……
+    «ID MSG_SeedItem_NotHave  对话»

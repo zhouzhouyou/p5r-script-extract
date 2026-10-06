@@ -1,0 +1,2752 @@
+================================================================================
+来源文件: BATTLE\TALK\TALK_10KEMONO.BF
+对话条目: 716 条
+================================================================================
+
+〔旁白〕……可恶，又是这样！
+    «ID TalkMsg_GUY_CONTACT_01  对话»
+
+〔旁白〕……你很难缠啊。
+    «ID TalkMsg_GUY_CONTACT_02  对话»
+
+〔旁白〕要煮要烤，随便你了。
+    «ID TalkMsg_GUY_CONTACT_03  对话»
+
+〔旁白〕……我不会找借口的。
+    输给你是事实……
+    要煮要烤，随便你了。
+    «ID TalkMsg_GUY_CHAT_FQ_01  对话»
+
+【选项】TalkSel_GUY_CHAT_FQ_01
+    ▸ 煮煮看
+    ▸ 不想吃
+    ▸ 剁成肉酱吧
+    «ID TalkSel_GUY_CHAT_FQ_01  选项»
+
+〔旁白〕侮辱失去战意的对手吗。
+    ……人类真是邪恶透了。
+    «ID TalkMsg_GUY_CHAT_FQ_01_R  对话»
+
+〔旁白〕要杀的话，希望你能好好地『料理』我。
+    ……不要误解了这其中的意思哦？
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_2  对话»
+
+〔旁白〕把自己打败的敌人视为『食材』吗？
+    你就没有叫对敌人表达的『敬意』吗……？
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_3  对话»
+
+〔旁白〕居然把比喻当真……
+    你还真是……『纯洁』啊。
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_4  对话»
+
+〔旁白〕把比喻当真了啊……
+    你是……所谓的『老实人』吗？
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_5  对话»
+
+〔旁白〕我也并不是想被你吃掉……
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_6  对话»
+
+〔旁白〕哼，也就是连吃的勇气都没有啊……
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_7  对话»
+
+〔旁白〕因为你觉得我是高贵的存在吗？
+    那样的话倒也不坏……
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_8  对话»
+
+〔旁白〕喜欢切碎败者的尸体啊……
+    还真是个猎奇的人类啊。
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_9  对话»
+
+〔旁白〕是要毁尸灭迹吗……
+    这样就不会曝尸街头了……感谢你的关怀。
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_11  对话»
+
+〔旁白〕我知道这个！就是『肉丸子』吧！
+    是要吞噬我，然后化为你自己的血肉啊！
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_12  对话»
+
+〔旁白〕与败者无话可说……吗。
+    呵呵，好吧。
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_13  对话»
+
+〔旁白〕……看来你对敌人也抱有仁慈之心啊，
+    幼稚的人类。
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_14  对话»
+
+〔旁白〕……这道具发出的声音实在让人不爽。
+    不愧是邪恶的人类制造的道具……
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_15  对话»
+
+〔旁白〕你是希望看到我害怕『死亡』的样子吗？
+    ……很不巧，我回应不了你低俗的嗜好。
+    «ID TalkMsg_GUY_CHAT_FQ_01_R_16  对话»
+
+〔旁白〕……愚蠢的人类啊。
+    这里是我们的地盘……
+    而你却穿着鞋肆意践踏……
+    这是什么意思啊？
+    «ID TalkMsg_GUY_CHAT_FQ_02  对话»
+
+【选项】TalkSel_GUY_CHAT_FQ_02
+    ▸ 抱歉
+    ▸ 赤脚就可以吗？
+    ▸ 吵死了
+    «ID TalkSel_GUY_CHAT_FQ_02  选项»
+
+〔旁白〕能以力量取胜却不懂道理的话……就连禽兽都不如。
+    ……看来你是『人类』真实的写照呢。
+    «ID TalkMsg_GUY_CHAT_FQ_02_R  对话»
+
+〔旁白〕最近听不懂话的人类很多，
+    但你好像不太一样呢。
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_2  对话»
+
+〔旁白〕人类一旦犯错，就会立刻试图
+    以虚有其表的『语言』进行掩饰。
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_3  对话»
+
+〔旁白〕不准你污辱我的尊严……
+    好好反省吧……
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_4  对话»
+
+〔旁白〕别在那里瞎扯了，
+    快点道歉如何？
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_5  对话»
+
+〔旁白〕好，如果你能忍受那种愚蠢的样子……
+    就把鞋脱掉吧……
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_6  对话»
+
+〔旁白〕无论是穿着鞋还是赤脚都一样！
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_7  对话»
+
+〔旁白〕你在戏弄我吗？
+    玩笑对我是行不通的……
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_8  对话»
+
+〔旁白〕我知道这叫什么。
+    你正处于『叛逆期』吧……？
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_9  对话»
+
+〔旁白〕我说话并不大声。
+    你的耳膜出问题了，快去医院看看吧。
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_10  对话»
+
+〔旁白〕这根本不算回答。
+    ……你学校成绩『不及格』吧。
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_11  对话»
+
+〔旁白〕这是不知如何回答的人的惯用句呢。
+    你的无能已经暴露了。
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_12  对话»
+
+〔旁白〕我知道这叫什么。
+    你这是『恼羞成怒』吧……？
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_13  对话»
+
+〔旁白〕甚至不屑于回答我的问题……
+    贯彻自己的道路……也是一种强大吧。
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_14  对话»
+
+〔旁白〕刚才那一下，我的地盘也受到了损伤。
+    人类是擅长『破坏』的生物吗……？
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_15  对话»
+
+〔旁白〕……你应该知道自己有多野蛮吧？
+    你是披着『人类』外皮的什么东西？
+    «ID TalkMsg_GUY_CHAT_FQ_02_R_16  对话»
+
+〔旁白〕不过我搞不懂……
+    我居然会败给人类……
+    你到底有什么
+    比我厉害的……？
+    «ID TalkMsg_GUY_CHAT_FQ_03  对话»
+
+【选项】TalkSel_GUY_CHAT_FQ_03
+    ▸ 年轻
+    ▸ 可爱
+    ▸ 运气好而已
+    «ID TalkSel_GUY_CHAT_FQ_03  选项»
+
+〔旁白〕要创造出新生命，的确是年轻的更好。
+    你要和谁一起创造生命吗？
+    «ID TalkMsg_GUY_CHAT_FQ_03_R  对话»
+
+〔旁白〕『乳臭未干』还觉得自豪？…哈哈哈。
+    那种赢法就送给你吧。
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_2  对话»
+
+〔旁白〕年轻有时也代表着不成熟哦？
+    比我年轻，就真的能赢我吗？
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_3  对话»
+
+〔旁白〕原来如此，年轻便是美……吗。
+    也就是说我太『丑陋』了啊。
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_4  对话»
+
+〔旁白〕那是人类特有的价值观。
+    因为我们的外表都是一样的。
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_5  对话»
+
+〔旁白〕这是会依照个人嗜好而改变评价的价值观。
+    既然如此，我并不觉得自己输了啊？
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_6  对话»
+
+〔旁白〕那种东西，只是在吸引异性……
+    那一瞬间有用而已。
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_7  对话»
+
+〔旁白〕那么，喜欢动物的人的心理又怎么解释？
+    在『可爱』这方面上，我更优秀吧？
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_8  对话»
+
+〔旁白〕我不认为自己只因为运气而输给你。
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_9  对话»
+
+〔旁白〕你这是打算谦虚吗……？
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_10  对话»
+
+〔旁白〕运气也是实力的一种……是这个意思啊。
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_11  对话»
+
+〔旁白〕不要用这种暧昧的话来敷衍我。
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_12  对话»
+
+〔旁白〕也就是说要够无情……吗。
+    冷血无情的人类……的确是个威胁啊。
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_13  对话»
+
+〔旁白〕我可以理解为你没有明确的答案吗？
+    那就是真的是『胜负看运气』了……
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_14  对话»
+
+〔旁白〕以语言去欺骗他人为原则的人类
+    拒绝用语言去沟通了。
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_15  对话»
+
+〔旁白〕人类啊，你理解这个问题的意思吗？
+    人类啊，你的『沟通能力下降了』吗？
+    «ID TalkMsg_GUY_CHAT_FQ_03_R_16  对话»
+
+〔旁白〕……我就觉得你是生面孔，没想到是人类啊……
+    你来这里的目的是什么……？
+    «ID TalkMsg_GUY_CHAT_FQ_04  对话»
+
+【选项】TalkSel_GUY_CHAT_FQ_04
+    ▸ 寻宝
+    ▸ 女人
+    ▸ 凭感觉
+    «ID TalkSel_GUY_CHAT_FQ_04  选项»
+
+〔旁白〕噢，你打算冒险啊。
+    就男人而言并不坏呢。
+    «ID TalkMsg_GUY_CHAT_FQ_04_R  对话»
+
+〔旁白〕沉溺于物欲的人类，要让我来吃掉吗？
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_2  对话»
+
+〔旁白〕回到『想要的话就去夺取』这一原则了啊，人类。
+    你们和禽兽又有什么不同？
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_3  对话»
+
+〔旁白〕为了追求宝物而来到这里。
+    你找对地方了。
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_4  对话»
+
+〔旁白〕你正处于『发情期』啊。
+    那就应该没空理会我吧？
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_5  对话»
+
+〔旁白〕……因为那种理由就以身犯险，
+    你这家伙还挺热情的呢。
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_6  对话»
+
+〔旁白〕因为现实中的女性不理会你而到这里来吗？
+    你不觉得原因出在自己身上吗？
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_7  对话»
+
+〔旁白〕……你用镜子照过自己吗？
+    这里可没有你想要寻找的女性。
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_8  对话»
+
+〔旁白〕遵循本能而来到这里啊……
+    真是不能小看的家伙……
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_11  对话»
+
+〔旁白〕流浪的子民啊……真悲哀……
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_12  对话»
+
+〔旁白〕原来如此，你的目的是『射击』啊。
+    在现实中能做这事的地方确实不多呢。
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_13  对话»
+
+〔旁白〕原来如此，你的目的是『狩猎』啊。
+    但这在现实世界中是被禁止的，希望你也别在这里做。
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_14  对话»
+
+〔旁白〕……这就是所谓的『秘密主义』啊。
+    和欺骗他人以延长自己生命的人类确实相称……
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_15  对话»
+
+〔旁白〕这就是所谓的『沉默是金』啊。
+    和拘泥于自身利益的人类确实相称……
+    «ID TalkMsg_GUY_CHAT_FQ_04_R_16  对话»
+
+〔旁白〕……人类啊，在你们的世界里，
+    好像有保护动物的团体。
+    ……如果你的所作所为被那个团体得知，
+    你的处境也会变得很危险吧？
+    «ID TalkMsg_GUY_CHAT_FQ_05  对话»
+
+【选项】TalkSel_GUY_CHAT_FQ_05
+    ▸ 的确
+    ▸ 不在意
+    ▸ 这是基于爱的行为
+    «ID TalkSel_GUY_CHAT_FQ_05  选项»
+
+〔旁白〕不应该是『后悔莫及』吗……？
+    «ID TalkMsg_GUY_CHAT_FQ_05_R  对话»
+
+〔旁白〕既然已经察觉了，
+    我倒希望你能放下手里拿着的东西……
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_2  对话»
+
+〔旁白〕把我逼入绝境，
+    会因现实的规则而自食其果的。
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_3  对话»
+
+〔旁白〕那份『良心』就是你们人类
+    最大的弱点。
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_4  对话»
+
+〔旁白〕……因自我评价和他人评价
+    之间的摩擦而痛苦吧。
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_5  对话»
+
+〔旁白〕坚持自己的『原则』不为所动啊。
+    ……这种生存方式，会到处树敌的哦。
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_6  对话»
+
+〔旁白〕这种回答，在你的世界里，
+    不会被评价成『以自我为中心』吗……？
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_7  对话»
+
+〔旁白〕坚持自己的生存方式不为所动啊。
+    ……你真坚强啊。
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_8  对话»
+
+〔旁白〕你是想说这种行为是为我们着想的吗？
+    一时之间难以置信。
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_9  对话»
+
+〔旁白〕爱……吗，真是深奥啊，人类。
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_10  对话»
+
+〔旁白〕听起来只像是在敷衍……
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_11  对话»
+
+〔旁白〕随随便便就用爱这个词……你还知不知廉耻。
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_12  对话»
+
+〔旁白〕……那只会让你的印象显得更糟。
+    你最好理解一下行为所伴随的责任。
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_13  对话»
+
+〔旁白〕被说中了吗？
+    但事实依然无法改变。
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_14  对话»
+
+〔旁白〕……你打算『死无对证』吗？
+    人类居然能如此无情啊……
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_15  对话»
+
+〔旁白〕就连同族订下的规则也要反抗吗？
+    那么，又有什么地方能接纳你这样的人呢？
+    «ID TalkMsg_GUY_CHAT_FQ_05_R_16  对话»
+
+〔旁白〕……仔细一看，
+    真是非常年幼的人类啊。
+    你为什么不惜以身犯险
+    也要战斗呢……？
+    «ID TalkMsg_GUY_CHAT_FQ_06  对话»
+
+【选项】TalkSel_GUY_CHAT_FQ_06
+    ▸ 想变强
+    ▸ 因为眼前有敌人
+    ▸ 不太清楚
+    «ID TalkSel_GUY_CHAT_FQ_06  选项»
+
+〔旁白〕因为是『男人』……啊。
+    那么，的确是不需要理由呢。
+    «ID TalkMsg_GUY_CHAT_FQ_06_R  对话»
+
+〔旁白〕你所寻求的『强大』又是什么？
+    『强大』并非只是指欺凌弱者……
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_2  对话»
+
+〔旁白〕难道你希望锻炼臂力……？
+    但你的所作所为……是暴力吧？
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_3  对话»
+
+〔旁白〕这是多么单纯的动机啊……
+    但也的确很纯粹……
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_4  对话»
+
+〔旁白〕那么，对你来说，
+    视线里的所有人都是『敌人』吧。
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_5  对话»
+
+〔旁白〕是啊，因为能保护自己的，
+    只有自己而已。
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_6  对话»
+
+〔旁白〕眼前的是不是『敌人』……
+    以你那幼稚的双眼，真的可以分辨得出吗？
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_7  对话»
+
+〔旁白〕……呵呵，说得好。
+    真是非常单纯而又明确的动机。
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_8  对话»
+
+〔旁白〕连『大义』都没有就投身于战斗啊。
+    你是个纯粹的战斗狂吧。
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_9  对话»
+
+〔旁白〕若是不了解自己还继续战斗下去的话，
+    总有一天会自我毁灭的哦？
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_10  对话»
+
+〔旁白〕……根据你的答案，那这场战斗就没有意义了。
+    下次来这里之前，先把目的定好。
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_11  对话»
+
+〔旁白〕无能之辈的『力量』……
+    简直就是『百害而无一利』。
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_12  对话»
+
+〔旁白〕……把对话都看作是发动攻击的机会吗？
+    真是精明的人类。
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_13  对话»
+
+〔旁白〕……你在享受着战场的刺激……
+    以及自己所赢得的优势。
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_14  对话»
+
+〔旁白〕……为什么会孕育出这么可怕的小孩啊。
+    人类都是这样的吗……？
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_15  对话»
+
+〔旁白〕……我可是遵从人类的做法与你对话的，
+    真是不解风情的家伙……！
+    «ID TalkMsg_GUY_CHAT_FQ_06_R_16  对话»
+
+〔旁白〕虽然不合时宜……不过我肚子饿了。
+    ……我说『我肚子饿了』。
+    «ID TalkMsg_GUY_CHAT_FQ_07  对话»
+
+【选项】TalkSel_GUY_CHAT_FQ_07
+    ▸ 开什么玩笑
+    ▸ 我也是
+    ▸ 要点些什么吗？
+    «ID TalkSel_GUY_CHAT_FQ_07  选项»
+
+〔旁白〕饥饿是活着的证明……
+    你要侮辱它吗？
+    «ID TalkMsg_GUY_CHAT_FQ_07_R  对话»
+
+〔旁白〕你现在大声吼我，
+    肚子也会咕咕叫的吧？
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_2  对话»
+
+〔旁白〕你肚子也饿了，
+    所以才会烦恼的吧？
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_3  对话»
+
+〔旁白〕我怎么可能会开玩笑。
+    按照你们人类的话来说，我是『认真』的。
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_4  对话»
+
+〔旁白〕你也饿了吗，真巧啊。
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_5  对话»
+
+〔旁白〕这就证明我和你也一样，都是生物。
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_6  对话»
+
+〔旁白〕我没有在问你。
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_7  对话»
+
+〔旁白〕……要不把眼前的人类
+    吃掉算了。
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_8  对话»
+
+〔旁白〕人类就算什么都不做，也会有人送来『食物』吗？
+    ……真是令人羡慕。
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_9  对话»
+
+〔旁白〕那样的话要等的吧？
+    以人类的时间而言，『３０分钟』的话倒也不是不能等。
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_10  对话»
+
+〔旁白〕……我不知道那是什么意思。
+    你可别想趁机陷害我！
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_11  对话»
+
+〔旁白〕……我不是这个意思，只要你放我走，
+    我就能自己解决了……
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_12  对话»
+
+〔旁白〕噢噢，对『死』的恐惧让我忘记饥饿了！
+    感谢你的精彩表演。
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_13  对话»
+
+〔旁白〕……我并不介意你用那把枪械射击同胞，
+    然后献给我哦？
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_14  对话»
+
+〔旁白〕……我还没卑微要吃子弹的地步。
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_15  对话»
+
+〔旁白〕快住手！那声音会让肚子更饿……
+    «ID TalkMsg_GUY_CHAT_FQ_07_R_16  对话»
+
+〔旁白〕唔……因为那个面具，
+    我看不清你的真正意图……
+    你到底在想什么……？
+    «ID TalkMsg_GUY_CHAT_FQ_08  对话»
+
+【选项】TalkSel_GUY_CHAT_FQ_08
+    ▸ 该怎么交涉
+    ▸ 没想什么
+    ▸ 要怎样才会受欢迎？
+    «ID TalkSel_GUY_CHAT_FQ_08  选项»
+
+〔旁白〕交涉的确很费劲呢。
+    «ID TalkMsg_GUY_CHAT_FQ_08_R  对话»
+
+〔旁白〕只会敷衍了事的蠢货啊……
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_2  对话»
+
+〔旁白〕真的吗？
+    你该不会是在想着别的事吧？
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_3  对话»
+
+〔旁白〕噢，你一直在思考如何打破现状吗？
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_4  对话»
+
+〔旁白〕连内心都戴着面具啊……真不能小看你。
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_5  对话»
+
+〔旁白〕在这种时候也什么也没想的蠢货啊……
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_6  对话»
+
+〔旁白〕噢，以无心对峙还真是有胆量啊。
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_7  对话»
+
+〔旁白〕……随你便了。
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_8  对话»
+
+〔旁白〕人类的雌性似乎会向雄性寻求『温柔』。
+    这样折磨我的你……真令人担心啊。
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_9  对话»
+
+〔旁白〕人类的雌性似乎会向雄性寻求『强大』。
+    将我逼入绝境的你无需担心。
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_10  对话»
+
+〔旁白〕听说人类在弥留之际，都会怀念自己的雌性伴侣。
+    你……是在怕我吧？
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_11  对话»
+
+〔旁白〕在战斗中还想女人！
+    你打算侮辱与我的战斗吗！
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_12  对话»
+
+〔旁白〕……不让敌人看到自己的底牌吗。
+    年纪轻轻，还挺优势的呢。
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_13  对话»
+
+〔旁白〕……你是打算打乱我的思维吗？
+    这种小聪明，对我是没用的。
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_14  对话»
+
+〔旁白〕……呵呵，在我看来……
+    你已经没有余力去闲聊了吧。
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_15  对话»
+
+〔旁白〕……我不认为这是有目的的。
+    你的脑子，应该和野兽没什么差别吧？
+    «ID TalkMsg_GUY_CHAT_FQ_08_R_16  对话»
+
+〔旁白〕……年幼的人类啊。
+    你既然特意来和我搭话……
+    应该是有话
+    想要跟我说的吧？
+    «ID TalkMsg_GUY_CHAT_SQ_01  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_01
+    ▸ 我想要你
+    ▸ 没有
+    ▸ 让我捏捏肉球
+    «ID TalkSel_GUY_CHAT_SQ_01  选项»
+
+〔旁白〕虽然感觉还不错，
+    但你的说法太恶心了……
+    «ID TalkMsg_GUY_CHAT_SQ_01_R  对话»
+
+〔旁白〕我无法马上判断你这家伙
+    说的是玩笑还是真心……
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_2  对话»
+
+〔旁白〕……该不会是什么陷阱吧？
+    我没办法立刻相信你。
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_3  对话»
+
+〔旁白〕你想要我的力量啊……
+    看来你理解我的实力了呢……
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_4  对话»
+
+〔旁白〕……你的沟通能力
+    应该不太够吧？
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_5  对话»
+
+〔旁白〕什么啊，真是无聊的人类……
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_6  对话»
+
+〔旁白〕噢，不会说废话吗……
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_7  对话»
+
+〔旁白〕如果你没有话想说，
+    就快点把事情办了吧……
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_8  对话»
+
+〔旁白〕你在说什么啊？抱歉，我做不到。
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_9  对话»
+
+〔旁白〕那是不能跨越的一线啊。
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_10  对话»
+
+〔旁白〕虽然不知道是什么意思，但听起来让人不寒而栗啊……
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_11  对话»
+
+〔旁白〕把人类的『常识』硬塞给我可不行啊。
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_12  对话»
+
+〔旁白〕真是相当厉害的枪法啊。
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_14  对话»
+
+〔旁白〕……就是说你没什么想说的咯？
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_15  对话»
+
+〔旁白〕……那就是人类所说的『沉默的压力』吧。
+    «ID TalkMsg_GUY_CHAT_SQ_01_R_16  对话»
+
+〔旁白〕……人类似乎并不满足于杀害野兽，
+    还热衷于各式各样的娱乐呢。
+    ……打败我之后，
+    你打算如何去享受呢？
+    «ID TalkMsg_GUY_CHAT_SQ_02  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_02
+    ▸ 当成荣耀
+    ▸ 装饰在客厅里
+    ▸ 没打算享受
+    «ID TalkSel_GUY_CHAT_SQ_02  选项»
+
+〔旁白〕留下败者的记忆吗……
+    还真是挺了不起的精神呢。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R  对话»
+
+〔旁白〕嘴上要怎么说都可以吗……
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_2  对话»
+
+〔旁白〕荣耀是填不饱肚子的哦……？
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_3  对话»
+
+〔旁白〕原来如此，是无形的享受……啊。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_4  对话»
+
+〔旁白〕我并没有漂亮到可以用来装饰。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_5  对话»
+
+〔旁白〕我的雄姿可以永远流传下去……
+    听起来还不错呢。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_6  对话»
+
+〔旁白〕你的房间有那么大吗？
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_7  对话»
+
+〔旁白〕败北的身躯一直暴露人前……真是难以忍受的屈辱。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_8  对话»
+
+〔旁白〕……噢，你不是会玩弄尸体的卑鄙小人啊。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_9  对话»
+
+〔旁白〕就算你装正经，
+    也无法逃离人类的本能哦。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_10  对话»
+
+〔旁白〕在战斗的瞬间寻求喜悦吗……
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_11  对话»
+
+〔旁白〕你的意思是无法从我的姿态找出任何价值吗……
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_12  对话»
+
+〔旁白〕我知道了……这就是人类所说的『恐吓』。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_13  对话»
+
+〔旁白〕这样啊，是享受击败对方的『过程』……吗。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_14  对话»
+
+〔旁白〕这就是人类所说的『欲擒故纵』的兵法啊。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_15  对话»
+
+〔旁白〕让对方的『心灵』屈服从而取胜……吗。
+    «ID TalkMsg_GUY_CHAT_SQ_02_R_16  对话»
+
+〔旁白〕……年幼的人类啊。
+    在我看来，你还是喜欢撒娇的年龄。
+    去让母亲抱在怀里睡一觉吧。
+    «ID TalkMsg_GUY_CHAT_SQ_03  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_03
+    ▸ 我没那么小
+    ▸ 不困
+    ▸ 等这件事解决了再说
+    «ID TalkSel_GUY_CHAT_SQ_03  选项»
+
+〔旁白〕年幼之人都会这样说。
+    «ID TalkMsg_GUY_CHAT_SQ_03_R  对话»
+
+〔旁白〕人类看起来比实际要年轻，猜测年龄实在太难了。
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_2  对话»
+
+〔旁白〕噢噢，是吗……也就是说，
+    你的实际年龄比看起来……要老咯。
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_3  对话»
+
+〔旁白〕与历经长久岁月的我相比，你还年轻得很。
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_4  对话»
+
+〔旁白〕只有愚蠢之人才会去抵抗自己的睡意。
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_5  对话»
+
+〔旁白〕也就是说我没有办法得救了吗……
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_6  对话»
+
+〔旁白〕真巧，我也因为战斗的兴奋感而毫无睡意。
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_7  对话»
+
+〔旁白〕这样的话会影响到明天的哦？
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_8  对话»
+
+〔旁白〕在这种状况下也会想念母亲啊。
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_9  对话»
+
+〔旁白〕那就好说了。
+    早点解决对我来说也是件好事。
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_10  对话»
+
+〔旁白〕……是要『解决』掉我？
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_11  对话»
+
+〔旁白〕你是因为和母亲分开而感到不安吧？
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_12  对话»
+
+〔旁白〕……看来你暂时是睡不了的了。
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_13  对话»
+
+〔旁白〕与外表的幼稚相反，猎奇心是大人都自叹不如啊……
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_14  对话»
+
+〔旁白〕你的意思是已经离开母亲，成功『自立』了？
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_15  对话»
+
+〔旁白〕因为被指出年幼而心情不好了吗？……呵呵。
+    «ID TalkMsg_GUY_CHAT_SQ_03_R_16  对话»
+
+〔旁白〕……不过你这面具，
+    真是越看越奇怪啊……
+    为什么你要戴着
+    这种面具战斗啊……？
+    «ID TalkMsg_GUY_CHAT_SQ_04  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_04
+    ▸ 因为我注重仪容
+    ▸ 不想沾上溅出的血
+    ▸ 你来告诉我
+    «ID TalkSel_GUY_CHAT_SQ_04  选项»
+
+〔旁白〕这样啊，这就是人类的『正装』……
+    «ID TalkMsg_GUY_CHAT_SQ_04_R  对话»
+
+〔旁白〕每次出门都要戴面具……人类真大胆啊。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_2  对话»
+
+〔旁白〕这样啊，虽然这样说有点不是时候，
+    但其实这面具不太适合你。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_3  对话»
+
+〔旁白〕原来如此，你是『舞会』的参加者啊
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_4  对话»
+
+〔旁白〕原来如此，是这么一回事啊。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_5  对话»
+
+〔旁白〕美也是『力量』的证明……
+    是这个意思啊。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_6  对话»
+
+〔旁白〕我也不想看到自己的血。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_7  对话»
+
+〔旁白〕真是自私利己的理由啊。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_8  对话»
+
+〔旁白〕是我先问的！你这不懂礼仪的家伙！
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_9  对话»
+
+〔旁白〕我知道了，你『丧失记忆』了。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_10  对话»
+
+〔旁白〕很抱歉，我得不出答案。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_11  对话»
+
+〔旁白〕难道是『不知不觉就戴上了面具』？
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_12  对话»
+
+〔旁白〕原来如此，那面具代表着战士的觉悟啊。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_13  对话»
+
+〔旁白〕我可不想因为问了面具的事而被杀掉。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_14  对话»
+
+〔旁白〕那种对敌人的冷酷，就算是敌人也很值得称赞。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_15  对话»
+
+〔旁白〕看来你是不想让人谈论你面具下的素颜呢。
+    «ID TalkMsg_GUY_CHAT_SQ_04_R_16  对话»
+
+〔旁白〕……年幼的人类啊。
+    自古以来，人类畏惧并敬仰着神与精灵。
+    可为什么……
+    是我在仰视你啊……？
+    «ID TalkMsg_GUY_CHAT_SQ_05  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_05
+    ▸ 时代变了
+    ▸ 人类变了
+    ▸ 好难懂的话
+    «ID TalkSel_GUY_CHAT_SQ_05  选项»
+
+〔旁白〕那冷静灵活的态度……好羡慕。
+    «ID TalkMsg_GUY_CHAT_SQ_05_R  对话»
+
+〔旁白〕这样啊，是人类变强大了呢。
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_2  对话»
+
+〔旁白〕人类的惯用语啊，真是肤浅。
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_3  对话»
+
+〔旁白〕『时代』在循环……人类总有一天会再次敬畏我们的。
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_4  对话»
+
+〔旁白〕原来如此，是我们之间的理解不够充分啊……
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_5  对话»
+
+〔旁白〕人类……愈发自大了……
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_6  对话»
+
+〔旁白〕对反抗者毫无慈爱……
+    确实是改变了……
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_7  对话»
+
+〔旁白〕根据思维的不同，
+    也可以说是没能改变的我们没有德望……
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_8  对话»
+
+〔旁白〕毕竟是身处不同世界的我们在对话。
+    这是理所当然的吧。
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_9  对话»
+
+〔旁白〕……你的语文成绩很差吧。
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_10  对话»
+
+〔旁白〕我不觉得这话很难啊……
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_11  对话»
+
+〔旁白〕你放弃思考了啊……
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_12  对话»
+
+〔旁白〕……没关系，我非常清楚自己已经失败了。
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_13  对话»
+
+〔旁白〕等等，你是可以沟通的人……
+    我不会看错的。
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_14  对话»
+
+〔旁白〕……知道了，我是……败给了数量啊。
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_15  对话»
+
+〔旁白〕那种小聪明的发明让人类变得自大了吗……
+    «ID TalkMsg_GUY_CHAT_SQ_05_R_16  对话»
+
+〔旁白〕……我想问你一个问题。
+    人类会因为『留下子孙』而喜悦。
+    来这个生死一线的地方……
+    你就没想过这个吗？
+    «ID TalkMsg_GUY_CHAT_SQ_06  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_06
+    ▸ 有在想
+    ▸ 不想要孩子
+    ▸ 好难懂的话
+    «ID TalkSel_GUY_CHAT_SQ_06  选项»
+
+〔旁白〕你在迷茫吗？这才是人类……
+    «ID TalkMsg_GUY_CHAT_SQ_06_R  对话»
+
+〔旁白〕打算用暧昧的回答混肴视听啊……
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_2  对话»
+
+〔旁白〕一定要好好想想啊。
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_3  对话»
+
+〔旁白〕真难理解啊，这是肯定？还是否定？
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_4  对话»
+
+〔旁白〕那么，用这个论点是无法让你明白的了。
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_5  对话»
+
+〔旁白〕只是找不到配偶而已……啊，没什么……
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_6  对话»
+
+〔旁白〕看来你是觉得自己不需要未来的『保险』呢。
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_7  对话»
+
+〔旁白〕说到底还是最看重『自己』吗。
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_8  对话»
+
+〔旁白〕……你还是多学学语文比较好。
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_9  对话»
+
+〔旁白〕这样都说『难懂』的话，那我也没办法了……
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_10  对话»
+
+〔旁白〕毕竟是身处不同世界的我们在对话。
+    不懂也情有可原。
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_11  对话»
+
+〔旁白〕……你的『联系簿』是可以给父母看的吗？
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_12  对话»
+
+〔旁白〕因为确信自己能获得胜利，所以才会在这里……
+    我可以这样理解吗？
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_13  对话»
+
+〔旁白〕等等。我是觉得你是个
+    可以沟通的人才会和你说话的。
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_14  对话»
+
+〔旁白〕你这不知『死亡』恐惧的愚蠢之人……
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_15  对话»
+
+〔旁白〕那种对周围的冷漠让人类变得傲慢了吗……
+    «ID TalkMsg_GUY_CHAT_SQ_06_R_16  对话»
+
+〔旁白〕……话说，我听说人类
+    会把动物当成家人一样爱护。
+    那为什么就不爱护我呢？
+    «ID TalkMsg_GUY_CHAT_SQ_07  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_07
+    ▸ 外表可怕
+    ▸ 想要爱护你
+    ▸ 你不是动物
+    «ID TalkSel_GUY_CHAT_SQ_07  选项»
+
+〔旁白〕与生俱来的东西被否定了……
+    «ID TalkMsg_GUY_CHAT_SQ_07_R  对话»
+
+〔旁白〕你这样说我就没办法了……
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_2  对话»
+
+〔旁白〕把自己的价值观强加于他人身上啊……
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_3  对话»
+
+〔旁白〕那就由你来改变这个价值观吧。
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_4  对话»
+
+〔旁白〕噢，就是说你有这种想法啊……
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_5  对话»
+
+〔旁白〕我们刚刚还在互相厮杀的哦……？
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_6  对话»
+
+〔旁白〕光是嘴上说说，也一点说服力都没有哦。
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_7  对话»
+
+〔旁白〕举枪指着我，还谈什么爱护啊……
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_8  对话»
+
+〔旁白〕不要用这一句话就简单概括了啊！
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_9  对话»
+
+〔旁白〕你这是彻底否定我啊……
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_10  对话»
+
+〔旁白〕……不用说得那么明白，我知道。
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_11  对话»
+
+〔旁白〕你这样说我就没办法了……
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_12  对话»
+
+〔旁白〕……你的态度已经说明一切了。
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_13  对话»
+
+〔旁白〕……还是多多爱护我比较好哦？
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_14  对话»
+
+〔旁白〕重视的就只有『自己』而已……
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_15  对话»
+
+〔旁白〕你一定是那种不重视动物的人类。
+    «ID TalkMsg_GUY_CHAT_SQ_07_R_16  对话»
+
+〔旁白〕……真是无法承认。
+    我居然会在『力量』上输给人类！
+    你一定拥有我所没有的『力量』。
+    那到底是什么……？
+    «ID TalkMsg_GUY_CHAT_SQ_08  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_08
+    ▸ 学习能力
+    ▸ 感同身受的能力
+    ▸ 女子力
+    «ID TalkSel_GUY_CHAT_SQ_08  选项»
+
+〔旁白〕只会囫囵吞枣地接受『网络』知识的人类，
+    还真敢说。
+    «ID TalkMsg_GUY_CHAT_SQ_08_R  对话»
+
+〔旁白〕就算换个说法，那也只是『坏脑筋』而已吧？
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_2  对话»
+
+〔旁白〕要是没有那个叫『学校』的可恨设施就……
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_3  对话»
+
+〔旁白〕人类的确比我们更擅长谋略……
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_4  对话»
+
+〔旁白〕唔，理解他人心情的心吗……
+    我的确没有……
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_5  对话»
+
+〔旁白〕你真的理解我的心情吗？
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_6  对话»
+
+〔旁白〕这治愈的话语是怎么回事！？
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_7  对话»
+
+〔旁白〕那种东西，在拼上性命的战斗中有什么用！
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_8  对话»
+
+〔旁白〕什么？这『力量』……话语中所透露出的强大……
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_9  对话»
+
+〔旁白〕是我从没听过的『力量』……而你却拥有它。
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_10  对话»
+
+〔旁白〕原来如此，是超越了性别的『力量』……
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_11  对话»
+
+〔旁白〕那种东西，在战斗中毫无用处！
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_12  对话»
+
+〔旁白〕你害怕被别人知道『力量』的秘密吗？
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_13  对话»
+
+〔旁白〕发明出优秀武器的『力量』……我没有。
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_14  对话»
+
+〔旁白〕比起在意『力量』，『结果』才是一切……
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_15  对话»
+
+〔旁白〕看来是我高估你了，你只是个战斗狂而已。
+    «ID TalkMsg_GUY_CHAT_SQ_08_R_16  对话»
+
+〔旁白〕……如果可以的话，在死之前，
+    我想尝尝人类的食物……
+    作为参考，
+    说说你推荐的食物吧。
+    «ID TalkMsg_GUY_CHAT_SQ_09  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_09
+    ▸ 泡过咖啡的面包
+    ▸ 没有推荐的食物
+    ▸ 饥饿是最棒的调味料
+    «ID TalkSel_GUY_CHAT_SQ_09  选项»
+
+〔旁白〕听起来很好吃呢，感觉很软好入口。
+    «ID TalkMsg_GUY_CHAT_SQ_09_R  对话»
+
+〔旁白〕这种重视『自我流派』的态度，
+    很令人欣赏。
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_2  对话»
+
+〔旁白〕……你该不会是在胡说八道吧？
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_3  对话»
+
+〔旁白〕那种没规矩的事，我做不出来……
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_4  对话»
+
+〔旁白〕既然你没有推荐的食物，
+    那我就吃了你吧！
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_5  对话»
+
+〔旁白〕……真是无趣的人类。
+    那就没什么可遗憾的了。
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_6  对话»
+
+〔旁白〕唔，问也是白问了啊。
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_7  对话»
+
+〔旁白〕原来如此，不值得去品尝啊……
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_8  对话»
+
+〔旁白〕……人类的想法真是无法理解啊。
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_9  对话»
+
+〔旁白〕『空腹』……？没听说过这种食物。
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_10  对话»
+
+〔旁白〕不要『调味料』，请推荐点具体的食物。
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_11  对话»
+
+〔旁白〕……这根本不算回答！
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_12  对话»
+
+〔旁白〕你成功斩断了我在临死时对『食物』的执着……
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_13  对话»
+
+〔旁白〕……我可不想吃子弹。
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_14  对话»
+
+〔旁白〕比起『食欲』更重视『胜利的欲望』啊……真是崇高。
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_15  对话»
+
+〔旁白〕一说到食物，肚子就饿得受不了……
+    «ID TalkMsg_GUY_CHAT_SQ_09_R_16  对话»
+
+〔旁白〕……你即将获得胜利，
+    因此我想问一下……
+    你拥有……哪怕死了
+    也无法抛弃的愿望吗？
+    «ID TalkMsg_GUY_CHAT_SQ_10  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_10
+    ▸ 大家的幸福
+    ▸ 盛大的葬礼
+    ▸ 不会死
+    «ID TalkSel_GUY_CHAT_SQ_10  选项»
+
+〔旁白〕死亡是刻划在被留下来的人心中的伤……
+    你似乎很明白这一点……
+    «ID TalkMsg_GUY_CHAT_SQ_10_R  对话»
+
+〔旁白〕幸福也是各种各样的……
+    这也是挺难的呢……
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_2  对话»
+
+〔旁白〕如果我死了，你也会幸福吗？
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_3  对话»
+
+〔旁白〕原来如此，真是佩服……
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_4  对话»
+
+〔旁白〕难以理解……那时候你就已经死了哦？
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_5  对话»
+
+〔旁白〕向后世夸耀自己的功绩……呵呵，很有趣。
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_6  对话»
+
+〔旁白〕人类对待事物的分寸，真是难以想象……
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_7  对话»
+
+〔旁白〕真是利己的愿望啊。
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_8  对话»
+
+〔旁白〕……真是个满口歪理的人啊。
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_9  对话»
+
+〔旁白〕你是不肯直视『死亡』啊。
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_10  对话»
+
+〔旁白〕你获得『不死之身』了？好羡慕……
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_11  对话»
+
+〔旁白〕平日的锻炼支撑着你的这份自信。
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_12  对话»
+
+〔旁白〕……这是个愚蠢的问题啊，请允许我表示歉意。
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_13  对话»
+
+〔旁白〕有愿望的话就用话语说出来吧……
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_14  对话»
+
+〔旁白〕自己的欲望由自己去满足……是这个意思啊。
+    «ID TalkMsg_GUY_CHAT_SQ_10_R_16  对话»
+
+〔旁白〕虽然遗憾，但我很快就要死了……
+    对我来说，你是写作『劲敌』读作『朋友』的人……
+    至少请对临死的我……说一句话吧。
+    作为『劲敌』的，充满安慰的话……！
+    «ID TalkMsg_GUY_CHAT_SQ_11  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_11
+    ▸ 安息吧
+    ▸ 没什么好安慰的
+    ▸ 想不出来
+    «ID TalkSel_GUY_CHAT_SQ_11  选项»
+
+〔旁白〕这种话语，真是慈悲为怀啊……
+    «ID TalkMsg_GUY_CHAT_SQ_11_R  对话»
+
+〔旁白〕……是吗，我无法逃脱『死亡』这一末路啊。
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_2  对话»
+
+〔旁白〕那就要看你下手的轻重程度了！
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_3  对话»
+
+〔旁白〕人都死了，还管什么『安息』『不安息』的啊！
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_4  对话»
+
+〔旁白〕这样啊……『劲敌』只是我的『一厢情愿』啊。
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_5  对话»
+
+〔旁白〕噢，真是冷酷无情的人。
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_6  对话»
+
+〔旁白〕那我就不再把你当作『劲敌』了！
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_7  对话»
+
+〔旁白〕意思是……『劲敌』是不能『串通一气』的吗。
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_8  对话»
+
+〔旁白〕请你再努力一下吧，『劲敌』。
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_9  对话»
+
+〔旁白〕真是不擅长『即兴表演』的『劲敌』啊。
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_10  对话»
+
+〔旁白〕这样啊，抱歉让你费心了……劲敌。
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_11  对话»
+
+〔旁白〕你是觉得『麻烦』了吧？
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_12  对话»
+
+〔旁白〕这是以『劲敌』的身份……激励我『与死亡抗争』啊。
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_13  对话»
+
+〔旁白〕以枪声代替言语来激励我啊。
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_14  对话»
+
+〔旁白〕……不对，我想要的是『慈爱的话』。
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_15  对话»
+
+〔旁白〕刚刚那是人类所说的『收拾』吧？
+    «ID TalkMsg_GUY_CHAT_SQ_11_R_16  对话»
+
+〔旁白〕……对了，人类会用『谎言』
+    去迷惑，去欺骗他人吧……
+    我被你逼到了绝境……
+    这也是『谎言』吧？
+    «ID TalkMsg_GUY_CHAT_SQ_12  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_12
+    ▸ 是事实
+    ▸ 是谎言
+    ▸ 不知道
+    «ID TalkSel_GUY_CHAT_SQ_12  选项»
+
+〔旁白〕我知道事实是可以改变的。
+    «ID TalkMsg_GUY_CHAT_SQ_12_R  对话»
+
+〔旁白〕……那我就干脆地认输吧。
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_2  对话»
+
+〔旁白〕你所说的『事实』其实也是『谎言』吧？
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_3  对话»
+
+〔旁白〕既然如此，那我就认输了。
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_4  对话»
+
+〔旁白〕如果是谎言固然是好，但看来是事实呢……
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_5  对话»
+
+〔旁白〕……真是难以对付的人类啊。
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_6  对话»
+
+〔旁白〕……被你这么一说，真让我火大……
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_7  对话»
+
+〔旁白〕那我就来推翻现状吧！
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_8  对话»
+
+〔旁白〕是啊，已经不知道……什么才是……事实了。
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_9  对话»
+
+〔旁白〕那我就自己去找出事实！
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_10  对话»
+
+〔旁白〕是要我自己去看穿事实的意思吗……
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_11  对话»
+
+〔旁白〕那我就杀掉你，逃出生天！
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_12  对话»
+
+〔旁白〕对自己不利的事就要包括当事人全部销毁？
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_13  对话»
+
+〔旁白〕再次体会到了，我……输了呢。
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_14  对话»
+
+〔旁白〕就连『谎言』也能用『力量』变成『事实』……
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_15  对话»
+
+〔旁白〕你打算把『谎言』贯彻到底，让其变成『事实』吗？
+    «ID TalkMsg_GUY_CHAT_SQ_12_R_16  对话»
+
+〔旁白〕……想嘲笑我狼狈就尽管嘲笑吧。
+    到了这种时候……我却想要活下去。
+    你在『失去』的时候会感觉到
+    『无可替代』的事物是什么？
+    «ID TalkMsg_GUY_CHAT_SQ_13  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_13
+    ▸ 转校的朋友
+    ▸ 不情愿地分手的情侣
+    ▸ 老实被我打倒吧
+    «ID TalkSel_GUY_CHAT_SQ_13  选项»
+
+〔旁白〕理解『悲伤』的人……如果是你的话……
+    «ID TalkMsg_GUY_CHAT_SQ_13_R  对话»
+
+〔旁白〕拿你那『朋友』的小事和我的命相提并论！
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_2  对话»
+
+〔旁白〕就算你跟我说素未谋面的人的事我也……
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_3  对话»
+
+〔旁白〕『朋友』啊……那是『同伙』吧？
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_4  对话»
+
+〔旁白〕你是理解『丧失』的悲伤之人……我知道了。
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_5  对话»
+
+〔旁白〕『虽然喜欢却无法在一起』……对吧？
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_6  对话»
+
+〔旁白〕不用这样撑门面的。
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_7  对话»
+
+〔旁白〕说不定对方并不这样想哦……？
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_8  对话»
+
+〔旁白〕知道了，我会倒下的，所以再和我聊聊……
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_9  对话»
+
+〔旁白〕这话对伤心的我而言也太过分了吧？
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_10  对话»
+
+〔旁白〕先说清楚，这不是在求饶哦？
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_11  对话»
+
+〔旁白〕急着得出结论……这是你的坏习惯。
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_12  对话»
+
+〔旁白〕……为了保命，
+    我都做到这个地步了。
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_13  对话»
+
+〔旁白〕这样啊，你是『夺取』的那一方啊。
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_14  对话»
+
+〔旁白〕呜，居然趁人之危……
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_15  对话»
+
+〔旁白〕诉诸感情也没有意义……你真的是人类吗？
+    «ID TalkMsg_GUY_CHAT_SQ_13_R_16  对话»
+
+〔旁白〕……反正你也是因为收到『指示』才来的吧？
+    人类是被纪律所束缚的奴隶嘛。
+    我恨的不是你，
+    而是指使你的那个人！
+    «ID TalkMsg_GUY_CHAT_SQ_14  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_14
+    ▸ 是我自己的意志
+    ▸ 你找错对手了
+    ▸ 恨的话就挣扎吧
+    «ID TalkSel_GUY_CHAT_SQ_14  选项»
+
+〔旁白〕你是不遵守纪律的无法之徒啊
+    «ID TalkMsg_GUY_CHAT_SQ_14_R  对话»
+
+〔旁白〕就是说……你没有任何破绽吗。
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_2  对话»
+
+〔旁白〕真是……异想天开的家伙……
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_3  对话»
+
+〔旁白〕你那讨厌被束缚的气质……呵呵。
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_4  对话»
+
+〔旁白〕发起挑战的时候，我已经输了……
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_5  对话»
+
+〔旁白〕你这样说我也无话可说了。
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_6  对话»
+
+〔旁白〕因结果论而趾高气扬啊……
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_7  对话»
+
+〔旁白〕拐弯抹角地炫耀自己的『力量』……真是让人讨厌的家伙。
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_8  对话»
+
+〔旁白〕这是在展示『力量』差距后的说教吗……？
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_9  对话»
+
+〔旁白〕真是……真是何等积极的话语啊。
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_10  对话»
+
+〔旁白〕就人类说出的话语而言……这很美。
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_11  对话»
+
+〔旁白〕……你就是我的『师父』了！
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_12  对话»
+
+〔旁白〕我不是输给别人，而是输给了自己的无力……
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_13  对话»
+
+〔旁白〕憎恨的矛头是谁都无所谓了……我现在好恨你！
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_14  对话»
+
+〔旁白〕……你从指示者那里收到了多少酬劳……？
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_15  对话»
+
+〔旁白〕指示者和部下都不是什么好东西！
+    «ID TalkMsg_GUY_CHAT_SQ_14_R_16  对话»
+
+〔旁白〕……好吧，你的将来……
+    将会因我的死而延续下去。
+    我会缠着你一辈子……
+    «ID TalkMsg_GUY_CHAT_SQ_15  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_15
+    ▸ 这我会很为难
+    ▸ 我会一直背负下去
+    ▸ 好难懂的话
+    «ID TalkSel_GUY_CHAT_SQ_15  选项»
+
+〔旁白〕……你那惊愕的声音，让我感觉报了一箭之仇。
+    «ID TalkMsg_GUY_CHAT_SQ_15_R  对话»
+
+〔旁白〕……呵呵，因与无形的我战斗而恐惧吧。
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_2  对话»
+
+〔旁白〕……没想到如此轻易就露出破绽了……
+    你真不是凡夫俗子啊。
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_3  对话»
+
+〔旁白〕我从刚才起就因现在的状况而为难……
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_4  对话»
+
+〔旁白〕人类狭小的器量是容不下我的……
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_5  对话»
+
+〔旁白〕……呵呵，那就承蒙你关照了。
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_6  对话»
+
+〔旁白〕一直受人照顾也太无趣了。
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_7  对话»
+
+〔旁白〕背负『他人』这种话，你还真能轻易说出口啊。
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_8  对话»
+
+〔旁白〕高尚的威胁也毫无效果……啊。
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_9  对话»
+
+〔旁白〕这样啊……人类的语言，真的很难掌握分寸呢。
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_10  对话»
+
+〔旁白〕……真没办法，那由我来教你也可以。
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_11  对话»
+
+〔旁白〕你讨厌哲学吗？……我也不太喜欢。
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_12  对话»
+
+〔旁白〕啊，当然不是『免费』的……
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_13  对话»
+
+〔旁白〕……不杀我吗？我可是已经做好觉悟了！
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_14  对话»
+
+〔旁白〕看你那样子，可别说什么『第一次杀人』之类的话啊？
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_15  对话»
+
+〔旁白〕对已经抛弃性命的人……威胁有什么用？
+    «ID TalkMsg_GUY_CHAT_SQ_15_R_16  对话»
+
+〔旁白〕……事先声明，就算打败了我，
+    也会有别的刺客盯上你的吧……
+    你就尽情沉浸在品尝『胜利的美酒』的
+    短暂时间里吧……呵呵。
+    «ID TalkMsg_GUY_CHAT_SQ_16  对话»
+
+【选项】TalkSel_GUY_CHAT_SQ_16
+    ▸ 我会一直赢下去
+    ▸ 输了还嘴硬
+    ▸ 我是未成年人
+    «ID TalkSel_GUY_CHAT_SQ_16  选项»
+
+〔旁白〕如此斩钉截铁的觉悟……令人赞叹。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R  对话»
+
+〔旁白〕……你选择了树敌的道路啊。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_2  对话»
+
+〔旁白〕……真是毫无根据的宣言啊。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_3  对话»
+
+〔旁白〕真有架势啊……但愿不要以『虚张声势』收尾就好。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_4  对话»
+
+〔旁白〕如果你输给了别人……那就是我的胜利了。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_5  对话»
+
+〔旁白〕……心照不宣才叫『体贴』。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_6  对话»
+
+〔旁白〕……这句话真是一针见血啊。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_7  对话»
+
+〔旁白〕你这样理解让我觉得很无趣。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_8  对话»
+
+〔旁白〕这是对酒的吐槽吗……？
+    你这么死板，真的混得下去吗？
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_9  对话»
+
+〔旁白〕噢噢，未成年人是不能喝酒的啊。
+    你真是值得称赞的人。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_10  对话»
+
+〔旁白〕连『比喻』都听不懂，真是不学无术……
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_11  对话»
+
+〔旁白〕那就等你成年之后再逼你喝个够！
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_12  对话»
+
+〔旁白〕如果陷入了『被挑战者盯上』的连锁……
+    是没那么容易脱身的。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_13  对话»
+
+〔旁白〕……呵呵，在你像这样沉浸在胜利中的时候，
+    刺客已经对你虎视眈眈了。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_14  对话»
+
+〔旁白〕在胜利的余韵中被泼了冷水，所以不开心吗？
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_15  对话»
+
+〔旁白〕看来光是『胜利的美酒』还不能满足你呢。
+    «ID TalkMsg_GUY_CHAT_SQ_16_R_16  对话»
+
+〔旁白〕（此页预定删除）……我因为太弱而输了……
+    你想对这样的我说什么？
+    «ID TalkMsg_GUY_NEGO_SURREND  对话»
+
+〔旁白〕（此页预定删除）……说出你的愿望吧。
+    你是想和我交涉吧？
+    «ID TalkMsg_GUY_NEGO_SURREND_2  对话»
+
+〔旁白〕（此页预定删除）……你的愿望是什么？
+    你是想和我交涉吧？
+    «ID TalkMsg_GUY_NEGO_SURREND_3  对话»
+
+〔旁白〕（此页预定删除）……没想到最后会如此狼狈。
+    那么，你想要怎么样？
+    «ID TalkMsg_GUY_NEGO_SURREND_4  对话»
+
+【选项】TalkSel_GUY_NEGO_SURREND
+    ▸ 想要你
+    ▸ ……给钱吧
+    ▸ 拿稀有道具来
+    ▸ 来点有用的情报
+    ▸ 降低警戒度
+    «ID TalkSel_GUY_NEGO_SURREND  选项»
+
+〔旁白〕这事要是暴露了的话，我自己会有危险的……
+    但是如果给我[var 0]元，或许可以考虑一下。
+    «ID TalkMsg_GUY_NEGO_FIFTYFI  对话»
+
+〔旁白〕这会让我也身处危险之中……
+    要干的话，就拿来交换吧。
+    «ID TalkMsg_GUY_NEGO_FIFTYFI_2  对话»
+
+〔旁白〕这事要是暴露了的话，我自己会有危险的……
+    要是不能获得生命力的话，就划不来。
+    «ID TalkMsg_GUY_NEGO_FIFTYFI_3  对话»
+
+〔旁白〕这事要是暴露了的话，我自己会有危险的……
+    如果愿意给我气力的话，那就配合你吧。
+    «ID TalkMsg_GUY_NEGO_FIFTYFI_4  对话»
+
+【选项】TalkSel_GUY_NEGO_FIFTYFI
+    ▸ 知道了，我会准备好的
+    ▸ 不接受你的要求
+    «ID TalkSel_GUY_NEGO_FIFTYFI  选项»
+
+〔旁白〕……话说回来，真的太热了。
+    这都是人类建造的『高楼大厦』的错！
+    如果觉得对不起我的话，
+    就把交出来。
+    «ID TalkMsg_GUY_NEGO_REQUIRE  对话»
+
+〔旁白〕……阿嚏！
+    没想到染上流感这种毒……
+    患病之身，所以拜托你了。
+    你有吧？
+    «ID TalkMsg_GUY_NEGO_REQUIRE_2  对话»
+
+〔旁白〕……咕噜噜噜，眼睛好痒！
+    我居然因为区区花粉而烦恼……
+    那边的人类，
+    能给我吗？
+    «ID TalkMsg_GUY_NEGO_REQUIRE_3  对话»
+
+〔旁白〕……但那是要我把其他的暗影
+    也牵连进来欺骗他们吧……？
+    这样太危险了，露馅的话我会被杀的……
+    要是能给我的话，那就另当别论了。
+    «ID TalkMsg_GUY_NEGO_REQUIRE_4  对话»
+
+【选项】TalkSel_GUY_NEGO_REQUIRE
+    ▸ 给
+    ▸ 不给
+    «ID TalkSel_GUY_NEGO_REQUIRE  选项»
+
+〔旁白〕……那就给你仅次于我生命的重要东西，放过我吧。
+    [var 0]元，怎么样？
+    «ID TalkMsg_GUY_NEGO_PAYFOR_  对话»
+
+〔旁白〕这场争斗，就用金钱来调解吧。
+    我出[var 0]元。
+    «ID TalkMsg_GUY_NEGO_PAYFOR__2  对话»
+
+〔旁白〕如果你能用得好的话，
+    就给你吧。
+    «ID TalkMsg_GUY_NEGO_PAYFOR__3  对话»
+
+〔旁白〕……拿去吧。
+    这是。
+    «ID TalkMsg_GUY_NEGO_PAYFOR__4  对话»
+
+【选项】TalkSel_GUY_NEGO_PAYFOR
+    ▸ 我收下了
+    ▸ 还有别的吧？
+    «ID TalkSel_GUY_NEGO_PAYFOR  选项»
+
+〔旁白〕这样啊，那就没办法了。
+    看来就只剩下战斗了。
+    «ID TalkMsg_GUY_NEGO_Re_ACCE  对话»
+
+〔旁白〕……这样啊，那就没办法了。
+    «ID TalkMsg_GUY_NEGO_Re_ACCE_2  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_GUY_RESULT_GET_P  对话»
+
+〔旁白〕唔？已经有[var 2]了啊……
+    «ID TalkMsg_GUY_RESULT_GET_P_2  对话»
+
+〔旁白〕……仔细一看，你的力量还不够。
+    给你……继续磨练自己吧。
+    «ID TalkMsg_GUY_RESULT_GET_P_3  对话»
+
+〔旁白〕给你[var 0]元。
+    这是让我享受到了乐趣的酬劳。
+    «ID TalkMsg_GUY_RESULT_GET_M  对话»
+
+〔旁白〕给你。
+    不用客气，尽管开心吧。
+    «ID TalkMsg_GUY_RESULT_GET_I  对话»
+
+〔旁白〕是杀是留，都看你了……
+    «ID TalkMsg_GUY_RESULT_GET_S  对话»
+
+〔旁白〕事已至此，多说无益。
+    我想听的就只有你的惨叫声……！
+    «ID TalkMsg_GUY_RESULT_ENEMY  对话»
+
+〔旁白〕不要得意忘形了……
+    你必须死！
+    «ID TalkMsg_GUY_RESULT_ENEMY_2  对话»
+
+〔旁白〕居然还不满足……
+    那就给你介绍个富有的家伙好了。
+    虽然脾气有点暴躁就是了！
+    «ID TalkMsg_GUY_RESULT_ENEMY_3  对话»
+
+〔旁白〕……呵呵，太天真了！我要逃了！
+    «ID TalkMsg_GUY_RESULT_ENEMY_4  对话»
+
+〔旁白〕再见了！
+    好想快点成为人类～！
+    «ID TalkMsg_GUY_RESULT_ENEMY_5  对话»
+
+〔旁白〕……嗯？那是？要我……坐下吗……？
+    我，等等……？
+    «ID TalkMsg_GUY_RESULT_ENEMY_6  对话»
+
+〔旁白〕嗷～！嗷嗷～！
+    这里还是夹着尾巴逃走吧！
+    «ID TalkMsg_GUY_RESULT_ENEMY_7  对话»
+
+〔旁白〕……噢噢，我太生气了……！
+    不想听你说话……
+    ……唔，不过，那样太不友善了……
+    我会『成熟』地听你说话的……
+    «ID TalkMsg_GUY_RESULT_ENEMY_9  对话»
+
+〔旁白〕……你知道这项情报？真是滴水不漏的人。
+    那就给你这个吧。
+    «ID TalkMsg_RESULT_GET_SECRE  对话»
+
+〔旁白〕我知道你的强大了……！
+    我投降了，人类……
+    «ID TalkMsg_SURRENDER_FROM_C  对话»
+
+〔旁白〕你盯上了这个啊……
+    有些人类的鼻子还真是灵敏啊。
+    «ID TalkMsg_SUCCESS_SKIMMING  对话»
+
+〔旁白〕咕，噶……
+    «ID TalkMsg_RESULT_ENEMY_SHO  对话»
+
+〔旁白〕ＺＺＺ……
+    «ID TalkMsg_RESULT_ENEMY_SLE  对话»
+
+〔旁白〕就算把我整个烤了……也不好吃的！
+    这样下去会变成『全熟』的……
+    ……唔！这种程度……我会靠气魄忍耐！
+    喂，人类……有事快说……！
+    «ID TalkMsg_RESULT_ENEMY_FLA  对话»
+
+〔旁白〕我……头晕眼花了……
+    这样下去会『步伐蹒跚』的……
+    ……唔！这种程度……我会靠气魄忍耐！
+    喂，人类……有事快说……！
+    «ID TalkMsg_RESULT_ENEMY_VER  对话»
+
+〔旁白〕我好像忘记了什么……
+    这样下去会变成『健忘鬼』的……
+    ……不过还是算了……『放弃』是很重要的……
+    喂，人类……有事快说……！
+    «ID TalkMsg_RESULT_ENEMY_FOR  对话»
+
+〔旁白〕……反正……世界不需要我……
+    谁也不需要我……
+    ……唔！对了，你……需要我……
+    那我也听听你要说什么……
+    «ID TalkMsg_RESULT_ENEMY_DES  对话»
+
+〔旁白〕噢噢，我听到了声音……
+    我的主人在呼唤我……
+    «ID TalkMsg_RESULT_ENEMY_BRA  对话»
+
+〔旁白〕主人的命令……是绝对的……
+    散步……
+    唔！想起来了……！
+    «ID TalkMsg_RESULT_BRAINWASH  对话»
+
+〔旁白〕主人的命令……是绝对的……
+    唔！别想骗我，你不是……主人！
+    «ID TalkMsg_RESULT_BRAINWASH_2  对话»
+
+〔旁白〕主人的命令……是绝对的……
+    我明白了……
+    主人，收下这个……
+    «ID TalkMsg_RESULT_BRAINWASH_3  对话»
+
+〔旁白〕主人的命令……是绝对的……
+    唔！别想骗我，
+    你不是……主人！
+    «ID TalkMsg_RESULT_BRAINWASH_4  对话»
+
+〔旁白〕主人的命令……是绝对的……
+    主人，收下这个……
+    «ID TalkMsg_RESULT_BRAINWASH_5  对话»
+
+〔旁白〕主人的命令……是绝对的……
+    唔！别想骗我，
+    你不是……主人！
+    «ID TalkMsg_RESULT_BRAINWASH_6  对话»
+
+〔旁白〕哇唔……主人的命令，是绝对的。
+    我，醒来了。主人，收下这个……
+    «ID TalkMsg_RESULT_BRAINWASH_7  对话»
+
+〔旁白〕哈哈……走吧，走吧！
+    鸭志田大人比任何人都要厉害！
+    «ID TalkMsg_CONTACT_11  对话»
+
+〔旁白〕哈哈……走吧，走吧！
+    斑目大人比任何人都要厉害！
+    «ID TalkMsg_CONTACT_12  对话»
+
+〔旁白〕哈哈……走吧，走吧！
+    行长比任何人都要厉害！
+    «ID TalkMsg_CONTACT_13  对话»
+
+〔旁白〕哈哈……走吧，走吧！
+    那位大人比任何人都要厉害！
+    «ID TalkMsg_CONTACT_14  对话»
+
+〔旁白〕哈哈……走吧，走吧！
+    奥村大人比任何人都要厉害！
+    «ID TalkMsg_CONTACT_15  对话»
+
+〔旁白〕哈哈……走吧，走吧！
+    新岛大人比任何人都要厉害！
+    «ID TalkMsg_CONTACT_16  对话»
+
+〔旁白〕哈哈……走吧，走吧！
+    明智大人比任何人都要厉害！
+    «ID TalkMsg_CONTACT_17  对话»
+
+〔旁白〕哈哈……走吧，走吧！
+    狮童大人比任何人都要厉害！
+    «ID TalkMsg_CONTACT_18  对话»
+
+〔旁白〕哈哈……走吧，走吧！
+    那位大人比任何人都要厉害！
+    «ID TalkMsg_CONTACT_19  对话»
+
+〔旁白〕哈哈……回去吧，回去吧！
+    幕后大首领是比任何人都要厉害的！
+    «ID TalkMsg_CONTACT_10  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_MEMENTOS  对话»
+
+〔旁白〕等、等一下……
+    有时候只要聊聊，就能互相理解的。
+    «ID TalkMsg_CONTACT_MEMENTOS_2  对话»
+
+〔旁白〕……贼人，你是想取我性命吗！
+    «ID TalkMsg_CONTACT_MEMENTOS_3  对话»
+
+〔旁白〕唔，能看到你心中有[var 2]。
+    那我就帮你吧。
+    «ID TalkMsg_GREET_POSSESSING  对话»
+
+〔旁白〕反正人类都只想要钱吧……拿去吧。
+    «ID TalkMsg_NEGO_POSSESSING_  对话»
+
+〔旁白〕你想要物品啊……拿去吧。
+    «ID TalkMsg_NEGO_POSSESSING__2  对话»
+
+〔旁白〕……咕噜噜？我记得你的气味……
+    还以为我们会一辈子是好朋友……
+    «ID TalkMsg_GREET_POSSESSED  对话»
+
+〔旁白〕……过去的事就算了，说说现在的事吧。
+    «ID TalkMsg_NEGO_POSSESSED  对话»
+
+〔旁白〕……反正你想要的是钱吧？
+    给你。
+    «ID TalkMsg_NEGO_POSSESSED_M  对话»
+
+〔旁白〕……你想要的是物品吧？
+    给你。
+    «ID TalkMsg_NEGO_POSSESSED_I  对话»
+
+〔旁白〕我们不能从头来过吗？
+    来聊聊怎么样？
+    «ID TalkMsg_GREET_POSSESSED_  对话»
+
+〔旁白〕哇唔！回想起了从前！
+    «ID TalkMsg_TALK_POSSESSED_B  对话»
+
+〔旁白〕倒也是啊……
+    «ID TalkMsg_NEGO_POSSESSED_B  对话»
+
+〔旁白〕人类想要的是钱吧……
+    这样就满足了吧？
+    «ID TalkMsg_NEGO_POSSESSED_B_2  对话»
+
+〔旁白〕你想要的，是物品吗……
+    这样就满足了吧？
+    «ID TalkMsg_NEGO_POSSESSED_B_3  对话»
+
+〔旁白〕……那就对话吧。
+    能了解你的话，就助你一臂之力。
+    «ID TalkMsg_FIRST_CONTACT  对话»
+
+〔旁白〕感觉我们以前也聊过……
+    那就再陪陪你吧，开始提问。
+    «ID TalkMsg_PRE_QUESTION  对话»
+
+〔旁白〕你是个可以沟通的人类呢。
+    «ID TalkMsg_PRE_QUESTION_ACQ  对话»
+
+〔旁白〕真是冷酷无情啊……我也有点头绪……
+    唔！想起来了……！
+    «ID TalkMsg_PRE_QUESTION_DEN  对话»
+
+〔旁白〕……嗯？那种萝卜可骗不了我。
+    这个怎么样！
+    «ID TalkMsg_TALK_TECH_ITEM  对话»
+
+〔旁白〕真是能言善辩的人类……跟我不相上下……
+    唔！想起来了……！
+    «ID TalkMsg_TALK_TECH_PERSON  对话»
+
+〔旁白〕……没、没想到为了个玩笑就较劲啊。
+    那换个话题吧。
+    «ID TalkMsg_SETTLE_DOWN  对话»
+
+〔旁白〕什么事！
+    看来你不打算谈下去了啊！
+    那就……！
+    «ID TalkMsg_RESULT_SHOT_1  对话»
+
+〔旁白〕唔唔！
+    ……这可恶的家伙！
+    ……不可原谅！
+    «ID TalkMsg_RESULT_SHOT_2  对话»
+
+〔旁白〕咕噜噜！我要逃跑了！
+    «ID TalkMsg_RESULT_SHOT_3  对话»
+
+〔旁白〕……？没有被打中？
+    给，给你这个！放过我吧！
+    «ID TalkMsg_RESULT_SHOT_4  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_RESULT_GET_PERSO  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_RESULT_GET_PERSO_2  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_RESULT_GET_PERSO_3  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_RESULT_GET_PERSO_4  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_RESULT_GET_PERSO_5  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_RESULT_GET_PERSO_6  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_RESULT_GET_PERSO_7  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_RESULT_GET_PERSO_8  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_RESULT_GET_PERSO_9  对话»
+
+〔旁白〕我不是这里的暗影。
+    我存在于人类的心灵之海中。
+    我是[var 2]。
+    我的力量也是你的……尽情使用吧。
+    «ID TalkMsg_RESULT_GET_PERSO_10  对话»
+
+〔旁白〕哼，无论你多么自以为是，
+    在鸭志田大人面前也只会深感无力。
+    «ID TalkMsg_ED_bye_D01_01  对话»
+
+〔旁白〕呵呵……你这点气势，
+    会对鸭志田大人管用吗？
+    «ID TalkMsg_ED_bye_D01_02  对话»
+
+〔旁白〕……事先声明，
+    鸭志田大人可要厉害多了。
+    «ID TalkMsg_ED_bye_D01_03  对话»
+
+〔旁白〕哼，无论你多么自以为是，
+    在斑目大人面前也只会深感无力。
+    «ID TalkMsg_ED_bye_D02_01  对话»
+
+〔旁白〕呵呵……你这点气势，
+    会对斑目大人管用吗？
+    «ID TalkMsg_ED_bye_D02_02  对话»
+
+〔旁白〕……事先声明，
+    斑目大人可要厉害多了。
+    «ID TalkMsg_ED_bye_D02_03  对话»
+
+〔旁白〕哼，无论你多么自以为是，
+    在行长面前也只会深感无力。
+    «ID TalkMsg_ED_bye_D03_01  对话»
+
+〔旁白〕呵呵……你这点气势，
+    会对行长管用吗？
+    «ID TalkMsg_ED_bye_D03_02  对话»
+
+〔旁白〕……事先声明，
+    行长可要厉害多了。
+    «ID TalkMsg_ED_bye_D03_03  对话»
+
+〔旁白〕哼，以你的程度，
+    是应该无法抵达那位大人那里的吧。
+    «ID TalkMsg_ED_bye_D04_01  对话»
+
+〔旁白〕呵呵……毁坏那位大人坟墓的人，
+    将会因诅咒而自取灭亡的吧。
+    «ID TalkMsg_ED_bye_D04_02  对话»
+
+〔旁白〕……毁坏那位大人坟墓的罪孽，
+    就以你的身体来偿还吧。
+    «ID TalkMsg_ED_bye_D04_03  对话»
+
+〔旁白〕哼，无论你多么自以为是，
+    在奥村大人面前也只会深感无力。
+    «ID TalkMsg_ED_bye_D05_01  对话»
+
+〔旁白〕呵呵……你这点气势，
+    会对奥村大人管用吗？
+    «ID TalkMsg_ED_bye_D05_02  对话»
+
+〔旁白〕……事先声明，
+    奥村大人可要厉害多了。
+    «ID TalkMsg_ED_bye_D05_03  对话»
+
+〔旁白〕哼，无论你多么自以为是，
+    在新岛大人面前也只会深感无力。
+    «ID TalkMsg_ED_bye_D06_01  对话»
+
+〔旁白〕呵呵……你这点气势，
+    会对新岛大人管用吗？
+    «ID TalkMsg_ED_bye_D06_02  对话»
+
+〔旁白〕……事先声明，
+    新岛大人可要厉害多了。
+    «ID TalkMsg_ED_bye_D06_03  对话»
+
+〔旁白〕哼，无论你多么自以为是，
+    在明智大人面前也只会深感无力。
+    «ID TalkMsg_ED_bye_D07_01  对话»
+
+〔旁白〕呵呵……你这点气势，
+    会对明智大人管用吗？
+    «ID TalkMsg_ED_bye_D07_02  对话»
+
+〔旁白〕……事先声明，
+    明智大人可要厉害多了。
+    «ID TalkMsg_ED_bye_D07_03  对话»
+
+〔旁白〕哼，无论你多么自以为是，
+    在狮童大人面前也只会深感无力。
+    «ID TalkMsg_ED_bye_D08_01  对话»
+
+〔旁白〕呵呵……你这点气势，
+    会对狮童大人管用吗？
+    «ID TalkMsg_ED_bye_D08_02  对话»
+
+〔旁白〕……事先声明，
+    狮童大人可要厉害多了。
+    «ID TalkMsg_ED_bye_D08_03  对话»
+
+〔旁白〕哼，无论你多么自以为是，
+    在那位大人面前也只会深感无力。
+    «ID TalkMsg_ED_bye_D09_01  对话»
+
+〔旁白〕呵呵……你这点气势，
+    会对那位大人管用吗？
+    «ID TalkMsg_ED_bye_D09_02  对话»
+
+〔旁白〕……事先声明，
+    那位大人可要厉害多了。
+    «ID TalkMsg_ED_bye_D09_03  对话»
+
+〔旁白〕哼，无论你多么自以为是，
+    在幕后大首领面前也只会深感无力。
+    «ID TalkMsg_ED_bye_D10_01  对话»
+
+〔旁白〕呵呵……你这点气势，
+    会对幕后大首领管用吗？
+    «ID TalkMsg_ED_bye_D10_02  对话»
+
+〔旁白〕……事先声明，
+    幕后大首领可要厉害多了哦。
+    «ID TalkMsg_ED_bye_D10_03  对话»
+
+〔旁白〕……你想怎么样？
+    我因为太弱而输了……
+    «ID TalkMsg_CONTACT_11_1  对话»
+
+〔旁白〕……放过我吧。
+    我不会和鸭志田大人说的。
+    «ID TalkMsg_CONTACT_11_2  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_11_3  对话»
+
+〔旁白〕……你想怎么样？
+    我因为太弱而输了……
+    «ID TalkMsg_CONTACT_12_1  对话»
+
+〔旁白〕……放过我吧。
+    我不会和斑目大人说的。
+    «ID TalkMsg_CONTACT_12_2  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_12_3  对话»
+
+〔旁白〕……你想怎么样？
+    我因为太弱而输了……
+    «ID TalkMsg_CONTACT_13_1  对话»
+
+〔旁白〕……放过我吧。
+    我不会和金城大人说的。
+    «ID TalkMsg_CONTACT_13_2  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_13_3  对话»
+
+〔旁白〕……你想怎么样？
+    我因为太弱而输了……
+    «ID TalkMsg_CONTACT_14_1  对话»
+
+〔旁白〕……放过我吧。
+    我不会和那位大人说的。
+    «ID TalkMsg_CONTACT_14_2  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_14_3  对话»
+
+〔旁白〕……你想怎么样？
+    我因为太弱而输了……
+    «ID TalkMsg_CONTACT_15_1  对话»
+
+〔旁白〕……放过我吧。
+    我不会和奥村大人说的。
+    «ID TalkMsg_CONTACT_15_2  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_15_3  对话»
+
+〔旁白〕……你想怎么样？
+    我因为太弱而输了……
+    «ID TalkMsg_CONTACT_16_1  对话»
+
+〔旁白〕……放过我吧。
+    我不会和新岛大人说的。
+    «ID TalkMsg_CONTACT_16_2  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_16_3  对话»
+
+〔旁白〕……你想怎么样？
+    我因为太弱而输了……
+    «ID TalkMsg_CONTACT_17_1  对话»
+
+〔旁白〕……放过我吧。
+    我不会和明智大人说的。
+    «ID TalkMsg_CONTACT_17_2  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_17_3  对话»
+
+〔旁白〕……你想怎么样？
+    我因为太弱而输了……
+    «ID TalkMsg_CONTACT_18_1  对话»
+
+〔旁白〕……放过我吧。
+    我不会和狮童大人说的。
+    «ID TalkMsg_CONTACT_18_2  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_18_3  对话»
+
+〔旁白〕……你想怎么样？
+    我因为太弱而输了……
+    «ID TalkMsg_CONTACT_19_1  对话»
+
+〔旁白〕……放过我吧。
+    我不会和那位大人说的。
+    «ID TalkMsg_CONTACT_19_2  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_19_3  对话»
+
+〔旁白〕……你想怎么样？
+    我因为太弱而输了……
+    «ID TalkMsg_CONTACT_10_1  对话»
+
+〔旁白〕……放过我吧。
+    我不会和幕后大首领说的。
+    «ID TalkMsg_CONTACT_10_2  对话»
+
+〔旁白〕……等等！不要开枪！
+    做个交易怎么样！？
+    «ID TalkMsg_CONTACT_10_3  对话»
+
+〔旁白〕（此页预定删除）……继续下一个问题吧。
+    你好像是个好人呢。
+    «ID TalkMsg_FQ_REACT_GOODMOO  对话»
+
+〔旁白〕（此页预定删除）……再继续下一个问题。
+    请你再像刚才一样回答得有趣点。
+    «ID TalkMsg_FQ_REACT_INTERES  对话»
+
+〔旁白〕（此页预定删除）……那么，下一个问题。
+    不要回答得像刚才那样低趣味了。
+    «ID TalkMsg_FQ_REACT_DISPLEA  对话»
+
+〔旁白〕（此页预定删除）……下一个问题。
+    我有点生气了……
+    «ID TalkMsg_FQ_REACT_ANGER  对话»
+
+〔旁白〕人类也变得严格了呢。
+    «ID TalkMsg_FQ_REACT_BROKEDO  对话»
+
+〔旁白〕抱歉……
+    但我手上没有可能对你有用的情报。
+    «ID TalkMsg_HAVE_NO_SECRET  对话»
+
+〔旁白〕不是你死，就是我亡！
+    没什么好说的！
+    «ID TalkMsg_RESULT_ENEMY_REF  对话»
+
+〔旁白〕这是什么意思？
+    给我来个痛快吧！
+    «ID TalkMsg_RESULT_ENEMY_REF_2  对话»
+
+〔旁白〕我要让你知道，谈判没有任何意义！
+    «ID TalkMsg_RESULT_ENEMY_REF_3  对话»
+
+〔旁白〕对、对反抗者，毫无仁慈……呵呵。
+    我理解……因为我也一样……
+    唔！想起来了……！
+    «ID TalkMsg_SHOOT_REACTION01  对话»
+
+〔旁白〕哇唔！射击！射击啊！
+    战斗才是你我的容身之处……
+    唔！想起来了……！
+    «ID TalkMsg_SHOOT_REACTION02  对话»
+
+〔旁白〕不想多说？呵呵……我也是。
+    只要力量占优势，言语毫无意义……
+    唔！想起来了……！
+    «ID TalkMsg_SHOOT_REACTION03  对话»
+
+〔旁白〕真、真是好战的人……
+    我也没资格说你就是了……
+    唔！想起来了……！
+    «ID TalkMsg_SHOOT_REACTION04  对话»
+
+〔旁白〕等等！你不是
+    有话要说吗！？
+    «ID TalkMsg_PLEAD_SKIMMING  对话»
+
+〔旁白〕我认输！
+    放我一马吧！
+    «ID TalkMsg_PLEAD_NO_SKIMMIN  对话»
+
+〔旁白〕好吧。
+    我会当作什么都没看到的。
+    «ID TalkMsg_ACCEPT_ALERT_DOW  对话»
+
+〔旁白〕别想骗我！
+    你根本就没有啊！
+    «ID TalkMsg_NO_REQUIREMENT  对话»
+
+〔旁白〕……我好像有些了解你了。
+    这次就给你这个，放过我吧。
+    «ID TalkMsg_RESULT_SQ_ITEM1  对话»
+
+〔旁白〕……我有点懂你这个人了。
+    这次就给你这个，放过我吧。
+    «ID TalkMsg_RESULT_SQ_ITEM2  对话»
+
+〔旁白〕和你说话，会感受到我自己……
+    唔！想起来了……！
+    «ID TalkMsg_RESULT_SQ_PERSON  对话»
+
+〔旁白〕真不可思议，我并不觉得你是外人……
+    唔！想起来了……！
+    «ID TalkMsg_RESULT_SQ_PERSON_2  对话»
+
+〔旁白〕这样啊，知道了……
+    但我没什么兴趣。
+    «ID TalkMsg_RESULT_SQ_PAYFOR  对话»
+
+〔旁白〕原来如此，来这套啊？
+    今天就放过我吧。
+    «ID TalkMsg_RESULT_SQ_PAYFOR_2  对话»
+
+〔旁白〕那么，到头来你究竟
+    想说什么？
+    看来有必要问一下啊。
+    «ID TalkMsg_RESULT_SQ_AGAIN1  对话»
+
+〔旁白〕那么，到头来你究竟
+    想说什么？
+    看来有必要问一下啊。
+    «ID TalkMsg_RESULT_SQ_AGAIN2  对话»
+
+〔旁白〕……你应该知道这东西的价值吧。
+    这个给你，放过我吧。
+    «ID TalkMsg_RESULT_SQ_CARD1  对话»
+
+〔旁白〕……我没兴趣。
+    今天就收下这个算了吧……
+    «ID TalkMsg_RESULT_SQ_CARD2  对话»
+
+〔旁白〕……我就原谅你至今为止的胡言乱语吧。
+    但要留下你的命！
+    «ID TalkMsg_RESULT_SQ_COUNTE  对话»
+
+〔旁白〕是吗……也就是说，
+    这里就是你的葬身之地！
+    «ID TalkMsg_RESULT_SQ_COUNTE_2  对话»
+
+〔旁白〕……就让我向这样的你……
+    介绍一位非常凶暴的同伴吧！
+    «ID TalkMsg_RESULT_SQ_ALERT1  对话»
+
+〔旁白〕……就是那样的态度让我生气！
+    你就死在这里吧！
+    «ID TalkMsg_RESULT_SQ_ALERT2  对话»
+
+〔旁白〕把我珍藏的情报告诉你吧。
+    «ID TalkMsg_RESULT_SQ_INFO1  对话»
+
+〔旁白〕我会向你提供有用的情报，各让一步吧。
+    «ID TalkMsg_RESULT_SQ_INFO2  对话»
+
+〔旁白〕……至少收下这个吧。
+    «ID TalkMsg_RESULT_SQ_MONEY1  对话»
+
+〔旁白〕……所以呢，给你这个，放过我吧。
+    «ID TalkMsg_RESULT_SQ_MONEY2  对话»
+
+〔旁白〕噢噢，那正是我要走的路……
+    但你似乎已经有这项情报了。
+    那就给你吧……
+    «ID TalkMsg_RESULT_BRAINWASH_8  对话»
+
+〔旁白〕噢噢，那正是我要走的路……
+    ……谢谢。我会听从你的建议。
+    «ID TalkMsg_RESULT_BRAINWASH_9  对话»
+
+〔旁白〕我不会上当的，
+    那根本不是我要走的路！
+    «ID TalkMsg_RESULT_BRAINWASH_10  对话»
+
+〔旁白〕噢噢，那正是我要走的路……
+    ……你已经拥有[var 2]这个『人格面具』了啊。
+    那就给你吧……
+    «ID TalkMsg_RESULT_BRAINWASH_11  对话»
+
+〔旁白〕噢噢，那正是我要走的路……
+    仔细一看，你等级太低了……
+    很遗憾，就给你吧……
+    «ID TalkMsg_RESULT_BRAINWASH_12  对话»
+
+〔旁白〕为我指明该走的道路吧……
+    «ID TalkMsg_RESULT_BRAINWASH_13  对话»
+
+〔旁白〕对现在的我而言，这句话正中心怀……
+    把我珍藏的这个给你吧。
+    «ID TalkMsg_RESULT_HACKING  对话»
+
+〔旁白〕噢噢，你也能理解
+    这东西的美妙之处啊。
+    «ID TalkMsg_SKIMMING_BRAINWA  对话»
+
+〔旁白〕你饶了我一命……这大恩大德……
+    唔！想起来了……！
+    «ID TalkMsg_RESULT_GET_PERSO_11  对话»
+
+〔旁白〕……我不会上当的！
+    不要小看我的直觉！
+    «ID TalkMsg_CHARM_TECH_ITEM  对话»
+
+〔旁白〕……哈哈，
+    雌性的请求真是难以拒绝。
+    «ID TalkMsg_CHARM_TECH_PERSO  对话»
+
+〔旁白〕什么！这样就能原谅我啊。
+    给，收下吧。
+    «ID TalkMsg_BONUS_CARD  对话»
+
+〔旁白〕噢噢……给钱就能原谅我啊。
+    这样对我也很方便。
+    «ID TalkMsg_DONATION  对话»
+
+〔旁白〕唔……呜呜！
+    «ID TalkMsg_UNTALKABLE  对话»
+
+〔旁白〕我
+    «ID TalkMsg_GUY_OP_00_00  对话»
+
+〔旁白〕整个吞？
+    «ID TalkMsg_GUY_OP_00_01  对话»
+
+〔旁白〕我
+    «ID TalkMsg_GUY_OP_01_00  对话»
+
+〔旁白〕会怎么样？
+    «ID TalkMsg_GUY_OP_01_01  对话»
+
+〔旁白〕我
+    «ID TalkMsg_GUY_OP_02_00  对话»
+
+〔旁白〕很厉害哦
+    «ID TalkMsg_GUY_OP_02_01  对话»
+
+〔旁白〕我
+    «ID TalkMsg_GUY_OP_03_00  对话»
+
+〔旁白〕再见了。
+    你的恩情，我不会忘记的。
+    «ID TalkMsg_GUY_EN_No_00  对话»
+
+〔旁白〕……那就再会了。
+    希望你不要后悔放我一马……
+    «ID TalkMsg_GUY_EN_No_01  对话»
+
+〔旁白〕……再会。
+    这份人情，我总有一天会还的。
+    «ID TalkMsg_GUY_EN_No_02  对话»
+
+〔旁白〕……是时候分别了。
+    再见了，不知死活的人类。
+    «ID TalkMsg_GUY_EN_bye_00  对话»
+
+〔旁白〕……再见了，贪婪的人类。
+    我就先撤退了。
+    «ID TalkMsg_GUY_EN_bye_01  对话»
+
+〔旁白〕这次我撤退了。
+    不过你的味道……我已经记住了。
+    «ID TalkMsg_GUY_EN_bye_02  对话»
+
+〔旁白〕……你，是个好人。
+    你的心意，我领了。
+    «ID TalkMsg_GUY_NEGO_GIVE_00  对话»
+
+〔旁白〕……好吧。
+    你收下了。
+    «ID TalkMsg_GUY_NEGO_GIVE_01  对话»
+
+〔旁白〕你是，小气的男人。
+    我，很遗憾……
+    «ID TalkMsg_GUY_NEGO_DECLINE  对话»
+
+〔旁白〕……明明是，我想要的。
+    你，坏心眼。
+    «ID TalkMsg_GUY_NEGO_DECLINE_2  对话»
+
+〔旁白〕你可以再高兴一点的哦。
+    «ID TalkMsg_GUY_NEGO_TAKE_00  对话»
+
+〔旁白〕我给你仁慈。
+    你给我感谢。
+    «ID TalkMsg_GUY_NEGO_TAKE_01  对话»
+
+〔旁白〕人类都很贪心呢……
+    «ID TalkMsg_GUY_NEGO_DOUBLEU  对话»
+
+〔旁白〕居然趁人之危……
+    «ID TalkMsg_GUY_NEGO_DOUBLEU_2  对话»
+
+〔旁白〕你是个，好人。
+    我，开心。
+    «ID TalkMsg_GUY_NEGO_AGREE_0  对话»
+
+〔旁白〕我，得到好处，你也，松一口气。
+    大家都，开心。
+    «ID TalkMsg_GUY_NEGO_AGREE_0_2  对话»
+
+〔旁白〕……我，很失望。
+    不开心……
+    «ID TalkMsg_GUY_NEGO_REFUSE_  对话»
+
+〔旁白〕……你，不给。
+    我，遗憾……
+    «ID TalkMsg_GUY_NEGO_REFUSE__2  对话»
+
+【坂本　龙司】喂，你要干什么啊？
+    好好想想现在的状况吧！
+    «ID TalkMsg_Coop_Reiji_00  对话»
+
+【坂本　龙司】（暗影好像重新考虑了……）
+    «ID TalkMsg_Coop_Reiji_01  对话»
+
+【摩尔加纳】别动！你们的命运，
+    都掌握在吾辈等人的手中哦！？
+    «ID TalkMsg_Coop_Morgana_00  对话»
+
+【摩尔加纳】（暗影好像重新考虑了……）
+    «ID TalkMsg_Coop_Morgana_01  对话»
+
+【高卷　杏】等一下！别动哦？
+    你也不想被打成蜂窝吧？
+    «ID TalkMsg_Coop_Ann_00  对话»
+
+【高卷　杏】（暗影好像重新考虑了……）
+    «ID TalkMsg_Coop_Ann_01  对话»
+
+【喜多川　佑介】不要再做无谓的挣扎了！
+    ……好好想想自己现在的处境吧。
+    «ID TalkMsg_Coop_Yugo_00  对话»
+
+【喜多川　佑介】（暗影好像重新考虑了……）
+    «ID TalkMsg_Coop_Yugo_01  对话»
+
+【新岛　真】不要动！
+    停止无谓的抵抗，同意进行交涉吧。
+    «ID TalkMsg_Coop_Makoto_00  对话»
+
+【新岛　真】（暗影好像重新考虑了……）
+    «ID TalkMsg_Coop_Makoto_01  对话»
+
+【奥村　春】等一下！
+    你知道自己现在的处境吗？
+    «ID TalkMsg_Coop_Haruko_00  对话»
+
+【奥村　春】（暗影好像重新考虑了……）
+    «ID TalkMsg_Coop_Haruko_01  对话»
+
+【明智　吾郎】等一下！
+    是聪明人就不要轻举妄动。
+    «ID TalkMsg_Coop_Akechi_00  对话»
+
+【明智　吾郎】（暗影好像重新考虑了……）
+    «ID TalkMsg_Coop_Akechi_01  对话»
+
+【明智　吾郎】（第六感发动！）
+    （因为感觉变得更加敏锐，
+    知道了『不可以选择的选项』！）
+    «ID TalkMsg_Sense_Sixthsense  对话»
+
+【明智　吾郎】（谈判发动！）
+    （使用久经锻炼的交涉术，
+    获得了『更多的帮助』！）
+    «ID TalkMsg_Sense_Negotiatio  对话»
+
+【明智　吾郎】（ＧＩＧＯＬＯ发动！）
+    （展现出优雅高尚的性感，
+    刺激了『女性暗影的少女心』！）
+    «ID TalkMsg_Sense_Gigolo_00  对话»
+
+【明智　吾郎】（表演发动！）
+    （完美地扮成小丑，
+    吸引住了『敌方暗影的注意力』！）
+    «ID TalkMsg_Sense_Performanc  对话»
+
+【明智　吾郎】（知性发动！）
+    （展现出博学的一面，
+    赢得了『男性暗影的尊敬』！
+    «ID TalkMsg_Sense_Intelligen  对话»
+
+〔旁白〕知性不足，无法选择。
+    «ID TalkMsg_Tisei  对话»
+
+〔旁白〕性感不足，无法选择。
+    «ID TalkMsg_Iroke  对话»
+
+〔旁白〕技能不足，无法选择。
+    «ID TalkMsg_Ginou  对话»
+
+〔旁白〕品性不足，无法选择。
+    «ID TalkMsg_Hinsei  对话»
+
+〔旁白〕勇气不足，无法选择。
+    «ID TalkMsg_Yuuki  对话»
+
+【选项】Nego_Surrender_sel
+    ▸ 给我力量吧
+    ▸ 你带钱了吗？
+    ▸ 道具最好
+    ▸ ＰＡＮＴＨＥＲ，拜托了
+    «ID Nego_Surrender_sel  选项»
+
+【选项】Nego_Surrender_sel_01
+    ▸ 一同前行吧
+    ▸ 你带钱了吗？
+    ▸ 道具最好
+    ▸ ＰＡＮＴＨＥＲ，拜托了
+    «ID Nego_Surrender_sel_01  选项»
+
+【选项】Nego_Surrender_sel_02
+    ▸ 给我力量吧
+    ▸ 看你的诚意了
+    ▸ 道具最好
+    ▸ ＰＡＮＴＨＥＲ，拜托了
+    «ID Nego_Surrender_sel_02  选项»
+
+【选项】Nego_Surrender_sel_03
+    ▸ 给我力量吧
+    ▸ 你带钱了吗？
+    ▸ 看物品的价值了
+    ▸ ＰＡＮＴＨＥＲ，拜托了
+    «ID Nego_Surrender_sel_03  选项»
+
+【选项】Nego_Surrender_sel_04
+    ▸ 给我力量吧
+    ▸ 你带钱了吗？
+    ▸ 把藏着的东西交出来
+    ▸ ＰＡＮＴＨＥＲ，拜托了
+    «ID Nego_Surrender_sel_04  选项»
+
+【选项】Nego_Payfor_sel
+    ▸ 我收下了
+    ▸ 还有别的吧？
+    «ID Nego_Payfor_sel  选项»
+
+【选项】Nego_Brainwash_sel
+    ▸ 献出自己吧
+    ▸ 捐款吧……
+    ▸ 交出有用的东西……
+    ▸ ＰＡＮＴＨＥＲ，拜托了
+    «ID Nego_Brainwash_sel  选项»
+
+【选项】TalkSel_Greet_Possesed_B
+    ▸ 好吧
+    ▸ 都已经过去了
+    «ID TalkSel_Greet_Possesed_B  选项»
+
+【选项】TalkSel_Pre_Question
+    ▸ 好吧
+    ▸ 没有那个必要
+    «ID TalkSel_Pre_Question  选项»
+
+〔旁白〕吉田　寅之助的印象操作！（暂定）
+    «ID Talk_tech  对话»
+
+【选项】TalkSel_Tech
+    ▸ 请务必助我一臂之力！
+    ▸ ……
+    «ID TalkSel_Tech  选项»
+
+【高卷　杏】讨厌，好可怕～！再温柔一点吧……
+    «ID CharmTech  对话»
+
+【高卷　杏】啊，怎么会这样……居然要夺走那个……
+    «ID CharmActing  对话»
+
+〔旁白〕吉田　寅之助的印象操作！（暂定）
+    «ID RareBooster  对话»
+
+【高卷　杏】ＪＯＫＥＲ，现在太危险了，我们撤退吧……
+    我说你，能不能把这个转告给老大？
+    «ID CheapAct  对话»
+
+〔旁白〕（其他的敌人插入对话）
+    «ID TalkMsg_cnt_interruptE  对话»
+
+〔旁白〕（同伴插入对话）
+    →只要获得过该谈话对象的人格面具，就有一定概率触发
+    （简化再次获得曾获得过的人格面具＆活用同伴能力）
+    «ID TalkMsg_cnt_interruptP  对话»
+
+〔旁白〕（对象拒绝对话）
+    →对话后处于拒绝状态则会出现此情况
+    «ID TalkMsg_cnt_refuse  对话»
+
+〔旁白〕（对象发怒开始反击）
+    →对话后处于拒绝状态时出现的最坏情况
+    «ID TalkMsg_cnt_anger  对话»
+
+〔旁白〕（因异常状态而无法对话）
+    «ID TalkMsg_cnt_unusual  对话»
+
+〔旁白〕（错误）
+    →因某个变数出现了不可能的数值。
+    «ID DebugMsg_ERROR  对话»
+
+〔旁白〕（Ｄｅｂｕｇ用）
+    选择对象的性格类型
+    «ID DebugMsg_CHARACTER  对话»
+
+【选项】DebugSel_CHARACTER
+    ▸ 类型Ａ
+    ▸ 类型Ｂ
+    ▸ 类型Ｃ
+    ▸ 类型Ｄ
+    ▸ 随机选择
+    «ID DebugSel_CHARACTER  选项»
+
+〔旁白〕[var 0]
+    «ID DebugMsg_CHECK_VAR  对话»
+
+〔旁白〕敌方ＩＤ　[var 3]
+    敌方等级　[var 0]
+    主角等级　[var 1]
+    ＡＩ＿ＣＨＫ＿ＥＮＩＤＬＶ＿Ｏ（[var 0]，　１）　＝　[var 2]
+    «ID DebugMsg_ENEMY_LV  对话»
+
+【高卷　杏】那就把这份经验
+    分享给你心中的我吧……
+    «ID TalkMsg_GUY_RESULT_GET_P_4  对话»
+
+【高卷　杏】噢，这算不上是聪明的判断呢。
+    再考虑一下会比较好吧？
+    «ID TalkMsg_Coop_AkechiB_00  对话»
+
+【高卷　杏】等一下！
+    不要轻举妄动比较好哦。
+    «ID TalkMsg_Coop_Kasumi_00  对话»
+
+【高卷　杏】等一下！
+    不要轻举妄动比较好哦。
+    «ID TalkMsg_Coop_Sumire_00  对话»

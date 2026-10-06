@@ -1,0 +1,76 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR3020_000_000.BF
+对话条目: 18 条
+================================================================================
+
+〔旁白〕要在工作台上做什么呢……
+    «ID MSG_DESK_START_THINK  对话»
+
+【摩尔加纳】你要做些什么吗？
+    «ID MSG_DESK_START_THINK_MOR  对话»
+
+【选项】MSG_DESK_START_THINK_SEL
+    ▸ 制作潜入道具
+    ▸ 修理笔记本电脑
+    ▸ 浏览暗站
+    ▸ 还是算了
+    «ID MSG_DESK_START_THINK_SEL  选项»
+
+【摩尔加纳】话说回来，你买了笔记本电脑对吧。
+    虽然故障了……
+    «ID MSG_REPAIR_NotePc_00  对话»
+
+【摩尔加纳】没有专用工具就无法修理呢。
+    哪里有卖家电用的工具呢……？
+    «ID MSG_REPAIR_NotePc_NoItem  对话»
+
+【摩尔加纳】没有专用工具就无法修理呢。
+    秋叶原应该有卖吧？
+    «ID MSG_REPAIR_NotePc_NoItem_2  对话»
+
+【摩尔加纳】嗯，不过要什么时候做还是由你决定。
+    有意愿的时候再挑战吧！
+    «ID MSG_REPAIR_NotePc_HaveIt  对话»
+
+【摩尔加纳】果然还是需要专用的修理道具啊。
+    那个卖许多家电的街道……那里应该有卖吧。
+    «ID MSG_NotePc_Tool_NoItem_N  对话»
+
+【摩尔加纳】果然还是要有专用的修理道具啊。
+    家电类的器具，秋叶原应该很齐全吧。
+    «ID MSG_NotePc_Tool_NoItem_Y  对话»
+
+【摩尔加纳】嗯，这家伙可能要修很久。
+    你要做好花费大把时间的准备哦？
+    «ID MSG_NotePc_Tool_HaveItem  对话»
+
+【选项】SEL_Repair_Q
+    ▸ 修理
+    ▸ 还是算了
+    «ID SEL_Repair_Q  选项»
+
+【摩尔加纳】……不过，现在不是做这个的时候。
+    另外再找时间教你吧。
+    «ID MSG_WorkDesk_NG_NotToolO  对话»
+
+【摩尔加纳】……不过，你今天累了吧？
+    另外再找时间教你吧。
+    «ID MSG_WorkDesk_NG_GoAfterD  对话»
+
+【摩尔加纳】今天很累了吧？
+    明天再说吧……
+    «ID MSG_CHK_WORKBENCH_NG_DNG  对话»
+
+【摩尔加纳】今天就先休息吧，为明天做好准备。
+    «ID MSG_ActNg_OnlySave  对话»
+
+【摩尔加纳】喂，你已经累了吧？
+    休息过后再来弄吧。
+    «ID MSG_CHK_WORKBENCH_NG_SPO  对话»
+
+〔旁白〕桌子上堆着大量的书……
+    «ID MSG_DESK_NG_DEFAULT  对话»
+
+【摩尔加纳】肚子已经饱了吧？
+    赶快去睡觉吧……
+    «ID MSG_ActNg_0505  对话»

@@ -1,0 +1,86 @@
+================================================================================
+来源文件: FIELD\KF_EVENT\HIT\EHIT_701_102_00.BF
+对话条目: 21 条
+================================================================================
+
+【选项】YESNO_SEL
+    ▸ 是
+    ▸ 否
+    «ID YESNO_SEL  选项»
+
+【坂本　龙司】哦，在这边！
+    «ID MSG_ACT_FLD_RYUJI_01  对话»
+
+【坂本　龙司】这里就是那家店了，
+    感觉还挺正宗的吧？
+    «ID MSG_ACT_FLD_RYUJI_02  对话»
+
+【选项】SEL_ACT_FLD_RYUJI
+    ▸ 是间可疑的店
+    ▸ 好期待
+    «ID SEL_ACT_FLD_RYUJI  选项»
+
+【坂本　龙司】是啊。老实说我自己一个人的话
+    实在没什么勇气进去……
+    «ID MSG_ACT_FLD_RYUJI_03  对话»
+
+【坂本　龙司】咦？
+    你是个军事迷吗？
+    «ID MSG_ACT_FLD_RYUJI_04  对话»
+
+【坂本　龙司】总之，先进去看看吧。
+    «ID MSG_ACT_FLD_RYUJI_05  对话»
+
+【坂本　龙司】话说回来，
+    你对军事相关的东西了解吗？
+    总之，先看看店员会推荐什么。
+    进去再说吧。
+    «ID MSG_ACT_FLD_RYUJI_10  对话»
+
+〔旁白〕擅自回去不太好吧……
+    总之先跟着龙司走吧……
+    «ID MND_CHK_STATION  对话»
+
+〔旁白〕现在不应该回去。
+    哪里能获得厉害的药呢……
+    «ID MND_CHK_STATION2  对话»
+
+〔旁白〕这里的商品似乎没有一件
+    可以拿来做武器……
+    «ID MND_BAITO_KARAOKE_NG  对话»
+
+〔旁白〕这里似乎不出售强效药品……
+    «ID MND_BAITO_KARAOKE_NG2  对话»
+
+〔旁白〕这里的商品似乎没有一件
+    可以拿来做武器……
+    «ID MND_BAITO_GYUUDON_NG  对话»
+
+〔旁白〕这里似乎不出售强效药品……
+    «ID MND_BAITO_GYUUDON_NG2  对话»
+
+〔旁白〕这里的商品似乎没有一件
+    可以拿来做武器……
+    «ID MND_BAITO_IZAKAYA_NG  对话»
+
+〔旁白〕这里似乎不出售强效药品……
+    «ID MND_BAITO_IZAKAYA_NG2  对话»
+
+〔旁白〕这里的商品似乎没有一件
+    可以拿来做武器……
+    «ID MND_BAITO_FAMIRES_NG  对话»
+
+〔旁白〕这里似乎不出售强效药品……
+    «ID MND_BAITO_FAMIRES_NG2  对话»
+
+〔旁白〕这里就是圈内人口耳相传的
+    那家专业的生存游戏专卖店……
+    «ID MND_CHK_WEAPON_SHOP  对话»
+
+〔旁白〕听说这个诊所里的江湖医生，
+    可以马上开药……
+    «ID MND_CHK_ITEM_SHOP  对话»
+
+〔旁白〕开启了通往涩谷
+    『生存游戏专卖店』的快速移动。
+    «ID MSG_SYSTEM_SHORTCUT_MILI  对话»

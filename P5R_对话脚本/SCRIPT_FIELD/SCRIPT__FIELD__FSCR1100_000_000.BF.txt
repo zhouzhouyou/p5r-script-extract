@@ -1,0 +1,118 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR1100_000_000.BF
+对话条目: 22 条
+================================================================================
+
+〔旁白〕今天很累，
+    还是下次再外出了吧……
+    «ID MND_MAIL_NG  对话»
+
+〔旁白〕老板叫我乖乖待着。
+    还是不要出去闲晃吧……
+    要是能得到许可就好了……
+    «ID MND_MASTER_GOOUT_NG  对话»
+
+〔旁白〕有同伴过来玩了……
+    «ID MND_CHK_DOOR_playroom  对话»
+
+〔旁白〕龙司过来玩了……
+    «ID MND_PC_PLAYROOM_CHK_ryuj  对话»
+
+【摩尔加纳】杏过来玩了……
+    «ID MND_PC_PLAYROOM_CHK_anne  对话»
+
+【选项】SEL_PC_PLAYROOM_CHK
+    ▸ 出门
+    ▸ 留在家里
+    «ID SEL_PC_PLAYROOM_CHK  选项»
+
+〔旁白〕要去哪里？
+    ：显示大地图
+    «ID MSG_SHORTCUT_MENU  对话»
+
+〔旁白〕要去哪里？
+    «ID MSG_SHORTCUT_MENU_NOBIGM  对话»
+
+【选项】SEL_SHORTCUT_MENU
+    ▸ 涩谷站前广场
+    ▸ 宫下公园
+    ▸ 生存游戏专卖店前
+    ▸ 武见医院前
+    ▸ 田园都市线闸机口前
+    ▸ 涩谷地下街
+    ▸ 站前广场
+    ▸ 中心街
+    ▸ 涩谷地下街
+    ▸ 东急车站大楼
+    ▸ 小巷
+    ▸ 卢布朗店内
+    ▸ 校门前
+    ▸ 教室
+    ▸ 教育大楼１Ｆ
+    ▸ 实习大楼１Ｆ
+    ▸ 中庭
+    ▸ 在秘密基地集合
+    ▸ 去涩谷的其他地区
+    ▸ 前往其他街区
+    ▸ 还是算了
+    «ID SEL_SHORTCUT_MENU  选项»
+
+〔旁白〕如果想叫大家去秘密基地集合的话，
+    就选择放学后或白天的时段吧……
+    «ID MSG_SHORTCUT_AJITO_NG_TI  对话»
+
+〔旁白〕现在不是做这个的时候。
+    下次再让他们去秘密基地集合吧……
+    «ID MSG_SHORTCUT_AJITO_NG_KF  对话»
+
+〔旁白〕叫大家去秘密基地集合吧……
+    «ID MSG_SHORTCUT_AJITO  对话»
+
+【选项】SEL_SHORTCUT_AJITO
+    ▸ 叫大家集合
+    ▸ 现在先不要
+    «ID SEL_SHORTCUT_AJITO  选项»
+
+〔旁白〕要去哪里？
+    «ID MSG_SHORTCUT_MIDDLE_BIG  对话»
+
+【选项】SEL_SHORTCUT_MIDDLE
+    ▸ 涩谷站前广场
+    ▸ 中心街
+    ▸ 涩谷地下街
+    ▸ 东急车站大楼
+    ▸ 前往其他街区
+    ▸ 还是算了
+    «ID SEL_SHORTCUT_MIDDLE  选项»
+
+【选项】SEL_SHORTCUT_BIG
+    ▸ 四轩茶屋
+    ▸ 涩谷
+    ▸ 青山一丁目
+    ▸ 还是算了
+    «ID SEL_SHORTCUT_BIG  选项»
+
+〔旁白〕路线[var 0]
+    车站[var 1]
+    «ID MSG_SHORTCUT_TEST2  对话»
+
+〔旁白〕选项[var 0]
+    «ID MSG_SHORTCUT_TEST3  对话»
+
+【摩尔加纳】都市晚上的街道很危险哦！？
+    需要一颗任何事都不会动摇的心。
+    如果想在晚上外出的话，
+    必须拥有稳如泰山的[stIcon 3][stLabel 3]。
+    «ID MSG_NG_ROJIURA_OUT  对话»
+
+【摩尔加纳】今天太累了，
+    还是睡觉吧。
+    «ID MSG_NG_GO_OUT  对话»
+
+【摩尔加纳】有同伴来了，要外出吗？
+    «ID MSG_GO_OUT_FRIEND  对话»
+
+【选项】SEL_GO_OUT_FRIEND
+    ▸ 外出
+    ▸ 算了
+    «ID SEL_GO_OUT_FRIEND  选项»

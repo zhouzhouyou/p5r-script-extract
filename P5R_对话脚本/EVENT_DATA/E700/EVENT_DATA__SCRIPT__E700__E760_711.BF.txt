@@ -1,0 +1,699 @@
+================================================================================
+来源文件: EVENT_DATA\SCRIPT\E700\E760_711.BF
+对话条目: 170 条
+================================================================================
+
+【摩尔加纳】来玩『招摇撞骗五右卫门ＵＳＡ』吧。
+    «ID MSG_GAMESTART  对话»
+
+〔旁白〕开始玩『招摇撞骗五右卫门ＵＳＡ』吧……
+    «ID MSG_GAMESTART_NULL  对话»
+
+【摩尔加纳】对了，你看过秘技宝典呢。
+    一旦陷入绝境，五右卫门就会
+    使用他所擅长的出老千突破……
+    «ID MSG_READ_BOOK_URAWAZA_FI  对话»
+
+〔旁白〕话说回来，之前看过秘技宝典……
+    书上写着，一旦陷入绝境，五右卫门就会
+    使用他所擅长的出老千来突破……
+    «ID MSG_READ_BOOK_URAWAZA_NU  对话»
+
+【摩尔加纳】那么，要用秘技吗？
+    通过出老千来降低游戏难度吧。
+    «ID MSG_READ_BOOK_URAWAZA_FI_2  对话»
+
+〔旁白〕要试试看用秘技吗……
+    «ID MND_201_6_0  对话»
+
+【选项】SEL_001_0_0
+    ▸ 使用秘技
+    ▸ 靠自己的实力
+    «ID SEL_001_0_0  选项»
+
+【摩尔加纳】嗯，
+    物尽其用才对嘛！
+    «ID MSG_READ_BOOK_URAWAZA_YE  对话»
+
+〔旁白〕这下子，应该就能
+    轻松通关了……
+    «ID MND_203_6_0  对话»
+
+【摩尔加纳】原来如此，你果然是个男子汉。
+    加油啊！
+    «ID MSG_READ_BOOK_URAWAZA_NO  对话»
+
+〔旁白〕以自己的实力去挑战吧……
+    «ID MND_202_6_0  对话»
+
+【摩尔加纳】猜错了吗……可恶，
+    已经没机会了……
+    咦……怎么回事？
+    五右卫门的手在发光！
+    «ID MSG_Ura01  对话»
+
+【小鬼】什么……光通过镜子反射了……！
+    «ID MSG_Ura_kooni  对话»
+
+【鬼】唔……光通过镜子反射了……！
+    «ID MSG_Ura_oni  对话»
+
+【阎魔王】唔唔……光通过镜子反射了……！
+    «ID MSG_Ura_enma  对话»
+
+【摩尔加纳】喂，快看……！
+    骰子的点数变了！
+    «ID MSG_Ura02  对话»
+
+【小鬼】咦……是我看错了吗……
+    结果是你猜中了。
+    «ID MSG_Ura_kooni03  对话»
+
+【鬼】唔……是老子看错了吗……
+    结果是你猜中了。
+    «ID MSG_Ura_oni03  对话»
+
+【阎魔王】唔……是老夫看错了吗……
+    结果是你猜中了。
+    «ID MSG_Ura_enma03  对话»
+
+【摩尔加纳】以地狱为舞台的游戏啊。
+    主角是落入地狱的大盗贼……
+    «ID MSG_010_0_0  对话»
+
+〔旁白〕这是以地狱为舞台的游戏。
+    主角是落入地狱的大盗贼……
+    «ID MND_205_6_0  对话»
+
+【摩尔加纳】有什么东西出现了哦……小鬼？
+    «ID MSG_110_0_0  对话»
+
+〔旁白〕有人出现了。
+    看来是小鬼……
+    «ID MND_225_6_0  对话»
+
+【摩尔加纳】又有一扇好大的门啊。
+    喂，有个壮汉挡在前面呢……？
+    «ID MSG_STEP2_START_02_MORU_  对话»
+
+〔旁白〕在很大的门前，站着一位壮汉……
+    «ID MND_STEP2_START_02_st2  对话»
+
+【摩尔加纳】这里是……宫殿吗……？
+    有个穿着红衣服的壮汉……？
+    «ID MSG_STEP2_START_02_MORU__2  对话»
+
+〔旁白〕这里……难道是宫殿吗……？
+    有个穿着红衣服的壮汉……？
+    «ID MND_STEP2_START_02_st3  对话»
+
+【小鬼】扰乱现世的大盗贼
+    居然恬不知耻地来到了地狱……
+    虽然引渡你至地狱劫难
+    亦非不可，不过……
+    既然你是那个五右卫门，
+    施与普通的惩处也甚感无趣。
+    在我手中有２颗骰子，
+    是天还是地……来跟我一决胜负吧！！
+    «ID MSG_JIGOKU_GAMBLE_TUTORI  对话»
+
+【摩尔加纳】看来，只需要跟这只妖怪赌骰子
+    然后胜过他就可以了……
+    «ID MSG_GAMBLE_TUTORIAL_MORU  对话»
+
+〔旁白〕只要赌骰子赢过他就行了……
+    «ID MSG_GAMBLE_TUTORIAL_02  对话»
+
+【小鬼】首先，你要做的事情就是决定是天还是地。
+    如果你认为骰子的数字比
+    我接下来说的数字还要大的话，就是天……
+    相反的如果比较小，就是地。
+    我就给你３次机会吧。
+    只要你猜对１次，就让你通过这里。
+    讲解完毕……规则你都了解了吧？
+    «ID MSG_JIGOKU_GAMBLE_TUTORI_2  对话»
+
+【选项】GAMBLE_TUTORIAL_YES_NO
+    ▸ 来玩吧
+    ▸ 还不太懂
+    «ID GAMBLE_TUTORIAL_YES_NO  选项»
+
+【摩尔加纳】小鬼又挡在前面了。
+    你要听规则说明吗？
+    «ID MSG_GAMBLE_TUTORIAL_2_MO  对话»
+
+〔旁白〕小鬼挡在前面……
+    要听他说明规则吗？
+    «ID MSG_GAMBLE_TUTORIAL_2_02  对话»
+
+【选项】GAMBLE_TUTORIAL_STEP2_YE
+    ▸ 听
+    ▸ 不听
+    «ID GAMBLE_TUTORIAL_STEP2_YE  选项»
+
+【小鬼】我就给你３次机会吧。
+    只要你猜对１次，就让你通过这里。
+    «ID MSG_JIGOKU_GAMBLE_TUTORI_3  对话»
+
+【鬼】哼……你还真以为
+    你有办法从地狱逃出生天啊。
+    老子可是人见人怕的赤鬼，
+    地狱的事情我说了算。
+    «ID MSG_STEP2_START_st2  对话»
+
+【摩尔加纳】难道……又是骰子决胜负吗？
+    «ID MSG_STEP2_START_03_MORU_  对话»
+
+〔旁白〕又是骰子决胜负吗……
+    «ID MND_STEP2_START_03_st2  对话»
+
+【摩尔加纳】唔，有鬼挡在前面。
+    接下来又要以赌博决一胜负。
+    要不要听一下规则说明？
+    «ID MSG_GAMBLE_TUTORIAL_STEP  对话»
+
+〔旁白〕有鬼挡在前面……
+    接下来要以赌博决胜负。
+    要不要听一下规则说明呢……
+    «ID MSG_GAMBLE_TUTORIAL_STEP_2  对话»
+
+【鬼】你应该已经从小鬼那听过规则了……
+    还需要再说明吗？
+    «ID MSG_STEP2_START_04_st2  对话»
+
+【鬼】首先，你要做的事情就是决定是天还是地。
+    如果你认为骰子的数字比
+    老子接下来说的数字还要大的话，就是天……
+    相反的如果比较小，就是地。
+    跟老子连续赌赢２回，
+    就让你通过这里吧。
+    重试的机会有３次。
+    说明完毕……规则你都了解了吧？
+    «ID MSG_JIGOKU_GAMBLE_TUTORI_4  对话»
+
+【鬼】跟老子连续赌赢２回，
+    就让你通过这里吧。
+    重试的机会有３次。
+    «ID MSG_JIGOKU_GAMBLE_TUTORI_5  对话»
+
+【阎魔王】终于来到这里了吗！
+    老夫乃是阎魔王，
+    地狱的事情……老夫说了才真正算数。
+    «ID MSG_STEP2_START_st3  对话»
+
+【摩尔加纳】难道……又是骰子决胜负吗？
+    «ID MSG_STEP2_START_03_MORU__2  对话»
+
+〔旁白〕又是骰子决胜负吗……
+    «ID MND_STEP2_START_03_st3  对话»
+
+【摩尔加纳】唔，那是阎魔王啊。
+    接下来又要以赌博决一胜负。
+    要不要听一下规则说明？
+    «ID MSG_GAMBLE_TUTORIAL_STEP_3  对话»
+
+〔旁白〕那是阎魔王……
+    接下来要以赌博决胜负。
+    要不要听一下规则说明呢……
+    «ID MSG_GAMBLE_TUTORIAL_STEP_4  对话»
+
+【阎魔王】你应该已经听那些鬼解释过规则了……
+    还需要再说明吗？
+    «ID MSG_STEP2_START_02_st3  对话»
+
+【阎魔王】首先，你要做的事情就是决定是天还是地。
+    如果你认为骰子的数字比
+    老夫接下来说的数字还要大的话，就是天……
+    只要跟老夫连续赌赢３次，
+    就让你通过这里。
+    重试的机会有３次。
+    说明完毕……规则你都了解了吧？
+    «ID MSG_JIGOKU_GAMBLE_TUTORI_6  对话»
+
+【阎魔王】老夫的赌法可比那些鬼的更狠！
+    跟老夫连续赌赢３次，
+    才让你通过这里。
+    重试的机会有３次。
+    如果老夫赢了，
+    就要你在此处永远饱尝痛苦！
+    «ID MSG_JIGOKU_GAMBLE_TUTORI_7  对话»
+
+【小鬼】好了，那就开始吧。
+    一开始的数字是『[var 0]』！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAMBLE_START_  对话»
+
+【小鬼】那就开始第２次挑战吧。
+    这次的数字是『[var 0]』！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAMBLE_START__2  对话»
+
+【小鬼】呵呵……这是最后的机会了。
+    这次的数字是『[var 0]』！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAMBLE_START__3  对话»
+
+【选项】MSG_JIGOKU_GAMBLE_START__4
+    ▸ 天
+    ▸ 地
+    «ID MSG_JIGOKU_GAMBLE_START__4  选项»
+
+【小鬼】哦？你选天啊……
+    如果骰子的数字『比[var 0]大』，就是你赢了。
+    «ID MSG_JIGOKU_GAMBLE_TEN_st  对话»
+
+【小鬼】噢噢，你选地啊……
+    如果骰子的数字『比[var 0]小』，就是你赢了。
+    «ID MSG_JIGOKU_GAMBLE_CHI_st  对话»
+
+【小鬼】一决胜负吧！
+    «ID MSG_JIGOKU_GAMBLE_GO_st1  对话»
+
+【鬼】很好，那就开始吧。
+    一开始的数字是『[var 0]』！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAMBLE_START__5  对话»
+
+【鬼】那就开始第２次挑战。
+    这次的数字是『[var 0]』！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAMBLE_START__6  对话»
+
+【鬼】呵呵……这是最后的机会了。
+    这次的数字是『[var 0]』！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAMBLE_START__7  对话»
+
+【鬼】哦，你选天啊……
+    如果骰子的数字『比[var 0]大』，就是你赢了。
+    «ID MSG_JIGOKU_GAMBLE_TEN_st_2  对话»
+
+【鬼】噢噢……你选地啊……
+    如果骰子的数字『比[var 0]小』，就是你赢了。
+    «ID MSG_JIGOKU_GAMBLE_CHI_st_2  对话»
+
+【鬼】一决胜负吧！
+    «ID MSG_JIGOKU_GAMBLE_GO_st2  对话»
+
+【阎魔王】很好，那就开始吧。
+    一开始的数字是『[var 0]』！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAMBLE_START__8  对话»
+
+【阎魔王】那就开始第２次挑战。
+    这次的数字是『[var 0]』！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAMBLE_START__9  对话»
+
+【阎魔王】呵呵……这是最后的机会了。
+    这次的数字是『[var 0]』！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAMBLE_START__10  对话»
+
+【阎魔王】哦，你选天啊……
+    如果骰子的数字『比[var 0]大』，就是你赢了。
+    «ID MSG_JIGOKU_GAMBLE_TEN_st_3  对话»
+
+【阎魔王】噢噢，你选地啊……
+    如果骰子的数字『比[var 0]小』，就是你赢了。
+    «ID MSG_JIGOKU_GAMBLE_CHI_st_3  对话»
+
+【阎魔王】一决胜负吧！
+    «ID MSG_JIGOKU_GAMBLE_GO_st3  对话»
+
+【小鬼】唔唔……怎么这么不走运……！
+    «ID MSG_JIGOKU_GAME_Win_st1  对话»
+
+【鬼】唔唔……
+    不过你的运气已经到此为止了。
+    这次来用刚才投出的数字来赌赌看，
+    比它大就是天，小就是地！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAME_Win_st2  对话»
+
+【鬼】唔唔……怎么这么不走运……！
+    «ID MSG_JIGOKU_GAME_Win_02_s  对话»
+
+【阎魔王】唔唔……算你行！
+    这次来用刚才投出的数字来赌赌看，
+    比它大就是天，小就是地！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAME_Win_st3  对话»
+
+【阎魔王】唔唔……
+    老夫竟然会被逼到这等地步……
+    这次如果再让你猜中，我就认输吧……
+    你的命运会如何，就交给运气决定吧！
+    来吧……比『[var 0]』大就是天，小就是地，
+    快押注吧！
+    «ID MSG_JIGOKU_GAME_Win_02_s_2  对话»
+
+【阎魔王】唔唔……怎么这么不走运……！
+    «ID MSG_JIGOKU_GAME_Win_03_s  对话»
+
+【摩尔加纳】没猜中啊……可恶。
+    好吧，下次一定要猜对！
+    «ID MSG_Moru_Retry  对话»
+
+【摩尔加纳】猜错了吗……可恶，
+    已经没机会了……
+    «ID MSG_Moru_Game_Over  对话»
+
+【小鬼】还挺有两下子的嘛……
+    你可以通过这里了……！
+    «ID MSG_JIGOKU_GAME_CLEAR01_  对话»
+
+【摩尔加纳】小鬼消失无踪，门也打开了……
+    这样就可以继续前进了！
+    «ID MSG_JIGOKU_GAME_CLEAR02_  对话»
+
+〔旁白〕小鬼消失无踪，门也打开了……
+    «ID MND_JIGOKU_GAME_CLEAR02_  对话»
+
+【鬼】还挺有两下子的嘛……
+    你可以通过这里了……！
+    «ID MSG_JIGOKU_GAME_CLEAR01__2  对话»
+
+【摩尔加纳】鬼消失无踪，门也打开了……
+    这就可以继续前进了！
+    «ID MSG_JIGOKU_GAME_CLEAR02__2  对话»
+
+〔旁白〕鬼消失无踪，门也打开了……
+    «ID MSG_JIGOKU_GAME_CLEAR02__3  对话»
+
+【阎魔王】唔唔，真没想到！
+    你居然获胜了！？
+    看来……
+    你还命数未尽。
+    现世亦是一种地狱……
+    你就回去重新修行吧！
+    «ID MSG_JIGOKU_GAME_CLEAR01__3  对话»
+
+【摩尔加纳】噢噢，地狱的大门打开了……
+    成功啦，五右卫门！
+    «ID MSG_JIGOKU_GAME_CLEAR02__4  对话»
+
+〔旁白〕地狱的大门打开了。
+    终于可以从地狱逃出去了……！
+    «ID MSG_JIGOKU_GAME_CLEAR02__5  对话»
+
+【摩尔加纳】总算过关了。
+    你这种不轻言放弃、坚持挑战的精神……
+    感觉很帅气哦！
+    «ID MSG_JIGOKU_GAME_RESULT01  对话»
+
+〔旁白〕总算过关了……
+    似乎学到了不轻言放弃、坚持挑战的精神……
+    «ID MSG_JIGOKU_GAME_RESULT01_2  对话»
+
+【摩尔加纳】幸好用了秘技，
+    吾辈差点以为要不行了。
+    你这种不轻言放弃、坚持挑战的精神……
+    感觉很帅气哦！
+    «ID MSG_JIGOKU_GAME_RESULT_U  对话»
+
+〔旁白〕靠着秘技，总算过关了……
+    似乎学到了不轻言放弃、坚持挑战的精神……
+    «ID MSG_JIGOKU_GAME_RESULT_U_2  对话»
+
+【小鬼】嘻嘻嘻，真是可惜啊，
+    是你输了！
+    乖乖堕落至地狱深渊吧！
+    «ID MSG_JIGOKU_GAME_OVER_st1  对话»
+
+【鬼】啊哈哈，很遗憾。
+    你输了！
+    乖乖堕落至地狱深渊吧！
+    «ID MSG_JIGOKU_GAME_OVER_st2  对话»
+
+【阎魔王】呵呵，看来你已经用完３次机会了。
+    这就表示你的命数也就不过如此。
+    乖乖堕落至焦热地狱受尽苦难吧。
+    啊哈哈哈！
+    «ID MSG_JIGOKU_GAME_OVER_st3  对话»
+
+【摩尔加纳】这样就把『招摇撞骗五右卫门ＵＳＡ』
+    通关了！
+    «ID MSG_JIGOKU_GAME_S2_CLEAR  对话»
+
+〔旁白〕把『招摇撞骗五右卫门ＵＳＡ』通关了……！
+    «ID MND_JIGOKU_GAME_S2_CLEAR  对话»
+
+【摩尔加纳】好啊，猜中了！
+    «ID MSG_JIGOKU_GAMBLE_THINK_  对话»
+
+〔旁白〕猜中了……！
+    «ID MND_JIGOKU_GAMBLE_THINK_  对话»
+
+【摩尔加纳】真不愧是五右卫门。
+    对手并没有察觉到这边在出老千！
+    «ID MSG_JIGOKU_GAMBLE_THINK__2  对话»
+
+〔旁白〕对手没有察觉到出老千的事……！
+    «ID MND_JIGOKU_GAMBLE_THINK__2  对话»
+
+【摩尔加纳】没猜中啊……
+    «ID MSG_JIGOKU_GAMBLE_LOSE  对话»
+
+〔旁白〕没猜中……
+    «ID MND_JIGOKU_GAMBLE_LOSE  对话»
+
+【摩尔加纳】之后五右卫门会有什么下场呢……
+    «ID MSG_JIGOKU_GAME_OVER_COM  对话»
+
+〔旁白〕之后五右卫门会怎么样呢……
+    «ID MSG_JIGOKU_GAME_OVER_COM_2  对话»
+
+【摩尔加纳】虽然输了……
+    但你不轻言放弃、坚持挑战的精神……
+    还是有点帅的！
+    «ID MSG_FAILED_UP  对话»
+
+〔旁白〕虽然输了……
+    但感觉学到了一些
+    不轻言放弃、坚持挑战的精神……
+    «ID MND_FAILED_UP  对话»
+
+【摩尔加纳】算了，胜负有时取决于运气。
+    干脆地认输吧。
+    «ID MSG_JIGOKU_GAME_END_MORU  对话»
+
+【摩尔加纳】如果有办法能让游戏变简单就好了……
+    «ID MSG_HINTO_BOOK_NO  对话»
+
+〔旁白〕如果有办法使游戏简单一些……
+    «ID MND_HINTO_BOOK_NO  对话»
+
+【摩尔加纳】对了，你手上有秘技宝典吧？
+    找个时间读读看？
+    «ID MSG_HINTO_BOOK00  对话»
+
+〔旁白〕对了，手上有秘技宝典……
+    找时间读读看吧……
+    «ID MND_HINTO_BOOK04  对话»
+
+【摩尔加纳】难度还挺高的……
+    下次也要加油啊！
+    «ID MSG_BOOK_DONE_M  对话»
+
+〔旁白〕真难啊……
+    下次也要加油啊。
+    «ID MND_BOOK_DONE_N  对话»
+
+【摩尔加纳】那，时间也晚了，
+    差不多该睡觉啦。
+    «ID MSG_JIGOKU_GAME_END_MORU_2  对话»
+
+【摩尔加纳】花了不少时间呢，
+    游戏就先玩到这里吧。
+    «ID MSG_JIGOKU_GAME_END_MORU_3  对话»
+
+〔旁白〕时间很晚了。
+    差不多该睡了……
+    «ID MND_JIGOKU_GAME_END  对话»
+
+〔旁白〕游戏就玩到这里吧……
+    «ID MND_JIGOKU_GAME_END_DAY  对话»
+
+【摩尔加纳】很好，好好欣赏
+    结局吧！
+    «ID MSG_PASS_MORU  对话»
+
+〔旁白〕好好欣赏结局吧……
+    «ID MND_PASS  对话»
+
+【摩尔加纳】结局之后显示的密码……
+    咦？邮寄明信片可以获得奖品？
+    ……话虽如此，但这是很久以前的活动了啊。
+    应该已经没用了吧。
+    姑且还是先记下来吧，
+    如果是喜欢游戏的人，或许会夸奖你一番哦？
+    «ID MSG_053_0_0  对话»
+
+〔旁白〕结局之后显示的密码……
+    邮寄明信片好像就可以获得奖品。
+    不过这是很久以前的活动了，
+    已经没有用了吧……
+    姑且还是记下来吧……
+    «ID MND_053_1_0  对话»
+
+【小鬼】双一为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_1_1  对话»
+
+【小鬼】一二为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_1_2  对话»
+
+【小鬼】三一为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_1_3  对话»
+
+【小鬼】四一为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_1_4  对话»
+
+【小鬼】五一为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_1_5  对话»
+
+【小鬼】一六为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_1_6  对话»
+
+【小鬼】双二为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_2_2  对话»
+
+【小鬼】三二为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_3_2  对话»
+
+【小鬼】四二为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_4_2  对话»
+
+【小鬼】五二为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_5_2  对话»
+
+【小鬼】二六为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_6_2  对话»
+
+【小鬼】双三为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_3_3  对话»
+
+【小鬼】四三为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_4_3  对话»
+
+【小鬼】五三为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_5_3  对话»
+
+【小鬼】三六为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_6_3  对话»
+
+【小鬼】双四为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_4_4  对话»
+
+【小鬼】五四为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_5_4  对话»
+
+【小鬼】四六为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_6_4  对话»
+
+【小鬼】双五为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_5_5  对话»
+
+【小鬼】五六为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_5_6  对话»
+
+【小鬼】双六为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S1_6_6  对话»
+
+【阎魔王】双一为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_1_1  对话»
+
+【阎魔王】一二为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_1_2  对话»
+
+【阎魔王】三一为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_1_3  对话»
+
+【阎魔王】四一为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_1_4  对话»
+
+【阎魔王】五一为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_1_5  对话»
+
+【阎魔王】一六为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_1_6  对话»
+
+【阎魔王】双二为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_2_2  对话»
+
+【阎魔王】三二为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_3_2  对话»
+
+【阎魔王】四二为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_4_2  对话»
+
+【阎魔王】五二为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_5_2  对话»
+
+【阎魔王】二六为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_6_2  对话»
+
+【阎魔王】双三为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_3_3  对话»
+
+【阎魔王】四三为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_4_3  对话»
+
+【阎魔王】五三为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_5_3  对话»
+
+【阎魔王】三六为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_6_3  对话»
+
+【阎魔王】双四为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_4_4  对话»
+
+【阎魔王】五四为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_5_4  对话»
+
+【阎魔王】四六为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_6_4  对话»
+
+【阎魔王】双五为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_5_5  对话»
+
+【阎魔王】五六为『单』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_5_6  对话»
+
+【阎魔王】双六为『双』！！
+    «ID MSG_JIGOKU_GAMBLE_S2_6_6  对话»
+
+【ＤＥＢＵＧ】ＤＥＢＵＧ模式
+    «ID MSG_DEBUG  对话»
+
+【选项】SEL_DEBUG
+    ▸ 摩尔加纳在场
+    ▸ 无
+    «ID SEL_DEBUG  选项»
+
+【ＤＥＢＵＧ】ＤＥＢＵＧ模式
+    «ID MSG_DEBUG_2  对话»
+
+【选项】SEL_DEBUG_2
+    ▸ 关卡１
+    ▸ 关卡２
+    «ID SEL_DEBUG_2  选项»
+
+【ＤＥＢＵＧ】ＤＥＢＵＧ模式
+    «ID MSG_DEBUG_3  对话»
+
+【选项】SEL_DEBUG_3
+    ▸ 第１次
+    ▸ 第２次
+    «ID SEL_DEBUG_3  选项»

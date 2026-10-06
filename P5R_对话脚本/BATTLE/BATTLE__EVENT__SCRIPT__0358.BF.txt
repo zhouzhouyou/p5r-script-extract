@@ -1,0 +1,273 @@
+================================================================================
+来源文件: BATTLE\EVENT\SCRIPT\0358.BF
+对话条目: 72 条
+================================================================================
+
+【芳泽　堇】丸喜老师……
+    «ID MSG_BTLSTART_000  对话»
+
+【丸喜　拓人】我不会客气的……
+    «ID MSG_BTLSTART_002  对话»
+
+【佐仓　双叶】要过来了，各位！
+    保持警戒！
+    «ID MSG_BTLSTART_003  对话»
+
+【丸喜　拓人】挺能干的嘛……
+    不过好戏现在才开始……！
+    «ID MSG_BTL_HP75_1  对话»
+
+【丸喜　拓人】好了，继续吧！
+    «ID MSG_BTL_HP75_2B  对话»
+
+【佐仓　双叶】……！？力量增强了！？
+    小心！
+    «ID MSG_BTL_HP75_2  对话»
+
+【佐仓　双叶】呜……刚刚那是……
+    «ID MSG_BTL_AFTER_CHANGE  对话»
+
+【丸喜　拓人】呜……！
+    «ID MSG_BTL_END_1  对话»
+
+〔旁白〕※临时演出
+    «ID MSG_TEST01  对话»
+
+【新岛　真】人格面具进行掩护了！？
+    «ID MSG_BTL_BLOCK01  对话»
+
+【高卷　杏】不是吧！？
+    人格面具进行掩护了！？
+    «ID MSG_BTL_BLOCK01B  对话»
+
+【佐仓　双叶】不是吧！？
+    人格面具进行掩护了！？
+    «ID MSG_BTL_BLOCK01C  对话»
+
+【佐仓　双叶】真是麻烦的人格面具……！
+    «ID MSG_BTL_BLOCK02  对话»
+
+【摩尔加纳】什么！？
+    敌人要发动攻击了！？
+    «ID MSG_BTL_CHARGE_1  对话»
+
+【佐仓　双叶】……小心点！
+    我感觉到人格面具蓄积了强大能量！
+    ＪＯＫＥＲ！强化防御！
+    «ID MSG_BTL_CHARGE_1B  对话»
+
+【丸喜　拓人】我不会输……
+    我是不能输的啊！
+    «ID MSG_BTL_HP20  对话»
+
+【佐仓　双叶】ＪＯＫＥＲ！又要来了！
+    强化防御！
+    «ID MSG_BTL_CHARGE_1C  对话»
+
+【丸喜　拓人】别忍耐了……！
+    «ID MSG_BTL_AFTER_SPECIAL1  对话»
+
+【丸喜　拓人】还没结束啊……
+    «ID MSG_BTL_AFTER_SPECIAL2  对话»
+
+【丸喜　拓人】阿撒托斯……！
+    «ID MSG_BTL_MARUKI_CAST  对话»
+
+【丸喜　拓人】Ｐｅｒｓｏｎａ！
+    «ID MSG_BTL_MARUKI_CAST2  对话»
+
+【丸喜　拓人】要上咯！
+    «ID MSG_BTL_MARUKI_CAST3  对话»
+
+【丸喜　拓人】阿撒托斯！？
+    «ID MSG_BTL_AZATOTH_PRE_DEAD  对话»
+
+【佐仓　双叶】好！
+    人格面具已经无法动弹了！
+    «ID MSG_BTL_AZATOTH_DEAD  对话»
+
+【佐仓　双叶】ＪＯＫＥＲ！趁现在！
+    «ID MSG_BTL_AZATOTH_DEAD2  对话»
+
+【丸喜　拓人】坂本同学！你曾经热爱跑步！
+    只要你继续跑下去，就能让你母亲过得更轻松！
+    ……我能实现你的梦想！
+    «ID MSG_BTL_MARUKI_GAME_CALL  对话»
+
+【丸喜　拓人】摩尔加纳！我很明白你的心情……
+    你不必畏惧跟其他人不一样的自己！
+    没关系的……无须多言我也会拯救你！
+    «ID MSG_BTL_MARUKI_GAME_CALL_2  对话»
+
+【丸喜　拓人】高卷同学！你不是想要
+    守护重要的朋友吗！？
+    ……不要随便放弃挚友的幸福！
+    «ID MSG_BTL_MARUKI_GAME_CALL_3  对话»
+
+【丸喜　拓人】喜多川同学！从战斗中获胜得到的评价
+    应该不是你真正想要的东西……！
+    美丽的事物将会获得应有的评价……
+    我能创造出那样的世界！
+    «ID MSG_BTL_MARUKI_GAME_CALL_4  对话»
+
+【丸喜　拓人】新岛同学！任何人都有权利
+    期盼平凡的幸福！
+    你没有必要那么严格地要求自己！
+    «ID MSG_BTL_MARUKI_GAME_CALL_5  对话»
+
+【丸喜　拓人】奥村同学！
+    你对父亲真的没有一丝后悔吗？
+    我能实现你的未来！
+    «ID MSG_BTL_MARUKI_GAME_CALL_6  对话»
+
+【丸喜　拓人】双叶同学！期望能取回被剥夺的幸福
+    不是任性，更不是奢求！
+    我想给你带来能抛开一切
+    向亲人撒娇的世界……！
+    «ID MSG_BTL_MARUKI_GAME_CALL_7  对话»
+
+【丸喜　拓人】明智同学！不要否定自己的『诞生』！
+    如果能与[lName]他们携手，
+    或许你也可以走上正途啊！
+    «ID MSG_BTL_MARUKI_GAME_CALL_8  对话»
+
+【丸喜　拓人】芳泽同学！你所背负的罪孽意识，
+    是无论如何也无法忘却的吧……！
+    我……希望能从那残酷的罪孽中拯救你！
+    «ID MSG_BTL_MARUKI_GAME_CALL_9  对话»
+
+【丸喜　拓人】还记得愿望得以实现的那个现实吗？
+    没有任何人受到伤害……
+    每个人都很幸福，为什么你们要拒绝？
+    «ID MSG_BTL_MARUKI_GAME_CALL_10  对话»
+
+【丸喜　拓人】我也能明白你们想拒绝的心情……
+    但那只是一种反射行为而已。
+    试着相信我吧……！
+    «ID MSG_BTL_MARUKI_GAME_CALL_11  对话»
+
+【丸喜　拓人】哀伤和痛苦不会带给人半点好处！
+    不要给自己戴上枷锁！
+    希望你们能让我拯救你们！
+    «ID MSG_BTL_MARUKI_GAME_CALL_12  对话»
+
+【丸喜　拓人】ＯＦＦＳＥＴ用
+    «ID MSG_PARTY_REACTION00  对话»
+
+【丸喜　拓人】现在只能这么做了。
+    «ID MSG_BTL_MARUKI_GAME_STAR  对话»
+
+【坂本　龙司】我已经决定不再逃避了！
+    «ID MSG_PARTY_REACTION02  对话»
+
+【摩尔加纳】无论外貌怎么样，吾辈就是吾辈！
+    «ID MSG_PARTY_REACTION03  对话»
+
+【高卷　杏】志帆和我……都要靠自己的力量前进！
+    «ID MSG_PARTY_REACTION04  对话»
+
+【喜多川　佑介】我有朋友在……所以不会再逃避了！
+    «ID MSG_PARTY_REACTION05  对话»
+
+【新岛　真】我会用自己的力量实现愿望！
+    «ID MSG_PARTY_REACTION06  对话»
+
+【奥村　春】我会带着后悔一起，继续前进！
+    «ID MSG_PARTY_REACTION07  对话»
+
+【佐仓　双叶】未使用
+    «ID MSG_PARTY_REACTION08  对话»
+
+【明智　吾郎】高高在上的样子……真令人厌烦！
+    «ID MSG_PARTY_REACTION09  对话»
+
+【芳泽　堇】我就是我！不会再迷茫了！
+    «ID MSG_PARTY_REACTION10  对话»
+
+【佐仓　双叶】无法行动……？有点不对劲……
+    «ID MSG_PARTY_REACTION01_B  对话»
+
+【坂本　龙司】没办法行动……为什么……？
+    «ID MSG_PARTY_REACTION02_B  对话»
+
+【摩尔加纳】喂，好像有点不对劲啊？
+    «ID MSG_PARTY_REACTION03_B  对话»
+
+【高卷　杏】咦？无法行动……
+    «ID MSG_PARTY_REACTION04_B  对话»
+
+【喜多川　佑介】无法行动……为什么……？
+    «ID MSG_PARTY_REACTION05_B  对话»
+
+【新岛　真】现在必须得……动起来才行啊……
+    «ID MSG_PARTY_REACTION06_B  对话»
+
+【奥村　春】无法行动……为什么……？
+    «ID MSG_PARTY_REACTION07_B  对话»
+
+【佐仓　双叶】无法行动……？有点不对劲……
+    «ID MSG_PARTY_REACTION0F_B  对话»
+
+【明智　吾郎】你对我做了什么……！
+    «ID MSG_PARTY_REACTION08_B  对话»
+
+【芳泽　堇】咦……？好像有点不对劲……
+    «ID MSG_PARTY_REACTION09_B  对话»
+
+【丸喜　拓人】没有人伤心难过的现实。
+    为此我将使出这股力量……！
+    «ID MSG_HP_MIDDLE  对话»
+
+【摩尔加纳】他还藏了一手吗？（暂定）
+    要是他出现危险的举动就小心点了！
+    «ID MSG_HP_MIDDLE_REACTION  对话»
+
+【丸喜　拓人】你们的确很强。
+    所以才会感到痛苦……
+    结束吧……
+    我会拯救你们的！
+    «ID MSG_BTL_MARUKI_TARGET00  对话»
+
+【丸喜　拓人】ＪＯＫＥＲ，小心点！
+    脚下传来大量反应！
+    «ID MSG_BTL_MARUKI_TARGET01  对话»
+
+【佐仓　双叶】ＳＫＵＬＬ，小心点！
+    脚下传来大量反应！
+    «ID MSG_BTL_MARUKI_TARGET02  对话»
+
+【佐仓　双叶】ＭＯＮＡ，小心点！
+    脚下传来大量反应！
+    «ID MSG_BTL_MARUKI_TARGET03  对话»
+
+【佐仓　双叶】ＰＡＮＴＨＥＲ，小心点！
+    脚下传来大量反应！
+    «ID MSG_BTL_MARUKI_TARGET04  对话»
+
+【佐仓　双叶】ＦＯＸ，小心点！
+    脚下传来大量反应！
+    «ID MSG_BTL_MARUKI_TARGET05  对话»
+
+【佐仓　双叶】ＱＵＥＥＮ，小心点！
+    脚下传来大量反应！
+    «ID MSG_BTL_MARUKI_TARGET06  对话»
+
+【佐仓　双叶】ＮＯＩＲ，小心点！
+    脚下传来大量反应！
+    «ID MSG_BTL_MARUKI_TARGET07  对话»
+
+【佐仓　双叶】未使用
+    «ID MSG_BTL_MARUKI_TARGET08  对话»
+
+【佐仓　双叶】ＣＲＯＷ，小心点！
+    脚下传来大量反应！
+    «ID MSG_BTL_MARUKI_TARGET09  对话»
+
+【佐仓　双叶】ＶＩＯＬＥＴ，小心点！
+    脚下传来大量反应！
+    «ID MSG_BTL_MARUKI_TARGET10  对话»
+
+【选项】SEL_DEBUG_000
+    ▸ 下一步
+    ▸ 再一次
+    «ID SEL_DEBUG_000  选项»

@@ -1,0 +1,195 @@
+================================================================================
+来源文件: FACILITY\MSG_MEMENTOS_SHOP.BMD
+对话条目: 48 条
+================================================================================
+
+〔旁白〕星星
+    真漂亮呢！
+    «ID MSG_MMTSHOP_ROOT_00  对话»
+
+〔旁白〕你想要
+    做什么？
+    «ID MSG_MMTSHOP_ROOT_01  对话»
+
+〔旁白〕要拿花朵
+    来交换吗？
+    «ID MSG_MMTSHOP_ROOT_02  对话»
+
+〔旁白〕有其他事
+    要做吗？
+    «ID MSG_MMTSHOP_BACK_ROOT_00  对话»
+
+〔旁白〕还要
+    做什么呢？
+    «ID MSG_MMTSHOP_BACK_ROOT_01  对话»
+
+〔旁白〕我搜集了
+    这些东西。
+    «ID MSG_MMTSHOP_ITEM_00  对话»
+
+〔旁白〕有想要的
+    东西吗？
+    «ID MSG_MMTSHOP_ITEM_01  对话»
+
+〔旁白〕要拿花朵
+    来交换哦。
+    «ID MSG_MMTSHOP_ITEM_02  对话»
+
+〔旁白〕你想要
+    哪一个呢？
+    «ID MSG_MMTSHOP_ITEM_03  对话»
+
+〔旁白〕你想要
+    什么？
+    «ID MSG_MMTSHOP_ITEM_04  对话»
+
+〔旁白〕花朵
+    好好吃！
+    «ID MSG_MMTSHOP_ITEM_05  对话»
+
+〔旁白〕我找到
+    新的东西了。
+    «ID MSG_MMTSHOP_ITEM_NEW_00  对话»
+
+〔旁白〕增加了
+    不少东西哦。
+    «ID MSG_MMTSHOP_ITEM_NEW_01  对话»
+
+〔旁白〕你要换
+    那个吗？
+    «ID MSG_MMTSHOP_ITEM_NUM_00  对话»
+
+〔旁白〕要交换
+    几个？
+    «ID MSG_MMTSHOP_ITEM_NUM_01  对话»
+
+〔旁白〕你想要
+    几个？
+    «ID MSG_MMTSHOP_ITEM_NUM_02  对话»
+
+〔旁白〕要交换
+    几个？
+    «ID MSG_MMTSHOP_ITEM_NUM_03  对话»
+
+〔旁白〕你要换
+    其他东西吗？
+    «ID MSG_MMTSHOP_BACK_ITEM_00  对话»
+
+〔旁白〕你不想
+    换了吗？
+    «ID MSG_MMTSHOP_BACK_ITEM_01  对话»
+
+〔旁白〕是[var 0]个对吧。
+    要换吗？
+    «ID MSG_MMTSHOP_ITEM_CONF_00  对话»
+
+〔旁白〕[var 0]个
+    就好了吗？
+    «ID MSG_MMTSHOP_ITEM_CONF_01  对话»
+
+〔旁白〕换[var 0]个啊！
+    太好了呢。
+    «ID MSG_MMTSHOP_ITEM_CONF_02  对话»
+
+〔旁白〕需要
+    这么多吗？
+    «ID MSG_MMTSHOP_ITEM_CONF_03  对话»
+
+〔旁白〕换[var 0]个啊！
+    要这么多？
+    «ID MSG_MMTSHOP_ITEM_CONF_04  对话»
+
+〔旁白〕咦？
+    只要[var 0]个？
+    «ID MSG_MMTSHOP_ITEM_CONF_05  对话»
+
+〔旁白〕你需要
+    更多吗？
+    «ID MSG_MMTSHOP_BACK_ITEM_NU  对话»
+
+〔旁白〕你要
+    几个？
+    «ID MSG_MMTSHOP_BACK_ITEM_NU_2  对话»
+
+〔旁白〕这个东西
+    很稀有哦！
+    «ID MSG_MMTSHOP_ITEM_CONF_ON  对话»
+
+〔旁白〕这个只有
+    １个哦。
+    «ID MSG_MMTSHOP_ITEM_CONF_ON_2  对话»
+
+〔旁白〕这个
+    已经没有了哦。
+    «ID MSG_MMTSHOP_ITEM_NOT_SAL  对话»
+
+〔旁白〕谢谢你
+    跟我交换～
+    «ID MSG_MMTSHOP_ITEM_OK_00  对话»
+
+〔旁白〕好多
+    花朵啊！
+    «ID MSG_MMTSHOP_ITEM_OK_01  对话»
+
+〔旁白〕太好了～
+    谢谢你。
+    «ID MSG_MMTSHOP_ITEM_OK_02  对话»
+
+〔旁白〕那个很
+    漂亮呢。
+    «ID MSG_MMTSHOP_ITEM_OK_03  对话»
+
+〔旁白〕再多给
+    我一点～
+    «ID MSG_MMTSHOP_ITEM_OK_04  对话»
+
+〔旁白〕多送[var 0]个
+    给你咯！
+    «ID MSG_MMTSHOP_ITEM_BONUS_0  对话»
+
+〔旁白〕送[var 0]个
+    给你咯！
+    «ID MSG_MMTSHOP_ITEM_BONUS_0_2  对话»
+
+〔旁白〕要换其他
+    东西吗？
+    «ID MSG_MMTSHOP_ITEM_OK_AFTE  对话»
+
+〔旁白〕要继续
+    交换吗？
+    «ID MSG_MMTSHOP_ITEM_OK_AFTE_2  对话»
+
+〔旁白〕还想要
+    别的？
+    «ID MSG_MMTSHOP_ITEM_OK_AFTE_3  对话»
+
+〔旁白〕你想要
+    哪一个呢？
+    «ID MSG_MMTSHOP_COGN_00  对话»
+
+〔旁白〕你要选
+    这个吗？
+    «ID MSG_MMTSHOP_COGN_CONF_00  对话»
+
+〔旁白〕选这个
+    就行了吗？
+    «ID MSG_MMTSHOP_COGN_CONF_01  对话»
+
+〔旁白〕你要选
+    别的吗？
+    «ID MSG_MMTSHOP_BACK_COGN_00  对话»
+
+〔旁白〕知道了，
+    交给我吧！
+    «ID MSG_MMTSHOP_COGN_OK_00  对话»
+
+〔旁白〕我知道了！
+    «ID MSG_MMTSHOP_COGN_OK_01  对话»
+
+〔旁白〕我会
+    试试看的。
+    «ID MSG_MMTSHOP_COGN_OK_02  对话»
+
+〔旁白〕你要重新
+    分配吗？
+    «ID MSG_MMTSHOP_COGN_RESET_0  对话»

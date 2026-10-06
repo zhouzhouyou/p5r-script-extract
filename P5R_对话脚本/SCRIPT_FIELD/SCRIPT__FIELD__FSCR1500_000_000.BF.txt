@@ -1,0 +1,135 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR1500_000_000.BF
+对话条目: 22 条
+================================================================================
+
+〔旁白〕去哪里呢……
+    «ID f_menu_txt  对话»
+
+〔旁白〕坐电车去哪呢……
+    «ID train_txt  对话»
+
+【选项】TRAIN_mes
+    ▸ 搭乘电车
+    ▸ 还是算了
+    «ID TRAIN_mes  选项»
+
+【选项】TRAIN_AOYAMA_mes
+    ▸ 涩谷
+    ▸ 还是算了
+    «ID TRAIN_AOYAMA_mes  选项»
+
+【选项】TRAIN_SHIBUYA_DENEN_mes
+    ▸ 四轩茶屋
+    ▸ 还是算了
+    «ID TRAIN_SHIBUYA_DENEN_mes  选项»
+
+【选项】TRAIN_SHIBUYA_GINZA_mes
+    ▸ 苍山一丁目
+    ▸ 还是算了
+    «ID TRAIN_SHIBUYA_GINZA_mes  选项»
+
+【选项】TRAIN_YONCHA_mes
+    ▸ 涩谷
+    ▸ 还是算了
+    «ID TRAIN_YONCHA_mes  选项»
+
+【选项】SCHOOL_MY_CLASS_mes
+    ▸ 离开教室
+    ▸ 离开学校
+    ▸ 天台
+    ▸ 中庭
+    ▸ 实习大楼
+    ▸ 还是算了
+    «ID SCHOOL_MY_CLASS_mes  选项»
+
+【选项】SCHOOL_COURT_mes
+    ▸ 教学大楼
+    ▸ 实习大楼
+    ▸ 还是算了
+    «ID SCHOOL_COURT_mes  选项»
+
+【选项】SCHOOL_ROOTTOP_mes
+    ▸ 返回教学大楼
+    ▸ 还是算了
+    «ID SCHOOL_ROOTTOP_mes  选项»
+
+【选项】SCHOOL_OUTGATE_mes
+    ▸ 进入学校
+    ▸ 前往车站
+    ▸ 还是算了
+    «ID SCHOOL_OUTGATE_mes  选项»
+
+【选项】SCHOOL_OUTGATE_OFF_mes
+    ▸ 前往车站
+    ▸ 还是算了
+    «ID SCHOOL_OUTGATE_OFF_mes  选项»
+
+【选项】SCHOOL_PASSAGE_KYOUSITU_
+    ▸ 离开学校
+    ▸ 自己的教室
+    ▸ 天台
+    ▸ 中庭
+    ▸ 实习大楼
+    ▸ 还是算了
+    «ID SCHOOL_PASSAGE_KYOUSITU_  选项»
+
+【选项】SCHOOL_PASSAGE_JISSYUU_m
+    ▸ 离开学校
+    ▸ 教学大楼
+    ▸ 中庭
+    ▸ 还是算了
+    «ID SCHOOL_PASSAGE_JISSYUU_m  选项»
+
+【选项】SIBUYA_OUT_FIELD_METRO_m
+    ▸ 田园都市线闸机口
+    ▸ 地上广场
+    ▸ 车站大楼２Ｆ
+    ▸ 车站大楼３Ｆ
+    ▸ 还是算了
+    «ID SIBUYA_OUT_FIELD_METRO_m  选项»
+
+【选项】SIBUYA_OUT_FIELD_GROUND_
+    ▸ 车站大楼３Ｆ
+    ▸ 车站大楼２Ｆ
+    ▸ 地下通道
+    ▸ 还是算了
+    «ID SIBUYA_OUT_FIELD_GROUND_  选项»
+
+【选项】SIBUYA_BLDG_FIELD_2F_mes
+    ▸ 车站大楼３Ｆ
+    ▸ 地上广场
+    ▸ 地下通道
+    ▸ 还是算了
+    «ID SIBUYA_BLDG_FIELD_2F_mes  选项»
+
+【选项】SIBUYA_BLDG_FIELD_3F_mes
+    ▸ 银场线闸机口
+    ▸ 车站大楼２Ｆ
+    ▸ 地上广场
+    ▸ 地下通道
+    ▸ 还是算了
+    «ID SIBUYA_BLDG_FIELD_3F_mes  选项»
+
+【选项】YONCHA_ARCADE_mes
+    ▸ 前往车站
+    ▸ 小巷
+    ▸ 还是算了
+    «ID YONCHA_ARCADE_mes  选项»
+
+【选项】YONCHA_ROJIURA_mes
+    ▸ 商店街
+    ▸ 卢布朗
+    ▸ 还是算了
+    «ID YONCHA_ROJIURA_mes  选项»
+
+【选项】MY_HOUSE_CAFE_mes
+    ▸ 外出
+    ▸ 回房间
+    ▸ 还是算了
+    «ID MY_HOUSE_CAFE_mes  选项»
+
+【选项】MY_HOUSE_ROOM_mes
+    ▸ 前往咖啡店
+    ▸ 还是算了
+    «ID MY_HOUSE_ROOM_mes  选项»

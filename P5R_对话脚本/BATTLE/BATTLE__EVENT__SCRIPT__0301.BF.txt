@@ -1,0 +1,927 @@
+================================================================================
+来源文件: BATTLE\EVENT\SCRIPT\0301.BF
+对话条目: 240 条
+================================================================================
+
+【暗影鸭志田】凡俗！一无是处的臭小鬼！
+    没人教过你『不可以用手指着别人』吗？啊啊？！
+    «ID MSG_BTLSTART_000_000  对话»
+
+【高卷　杏】不要动不动就来这套！
+    «ID MSG_BTLSTART_010_003  对话»
+
+【摩尔加纳】快看！秘宝在那里！
+    «ID MSG_BTLSTART_020_001  对话»
+
+【摩尔加纳】找机会偷过来吧！
+    攻击那家伙，等待机会出现吧！
+    «ID MSG_BTLSTART_030_001  对话»
+
+【暗影鸭志田】唔哦哦！体力恢复！！
+    来吧，臭小鬼们！
+    今晚你们别想睡了！
+    «ID MSG_BTL_USETROPHY_000_00  对话»
+
+【摩尔加纳】体力居然恢复了……？
+    是因为吃掉那里面的东西了吗……？
+    那看来先破坏奖杯
+    会比较好呢！
+    «ID MSG_BTL_USETROPHY_020_00  对话»
+
+【摩尔加纳】体力居然恢复了……？
+    是因为吃掉那里面的东西了吗……？
+    «ID MSG_BTL_USETROPHY_030_00  对话»
+
+【暗影鸭志田】唔哦哦！体力恢复！！
+    连续战斗多少场都没有问题！
+    «ID MSG_BTL_USETROP02_000_00  对话»
+
+【摩尔加纳】如果放着奖杯不管，
+    我们会撑不住的！
+    «ID MSG_BTL_USETROP02_010_00  对话»
+
+【暗影鸭志田】啊！喂！
+    不知道这个的价值就别乱碰！
+    都说叫你们住手了！
+    «ID MSG_BTL_TROPHY99_000_000  对话»
+
+【摩尔加纳】被人叫『住手』的话，
+    反而更不想停了呢。
+    «ID MSG_BTL_TROPHY99_010_001  对话»
+
+【暗影鸭志田】……啊啊！？
+    不会吧……获得……全日本冠军时的……
+    «ID MSG_BTL_TROPHYEND_000_00  对话»
+
+【摩尔加纳】很好！
+    «ID MSG_BTL_TROPHYEND_010_00  对话»
+
+【暗影鸭志田】你们以为做了这种事会被原谅吗？
+    本王可是啊……听好了！本王可是……！
+    ……可是鸭志田啊！？
+    «ID MSG_BTL_HOLDUP01_000_000  对话»
+
+【选项】SEL_BTL_HOLDUP01_010
+    ▸ 早知道了
+    ▸ 那又怎么样
+    ▸ 等一下再说吧
+    «ID SEL_BTL_HOLDUP01_010  选项»
+
+【暗影鸭志田】早知道了！？那就更恶劣了！
+    你们绝对不可原谅！
+    本王可是王啊！
+    «ID MSG_BTL_HOLDUP01_020_000  对话»
+
+【暗影鸭志田】啊……！？
+    都说了！本王是鸭志田啊！
+    本王可是王啊！
+    «ID MSG_BTL_HOLDUP01_021_000  对话»
+
+【暗影鸭志田】开什么玩笑！
+    在这座城里本王才是最优先的！
+    因为本王是鸭志田！
+    本王可是王啊！
+    «ID MSG_BTL_HOLDUP01_022_000  对话»
+
+【坂本　龙司】明明那么看不起人，
+    而现在的你……简直是丢死人了。
+    «ID MSG_BTL_HOLDUP01_030_002  对话»
+
+【高卷　杏】我们可是专程来偷那个东西的！
+    能不能快点交出来？
+    «ID MSG_BTL_HOLDUP01_040_003  对话»
+
+【暗影鸭志田】闭嘴！我怎么会把这个东西交给你们！
+    «ID MSG_BTL_HOLDUP01_045_000  对话»
+
+【摩尔加纳】还有力气说这些东西吗！
+    «ID MSG_BTL_HOLDUP01_050_001  对话»
+
+【摩尔加纳】那吾辈们也拿出真本事吧！
+    «ID MSG_BTL_HOLDUP01_060_001  对话»
+
+【暗影鸭志田】本王是王啊……！
+    如果本王不是王……那还有谁可以成为王！？
+    «ID MSG_BTL_HOWTOSTEAL_000_0  对话»
+
+【坂本　龙司】还真够难缠的……
+    有没有爽快点的方法啊……
+    «ID MSG_BTL_HOWTOSTEAL_000_0_2  对话»
+
+【摩尔加纳】唔……那就用Ｂ计划！
+    看那边的阳台！
+    在吸引住鸭志田的注意力之后，
+    派人到那里去！
+    然后趁着鸭志田不注意，
+    像个怪盗那样把秘宝偷走吧！
+    «ID MSG_BTL_HOWTOSTEAL_010_0  对话»
+
+【摩尔加纳】竟然让吾辈如此大费周折。
+    那么……就用珍藏的Ｂ计划吧……
+    «ID MSG_BTL_NORYUJI_000_001  对话»
+
+【摩尔加纳】原来如此……那就用Ｂ计划吧！
+    «ID MSG_BTL_HAKENNEW_990_001  对话»
+
+【摩尔加纳】看！那个楼台那里……！
+    在吸引住鸭志田的注意力之后，
+    派人到那里去！
+    趁鸭志田不注意的时候，
+    把秘宝偷走吧！
+    «ID MSG_BTL_HAKENNEW_010_001  对话»
+
+〔旁白〕在主角行动的时候，能向同伴发出特殊作战的指示。
+    作战成功的话，就能改变战况。
+    参考同伴的提案，
+    选择作战成功率比较高的同伴吧。
+    但是，执行作战的同伴将会单独行动，
+    接下来的战斗将在缺少一个人的情况下进行。
+    «ID MSG_BTL_HOLDUP_HOW2STEAL  对话»
+
+【选项】SEL_BTL_HAKENOPEN01_010
+    ▸ 只瞄准王冠下手
+    ▸ 先夺走秘宝
+    «ID SEL_BTL_HAKENOPEN01_010  选项»
+
+【暗影鸭志田】要说多少次都可以！不要反抗本王！
+    因为本王就是王啊！
+    «ID MSG_BTL_HOWTOSTEAL_100_0  对话»
+
+【摩尔加纳】光靠蛮力也不是办法……
+    «ID MSG_BTL_HOWTOSTEAL_011_0  对话»
+
+【摩尔加纳】要怎么办！？
+    «ID MSG_BTL_HOWTOSTEAL_999_0  对话»
+
+【摩尔加纳】那就用Ｂ计划吧！
+    看到那边有个楼台了吧！
+    在吸引住鸭志田的注意力之后，
+    派人到那里去！
+    然后趁着鸭志田不注意，
+    像个怪盗那样把秘宝偷走吧！
+    «ID MSG_BTL_HOWTOSTEAL_012_0  对话»
+
+【暗影鸭志田】你们到底要反抗本王到什么地步……
+    看来只能让你们尝尝绝招了！
+    奴隶们！把那个拿来！
+    «ID MSG_BTL_SPSPIKE_000_000  对话»
+
+【暗影鸭志田】这就是我年轻时打遍天下无敌手的
+    必杀扣杀！
+    『必』定『杀』死的扣杀啊！
+    «ID MSG_BTL_SPSPIKE_010_000  对话»
+
+【暗影鸭志田】还真是耐打啊……
+    «ID MSG_BTL_SPSPIKE02_000_00  对话»
+
+【暗影鸭志田】听好了，这所学校啊，
+    因为有本王在才能继续办下去。
+    就只有你们几个！
+    对本王毫不尊重！
+    «ID MSG_KAMOSHIDA_ATTENTION0  对话»
+
+【摩尔加纳】……和预料中的一样。
+    «ID MSG_KAMOSHIDA_ATTENTION0_2  对话»
+
+【摩尔加纳】趁这个机会，收下秘宝！
+    «ID MSG_KAMOSHIDA_ATTENTION0_3  对话»
+
+【坂本　龙司】又在说傻话了……
+    «ID MSG_KAMOSHIDA_ATTENTION0_4  对话»
+
+【坂本　龙司】算了，就趁这个机会！
+    «ID MSG_KAMOSHIDA_ATTENTION0_5  对话»
+
+【暗影鸭志田】再说你们都误解了！
+    本王根本就没『性骚扰』过！
+    «ID MSG_KAMOSHIDA_ATTENTION0_6  对话»
+
+【暗影鸭志田】是对方主动靠近本王，
+    想向本王示好而已！
+    «ID MSG_KAMOSHIDA_ATTENTION0_7  对话»
+
+【摩尔加纳】他完全没有注意到这边呢。
+    «ID MSG_KAMOSHIDA_ATTENTION0_8  对话»
+
+【摩尔加纳】很好，离秘宝就差一点了！
+    «ID MSG_KAMOSHIDA_ATTENTION0_9  对话»
+
+【坂本　龙司】太蠢了……
+    «ID MSG_KAMOSHIDA_ATTENTION0_10  对话»
+
+【坂本　龙司】算了，能靠近秘宝就行。
+    «ID MSG_KAMOSHIDA_ATTENTION0_11  对话»
+
+【暗影鸭志田】嗯？少了一个？
+    «ID MSG_KAMOSHIDA_ATTENTION0_12  对话»
+
+【暗影鸭志田】果然没错！少了！
+    到哪里去了！？
+    «ID MSG_KAMOSHIDA_ATTENTION0_13  对话»
+
+【摩尔加纳】你已经被将军了！
+    «ID MSG_KAMOSHIDA_ATTENTION0_14  对话»
+
+【坂本　龙司】察觉得太晚了，白痴！
+    «ID MSG_KAMOSHIDA_ATTENTION0_15  对话»
+
+【暗影鸭志田】喂！那边那个……像猫一样的家伙！
+    敢恶作剧的话可是要到操场罚跑的！
+    «ID MSG_ATTENTION_MORGANAMIS  对话»
+
+【摩尔加纳】吾辈竟然……
+    «ID MSG_ATTENTION_MORGANAMIS_2  对话»
+
+【摩尔加纳】继续攻击他，
+    吸引住他的注意力！
+    «ID MSG_ATTENTION_MORGANAMIS_3  对话»
+
+【暗影鸭志田】喂！坂本！
+    为什么你就不能老老实实地待着啊？嗯？
+    «ID MSG_ATTENTION_REIJIMISS_  对话»
+
+【坂本　龙司】糟了！
+    «ID MSG_ATTENTION_REIJIMISS__2  对话»
+
+【坂本　龙司】不继续攻击他的话，
+    会被他注意到的！
+    «ID MSG_ATTENTION_REIJIMISS__3  对话»
+
+【暗影鸭志田】高卷，你要去哪里？
+    看看你那性感的魔鬼身材！
+    «ID MSG_ATTENTION_ANNMISS_00  对话»
+
+【高卷　杏】他果然在看着我……
+    «ID MSG_ATTENTION_ANNMISS_01  对话»
+
+【高卷　杏】我是不是留下来比较好？
+    «ID MSG_ATTENTION_ANNMISS_02  对话»
+
+【暗影鸭志田】啊啊！？
+    本王最珍惜的……！
+    «ID MSG_BTLSTEALAFTER_000_00  对话»
+
+【摩尔加纳】很好，鸭志田开始动摇了！
+    «ID MSG_BTLSTEALAFTER_010_00  对话»
+
+【高卷　杏】这样也许行得通哦！？
+    «ID MSG_BTLSTEALAFTER_020_00  对话»
+
+【暗影鸭志田】凡俗！一无是处的臭小鬼！
+    没人教过你『不可以用手指着别人』吗？啊啊？！
+    «ID MSG_BTLSTART_000_000EX  对话»
+
+【高卷　杏】不要动不动就来这套！
+    «ID MSG_BTLSTART_010_003EX  对话»
+
+【摩尔加纳】快看！秘宝在那里！
+    «ID MSG_BTLSTART_020_001EX  对话»
+
+【摩尔加纳】找机会偷过来吧！
+    攻击那家伙，等待机会出现吧！
+    «ID MSG_BTLSTART_030_001EX  对话»
+
+【暗影鸭志田】唔哦哦！体力恢复！！
+    来吧，臭小鬼们！
+    今晚你们别想睡了！
+    «ID MSG_BTL_USETROPHY_000_00_2  对话»
+
+【摩尔加纳】体力居然恢复了……？
+    是因为吃掉那里面的东西了吗……？
+    那看来先破坏奖杯
+    会比较好呢！
+    «ID MSG_BTL_USETROPHY_020_00_2  对话»
+
+【摩尔加纳】体力居然恢复了……？
+    是因为吃掉那里面的东西了吗……？
+    «ID MSG_BTL_USETROPHY_030_00_2  对话»
+
+【暗影鸭志田】唔哦哦！体力恢复！！
+    连续战斗多少场都没有问题！
+    «ID MSG_BTL_USETROP02_000_00_2  对话»
+
+【摩尔加纳】如果放着奖杯不管，
+    我们会撑不住的！
+    «ID MSG_BTL_USETROP02_010_00_2  对话»
+
+【暗影鸭志田】啊！喂！
+    不知道这个的价值就别乱碰！
+    都说叫你们住手了！
+    «ID MSG_BTL_TROPHY99_000_000_2  对话»
+
+【摩尔加纳】被人叫『住手』的话，
+    反而更不想停了呢。
+    «ID MSG_BTL_TROPHY99_010_001_2  对话»
+
+【暗影鸭志田】……啊啊！？
+    不会吧……获得……全日本冠军时的……
+    «ID MSG_BTL_TROPHYEND_000_00_2  对话»
+
+【摩尔加纳】很好！
+    «ID MSG_BTL_TROPHYEND_010_00_2  对话»
+
+【暗影鸭志田】你们以为做了这种事会被原谅吗？
+    本王可是啊……听好了！本王可是……！
+    ……可是鸭志田啊！？
+    «ID MSG_BTL_HOLDUP01_000_000_2  对话»
+
+【选项】SEL_BTL_HOLDUP01_010EX
+    ▸ 早知道了
+    ▸ 那又怎么样
+    ▸ 等一下再说吧
+    «ID SEL_BTL_HOLDUP01_010EX  选项»
+
+【暗影鸭志田】早知道了！？那就更恶劣了！
+    你们绝对不可原谅！
+    本王可是王啊！
+    «ID MSG_BTL_HOLDUP01_020_000_2  对话»
+
+【暗影鸭志田】啊……！？
+    都说了！本王是鸭志田啊！
+    本王可是王啊！
+    «ID MSG_BTL_HOLDUP01_021_000_2  对话»
+
+【暗影鸭志田】开什么玩笑！
+    在这座城里本王才是最优先的！
+    因为本王是鸭志田！
+    本王可是王啊！
+    «ID MSG_BTL_HOLDUP01_022_000_2  对话»
+
+【坂本　龙司】明明那么看不起人，
+    而现在的你……简直是丢死人了。
+    «ID MSG_BTL_HOLDUP01_030_002_2  对话»
+
+【高卷　杏】我们可是专程来偷那个东西的！
+    能不能快点交出来？
+    «ID MSG_BTL_HOLDUP01_040_003_2  对话»
+
+【暗影鸭志田】闭嘴！我怎么会把这个东西交给你们！
+    «ID MSG_BTL_HOLDUP01_045_000_2  对话»
+
+【摩尔加纳】还有力气说这些东西吗！
+    «ID MSG_BTL_HOLDUP01_050_001_2  对话»
+
+【摩尔加纳】那吾辈们也拿出真本事吧！
+    «ID MSG_BTL_HOLDUP01_060_001_2  对话»
+
+【暗影鸭志田】本王是王啊……！
+    如果本王不是王……那还有谁可以成为王！？
+    «ID MSG_BTL_HOWTOSTEAL_000_0_3  对话»
+
+【坂本　龙司】还真够难缠的……
+    有没有爽快点的方法啊……
+    «ID MSG_BTL_HOWTOSTEAL_000_0_4  对话»
+
+【摩尔加纳】唔……那就用Ｂ计划！
+    看那边的阳台！
+    在吸引住鸭志田的注意力之后，
+    派人到那里去！
+    然后趁着鸭志田不注意，
+    像个怪盗那样把秘宝偷走吧！
+    «ID MSG_BTL_HOWTOSTEAL_010_0_2  对话»
+
+【摩尔加纳】竟然让吾辈如此大费周折。
+    那么……就用珍藏的Ｂ计划吧……
+    «ID MSG_BTL_NORYUJI_000_001E  对话»
+
+【摩尔加纳】原来如此……那就用Ｂ计划吧！
+    «ID MSG_BTL_HAKENNEW_990_001_2  对话»
+
+【摩尔加纳】看！那个楼台那里……！
+    在吸引住鸭志田的注意力之后，
+    派人到那里去！
+    趁鸭志田不注意的时候，
+    把秘宝偷走吧！
+    «ID MSG_BTL_HAKENNEW_010_001_2  对话»
+
+〔旁白〕在主角行动的时候，能向同伴发出特殊作战的指示。
+    作战成功的话，就能改变战况。
+    参考同伴的提案，
+    选择作战成功率比较高的同伴吧。
+    但是，执行作战的同伴将会单独行动，
+    接下来的战斗将在缺少一个人的情况下进行。
+    «ID MSG_BTL_HOLDUP_HOW2STEAL_2  对话»
+
+【选项】SEL_BTL_HAKENOPEN01_010E
+    ▸ 只瞄准王冠下手
+    ▸ 先夺走秘宝
+    «ID SEL_BTL_HAKENOPEN01_010E  选项»
+
+【暗影鸭志田】要说多少次都可以！不要反抗本王！
+    因为本王就是王啊！
+    «ID MSG_BTL_HOWTOSTEAL_100_0_2  对话»
+
+【摩尔加纳】光靠蛮力也不是办法……
+    «ID MSG_BTL_HOWTOSTEAL_011_0_2  对话»
+
+【摩尔加纳】要怎么办！？
+    «ID MSG_BTL_HOWTOSTEAL_999_0_2  对话»
+
+【摩尔加纳】那就用Ｂ计划吧！
+    看到那边有个楼台了吧！
+    在吸引住鸭志田的注意力之后，
+    派人到那里去！
+    然后趁着鸭志田不注意，
+    像个怪盗那样把秘宝偷走吧！
+    «ID MSG_BTL_HOWTOSTEAL_012_0_2  对话»
+
+【暗影鸭志田】你们到底要反抗本王到什么地步……
+    看来只能让你们尝尝绝招了！
+    奴隶们！把那个拿来！
+    «ID MSG_BTL_SPSPIKE_000_000E  对话»
+
+【暗影鸭志田】这就是我年轻时打遍天下无敌手的
+    必杀扣杀！
+    『必』定『杀』死的扣杀啊！
+    «ID MSG_BTL_SPSPIKE_010_000E  对话»
+
+【暗影鸭志田】还真是耐打啊……
+    ……知道了！你们是想再看一次吧？
+    本王的必杀扣杀！
+    «ID MSG_BTL_SPSPIKE02_000_00_2  对话»
+
+【暗影鸭志田】听好了，这所学校啊，
+    因为有本王在才能继续办下去。
+    就只有你们几个！
+    对本王毫不尊重！
+    «ID MSG_KAMOSHIDA_ATTENTION0_16  对话»
+
+【摩尔加纳】……和预料中的一样。
+    «ID MSG_KAMOSHIDA_ATTENTION0_17  对话»
+
+【摩尔加纳】趁这个机会，收下秘宝！
+    «ID MSG_KAMOSHIDA_ATTENTION0_18  对话»
+
+【坂本　龙司】又在说傻话了……
+    «ID MSG_KAMOSHIDA_ATTENTION0_19  对话»
+
+【坂本　龙司】算了，就趁这个机会！
+    «ID MSG_KAMOSHIDA_ATTENTION0_20  对话»
+
+【暗影鸭志田】再说你们都误解了！
+    本王根本就没『性骚扰』过！
+    «ID MSG_KAMOSHIDA_ATTENTION0_21  对话»
+
+【暗影鸭志田】是对方主动靠近本王，
+    想向本王示好而已！
+    «ID MSG_KAMOSHIDA_ATTENTION0_22  对话»
+
+【摩尔加纳】他完全没有注意到这边呢。
+    «ID MSG_KAMOSHIDA_ATTENTION0_23  对话»
+
+【摩尔加纳】很好，离秘宝就差一点了！
+    «ID MSG_KAMOSHIDA_ATTENTION0_24  对话»
+
+【坂本　龙司】太蠢了……
+    «ID MSG_KAMOSHIDA_ATTENTION0_25  对话»
+
+【坂本　龙司】算了，能靠近秘宝就行。
+    «ID MSG_KAMOSHIDA_ATTENTION0_26  对话»
+
+【暗影鸭志田】嗯？少了一个？
+    «ID MSG_KAMOSHIDA_ATTENTION0_27  对话»
+
+【暗影鸭志田】果然没错！少了！
+    到哪里去了！？
+    «ID MSG_KAMOSHIDA_ATTENTION0_28  对话»
+
+【摩尔加纳】你已经被将军了！
+    «ID MSG_KAMOSHIDA_ATTENTION0_29  对话»
+
+【坂本　龙司】察觉得太晚了，白痴！
+    «ID MSG_KAMOSHIDA_ATTENTION0_30  对话»
+
+【暗影鸭志田】喂！那边那个……像猫一样的家伙！
+    敢恶作剧的话可是要到操场罚跑的！
+    «ID MSG_ATTENTION_MORGANAMIS_4  对话»
+
+【摩尔加纳】吾辈竟然……
+    «ID MSG_ATTENTION_MORGANAMIS_5  对话»
+
+【摩尔加纳】继续攻击他，
+    吸引住他的注意力！
+    «ID MSG_ATTENTION_MORGANAMIS_6  对话»
+
+【暗影鸭志田】喂！坂本！
+    为什么你就不能老老实实地待着啊？嗯？
+    «ID MSG_ATTENTION_REIJIMISS__4  对话»
+
+【坂本　龙司】糟了！
+    «ID MSG_ATTENTION_REIJIMISS__5  对话»
+
+【坂本　龙司】不继续攻击他的话，
+    会被他注意到的！
+    «ID MSG_ATTENTION_REIJIMISS__6  对话»
+
+【暗影鸭志田】高卷，你要去哪里？
+    看看你那性感的魔鬼身材！
+    «ID MSG_ATTENTION_ANNMISS_00_2  对话»
+
+【高卷　杏】他果然在看着我……
+    «ID MSG_ATTENTION_ANNMISS_01_2  对话»
+
+【高卷　杏】我是不是留下来比较好？
+    «ID MSG_ATTENTION_ANNMISS_02_2  对话»
+
+【暗影鸭志田】啊啊！？
+    本王最珍惜的……！
+    «ID MSG_BTLSTEALAFTER_000_00_2  对话»
+
+【摩尔加纳】很好，鸭志田开始动摇了！
+    «ID MSG_BTLSTEALAFTER_010_00_2  对话»
+
+【高卷　杏】这样也许行得通哦！？
+    «ID MSG_BTLSTEALAFTER_020_00_2  对话»
+
+【高卷　杏】未使用
+    «ID MSG_BTLSTART_010_100  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTLSTART_010_101  对话»
+
+【高卷　杏】未使用
+    «ID MSG_BTL_EX_PRE_TROPHY_00  对话»
+
+【高卷　杏】未使用
+    «ID MSG_BTL_EX_PRE_TROPHY_00_2  对话»
+
+【高卷　杏】未使用
+    «ID MSG_BTL_EX_PRE_TROPHY_00_3  对话»
+
+【高卷　杏】未使用
+    «ID MSG_BTL_EX_PRE_TROPHY_00_4  对话»
+
+【坂本　龙司】未使用
+    «ID MSG_BTL_EX_PRE_TROPHY_00_5  对话»
+
+【选项】SEL_BTL_EX_PRE_TROPHY
+    ▸ 未使用
+    ▸ 未使用
+    «ID SEL_BTL_EX_PRE_TROPHY  选项»
+
+【摩尔加纳】未使用
+    未使用
+    «ID MSG_BTL_EX_PRE_TROPHY_00_6  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_MORGANA_OUT01  对话»
+
+【高卷　杏】未使用
+    «ID MSG_BTL_EX_MORGANA_OUT02  对话»
+
+【坂本　龙司】未使用
+    «ID MSG_BTL_EX_MORGANA_OUT03  对话»
+
+【摩尔加纳】未使用
+    未使用
+    «ID MSG_BTL_EX_MORGANA_OUT04  对话»
+
+【摩尔加纳】未使用
+    未使用
+    «ID MSG_BTL_EX_MORGANA_OUT04_2  对话»
+
+【选项】SEL_BTL_EX_MORGANA_CONFI
+    ▸ 未使用
+    ▸ 未使用
+    «ID SEL_BTL_EX_MORGANA_CONFI  选项»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_MORGANA_OUT_O  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_MORGANA_OUT_N  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_MORGANA_RECON  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_TARGET_PC01  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_TARGET_PC02  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_TARGET_PC03  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_TARGET_PC04  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_HAKEN_NOT_ENO  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_HAKEN_SOON_EN  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_HAKEN_ENOUGH  对话»
+
+【高卷　杏】未使用
+    «ID MSG_BTL_EX_PROVOKE01A  对话»
+
+【高卷　杏】未使用
+    «ID MSG_BTL_EX_PROVOKE01B  对话»
+
+【坂本　龙司】未使用
+    «ID MSG_BTL_EX_PROVOKE02A  对话»
+
+【坂本　龙司】未使用
+    «ID MSG_BTL_EX_PROVOKE02B  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_PROVOKE03A  对话»
+
+【摩尔加纳】未使用
+    «ID MSG_BTL_EX_PROVOKE03B  对话»
+
+【暗影鸭志田】未使用
+    «ID MSG_KAMOSHIDA_EX_PROVOKE  对话»
+
+【暗影鸭志田】未使用
+    «ID MSG_KAMOSHIDA_EX_PROVOKE_2  对话»
+
+【暗影鸭志田】未使用
+    «ID MSG_KAMOSHIDA_EX_PROVOKE_3  对话»
+
+【暗影鸭志田】未使用
+    «ID MSG_KAMOSHIDA_EX_PROVOKE_4  对话»
+
+【坂本　龙司】未使用
+    «ID EXTRA_PROVOKE_RYUJI_10  对话»
+
+【坂本　龙司】未使用
+    未使用
+    «ID EXTRA_PROVOKE_RYUJI_11  对话»
+
+【坂本　龙司】未使用
+    «ID EXTRA_PROVOKE_RYUJI_11B  对话»
+
+【坂本　龙司】未使用
+    «ID EXTRA_PROVOKE_RYUJI_12  对话»
+
+【坂本　龙司】未使用
+    «ID EXTRA_PROVOKE_RYUJI_13  对话»
+
+【摩尔加纳】未使用
+    «ID EXTRA_PROVOKE_MORGANA_10  对话»
+
+【摩尔加纳】未使用
+    未使用
+    «ID EXTRA_PROVOKE_MORGANA_11  对话»
+
+【摩尔加纳】未使用
+    «ID EXTRA_PROVOKE_MORGANA_11_2  对话»
+
+【摩尔加纳】未使用
+    «ID EXTRA_PROVOKE_MORGANA_12  对话»
+
+【摩尔加纳】未使用
+    «ID EXTRA_PROVOKE_MORGANA_13  对话»
+
+【高卷　杏】未使用
+    «ID EXTRA_PROVOKE_ANN_10  对话»
+
+【高卷　杏】未使用
+    «ID EXTRA_PROVOKE_ANN_11  对话»
+
+【高卷　杏】未使用
+    «ID EXTRA_PROVOKE_ANN_12  对话»
+
+【暗影鸭志田】可恶可恶可恶可恶！球不够了！？
+    你们快去拿球过来！
+    «ID ADD_TARGET_EVENT_0_0  对话»
+
+【暗影鸭志田】怎么啦？你们这群奴隶！
+    还没把本王的球拿来吗！？
+    «ID ADD_TARGET_EVENT_0_0B  对话»
+
+【认知存在『三岛　由辉』】对、对不起，鸭志田大人！
+    球已经准备好了！
+    «ID ADD_TARGET_EVENT_0_4  对话»
+
+【暗影鸭志田】太慢了～三岛！
+    你这个废物低能儿！
+    «ID ADD_TARGET_EVENT_0_4B  对话»
+
+【坂本　龙司】三、三岛！？
+    «ID ADD_TARGET_EVENT_0_1  对话»
+
+【高卷　杏】咦！？
+    为什么他会在这种地方……
+    «ID ADD_TARGET_EVENT_0_6  对话»
+
+【摩尔加纳】冷静点，那是鸭志田认知上的存在！
+    不是三岛本人！
+    «ID ADD_TARGET_EVENT_0_3  对话»
+
+【暗影鸭志田】废物！这样就累趴了！
+    所以你才一直都是候补选手！
+    «ID REMOVE_TARGET_EVENT_0_2  对话»
+
+【高卷　杏】三岛同学，对不起……！
+    我们一定会打飞那个自以为王的笨蛋！
+    «ID REMOVE_TARGET_EVENT_0_2B  对话»
+
+【坂本　龙司】抱歉，三岛……不过你被欺负的份，
+    我们一定会好好找鸭志田讨回来的！
+    «ID REMOVE_TARGET_EVENT_0_2C  对话»
+
+【认知存在『三岛　由辉』】啊啊，球掉了！
+    «ID BALL_TARGET_MISHIMA_OUT0  对话»
+
+【暗影鸭志田】你在干什么！
+    你到底有多废啊，三岛！
+    «ID RBALL_TARGET_MISHIMA_OUT  对话»
+
+【暗影鸭志田】好，三岛！把球传给本王！
+    就算是废物，这点小事应该办得到吧！
+    «ID REMOVE_TARGET_EVENT_0_5  对话»
+
+【认知存在『三岛　由辉』】我、我要传了……！
+    «ID REMOVE_TARGET_EVENT_0_5B  对话»
+
+【暗影鸭志田】这就是本王赢得世界的……扣杀！
+    «ID REMOVE_TARGET_EVENT_0_5C  对话»
+
+【暗影鸭志田】好！上吧上吧！
+    让你们见识一下王者的扣杀！
+    «ID REMOVE_TARGET_EVENT_0_7  对话»
+
+【暗影鸭志田】三岛传的球果然派不上用场啊……
+    喂，你太碍眼了！快点滚吧！
+    «ID REMOVE_TARGET_GO_OUT1  对话»
+
+【认知存在『三岛　由辉』】非、非常抱歉！鸭志田大人！
+    «ID REMOVE_TARGET_GO_OUT2  对话»
+
+【暗影鸭志田】下一个，下一个！
+    快把球拿过来！
+    «ID ADD_TARGET_EVENT_1_0  对话»
+
+【认知存在『铃井　志帆』】鸭志田大人，球已经准备好了。
+    «ID ADD_TARGET_EVENT_1_5  对话»
+
+【暗影鸭志田】你真乖，铃井。
+    没错，女人也必须对本王唯命是从！
+    ……就像她一样！
+    «ID ADD_TARGET_EVENT_1_5B  对话»
+
+【高卷　杏】骗、骗人的吧……！？
+    志帆……为什么！？
+    «ID ADD_TARGET_EVENT_1_1  对话»
+
+【摩尔加纳】ＰＡＮＴＨＥＲ，冷静一点！
+    那并不是她本人！
+    «ID ADD_TARGET_EVENT_1_3  对话»
+
+【高卷　杏】说、说得也是……
+    可是……这也太……！
+    «ID ADD_TARGET_EVENT_1_4  对话»
+
+【坂本　龙司】可恶！连铃井也……
+    我绝对不会放过你！
+    «ID ADD_TARGET_EVENT_1_4B  对话»
+
+【暗影鸭志田】哼，铃井也派不上用场啊……
+    之后需要特别指导吗？两人独处的那种！
+    «ID REMOVE_TARGET_EVENT_1_2  对话»
+
+【高卷　杏】鸭志田，我绝对不会原谅你……！
+    «ID REMOVE_TARGET_EVENT_1_2B  对话»
+
+【坂本　龙司】铃井，抱歉了……
+    我们一定会揍扁那个臭男人！
+    «ID REMOVE_TARGET_EVENT_1_2C  对话»
+
+【认知存在『铃井　志帆』】啊！鸭志田大人的球……！
+    «ID BALL_TARGET_SHIHO_OUT01  对话»
+
+【暗影鸭志田】铃井！
+    你和三岛一样，到底有多废啊──！
+    «ID BALL_TARGET_SHIHO_OUT02  对话»
+
+【暗影鸭志田】你在干什么，铃井！
+    所以你才会这么没用！
+    «ID BALL_TARGET_SHIHO_OUT02B  对话»
+
+【暗影鸭志田】铃井！托球给本王！
+    如果托得漂亮，之后就奖赏你。
+    «ID REMOVE_TARGET_EVENT_1_6  对话»
+
+【认知存在『铃井　志帆』】好的，鸭志田大人！
+    «ID REMOVE_TARGET_EVENT_1_6B  对话»
+
+【暗影鸭志田】接招吧！本王的……必杀扣杀！
+    «ID REMOVE_TARGET_EVENT_1_6C  对话»
+
+【暗影鸭志田】就是这样，铃井！把球托高！
+    我要再打出一次必杀扣杀！
+    «ID REMOVE_TARGET_EVENT_1_7B  对话»
+
+【暗影鸭志田】让女学生侍奉就是令人兴奋啊！
+    接下这招吧！
+    «ID REMOVE_TARGET_EVENT_1_6D  对话»
+
+【暗影鸭志田】能见识这么多次本王的扣杀……
+    你们应该感到荣幸才对！？
+    «ID REMOVE_TARGET_EVENT_1_7  对话»
+
+【暗影鸭志田】啧！没用的废物！！
+    «ID REMOVE_TARGET_EVENT_4_0  对话»
+
+【坂本　龙司】就算知道那不是真正的三岛也……
+    可恶！太难下手了！
+    «ID REMOVE_TARGET_EVENT_2_0  对话»
+
+【摩尔加纳】那只不过是认知的存在……
+    你们几个！不要犹豫啊！
+    «ID REMOVE_TARGET_EVENT_2_1  对话»
+
+【高卷　杏】居然把学生当成奴隶使唤……开什么玩笑！
+    «ID REMOVE_TARGET_EVENT_2_2  对话»
+
+【坂本　龙司】ＰＡＮＴＨＥＲ，这里就交给我们了。
+    我们帮你教训他的……！
+    «ID REMOVE_TARGET_EVENT_3_0  对话»
+
+【摩尔加纳】虽然对ＰＡＮＴＨＥＲ很过意不去……
+    但只能靠吾辈几个了……！
+    «ID REMOVE_TARGET_EVENT_3_1  对话»
+
+【高卷　杏】志帆……对不起！
+    «ID REMOVE_TARGET_EVENT_3_2  对话»
+
+【摩尔加纳】……话说，只要打掉那颗球，
+    不就能防御鸭志田的攻击了吗？
+    «ID BALL_TAEGET_START01  对话»
+
+【坂本　龙司】喂，快看！只要没有那只球，
+    鸭志田那家伙就无法使出扣杀了吧？
+    «ID BALL_TAEGET_START02  对话»
+
+【高卷　杏】……等等！只要没有那只球，
+    鸭志田就没有办法攻击了吧！？
+    «ID BALL_TAEGET_START03  对话»
+
+【暗影鸭志田】怎么了怎么了，你们这群奴隶？
+    快点把球拿过来！
+    没有球就不能使出绝招了！
+    «ID NO_SLAVE_0_0  对话»
+
+【暗影鸭志田】啊！？
+    那群奴隶……已经一个也不剩了吗！？
+    «ID NO_SLAVE_0_1  对话»
+
+【摩尔加纳】他似乎已经无法使出扣杀了！
+    现在就是进行攻击吸引他注意力的机会！
+    «ID NO_SLAVE_0_2GO  对话»
+
+【摩尔加纳】他似乎已经无法使出扣杀了！
+    一口气解决掉他吧！
+    «ID NO_SLAVE_0_2NOT_GO  对话»
+
+【摩尔加纳】……话说，只要打掉那颗球，
+    不就能防御鸭志田的攻击了吗？
+    «ID DECISION_MORGANA01  对话»
+
+〔旁白〕如果那是认知存在，就算予以攻击，
+    应该不会对三岛本人产生影响。
+    现在打倒三岛的话，就能
+    防御鸭志田的扣杀……
+    «ID DECISION_THINKING01  对话»
+
+【摩尔加纳】要怎么办？
+    «ID DECISION_Q  对话»
+
+【选项】SEL_DECISION_MISHIMA_TAR
+    ▸ 不攻击三岛
+    ▸ 攻击三岛防止扣杀
+    «ID SEL_DECISION_MISHIMA_TAR  选项»
+
+【摩尔加纳】又得瞄准球攻击了……！
+    «ID DECISION_MORGANA02  对话»
+
+〔旁白〕如果持续攻击专心准备扣杀的鸭志田，
+    应该可以防住扣杀……
+    又或者打倒认知存在的铃井，
+    防止她托球……
+    攻击认知存在，
+    应该不会对铃井本人产生影响……
+    «ID DECISION_THINKING02  对话»
+
+【选项】SEL_DECISION_SHIHO_TARGE
+    ▸ 这时候应该锁定鸭志田
+    ▸ 防止铃井托球
+    «ID SEL_DECISION_SHIHO_TARGE  选项»
+
+【摩尔加纳】好，要上咯！
+    «ID DECISION_ANSWER  对话»
+
+【暗影鸭志田】……知道了！你们想再看一次吧？
+    本王的必杀扣杀！
+    «ID MSG_BTL_SPSPIKE02_000_00_3  对话»
+
+【摩尔加纳】明白了！
+    «ID DECISION_ANSWER2  对话»
+
+〔旁白〕鸭志田似乎因受攻击而烦躁了……
+    «ID KAMOSIDA_DAMAGED01  对话»

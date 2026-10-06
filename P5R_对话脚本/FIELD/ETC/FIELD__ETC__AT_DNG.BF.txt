@@ -1,0 +1,736 @@
+================================================================================
+来源文件: FIELD\ETC\AT_DNG.BF
+对话条目: 180 条
+================================================================================
+
+【选项】YESNO_SEL
+    ▸ 是
+    ▸ 否
+    «ID YESNO_SEL  选项»
+
+【摩尔加纳】警戒度提升了（暂定）
+    «ID MSG_ALERT_UP  对话»
+
+【摩尔加纳】警戒度下降了（暂定）
+    «ID MSG_ALERT_DOWN  对话»
+
+【摩尔加纳】领域，分析中……
+    «ID MAP_SEARCH0  对话»
+
+【摩尔加纳】让我看看，到底是怎么回事？
+    «ID MAP_SEARCH1  对话»
+
+【摩尔加纳】开始搜索！
+    «ID MAP_SEARCH2  对话»
+
+〔旁白〕通过双叶的能力『印象空间搜寻』
+    看清了这一层的全貌。
+    «ID MAP_SYSTEM  对话»
+
+【坂本　龙司】嗯，这个是……？
+    «ID COIN_GET0  对话»
+
+【摩尔加纳】这……应该就是那小子
+    说的花吧？
+    «ID COIN_GET1  对话»
+
+【高卷　杏】跟我们在入口看到的花一样呢。
+    记得那孩子叫做约瑟吧？
+    他是想要这种花吧？
+    看他吸着花蜜，难道这很美味吗？
+    «ID COIN_GET2  对话»
+
+【摩尔加纳】谁知道呢？
+    不过那家伙没有敌意，
+    而且还说会提供谢礼。
+    总之就先收着吧！
+    ＪＯＫＥＲ！
+    «ID COIN_GET3  对话»
+
+【高卷　杏】咦，这个台座……
+    «ID STAMP_GET1  对话»
+
+【坂本　龙司】上面放着印章呢。
+    那应该就是约瑟说的那个印章吧？
+    总感觉看着
+    就莫名地想盖一下。
+    «ID STAMP_GET2  对话»
+
+【摩尔加纳】ＳＫＵＬＬ……
+    你太单纯了吧……
+    记得那小子说过，
+    要和花一起收集吧？
+    机会难得，就盖了再走吧！
+    ＪＯＫＥＲ！
+    «ID STAMP_GET3  对话»
+
+【摩尔加纳】已经盖过这枚印章了。
+    «ID Stamp_reaccess  对话»
+
+〔旁白〕这一层还残留着[var 1]枚印章。
+    «ID Stamp_now_floor  对话»
+
+〔旁白〕现在拥有的印章数量为[var 2]枚。
+    «ID Stamp_all_floor  对话»
+
+【选项】SHORTCUT_SEL
+    ▸ 自动治疗
+    ▸ [var 0]
+    ▸ [var 0]
+    ▸ [var 1]
+    ▸ [var 1]
+    ▸ [var 2]
+    ▸ [var 2]
+    ▸ [var 3]
+    ▸ [var 3]
+    ▸ [var 4]
+    ▸ [var 4]
+    «ID SHORTCUT_SEL  选项»
+
+〔旁白〕要回到印象空间的入口吗？
+    «ID MSG_RETURN_ITEM_SEL  对话»
+
+【选项】START_CHECK_SEL
+    ▸ 在上次使用的安全屋前
+    ▸ 就这样潜入
+    ▸ 还不想潜入
+    «ID START_CHECK_SEL  选项»
+
+【摩尔加纳】要从哪里开始探索？
+    «ID START_CHECK_MES  对话»
+
+【摩尔加纳】可得谨慎选择目的地哦。
+    «ID START_CHECK_MES_NEXT  对话»
+
+【选项】DUNGEON_EXIT_SEL
+    ▸ ※特殊
+    ▸ 撤退吧
+    ▸ 还不能回去
+    «ID DUNGEON_EXIT_SEL  选项»
+
+【选项】DUNGEON_EXIT_154_SEL
+    ▸ 去街上看看
+    ▸ 撤退吧
+    ▸ 还不能回去
+    «ID DUNGEON_EXIT_154_SEL  选项»
+
+【选项】DUNGEON_EXIT_155_SEL
+    ▸ 去街上看看
+    ▸ 撤退吧
+    ▸ 还不能回去
+    «ID DUNGEON_EXIT_155_SEL  选项»
+
+【异世界导航Ａｐｐ】已从鸭志田・宫殿回到现实世界。
+    辛苦了。
+    «ID D01_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从斑目・宫殿回到现实世界。
+    辛苦了。
+    «ID D02_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从金城・宫殿回到现实世界。
+    辛苦了。
+    «ID D03_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从双叶・宫殿回到现实世界。
+    辛苦了。
+    «ID D04_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从奥村・宫殿回到现实世界。
+    辛苦了。
+    «ID D05_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从新岛・宫殿回到现实世界。
+    辛苦了。
+    «ID D06_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从狮童・宫殿回到现实世界。
+    辛苦了。
+    «ID D07_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从印象空间回到现实世界。
+    辛苦了。
+    «ID D08_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从丸喜・宫殿回到现实世界。
+    辛苦了。
+    «ID D10_EXIT_MES  对话»
+
+【摩尔加纳】已经确保了秘宝路线。
+    怎么样，要撤退吗？
+    «ID DUNGEON_ROUTE_COMP_PC03_  对话»
+
+【摩尔加纳】到约定之日前只要准备妥当就行了。
+    怎么样，要撤退吗？
+    «ID DUNGEON_ROUTE_COMP_PC04_  对话»
+
+【坂本　龙司】嗯？
+    什么都还没做就要回去了吗？
+    «ID DUNGEON_EXIT_NOT_01_PC02  对话»
+
+【摩尔加纳】怎么了ＪＯＫＥＲ。
+    今天还什么都没做呢。
+    «ID DUNGEON_EXIT_NOT_01_PC03  对话»
+
+【高卷　杏】咦？
+    什么都没做就要回去了？
+    «ID DUNGEON_EXIT_NOT_01_PC04  对话»
+
+【喜多川　佑介】怎么了？
+    今天还没有探索呢。
+    «ID DUNGEON_EXIT_NOT_01_PC05  对话»
+
+【新岛　真】怎么了？
+    什么都没做就要回去？
+    «ID DUNGEON_EXIT_NOT_01_PC06  对话»
+
+【佐仓　双叶】咦？ＪＯＫＥＲ你要回去了吗？
+    我怎么觉得什么都没做呢。
+    «ID DUNGEON_EXIT_NOT_01_PC07  对话»
+
+【奥村　春】ＪＯＫＥＲ你怎么了呢？
+    今天什么都还没做呢。
+    «ID DUNGEON_EXIT_NOT_01_PC08  对话»
+
+【明智　吾郎】哦？要回去了？
+    在我看来，什么都还没做呢。
+    «ID DUNGEON_EXIT_NOT_01_PC09  对话»
+
+【sumi 10 0】咦，要回去了吗？
+    我觉得什么都还没做啊……
+    «ID DUNGEON_EXIT_NOT_01_PC10 [  对话»
+
+【坂本　龙司】怎么了？要重新准备一下吗？
+    «ID DUNGEON_EXIT_01_PC02_mes  对话»
+
+【摩尔加纳】唔？ＪＯＫＥＲ你要撤退了？
+    «ID DUNGEON_EXIT_01_PC03_mes  对话»
+
+【高卷　杏】今天先暂时撤退吗？
+    «ID DUNGEON_EXIT_01_PC04_mes  对话»
+
+【喜多川　佑介】是要重整旗鼓吗？ＪＯＫＥＲ？
+    «ID DUNGEON_EXIT_01_PC05_mes  对话»
+
+【新岛　真】咦？要重新准备一次吗？
+    «ID DUNGEON_EXIT_01_PC06_mes  对话»
+
+【佐仓　双叶】或许重新准备一下也好。
+    «ID DUNGEON_EXIT_01_PC07_mes  对话»
+
+【奥村　春】是想要撤退了吗？
+    «ID DUNGEON_EXIT_01_PC08_mes  对话»
+
+【明智　吾郎】哦？你是要重新准备吗？
+    «ID DUNGEON_EXIT_01_PC09_mes  对话»
+
+【sumi 10 0】呃，是要重新准备吗？
+    «ID DUNGEON_EXIT_01_PC10_mes [  对话»
+
+【明智　吾郎】哦？你是要重新准备吗？
+    «ID DUNGEON_EXIT_01_PC11_mes  对话»
+
+【摩尔加纳】话说，约瑟好像说过只要一离开印象空间，
+    花朵就会消失的呢……
+    ……不过现在你身上也没有花，
+    要先撤退吗？ＪＯＫＥＲ。
+    «ID ATD_EXIT_REMIND_FLOWER_V  对话»
+
+【摩尔加纳】话说，约瑟好像说过只要一离开印象空间，
+    花朵就会消失的呢……
+    现在身上好像还带着[var 0]朵，
+    要先撤退吗？ＪＯＫＥＲ。
+    «ID ATD_EXIT_REMIND_FLOWER_V_2  对话»
+
+【摩尔加纳】嗯？你要撤退了吗？
+    现在你身上还带着着[var 0]朵花，
+    直接离开印象空间的话，花可是会消失的哦？
+    «ID ATD_EXIT_REMIND_FLOWER_V_3  对话»
+
+【摩尔加纳】在这里该做的事都做完了吧？
+    那今天就先撤退咯？
+    «ID ATD_EXIT_CABLE_VANISHED_  对话»
+
+【摩尔加纳】知道了。
+    那就再多探索一下吧。
+    «ID ATD_EXIT_CANCEL_CABLE_VA  对话»
+
+【坂本　龙司】那就回去吧。
+    «ID D_EXIT_OK_01_PC02_mes  对话»
+
+【摩尔加纳】嗯，今天就回去吧。
+    «ID D_EXIT_OK_01_PC03_mes  对话»
+
+【高卷　杏】好，我们回去吧。
+    «ID D_EXIT_OK_01_PC04_mes  对话»
+
+【喜多川　佑介】嗯　，回去吧。
+    «ID D_EXIT_OK_01_PC05_mes  对话»
+
+【新岛　真】也是，今天就到这里好了。
+    «ID D_EXIT_OK_01_PC06_mes  对话»
+
+【佐仓　双叶】很好！回去吧！
+    «ID D_EXIT_OK_01_PC07_mes  对话»
+
+【奥村　春】知道了，那就回去吧。
+    «ID D_EXIT_OK_01_PC08_mes  对话»
+
+【明智　吾郎】也是，那就先撤退吧。
+    «ID D_EXIT_OK_01_PC09_mes  对话»
+
+【sumi 10 0】我知道了。
+    那么今天就先回去吧。
+    «ID D_EXIT_OK_01_PC10_mes [  对话»
+
+【明智　吾郎】说得也是。那就撤退吧。
+    «ID D_EXIT_OK_01_PC11_mes  对话»
+
+【选项】DUNGEON_EXIT_151_EX_SEL
+    ▸ ※特殊
+    ▸ 启动『异世界导航Ａｐｐ』
+    ▸ 还是算了吧
+    «ID DUNGEON_EXIT_151_EX_SEL  选项»
+
+【坂本　龙司】在这附近使用『异世界导航Ａｐｐ』的话，
+    应该就能回到现实了。
+    «ID DUNGEON_EXIT_D01_EX_mes  对话»
+
+【坂本　龙司】很好！
+    成功启动了。
+    «ID D_EXIT_OK_D01_EX_mes  对话»
+
+【坂本　龙司】你在干什么啊？
+    赶快出去吧。
+    «ID D_EXIT_NG_D01_EX_mes  对话»
+
+【坂本　龙司】好啊，我还可以继续。
+    «ID D_EXIT_CANCEL_PC02_mes  对话»
+
+【摩尔加纳】也是啊，
+    那就继续探索吧。
+    «ID D_EXIT_CANCEL_PC03_mes  对话»
+
+【高卷　杏】嗯，再努力一下吧。
+    «ID D_EXIT_CANCEL_PC04_mes  对话»
+
+【喜多川　佑介】就这样做吧，
+    应该还有一些地方是值得去查看的。
+    «ID D_EXIT_CANCEL_PC05_mes  对话»
+
+【新岛　真】是啊，应该还能继续的。
+    «ID D_EXIT_CANCEL_PC06_mes  对话»
+
+【佐仓　双叶】是吗？那就再努力一下吧。
+    «ID D_EXIT_CANCEL_PC07_mes  对话»
+
+【奥村　春】嗯，那就继续探索吧。
+    «ID D_EXIT_CANCEL_PC08_mes  对话»
+
+【明智　吾郎】是啊，再努力一下吧。
+    «ID D_EXIT_CANCEL_PC09_mes  对话»
+
+【sumi 10 0】说得也是。
+    那就再努力一下吧。
+    «ID D_EXIT_CANCEL_PC10_mes [  对话»
+
+【明智　吾郎】说得没错。
+    但不能过度勉强自己。
+    «ID D_EXIT_CANCEL_PC11_mes  对话»
+
+【摩尔加纳】呜，糟糕了！
+    宫殿的警戒变得太强了！
+    再继续探索下去的话，
+    我们的小命就有危险了。
+    撤退了，ＪＯＫＥＲ！
+    «ID ALERT_MAX_EXIT_mes00  对话»
+
+【坂本　龙司】等、等等，再等一下……
+    «ID ALERT_MAX_EXIT_mes01  对话»
+
+【摩尔加纳】今天先放弃！
+    暗影变得越来越多了！快点！
+    «ID ALERT_MAX_EXIT_mes02  对话»
+
+【坂本　龙司】你等等！
+    不是已经发了预告信吗！？
+    今天不夺取秘宝的话，
+    之前吃的苦头就都白费了！
+    «ID D_EXIT_NG_ACTIVE_01_PC02  对话»
+
+【摩尔加纳】啊！？
+    你听清楚了吾辈的话吗！？
+    今天不夺取秘宝的话，
+    一切就全都白费了啊！？
+    «ID D_EXIT_NG_ACTIVE_01_PC03  对话»
+
+【高卷　杏】不不不不！
+    不行的啦！
+    不在今天之内把秘宝拿走的话，
+    截至目前为止的一切就都白费了！
+    «ID D_EXIT_NG_ACTIVE_01_PC04  对话»
+
+【喜多川　佑介】返回……？
+    难得你会在作战中说笑啊。
+    走了，ＪＯＫＥＲ。
+    «ID D_EXIT_NG_ACTIVE_01_PC05  对话»
+
+【新岛　真】好啦，别说丧气话了。
+    你可是团长啊？
+    不管怎么样，今天都
+    必须拿走秘宝！
+    «ID D_EXIT_NG_ACTIVE_01_PC06  对话»
+
+【佐仓　双叶】好，那就回家……
+    ……
+    ……不，我开玩笑的哦？别闪人哦？
+    «ID D_EXIT_NG_ACTIVE_01_PC07  对话»
+
+【奥村　春】既然都发出了预告信
+    就不能半途而废吧？
+    没问题的，大家都在你的身后呢！
+    «ID D_EXIT_NG_ACTIVE_01_PC08  对话»
+
+【明智　吾郎】都走到这里了，竟然要回去吗？
+    真不像你呢。
+    我也会帮忙的，试试看吧。
+    «ID D_EXIT_NG_ACTIVE_01_PC09  对话»
+
+【sumi 10 0】都已经寄出预告信了，
+    我们应该没后路了吧？
+    我也会尽自己所能的，
+    所以ＪＯＫＥＲ学长，我们继续前进吧。
+    «ID D_EXIT_NG_ACTIVE_01_PC10 [  对话»
+
+【明智　吾郎】都走到这了，不该撤退吧？
+    来做个收尾吧。
+    «ID D_EXIT_NG_ACTIVE_01_PC11  对话»
+
+【摩尔加纳】真的要回去吗？ＪＯＫＥＲ？
+    «ID SAFEROOM_EXIT_PC03_mes  对话»
+
+【佐仓　双叶】你真的要回去吗？ＪＯＫＥＲ？
+    «ID SAFEROOM_EXIT_PC07_mes  对话»
+
+【坂本　龙司】接下来就剩夺取出现的秘宝了。
+    总算到这个时候了。
+    «ID D01_04_e166_015_mes01  对话»
+
+【高卷　杏】不过，还得先发出『预告信』啊。
+    什么时候发？
+    «ID D01_04_e166_015_mes02  对话»
+
+【摩尔加纳】等一下等一下，今天先撤退吧。
+    预告信的事情等下次在秘密基地集合的时候再谈。
+    各位，今天辛苦你们了！
+    «ID D01_04_e166_015_mes03  对话»
+
+【摩尔加纳】为了解除中庭的安保系统，
+    先暂时撤退吧。
+    «ID D02_MISSION_POINT_PC03_m  对话»
+
+【坂本　龙司】很好，虽然有些不安……但是也只能动手了。
+    «ID D02_04_e210_240_mes01  对话»
+
+【喜多川　佑介】斑目的秘宝……
+    到底会是什么样的东西呢……
+    «ID D02_04_e210_240_mes02  对话»
+
+【高卷　杏】今天也彻底偷了个够吧？
+    总之，大家都辛苦了！
+    «ID D02_04_e210_240_mes03  对话»
+
+【摩尔加纳】考虑到认知之门的关系，
+    我们暂时先撤退吧？
+    «ID D03_FIRST_END_PC03_mes  对话»
+
+【新岛　真】先回去整顿吧。
+    «ID D06_FIRST_END_PC06_mes  对话»
+
+【摩尔加纳】好了，撤退吧，ＪＯＫＥＲ！
+    «ID D07_FIRST_END_PC03_mes  对话»
+
+【摩尔加纳】ＪＯＫＥＲ，你打算去哪里？
+    地牢已经调查得很详细了吧？
+    接下来去调查城堡的前方吧。
+    «ID D01_EXIT_NG_EV01_mes01  对话»
+
+【摩尔加纳】要去那里的话，只能通过玄关的大厅才行吗……
+    但是通往大厅的门关着吧。
+    得找另一条通往大厅１楼的路，
+    不然就没法去了。
+    «ID D01_EXIT_NG_EV01_mes02  对话»
+
+【坂本　龙司】好不容易来一趟，
+    还是在这里多调查一下吧。
+    «ID D07_DUNGEON_EXIT_SC_mes0  对话»
+
+【选项】RARE_TBOX_YES_NO
+    ▸ 打开
+    ▸ 先不打开
+    «ID RARE_TBOX_YES_NO  选项»
+
+【摩尔加纳】这个被锁上了啊……
+    «ID RARE_TBOX_MSG_M  对话»
+
+【摩尔加纳】可惜现在没有。
+    下次再做一把好了。
+    «ID RARE_TBOX_MSG_NO_KEY_M  对话»
+
+【摩尔加纳】有[var 1]把。
+    要打开吗？
+    «ID RARE_TBOX_MSG_KEY_CONF_M  对话»
+
+【佐仓　双叶】嗯？这个宝箱上了锁哦。
+    «ID RARE_TBOX_MSG_F  对话»
+
+【佐仓　双叶】不过现在没有，下次再说吧。
+    记得先做好哦。
+    «ID RARE_TBOX_MSG_NO_KEY_F  对话»
+
+【佐仓　双叶】现在好像有[var 1]把。
+    用它来开锁吧！
+    «ID RARE_TBOX_MSG_CONF_F  对话»
+
+【摩尔加纳】要打开这种宝箱，
+    需要名为的工具。
+    «ID RARE_TBOX_MSG_NO_KEY_1ST  对话»
+
+【佐仓　双叶】明明是怪盗，却连
+    都不自己做吗？真让人惊讶。
+    回去后让摩尔加纳教你吧。
+    «ID RARE_TBOX_MSG_NO_KEY_1ST_2  对话»
+
+【摩尔加纳】之前也说过了，在吾辈空闲的时候
+    也可以教你的做法哦。
+    不过，只能等回到现实之后再说了。
+    «ID RARE_TBOX_MSG_NO_KEY_2ND  对话»
+
+【佐仓　双叶】之前也说过了，
+    你竟然连的做法都不知道啊……
+    回去后让摩尔加纳教你吧。
+    «ID RARE_TBOX_MSG_NO_KEY_2ND_2  对话»
+
+【摩尔加纳】……不过，你桌子周围真是有够脏的。
+    «ID RARE_TBOX_MSG_NO_KEY_ADD  对话»
+
+【佐仓　双叶】……不过你房间里
+    那张桌子也太脏了，根本没法拿来做事。
+    «ID RARE_TBOX_MSG_NO_KEY_ADD_2  对话»
+
+【摩尔加纳】喂，这件防具也太脏了吧……
+    要不要找个地方洗一下？
+    话说，暗影居然也有这种东西啊。
+    或许通过交涉，可以让某些暗影交出来给我们呢。
+    «ID TBOX_MSG_DIRTYMAIL1ST_M  对话»
+
+【摩尔加纳】如果你想洗的话，吾辈记得卢布朗附近
+    有一间投币式洗衣店……
+    «ID TBOX_MSG_DIRTYMAIL1ST_M2  对话»
+
+【佐仓　双叶】啊哇哇哇……这防具好脏哦，
+    最好找个地方洗一下啦！
+    我记得在卢布朗附近，
+    有一家投币式洗衣店的。
+    «ID TBOX_MSG_DIRTYMAIL1ST_F  对话»
+
+【摩尔加纳】看来这个饰品隐藏着特别的力量……
+    吾辈能感到它很有用哦！
+    «ID TBOX_MSG_SKILL_ACCESSORY  对话»
+
+【明智　吾郎】它似乎带有某种特殊力量……
+    还是先留着比较好吧。
+    «ID TBOX_MSG_SKILL_ACCESSORY_2  对话»
+
+【摩尔加纳】算了，今天毕竟是第一次。
+    就把吾辈珍藏的一把送你了。
+    下次你要自己解决哦？
+    «ID RARE_TBOX_MSG_NO_KEY_SER  对话»
+
+【选项】RARE_TBOX_NO_KEY_SERVICE
+    ▸ 怎么做？
+    ▸ 想要更多
+    «ID RARE_TBOX_NO_KEY_SERVICE  选项»
+
+【摩尔加纳】自己做啊。
+    下次回房间我教你做法。
+    «ID RARE_TBOX_MSG_NO_KEY_SER_2  对话»
+
+【摩尔加纳】作为怪盗，自己的道具要自己做。
+    下次回房间我教你做法吧。
+    «ID RARE_TBOX_MSG_NO_KEY_SER_3  对话»
+
+【摩尔加纳】你有带吧？
+    那就打开它！
+    «ID RARE_TBOX_MSG_AQKEYPICK_  对话»
+
+【佐仓　双叶】传说中的潜入道具
+    不就在你身上吗！
+    赶快用它来打开宝箱吧！？
+    «ID RARE_TBOX_MSG_AQKEYPICK__2  对话»
+
+【坂本　龙司】哦，这个看起来比我现在拿的家伙还强嘛！
+    赶紧试试看吧！
+    «ID WEAPON_RYUJI_MSG  对话»
+
+【高卷　杏】感觉这个好像比我现在用的更好……
+    我说！可以让我用用看吗？
+    «ID WEAPON_ANNE_MSG  对话»
+
+【摩尔加纳】哦，是把很适合吾辈的强力武器啊！
+    下次就用这个吧？
+    «ID WEAPON_MORGANA_MSG  对话»
+
+【喜多川　佑介】这次获得的武器真不一般。
+    我想立刻试用一下……
+    «ID WEAPON_YUSUKE_MSG  对话»
+
+【新岛　真】哎呀，似乎比我现在的这个性能更好嘛。
+    能让我用用看吗？
+    «ID WEAPON_MAKOTO_MSG  对话»
+
+【奥村　春】啊，这是新的斧头吗？
+    我想赶紧试试看……
+    «ID WEAPON_HARU_MSG  对话»
+
+【明智　吾郎】哦，这武器看来挺好用的……
+    可以让我来使用吗？
+    «ID WEAPON_AKECHI_MSG  对话»
+
+【明智　吾郎】哦，这武器看来挺好用啊。
+    我打算立刻换上，没问题吧？
+    «ID WEAPON_KUROAKECHI_MSG  对话»
+
+【sumi 10 0】看起来它比我现在用的更强……
+    我可以试用一下吗？
+    «ID WEAPON_KASUMI_MSG [  对话»
+
+【选项】WEAPON_EQUIP_YES_NO
+    ▸ 没问题
+    ▸ 暂时不行
+    «ID WEAPON_EQUIP_YES_NO  选项»
+
+【坂本　龙司】好啊～！
+    这下子我就能更加活跃啦！
+    «ID WEAPON_RYUJI_MSG_YES  对话»
+
+【坂本　龙司】切，那就算了。
+    «ID WEAPON_RYUJI_MSG_NO  对话»
+
+【高卷　杏】谢谢你！
+    我马上来用用看……嗯，感觉不错！
+    «ID WEAPON_ANNE_MSG_YES  对话»
+
+【高卷　杏】这样啊，我知道了。
+    «ID WEAPON_ANNE_MSG_NO  对话»
+
+【摩尔加纳】哼哼哼！
+    吾辈又变得更强了！
+    «ID WEAPON_MORGANA_MSG_YES  对话»
+
+【摩尔加纳】是吗……
+    无所谓，反正现在的吾辈也已经很强了！
+    «ID WEAPON_MORGANA_MSG_NO  对话»
+
+【喜多川　佑介】……嗯，挺顺手的。
+    看来捡到了好东西。
+    «ID WEAPON_YUSUKE_MSG_YES  对话»
+
+【喜多川　佑介】实在遗憾……
+    下次有机会再拜托你。
+    «ID WEAPON_YUSUKE_MSG_NO  对话»
+
+【新岛　真】谢谢你。
+    ……嗯，挺不错的。
+    «ID WEAPON_MAKOTO_MSG_YES  对话»
+
+【新岛　真】是吗？我知道了。
+    «ID WEAPON_MAKOTO_MSG_NO  对话»
+
+【奥村　春】太好了！
+    我会比以往更加努力，请多指教哦！
+    «ID WEAPON_HARU_MSG_YES  对话»
+
+【奥村　春】哎呀，是吗……？
+    «ID WEAPON_HARU_MSG_NO  对话»
+
+【明智　吾郎】谢谢你。
+    我发誓会作出更大的贡献。
+    «ID WEAPON_AKECHI_MSG_YES  对话»
+
+【明智　吾郎】嗯。挺不错的。
+    «ID WEAPON_KUROAKECHI_MSG_YE  对话»
+
+【明智　吾郎】ＯＫ，遵从你的指示。
+    «ID WEAPON_AKECHI_MSG_NO  对话»
+
+【明智　吾郎】哼～知道了。
+    ……希望这个判断最好没错。
+    «ID WEAPON_KUROAKECHI_MSG_NO  对话»
+
+【sumi 10 0】谢谢学长！
+    我会更加努力帮助大家的！
+    «ID WEAPON_KASUMI_MSG_YES [  对话»
+
+【sumi 10 0】好，我明白了。
+    «ID WEAPON_KASUMI_MSG_NO [  对话»
+
+【坂本　龙司】哦！这家伙还挺不赖的！
+    ＪＯＫＥＲ，你试试看吧！
+    «ID HERO_WEAPON_RYUJI_MSG  对话»
+
+【高卷　杏】你看，ＪＯＫＥＲ！
+    感觉它挺不错的，不如把现在用的换掉吧？
+    «ID HERO_WEAPON_ANNE_MSG  对话»
+
+【摩尔加纳】ＪＯＫＥＲ，吾辈找到了好东西哦！
+    不如你赶紧用用看？
+    «ID HERO_WEAPON_MORGANA_MSG  对话»
+
+【喜多川　佑介】嗯，这似乎和ＪＯＫＥＲ挺相称的。
+    不妨试一试？
+    «ID HERO_WEAPON_YUSUKE_MSG  对话»
+
+【新岛　真】ＪＯＫＥＲ应该会用这武器吧？
+    看起来也挺强，不如和现在的换一换？
+    «ID HERO_WEAPON_MAKOTO_MSG  对话»
+
+【佐仓　双叶】新武器来啦──！
+    ＪＯＫＥＲ，要不要立刻装备！？
+    «ID HERO_WEAPON_FUTABA_MSG  对话»
+
+【奥村　春】哇，我找到很强的武器。
+    它应该非常适合ＪＯＫＥＲ吧？
+    «ID HERO_WEAPON_HARU_MSG  对话»
+
+【明智　吾郎】嗯，发现一件挺强的武器。
+    ＪＯＫＥＲ，你试试看吧。
+    «ID HERO_WEAPON_AKECHI_MSG  对话»
+
+【明智　吾郎】这应该比你手上的更好用吧？
+    ＪＯＫＥＲ，你换上看看。
+    «ID HERO_WEAPON_KUROAKECHI_M  对话»
+
+【选项】HERO_WEAPON_EQUIP_YES_NO
+    ▸ 换成该武器
+    ▸ 暂时不换
+    «ID HERO_WEAPON_EQUIP_YES_NO  选项»
+
+〔旁白〕要进行自动治疗吗？
+    «ID MSG_AUTO_RECOVER_CONF  对话»
+
+〔旁白〕所有人的ＨＰ都已经满了。
+    «ID MSG_AUTO_RECOVER_FULL  对话»
+
+【sumi 0 0】我会用光速完成的。
+    «ID SOBJ_RECOVER0 [  对话»
+
+【sumi 0 0】稍等一下。
+    «ID SOBJ_RECOVER1 [  对话»
+
+【sumi 0 0】发挥ＮＡＶＩ的本领！
+    «ID SOBJ_RECOVER2 [  对话»
+
+〔旁白〕在异世界中的搜索物件
+    全都刷新了。
+    «ID SCHOBJ_SYSTEM  对话»

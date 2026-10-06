@@ -1,0 +1,410 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR3010_010_004.BF
+对话条目: 102 条
+================================================================================
+
+【摩尔加纳】话说回来，你……
+    有没有能拿来当摆设的东西啊？
+    机会难得，拿出来装饰吧！
+    «ID MSG_Sofa_SYSOpen  对话»
+
+〔旁白〕话说，你应该有能拿来当摆设的东西吧……
+    «ID MND_Sofa_SYSOpen  对话»
+
+【摩尔加纳】有个大架子呢……
+    要是有个能摆上去装饰的东西就好了呢……
+    «ID MSG_TABLE_CleanEnd_Notin  对话»
+
+〔旁白〕架子上空无一物……
+    «ID MND_TABLE_CleanEnd_Notin  对话»
+
+【摩尔加纳】身上没有能装饰的东西……
+    «ID MSG_InteriorShelfNotHave  对话»
+
+〔旁白〕身上没有
+    可以用来装饰的东西……
+    «ID MND_InteriorShelfNotHave  对话»
+
+【摩尔加纳】书架上空无一物啊……
+    «ID MSG_InteriorSetNone  对话»
+
+〔旁白〕书架上空无一物……
+    «ID MND_InteriorSetNone  对话»
+
+【摩尔加纳】书架还是空荡荡的呢。
+    «ID MSG_TABLE_CleanEnd_inter  对话»
+
+〔旁白〕书架上，还有空间可以放东西……
+    «ID MND_TABLE_CleanEnd_inter  对话»
+
+【摩尔加纳】嗯，书架也丰富起来了呢。
+    «ID MSG_TABLE_CleanEnd_inter_2  对话»
+
+〔旁白〕书架上，还可以放一点东西……
+    «ID MND_TABLE_CleanEnd_inter_2  对话»
+
+【摩尔加纳】再放的话书架就要垮了。
+    好厉害啊，收集了这么多东西。
+    «ID MSG_TABLE_CleanEnd_inter_3  对话»
+
+〔旁白〕这个架子已经放不下东西了……
+    «ID MND_TABLE_CleanEnd_inter_3  对话»
+
+【摩尔加纳】那要装饰一下自己的房间吗？
+    «ID MSG_Sofa_Start  对话»
+
+〔旁白〕装饰一下自己的房间好了……
+    «ID MND_Sofa_Start  对话»
+
+【摩尔加纳】那……接下来呢？
+    «ID MSG_Sofa_Start_Re  对话»
+
+〔旁白〕在这里做个结束吧……
+    «ID MND_Sofa_Start_Re  对话»
+
+【摩尔加纳】要继续装饰吗？
+    «ID MSG_Sofa_StartLoop  对话»
+
+〔旁白〕继续装饰好了……
+    «ID MND_Sofa_StartLoop  对话»
+
+【选项】SEL_Start
+    ▸ 来装饰吧
+    ▸ 看看书架吧
+    ▸ 看看工作台吧
+    ▸ 还是算了
+    «ID SEL_Start  选项»
+
+〔旁白〕感想
+    «ID MND_tana_look  对话»
+
+【摩尔加纳】嗯，差不多就这样吧。
+    «ID MSG_Sofa_End  对话»
+
+〔旁白〕房间多少有一些生活气息了……
+    «ID MND_Sofa_End  对话»
+
+【摩尔加纳】嗯，这种风格真强烈啊。
+    ……要收拾一下吗？
+    «ID MSG_Sofa_Already  对话»
+
+〔旁白〕该怎么办呢……
+    «ID MND_Sofa_Already  对话»
+
+【选项】SEL_SofaSetThink
+    ▸ 移开
+    ▸ 就这样摆吧
+    «ID SEL_SofaSetThink  选项»
+
+【摩尔加纳】这就是在井之头公园的天鹅船啊。
+    吾辈将来也要和杏大人一起……喵呼呼。
+    «ID MSG_Set_Interior01  对话»
+
+〔旁白〕……
+    是在井之头公园拿到的呢。
+    «ID MND_Set_Interior01  对话»
+
+【摩尔加纳】这就是据说能在荻洼得到的海碗拉面啊。
+    不过这东西做得还真写实啊。
+    ……话说回来，肚子也有点饿了呢。
+    «ID MSG_Set_Interior02  对话»
+
+〔旁白〕……
+    是在荻洼拿到的呢。
+    «ID MND_Set_Interior02  对话»
+
+【摩尔加纳】吗……
+    是有着台场海滨公园回忆的纪念品呢。
+    «ID MSG_Set_Interior03  对话»
+
+〔旁白〕……
+    是在台场海滨公园拿到的东西呢。
+    «ID MND_Set_Interior03  对话»
+
+【摩尔加纳】吗……
+    是有着上野回忆的纪念品呢。
+    «ID MSG_Set_Interior04  对话»
+
+〔旁白〕……
+    是在上野拿到的东西呢。
+    «ID MND_Set_Interior04  对话»
+
+【摩尔加纳】吗……
+    是有着浅草回忆的纪念品呢。
+    «ID MSG_Set_Interior05  对话»
+
+〔旁白〕……
+    是在浅草拿到的呢。
+    «ID MND_Set_Interior05  对话»
+
+【摩尔加纳】这就是据说能在月岛得到的巨大煎铲啊。
+    话说回来，第一个想到要用
+    煎铲来做文字烧的人是谁啊？
+    «ID MSG_Set_Interior06  对话»
+
+〔旁白〕……
+    是在月岛拿到的呢。
+    «ID MND_Set_Interior06  对话»
+
+【摩尔加纳】吗……
+    是有着元町中华街回忆的纪念品呢。
+    «ID MSG_Set_Interior07  对话»
+
+〔旁白〕……
+    是在元町中华街拿到的呢。
+    «ID MND_Set_Interior07  对话»
+
+【摩尔加纳】吗……
+    是有着埋滨回忆的纪念品呢。
+    «ID MSG_Set_Interior08  对话»
+
+〔旁白〕……
+    是在埋滨拿到的呢。
+    «ID MND_Set_Interior08  对话»
+
+【摩尔加纳】吗……
+    是有着浅草回忆的纪念品呢。
+    «ID MSG_Set_Interior09  对话»
+
+〔旁白〕……
+    是在浅草拿到的呢。
+    «ID MND_Set_Interior09  对话»
+
+【摩尔加纳】吗……
+    是有着原宿回忆的纪念品呢。
+    «ID MSG_Set_Interior10  对话»
+
+〔旁白〕……
+    是在原宿拿到的呢。
+    «ID MND_Set_Interior10  对话»
+
+【摩尔加纳】吗……
+    是有着池袋回忆的纪念品呢。
+    «ID MSG_Set_Interior11  对话»
+
+〔旁白〕……
+    是在池袋拿到的呢。
+    «ID MND_Set_Interior11  对话»
+
+【摩尔加纳】是王将的摆饰啊，
+    还真大啊……
+    大的东西也能用在小地方是真的吗？
+    毕竟吾辈可是这么的……
+    «ID MSG_Set_Interior12  对话»
+
+〔旁白〕……
+    是在神保町拿到的呢。
+    «ID MND_Set_Interior12  对话»
+
+【摩尔加纳】这就是据说能在秋叶原得到的英雄模型啊。
+    大家所憧憬的英雄啊，
+    只要是男人，应该都曾经崇拜过英雄吧！
+    «ID MSG_Set_Interior13  对话»
+
+〔旁白〕……
+    是在秋叶原拿到的呢。
+    «ID MND_Set_Interior13  对话»
+
+【摩尔加纳】吗……
+    是有着明治神宫回忆的纪念品呢。
+    «ID MSG_Set_Interior14  对话»
+
+〔旁白〕……
+    是在明治神宫拿到的呢。
+    «ID MND_Set_Interior14  对话»
+
+【摩尔加纳】吗……
+    是有着水道桥回忆的纪念品呢。
+    «ID MSG_Set_Interior15  对话»
+
+〔旁白〕……
+    是在水道桥拿到的呢。
+    «ID MND_Set_Interior15  对话»
+
+【摩尔加纳】这就是据说能在银座得到的寿司茶杯啊。
+    如果是寿司的话，
+    吾辈随时都很欢迎哦！
+    «ID MSG_Set_Interior16  对话»
+
+〔旁白〕……
+    是在银座拿到的呢。
+    «ID MND_Set_Interior16  对话»
+
+【摩尔加纳】吗……
+    是有着自助餐回忆的纪念品呢。
+    «ID MSG_Set_Interior17  对话»
+
+〔旁白〕……
+    是在自助餐拿到的呢。
+    «ID MND_Set_Interior17  对话»
+
+【摩尔加纳】是在浅草买到的吉祥竹耙啊。
+    吉祥竹耙似乎能促进商业兴隆哦？
+    只要卢布朗生意兴隆，菜色是不是也能变得更豪华……
+    «ID MSG_Set_Interior18  对话»
+
+〔旁白〕……
+    是在浅草买的呢。
+    «ID MND_Set_Interior18  对话»
+
+【摩尔加纳】海洋中的生物有种神秘感呢。
+    在海底有着很多
+    人不曾看过的生物呢！
+    «ID MSG_Set_Interior19  对话»
+
+〔旁白〕……
+    是在品川拿到的呢。
+    «ID MND_Set_Interior19  对话»
+
+【摩尔加纳】是大受欢迎的战队系列，
+    １楼的电视也在播放呢！
+    难不成老板也喜欢……吗？
+    ……原来只是让它开着而已。
+    «ID MSG_Set_Interior20  对话»
+
+〔旁白〕……
+    是在中野拿到的呢。
+    «ID MND_Set_Interior20  对话»
+
+【摩尔加纳】这不就是吾辈第一次得到，充满回忆的物品吗──！
+    抓娃娃机居然那么好玩，
+    吾辈以前都不知道呢！
+    «ID MSG_Set_crane01  对话»
+
+〔旁白〕……
+    是在秋叶原的游戏中心得到的呢……
+    «ID MND_Set_crane01  对话»
+
+【摩尔加纳】大爆炸汉堡，
+    记得在涩谷有开店呢。
+    在大胃王挑战之后看这个，
+    感觉有点反胃……
+    «ID MSG_Set_crane02  对话»
+
+〔旁白〕……
+    是在秋叶原的游戏中心得到的呢……
+    «ID MND_Set_crane02  对话»
+
+【摩尔加纳】这好像是安保公司的吉祥物呢。
+    月亮与太阳……代表２４小时安保吗。
+    «ID MSG_Set_crane03  对话»
+
+〔旁白〕……
+    是在秋叶原的游戏中心得到的呢……
+    «ID MND_Set_crane03  对话»
+
+【摩尔加纳】头和身体，四肢和头的比例太夸张了吧……
+    不知道算可爱还是不可爱，
+    真是微妙……
+    «ID MSG_Set_crane04  对话»
+
+〔旁白〕……
+    是在秋叶原的游戏中心得到的呢……
+    «ID MND_Set_crane04  对话»
+
+【摩尔加纳】这张脸一看就知道是有烦心事啊。
+    ……它到底在烦恼些什么呢？
+    «ID MSG_Set_crane05  对话»
+
+〔旁白〕……
+    是在秋叶原的游戏中心得到的呢……
+    «ID MND_Set_crane05  对话»
+
+【摩尔加纳】这家伙两眼充血啊。
+    ……是不是没睡饱？
+    «ID MSG_Set_crane06  对话»
+
+〔旁白〕……
+    是在秋叶原的游戏中心得到的呢……
+    «ID MND_Set_crane06  对话»
+
+【摩尔加纳】好像是个有斗鸡眼的熊猫呢……
+    话说回来，是不是也有人喜欢这种类型的呢？
+    «ID MSG_Set_crane07  对话»
+
+〔旁白〕……
+    是在秋叶原的游戏中心得到的呢……
+    «ID MND_Set_crane07  对话»
+
+【摩尔加纳】这个玩偶，为什么是长颈鹿啊？
+    啊，吾辈懂了……！
+    «ID MSG_Set_crane08  对话»
+
+〔旁白〕……
+    是在秋叶原的游戏中心得到的呢……
+    «ID MND_Set_crane08  对话»
+
+〔旁白〕虽然积了不少灰尘，
+    不过只要清干净应该就可以用了……
+    «ID Sofa_CHECK_NG_0409_mes01  对话»
+
+〔旁白〕还是把灰尘擦掉比较好……
+    «ID Sofa_CHECK_NG_0409_mes02  对话»
+
+〔旁白〕是在秋叶原的游戏中心拿到的
+    ……
+    «ID MND_Set_UFO_01  对话»
+
+〔旁白〕是在秋叶原的游戏中心拿到的
+    ……
+    «ID MND_Set_UFO_02  对话»
+
+〔旁白〕是在秋叶原的游戏中心拿到的
+    ……
+    «ID MND_Set_UFO_03  对话»
+
+〔旁白〕是在秋叶原的游戏中心拿到的
+    ……
+    «ID MND_Set_UFO_04  对话»
+
+〔旁白〕是在秋叶原的游戏中心拿到的
+    ……
+    «ID MND_Set_UFO_05  对话»
+
+〔旁白〕是在秋叶原的游戏中心拿到的
+    ……
+    «ID MND_Set_UFO_06  对话»
+
+〔旁白〕是在秋叶原的游戏中心拿到的
+    ……
+    «ID MND_Set_UFO_07  对话»
+
+〔旁白〕是在秋叶原的游戏中心拿到的
+    ……
+    «ID MND_Set_UFO_08  对话»
+
+〔旁白〕是在品川收到的
+    ……
+    «ID MND_Set_Tana_01  对话»
+
+〔旁白〕是在浅草买的
+    ……
+    «ID MND_Set_Tana_02  对话»
+
+〔旁白〕是在中野收到的
+    ……
+    «ID MND_Set_Tana_03  对话»
+
+〔旁白〕是在井之头公园收到的
+    ……
+    «ID MND_Set_Tana_04  对话»
+
+〔旁白〕是在荻洼收到的
+    ……
+    «ID MND_Set_Tana_05  对话»
+
+〔旁白〕是在月岛收到的
+    ……
+    «ID MND_Set_Tana_06  对话»
+
+〔旁白〕是在神保町收到的
+    ……
+    «ID MND_Set_Tana_07  对话»
+
+〔旁白〕是在秋叶原收到的
+    ……
+    «ID MND_Set_Tana_08  对话»
+
+〔旁白〕是在银座收到的
+    ……
+    «ID MND_Set_Tana_09  对话»

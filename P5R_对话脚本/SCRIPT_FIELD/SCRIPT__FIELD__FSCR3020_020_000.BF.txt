@@ -1,0 +1,92 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR3020_020_000.BF
+对话条目: 22 条
+================================================================================
+
+【摩尔加纳】这次吾辈会提供材料。
+    试着做做看吧。
+    «ID CRAFTWORK_HELP  对话»
+
+【摩尔加纳】不用想得太复杂，
+    熟能生巧。
+    «ID CRAFTWORK_START  对话»
+
+【摩尔加纳】毕竟是休息日的白天，
+    比平时有更多时间制作呢。
+    «ID MSG_ToolMake_START_Gogo  对话»
+
+【摩尔加纳】虽然今天的天气让人有点失望，
+    但这种时候也更容易集中精神呢。
+    «ID MSG_ToolMake_START_BadWe  对话»
+
+【摩尔加纳】嗯，这可以派上用场！
+    «ID TOOLWIN_MAKE_END_FIRST  对话»
+
+【摩尔加纳】照这个速度
+    应该还可以再做一个吧……
+    «ID TOOLWIN_MAKE_ONEMORE  对话»
+
+【摩尔加纳】感觉还可以继续制作呢。
+    怎么办？
+    «ID TOOLWIN_MAKE2_ONEMORE  对话»
+
+【摩尔加纳】刚才那个做的真不错，
+    已经掌握到要领了吗！
+    是不是有点累了？
+    还要继续吗？
+    «ID TOOLWIN_MAKE3_ONEMORE  对话»
+
+【选项】TOOLWIN_CONTINUE_SEL
+    ▸ 继续制作
+    ▸ 到此为止
+    «ID TOOLWIN_CONTINUE_SEL  选项»
+
+【摩尔加纳】的确是进步了呢。
+    一看就知道了。
+    «ID MSG_LAST_Message_end  对话»
+
+【摩尔加纳】吾辈看到了哦，
+    今天的手法……实在是太完美了呢！
+    «ID MSG_LAST_Message_end_SP  对话»
+
+〔旁白〕感觉变得很熟练了……
+    «ID MND_LAST_Message_end  对话»
+
+【摩尔加纳】这么一来就准备完毕了……
+    明天终于要潜入宫殿了，
+    今天先睡吧。
+    «ID MSG_LAST_Message_0417  对话»
+
+【摩尔加纳】那，今天就先去睡觉吧！
+    «ID MSG_LAST_Message  对话»
+
+【摩尔加纳】你累了吧？
+    稍微休息一下吧。
+    «ID MSG_LAST_Message_Hiru  对话»
+
+〔旁白〕差不多该去休息了……
+    «ID MND_LAST_Message_Hiru  对话»
+
+【摩尔加纳】你不用非要自己做，拜托川上也可以的。
+    不过，她最多也就能做１种吧……
+    «ID MSG_KawakamiWorkInfo  对话»
+
+【摩尔加纳】晚上可以拜托川上哦。
+    考虑一下计划再行动吧？
+    «ID MSG_KawakamiWorkInfo_Day  对话»
+
+【摩尔加纳】今天的你，应该能做[var 0]个吧。
+    加油啊。
+    «ID MSG_DOUGUDUKURI_PLAYPARA  对话»
+
+【摩尔加纳】多亏你看书掌握了诀窍，
+    现在好像可以做[var 0]个了哦！
+    «ID MSG_DOUGUDUKURI_PLAYPARA_2  对话»
+
+【摩尔加纳】有了秋叶原买的工具，
+    现在好像可以做[var 0]个了哦！
+    «ID MSG_DOUGUDUKURI_PLAYPARA_3  对话»
+
+【摩尔加纳】书读过了，工具也买了！
+    现在的你好像可以做[var 0]个了哦！
+    «ID MSG_DOUGUDUKURI_PLAYPARA_4  对话»

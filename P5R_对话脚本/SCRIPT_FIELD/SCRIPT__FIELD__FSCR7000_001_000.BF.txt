@@ -1,0 +1,117 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR7000_001_000.BF
+对话条目: 26 条
+================================================================================
+
+【选项】YESNO_SEL
+    ▸ 是
+    ▸ 否
+    «ID YESNO_SEL  选项»
+
+〔旁白〕这里卖新鲜水果的果汁。
+    有时间的话就试一试吧……
+    «ID MND_JuiceShop_NotOpen  对话»
+
+【摩尔加纳】饮料店吗……
+    比普通的饮料贵啊。
+    如果有特别的饮料，
+    倒是可以买来尝尝……
+    «ID MSG_1stInfo_Aojiru_01  对话»
+
+【饮料店店员】欢迎光临！
+    本店有各种新鲜水果的饮料！
+    ……咦？特别的饮料吗？
+    没问题，今天正好有哦！
+    «ID MSG_1stInfo_Aojiru_02  对话»
+
+【摩尔加纳】哦，是什么啊？
+    «ID MSG_1stInfo_Aojiru_03  对话»
+
+【饮料店店员】欢迎光临！
+    ……咦？特别的饮品吗？
+    星期天的话，
+    倒是有限定的青汁……
+    «ID MSG_1stInfo_Aojiru_NotSe  对话»
+
+【摩尔加纳】是吗？真可惜。
+    下个星期天来看看吧？
+    «ID MSG_1stInfo_Aojiru_NotSe_2  对话»
+
+【饮料店店员】以超级难喝的味道为代价，
+    强化客人的体格……
+    那便是广为人知的『青汁』！
+    本店每周都会提供……
+    各种口味的青汁。
+    «ID MSG_1stInfo_Aojiru_04  对话»
+
+【饮料店店员】非常抱歉。
+    今天的青汁已经卖完了……
+    青汁是星期天限定的……
+    «ID MSG_NotSale_Aojiru_01  对话»
+
+【摩尔加纳】啊～真可惜。
+    下次再来吧！
+    «ID MSG_NotSale_Aojiru_02  对话»
+
+【饮料店店员】欢迎光临～！
+    要不要尝尝新鲜的果汁饮料呢～？
+    今天星期天，
+    我们有限定青汁！
+    «ID MSG_Sale_Aojiru_01  对话»
+
+【摩尔加纳】哦，有了有了！
+    青汁！
+    «ID MSG_Sale_Aojiru_02  对话»
+
+【摩尔加纳】咦？不喝吗？
+    害怕了吗……
+    «ID MSG_Aojiru_Notbuy  对话»
+
+【摩尔加纳】喂，１天内不能喝２杯哦。
+    太过健康反而会很危险哦？
+    «ID MSG_Aojiru_Today_Drink  对话»
+
+【摩尔加纳】今天的青汁……好像能增加[stIcon 0][stLabel 0]呢。
+    ……不过对现在的你而言，是派不上用场的吧。
+    «ID MND_Aojiru_ParamEndInfo_  对话»
+
+【摩尔加纳】今天的青汁……好像能增加[stIcon 1][stLabel 1]呢。
+    ……不过对现在的你而言，是派不上用场的吧。
+    «ID MND_Aojiru_ParamEndInfo__2  对话»
+
+【摩尔加纳】今天的青汁……好像能增加[stIcon 2][stLabel 2]呢。
+    ……不过对现在的你而言，是派不上用场的吧。
+    «ID MND_Aojiru_ParamEndInfo__3  对话»
+
+【摩尔加纳】今天的青汁……好像能增加[stIcon 3][stLabel 3]呢。
+    ……不过对现在的你而言，是派不上用场的吧。
+    «ID MND_Aojiru_ParamEndInfo__4  对话»
+
+【摩尔加纳】今天的青汁……好像能增加[stIcon 4][stLabel 4]呢。
+    ……不过对现在的你而言，是派不上用场的吧。
+    «ID MND_Aojiru_ParamEndInfo__5  对话»
+
+【摩尔加纳】来来，一口气喝了吧！
+    «ID MSG_Aojiru_Start_RND01  对话»
+
+【摩尔加纳】这、这颜色还真可怕。
+    吾辈绝对不会想喝……
+    «ID MSG_Aojiru_Start_RND02  对话»
+
+【摩尔加纳】要获得健康的身体，也是需要下定决心的呀……
+    «ID MSG_Aojiru_Start_RND03  对话»
+
+【摩尔加纳】喝得真爽快！
+    很有男子汉气概哦！
+    «ID MSG_Aojiru_NowDrink  对话»
+
+【摩尔加纳】漂亮！
+    你的努力，吾辈都看在眼里！
+    «ID MSG_Aojiru_End  对话»
+
+【摩尔加纳】哇……跟刚才完全判若两人！
+    «ID MSG_Aojiru_HumanParamGet  对话»
+
+【摩尔加纳】好，既然又健康了一步，
+    就去其他地方吧！
+    «ID MSG_Aojiru_Finish  对话»

@@ -1,0 +1,938 @@
+================================================================================
+来源文件: SCRIPT\FIELD\FSCR5000_100_000.BF
+对话条目: 239 条
+================================================================================
+
+【选项】DUNGEON_CHECK_SEL
+    ▸ 记录探索情况[bitflag 0 0 106 1]
+    ▸ 想跟大家谈谈[bitflag 0 0 106 1]
+    ▸ 使用道具恢复吧[bitflag 0 0 106 1]
+    ▸ 回到入口吧[bitflag 0 0 106 1]
+    ▸ 继续探索[bitflag 0 0 106 1]
+    «ID DUNGEON_CHECK_SEL  选项»
+
+【摩尔加纳】你打算怎么样？ＪＯＫＥＲ。
+    «ID DUNGEON_CHECK_PC03_mes01  对话»
+
+【明智　吾郎】你打算干什么？
+    «ID DUNGEON_CHECK_PC09_mes01  对话»
+
+【摩尔加纳】休息一下应该不错，
+    怎么样，ＪＯＫＥＲ？
+    «ID DUNGEON_REST_PC03_mes01  对话»
+
+【明智　吾郎】先休息一下会比较好吧？
+    还是要先做别的事呢？
+    «ID DUNGEON_REST_PC09_mes01  对话»
+
+【摩尔加纳】还有其他事情需要讨论吗？
+    «ID DUNGEON_CHECK_AF_PC03_me  对话»
+
+【明智　吾郎】还有其他事情需要讨论？
+    «ID DUNGEON_CHECK_AF_PC09_me  对话»
+
+【摩尔加纳】怎么，没问题了吗？
+    «ID DUNGEON_CHECK_NOT_PC03_m  对话»
+
+【明智　吾郎】哦？没问题了吗？
+    «ID DUNGEON_CHECK_NOT_PC09_m  对话»
+
+【摩尔加纳】你想说什么吗？
+    «ID DUNGEON_BRIEFING_OR_STAT  对话»
+
+【摩尔加纳】嗯，不谈了吗？
+    «ID DUNGEON_BRIEFING_OR_STAT_2  对话»
+
+【明智　吾郎】要讨论些什么吗？
+    «ID DUNGEON_BRIEFING_OR_STAT_3  对话»
+
+【明智　吾郎】哦，不谈了吗？
+    «ID DUNGEON_BRIEFING_OR_STAT_4  对话»
+
+【选项】DUNGEON_BRIEFING_OR_STAT_5
+    ▸ 进展如何？[bitflag 0 0 106 1]
+    ▸ 大家的状态如何？[bitflag 0 0 106 1]
+    ▸ 没什么事
+    «ID DUNGEON_BRIEFING_OR_STAT_5  选项»
+
+【选项】AT_DUNGEON_CHECK_SEL
+    ▸ 记录探索情况[bitflag 0 0 106 1]
+    ▸ 想跟大家谈谈[bitflag 0 0 106 1]
+    ▸ 使用道具恢复吧[bitflag 0 0 106 1]
+    ▸ 回到入口吧[bitflag 0 0 106 1]
+    ▸ 继续探索[bitflag 0 0 106 1]
+    «ID AT_DUNGEON_CHECK_SEL  选项»
+
+【坂本　龙司】好，那就出发吧。
+    «ID DUNGEON_CHECK_END_mes02  对话»
+
+【摩尔加纳】知道了，那就出发吧。
+    «ID DUNGEON_CHECK_END_mes03  对话»
+
+【高卷　杏】那就结束讨论了。
+    «ID DUNGEON_CHECK_END_mes04  对话»
+
+【喜多川　佑介】嗯，那就走吧。
+    «ID DUNGEON_CHECK_END_mes05  对话»
+
+【新岛　真】也是，那就出发吧。
+    «ID DUNGEON_CHECK_END_mes06  对话»
+
+【佐仓　双叶】讨论结束！出发啦！
+    «ID DUNGEON_CHECK_END_mes07  对话»
+
+【奥村　春】是呀，出发吧。
+    «ID DUNGEON_CHECK_END_mes08  对话»
+
+【明智　吾郎】明白。走，出发吧。
+    «ID DUNGEON_CHECK_END_mes09  对话»
+
+【sumi 10 0】了解，那就出发吧！
+    «ID DUNGEON_CHECK_END_mes10 [  对话»
+
+【摩尔加纳】那就慢慢撤退吧？
+    这样根本无法前进。
+    «ID DUNGEON_CHECK_END_PC03_m  对话»
+
+【摩尔加纳】要先回到入口处吗？
+    «ID SAFEROOM_GOTO_ENTRANCE_P  对话»
+
+【明智　吾郎】你要先回到入口处吗？
+    «ID SAFEROOM_GOTO_ENTRANCE_P_2  对话»
+
+【选项】SAFEROOM_GOTO_ENTRANCE_S
+    ▸ 回去吧[bitflag 0 0 106 1]
+    ▸ 等一下[bitflag 0 0 106 1]
+    «ID SAFEROOM_GOTO_ENTRANCE_S  选项»
+
+【摩尔加纳】那么，就回去吧。
+    «ID SAFEROOM_GOTO_ENTRANCE_E  对话»
+
+【明智　吾郎】那就回去吧。
+    «ID SAFEROOM_GOTO_ENTRANCE_E_2  对话»
+
+【摩尔加纳】嗯，这样啊。
+    想回去的话就说一声吧。
+    «ID SAFEROOM_GOTO_ENTRANCE_N  对话»
+
+【明智　吾郎】这样啊，
+    想回去的话就说一声吧。
+    «ID SAFEROOM_GOTO_ENTRANCE_N_2  对话»
+
+【坂本　龙司】说的没错，反正时间也还很充裕，
+    就到此为止吧。
+    «ID SAFEROOM_EXIT_CHECK_01_P  对话»
+
+【摩尔加纳】也对，反正时间还很充裕，
+    就在这里结束吧。
+    «ID SAFEROOM_EXIT_CHECK_01_P_2  对话»
+
+【高卷　杏】也是，毕竟时间也还很充裕，
+    这次就到这里吧。
+    «ID SAFEROOM_EXIT_CHECK_01_P_3  对话»
+
+【喜多川　佑介】是呀，时间还很充裕，
+    在这里结束也不错。
+    «ID SAFEROOM_EXIT_CHECK_01_P_4  对话»
+
+【新岛　真】嗯……反正时间还很充裕，
+    就到这里吧。
+    «ID SAFEROOM_EXIT_CHECK_01_P_5  对话»
+
+【佐仓　双叶】是呀，时间还很充裕，
+    也该撤退了。
+    «ID SAFEROOM_EXIT_CHECK_01_P_6  对话»
+
+【奥村　春】也是，时间还很充裕……
+    就到这里吧。
+    «ID SAFEROOM_EXIT_CHECK_01_P_7  对话»
+
+【明智　吾郎】也是，时间还很充裕吧。
+    就此撤退也是个明智的选择。
+    «ID SAFEROOM_EXIT_CHECK_01_P_8  对话»
+
+【sumi 10 0】说得也是，时间也还很充裕。
+    我们撤退吧。
+    «ID SAFEROOM_EXIT_CHECK_01_P_9 [  对话»
+
+【坂本　龙司】虽然剩下的时间不多了……
+    不过先撤退也好。
+    «ID SAFEROOM_EXIT_CHECK_02_0  对话»
+
+【摩尔加纳】虽然剩下的时间不多了……
+    不过先撤退也好。
+    «ID SAFEROOM_EXIT_CHECK_02_0_2  对话»
+
+【高卷　杏】虽然剩下的时间不多了……
+    不过先撤退也不坏。
+    «ID SAFEROOM_EXIT_CHECK_02_0_3  对话»
+
+【喜多川　佑介】虽然剩下的时间不多了……
+    不过先撤退也行。
+    «ID SAFEROOM_EXIT_CHECK_02_0_4  对话»
+
+【新岛　真】虽然剩下的时间不多了……
+    不过先撤退也行。
+    «ID SAFEROOM_EXIT_CHECK_02_0_5  对话»
+
+【佐仓　双叶】虽然剩下的时间不多了……
+    不过暂且撤退倒也不坏。
+    «ID SAFEROOM_EXIT_CHECK_02_0_6  对话»
+
+【奥村　春】虽然剩下的时间不多了……
+    不过先撤退也行。
+    «ID SAFEROOM_EXIT_CHECK_02_0_7  对话»
+
+【明智　吾郎】虽然剩下的时间不多了……
+    不过先撤退也行。
+    «ID SAFEROOM_EXIT_CHECK_02_0_8  对话»
+
+【sumi 10 0】虽然剩下的时间不多了……
+    不过暂且撤退也是个选择。
+    «ID SAFEROOM_EXIT_CHECK_02_0_9 [  对话»
+
+【坂本　龙司】已经确保路线了吧。
+    那就回去吧。
+    «ID SAFEROOM_EXIT_CHECK_03_0  对话»
+
+【摩尔加纳】已经确保通往秘宝的路线了。
+    没有其他事情的话就撤退吧。
+    «ID SAFEROOM_EXIT_CHECK_03_0_2  对话»
+
+【高卷　杏】已经知道秘宝的所在地了吧。
+    那就可以撤退了吧？
+    «ID SAFEROOM_EXIT_CHECK_03_0_3  对话»
+
+【喜多川　佑介】已经确保了秘宝路线。
+    没有其他事情的话就先撤退吧。
+    «ID SAFEROOM_EXIT_CHECK_03_0_4  对话»
+
+【新岛　真】已经确保秘宝路线了吧。
+    没有其他事情的话就先撤退吧。
+    «ID SAFEROOM_EXIT_CHECK_03_0_5  对话»
+
+【佐仓　双叶】已经确保秘宝路线了哦。
+    没有其他事情的话就先撤退吧。
+    «ID SAFEROOM_EXIT_CHECK_03_0_6  对话»
+
+【奥村　春】已经确保秘宝路线了吧。
+    没有其他事情的话就先撤退吧。
+    «ID SAFEROOM_EXIT_CHECK_03_0_7  对话»
+
+【明智　吾郎】已经确保秘宝路线了吧？
+    没其他事情的话就回去吧。
+    «ID SAFEROOM_EXIT_CHECK_03_0_8  对话»
+
+【sumi 10 0】看来已经确保秘宝路线了呢。
+    没有其他事情的话就撤退吧。
+    «ID SAFEROOM_EXIT_CHECK_03_0_9 [  对话»
+
+【坂本　龙司】我还行呢！
+    所有人都还有余力吧？
+    «ID PARTY_ALL_Good_01_PC02_m  对话»
+
+【摩尔加纳】大家几乎都没耗费什么力量呀。
+    都还很有精神呢。
+    «ID PARTY_ALL_Good_01_PC03_m  对话»
+
+【高卷　杏】没问题哦！
+    大家也没问题吧？
+    «ID PARTY_ALL_Good_01_PC04_m  对话»
+
+【喜多川　佑介】精神和体力都很充沛。
+    全员应该都没有问题吧？
+    «ID PARTY_ALL_Good_01_PC05_m  对话»
+
+【新岛　真】没有什么问题。
+    不如说，还游刃有余呢。
+    «ID PARTY_ALL_Good_01_PC06_m  对话»
+
+【佐仓　双叶】不要紧！全员都没问题。
+    还很有精神呢！
+    «ID PARTY_ALL_Good_01_PC07_m  对话»
+
+【奥村　春】好像大家都没问题。
+    我也是没问题哦。
+    «ID PARTY_ALL_Good_01_PC08_m  对话»
+
+【明智　吾郎】并没有什么问题。
+    不如说一点倦意都没有。
+    «ID PARTY_ALL_Good_01_PC09_m  对话»
+
+【sumi 10 0】完全没问题！
+    我还一点都不觉得累呢。
+    «ID PARTY_ALL_Good_01_PC10_m [  对话»
+
+【坂本　龙司】啊……我的体力有点不够了……
+    «ID PARTY_Bad_01_PC02_mes  对话»
+
+【摩尔加纳】可恶，吾辈竟然会筋疲力尽……
+    «ID PARTY_Bad_01_PC03_mes  对话»
+
+【高卷　杏】啊，对不起，我累得快不能动了……
+    «ID PARTY_Bad_01_PC04_mes  对话»
+
+【喜多川　佑介】抱歉，其实，我快用尽力气了……
+    «ID PARTY_Bad_01_PC05_mes  对话»
+
+【新岛　真】抱歉。
+    似乎已经无法集中精神了……
+    «ID PARTY_Bad_01_PC06_mes  对话»
+
+【佐仓　双叶】说实话……我很困。
+    有种燃料耗尽的感觉……
+    «ID PARTY_Bad_01_PC07_mes  对话»
+
+【奥村　春】啊，非常抱歉……
+    我好像有点使不上力了……
+    «ID PARTY_Bad_01_PC08_mes  对话»
+
+【明智　吾郎】抱歉。
+    好像集中力已经用尽了……
+    «ID PARTY_Bad_01_PC09_mes  对话»
+
+【sumi 10 0】真抱歉。
+    我好像已经没办法集中精神了……
+    «ID PARTY_Bad_01_PC10_mes [  对话»
+
+【坂本　龙司】我还很有精神呢。
+    要不要和我换？
+    «ID PARTY_RESERVE_Good_01_PC  对话»
+
+【摩尔加纳】吾辈可是精力充沛哦。
+    或许交换一下会更好哦。
+    «ID PARTY_RESERVE_Good_01_PC_2  对话»
+
+【高卷　杏】我还能继续哦。
+    不然换人吧？
+    «ID PARTY_RESERVE_Good_01_PC_3  对话»
+
+【喜多川　佑介】我还能继续战斗呢。
+    如果需要交换，尽管说吧。
+    «ID PARTY_RESERVE_Good_01_PC_4  对话»
+
+【新岛　真】我还有力气。
+    需要和累了的成员换吗？
+    «ID PARTY_RESERVE_Good_01_PC_5  对话»
+
+【奥村　春】我还行哦。
+    需要的话，就让我换人吧。
+    «ID PARTY_RESERVE_Good_01_PC_6  对话»
+
+【明智　吾郎】我还很有精神呢。
+    战斗成员需不需要和我换？
+    «ID PARTY_RESERVE_Good_01_PC_7  对话»
+
+【sumi 10 0】我还没问题哦。
+    不介意的话，要不要和我换？
+    «ID PARTY_RESERVE_Good_01_PC_8 [  对话»
+
+【坂本　龙司】虽然有点累了，
+    不过还能继续战斗。
+    «ID PARTY_ALL_NORMAL_01_PC02  对话»
+
+【高卷　杏】有点累了，但还不要紧。
+    我还能战斗哦。
+    «ID PARTY_ALL_NORMAL_01_PC04  对话»
+
+【喜多川　佑介】虽然消耗了点体力，但是没问题。
+    我还能继续战斗。
+    «ID PARTY_ALL_NORMAL_01_PC05  对话»
+
+【新岛　真】似乎略有消耗，不过没关系。
+    我还没问题。
+    «ID PARTY_ALL_NORMAL_01_PC06  对话»
+
+【佐仓　双叶】大家都还没什么问题呢，
+    不愧是我们怪盗团！
+    «ID PARTY_ALL_NORMAL_01_PC07  对话»
+
+【奥村　春】虽然稍微有点累了，不过不要紧。
+    还能继续战斗。
+    «ID PARTY_ALL_NORMAL_01_PC08  对话»
+
+【明智　吾郎】大家的体力都略有消耗呀。
+    但是这种程度还不要紧吧？
+    «ID PARTY_ALL_NORMAL_01_PC09  对话»
+
+【sumi 10 0】虽然大家好像都有一点累了，
+    但我还很有精神哦。
+    «ID PARTY_ALL_NORMAL_01_PC10 [  对话»
+
+【坂本　龙司】剩余天数还剩[var 1]天啦。
+    «ID PARTY_LIMIT_CHECK_01_PC0  对话»
+
+【摩尔加纳】距离期限还剩[var 1]天哦。
+    «ID PARTY_LIMIT_CHECK_01_PC0_2  对话»
+
+【高卷　杏】距离期限还剩[var 1]天了呀。
+    «ID PARTY_LIMIT_CHECK_01_PC0_3  对话»
+
+【喜多川　佑介】距离期限还剩[var 1]天啊……
+    «ID PARTY_LIMIT_CHECK_01_PC0_4  对话»
+
+【新岛　真】距离确保路线的期限还剩[var 1]天。
+    «ID PARTY_LIMIT_CHECK_01_PC0_5  对话»
+
+【佐仓　双叶】先确认一下，距离期限还剩[var 1]天！
+    «ID PARTY_LIMIT_CHECK_01_PC0_6  对话»
+
+【奥村　春】剩余天数还剩[var 1]天哦。
+    «ID PARTY_LIMIT_CHECK_01_PC0_7  对话»
+
+【明智　吾郎】距离期限剩余[var 1]天哦。
+    «ID PARTY_LIMIT_CHECK_01_PC0_8  对话»
+
+【sumi 10 0】距离期限只剩下[var 1]天了呢。
+    «ID PARTY_LIMIT_CHECK_01_PC1 [  对话»
+
+【坂本　龙司】还剩很多天呢，
+    现在撤退也行。
+    «ID PARTY_LIMIT_HIGH_01_PC02  对话»
+
+【摩尔加纳】距离期限还有很多时间。
+    不用太勉强，也要考虑撤退的时机哦。
+    «ID PARTY_LIMIT_HIGH_01_PC03  对话»
+
+【高卷　杏】时间还剩下很多，
+    或许也该撤退了吧。
+    «ID PARTY_LIMIT_HIGH_01_PC04  对话»
+
+【喜多川　佑介】还有很多天呢，
+    不用着急，先回去一趟吧？
+    «ID PARTY_LIMIT_HIGH_01_PC05  对话»
+
+【新岛　真】还有时间可以回去。
+    不用太勉强，撤退也是很重要的。
+    «ID PARTY_LIMIT_HIGH_01_PC06  对话»
+
+【佐仓　双叶】还有时间呢，
+    就让我们慢慢来吧……
+    «ID PARTY_LIMIT_HIGH_01_PC07  对话»
+
+【奥村　春】也许我们不用那么着急。
+    今天就先回去吧？
+    «ID PARTY_LIMIT_HIGH_01_PC08  对话»
+
+【明智　吾郎】还不到需要着急的时候呢。
+    先撤退也不错啊。
+    «ID PARTY_LIMIT_HIGH_01_PC09  对话»
+
+【sumi 10 0】还有时间呢。
+    先撤退怎么样？
+    «ID PARTY_LIMIT_HIGH_01_PC10 [  对话»
+
+【坂本　龙司】剩余天数不多了啊。
+    今天只能再努力一下，拼一点了。
+    «ID PARTY_LIMIT_LOW_01_PC02_  对话»
+
+【摩尔加纳】期限快到了呀。
+    就算有点勉强，也只能继续前进了吧。
+    «ID PARTY_LIMIT_LOW_01_PC03_  对话»
+
+【高卷　杏】已经没有时间了吧……
+    就算很勉强，也要拼下去了。
+    «ID PARTY_LIMIT_LOW_01_PC04_  对话»
+
+【喜多川　佑介】考虑到剩余时间，我们不能再这么悠闲了。
+    继续前进吧。
+    «ID PARTY_LIMIT_LOW_01_PC05_  对话»
+
+【新岛　真】距离期限已经没有几天了。
+    努力继续前进吧。
+    «ID PARTY_LIMIT_LOW_01_PC06_  对话»
+
+【佐仓　双叶】剩余天数……已经开始倒数计时了吧？
+    应该再继续往前走吧？
+    «ID PARTY_LIMIT_LOW_01_PC07_  对话»
+
+【奥村　春】虽然会很辛苦，但是已经没多少天了……
+    再努力一下吧？
+    «ID PARTY_LIMIT_LOW_01_PC08_  对话»
+
+【明智　吾郎】已经没多少时间了。
+    现在就继续前进吧。
+    «ID PARTY_LIMIT_LOW_01_PC09_  对话»
+
+【sumi 10 0】已经没剩多少时间了呢。
+    要不要再前进一下？
+    «ID PARTY_LIMIT_LOW_01_PC10_ [  对话»
+
+【摩尔加纳】大家似乎还很有精神嘛。
+    应该可以继续探索一下哦。
+    «ID SP_CHECK_80_PC03_mes01  对话»
+
+【摩尔加纳】虽然大家看起来都还很有精神，
+    但也要小心地分配步调哦。
+    «ID SP_CHECK_60_PC03_mes01  对话»
+
+【摩尔加纳】有队员感到疲惫了。
+    ＪＯＫＥＲ，去关心一下他们吧。
+    «ID SP_CHECK_40_PC03_mes01  对话»
+
+【摩尔加纳】大家好像都没力气了呀……
+    可不要勉强哦？
+    «ID SP_CHECK_20_PC03_mes01  对话»
+
+【摩尔加纳】主力们好像都无精打采了啊……
+    可不要勉强哦？
+    «ID SP_CHECK_20_PC03_mes02  对话»
+
+【摩尔加纳】大家都已经精疲力尽了……
+    再这样继续战斗的话，会很危险哦？
+    «ID SP_CHECK_00_PC03_mes01  对话»
+
+【摩尔加纳】主力们都精疲力尽了……
+    再这样继续战斗的话，会很危险哦？
+    «ID SP_CHECK_00_PC03_mes02  对话»
+
+【摩尔加纳】ＪＯＫＥＲ的体力消耗太多了。
+    没事吧？
+    «ID PARTY_Bad_EX_PC01_mes01  对话»
+
+【佐仓　双叶】ＪＯＫＥＲ的体力消耗太多了。
+    没事吧？
+    «ID PARTY_Bad_EX_PC01_mes02  对话»
+
+【明智　吾郎】你看起来消耗了很多体力呢。
+    还好吗？
+    «ID PARTY_Bad_EX_PC01_mes03  对话»
+
+【坂本　龙司】我还很有精神呢。
+    也依靠一下我的力量吧！
+    «ID PARTY_RESERVE_Good_EX_PC  对话»
+
+【摩尔加纳】吾辈可是精力充沛哦。
+    来依靠吾辈的力量吧。
+    «ID PARTY_RESERVE_Good_EX_PC_2  对话»
+
+【高卷　杏】我还能继续哦。
+    ＪＯＫＥＲ，也用我的力量吧！
+    «ID PARTY_RESERVE_Good_EX_PC_3  对话»
+
+【喜多川　佑介】我还能继续战斗哦。
+    随时都可以依靠我啊，ＪＯＫＥＲ。
+    «ID PARTY_RESERVE_Good_EX_PC_4  对话»
+
+【新岛　真】我还有很力气。
+    要全力战斗的话，也用我的力量吧。
+    «ID PARTY_RESERVE_Good_EX_PC_5  对话»
+
+【奥村　春】我还能继续。
+    ＪＯＫＥＲ，你也可以依靠我的力量哦。
+    «ID PARTY_RESERVE_Good_EX_PC_6  对话»
+
+【明智　吾郎】我还游刃有余呢。
+    要是能助你一臂之力，就尽管下命令吧。
+    «ID PARTY_RESERVE_Good_EX_PC_7  对话»
+
+【sumi 10 0】我还没问题哦。
+    请多依赖我一点吧。
+    «ID PARTY_RESERVE_Good_EX_PC_8 [  对话»
+
+【摩尔加纳】有队员感到疲惫了。
+    剩余天数也不多了，前进时保持体力吧。
+    «ID SP_CHECK_40_limit_PC03_m  对话»
+
+【摩尔加纳】大家已经很累呀……
+    虽然是应该撤退的时候……
+    但时间也所剩无几了……
+    «ID SP_CHECK_20_limit_PC03_m  对话»
+
+【摩尔加纳】大家都已经精疲力尽了……
+    其实应该马上就撤退的，
+    但也没时间了……伤脑筋……
+    «ID SP_CHECK_00_limit_PC03_m  对话»
+
+【摩尔加纳】至少让特别疲劳的成员
+    和后备成员交换吧？
+    «ID SP_RESERVE_20_PC03_mes01  对话»
+
+【摩尔加纳】至少换一下主力吧？
+    «ID SP_RESERVE_00_PC03_mes01  对话»
+
+【摩尔加纳】啊，别忘了注意体力哦？
+    有人已经到极限了哦？
+    «ID HP_CHECK_40_PC03_mes01  对话»
+
+〔旁白〕安全屋专用恢复道具
+    «ID DEBUG_CALENDAR_10_TITLE  对话»
+
+【选项】DEBUG_CALENDAR_10_SEL
+    ▸ 取消
+    «ID DEBUG_CALENDAR_10_SEL  选项»
+
+【选项】START_CHECK_SEL
+    ▸ 在上次使用的安全屋前
+    ▸ 就这样潜入
+    ▸ 还不想潜入
+    «ID START_CHECK_SEL  选项»
+
+【摩尔加纳】要从哪里开始探索？
+    «ID START_CHECK_MES  对话»
+
+【摩尔加纳】可得谨慎选择目的地哦。
+    «ID START_CHECK_MES_NEXT  对话»
+
+【选项】DUNGEON_EXIT_SEL
+    ▸ ※特殊
+    ▸ 撤退吧
+    ▸ 还不能回去
+    «ID DUNGEON_EXIT_SEL  选项»
+
+【选项】DUNGEON_EXIT_154_SEL
+    ▸ 去街上看看
+    ▸ 撤退吧
+    ▸ 还不能回去
+    «ID DUNGEON_EXIT_154_SEL  选项»
+
+【选项】DUNGEON_EXIT_155_SEL
+    ▸ 去街上看看
+    ▸ 撤退吧
+    ▸ 还不能回去
+    «ID DUNGEON_EXIT_155_SEL  选项»
+
+【异世界导航Ａｐｐ】已从鸭志田・宫殿回到现实世界。
+    辛苦了。
+    «ID D01_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从斑目・宫殿回到现实世界。
+    辛苦了。
+    «ID D02_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从金城・宫殿回到现实世界。
+    辛苦了。
+    «ID D03_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从双叶・宫殿回到现实世界。
+    辛苦了。
+    «ID D04_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从奥村・宫殿回到现实世界。
+    辛苦了。
+    «ID D05_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从新岛・宫殿回到现实世界。
+    辛苦了。
+    «ID D06_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从狮童・宫殿回到现实世界。
+    辛苦了。
+    «ID D07_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从印象空间回到现实世界。
+    辛苦了。
+    «ID D08_EXIT_MES  对话»
+
+【异世界导航Ａｐｐ】已从丸喜・宫殿回到现实世界。
+    辛苦了。
+    «ID D10_EXIT_MES  对话»
+
+【摩尔加纳】已经确保了秘宝路线。
+    怎么样，要撤退吗？
+    «ID DUNGEON_ROUTE_COMP_PC03_  对话»
+
+【摩尔加纳】到约定之日前只要准备妥当就行了。
+    怎么样，要撤退吗？
+    «ID DUNGEON_ROUTE_COMP_PC04_  对话»
+
+【坂本　龙司】嗯？
+    什么都还没做就要回去了吗？
+    «ID DUNGEON_EXIT_NOT_01_PC02  对话»
+
+【摩尔加纳】怎么了ＪＯＫＥＲ。
+    今天还什么都没做呢。
+    «ID DUNGEON_EXIT_NOT_01_PC03  对话»
+
+【高卷　杏】咦？
+    什么都没做就要回去了？
+    «ID DUNGEON_EXIT_NOT_01_PC04  对话»
+
+【喜多川　佑介】怎么了？
+    今天还没有探索呢。
+    «ID DUNGEON_EXIT_NOT_01_PC05  对话»
+
+【新岛　真】怎么了？
+    什么都没做就要回去？
+    «ID DUNGEON_EXIT_NOT_01_PC06  对话»
+
+【佐仓　双叶】咦？ＪＯＫＥＲ你要回去了吗？
+    我怎么觉得什么都没做呢。
+    «ID DUNGEON_EXIT_NOT_01_PC07  对话»
+
+【奥村　春】ＪＯＫＥＲ你怎么了呢？
+    今天什么都还没做呢。
+    «ID DUNGEON_EXIT_NOT_01_PC08  对话»
+
+【明智　吾郎】哦？要回去了？
+    在我看来，什么都还没做呢。
+    «ID DUNGEON_EXIT_NOT_01_PC09  对话»
+
+【sumi 10 0】咦，要回去了吗？
+    我觉得什么都还没做啊……
+    «ID DUNGEON_EXIT_NOT_01_PC10 [  对话»
+
+【坂本　龙司】怎么了？要重新准备一下吗？
+    «ID DUNGEON_EXIT_01_PC02_mes  对话»
+
+【摩尔加纳】唔？ＪＯＫＥＲ你要撤退了？
+    «ID DUNGEON_EXIT_01_PC03_mes  对话»
+
+【高卷　杏】今天先暂时撤退吗？
+    «ID DUNGEON_EXIT_01_PC04_mes  对话»
+
+【喜多川　佑介】是要重整旗鼓吗？ＪＯＫＥＲ？
+    «ID DUNGEON_EXIT_01_PC05_mes  对话»
+
+【新岛　真】咦？要重新准备一次吗？
+    «ID DUNGEON_EXIT_01_PC06_mes  对话»
+
+【佐仓　双叶】或许重新准备一下也好。
+    «ID DUNGEON_EXIT_01_PC07_mes  对话»
+
+【奥村　春】是想要撤退了吗？
+    «ID DUNGEON_EXIT_01_PC08_mes  对话»
+
+【明智　吾郎】哦？你是要重新准备吗？
+    «ID DUNGEON_EXIT_01_PC09_mes  对话»
+
+【sumi 10 0】呃，是要重新准备吗？
+    «ID DUNGEON_EXIT_01_PC10_mes [  对话»
+
+【明智　吾郎】哦？你是要重新准备吗？
+    «ID DUNGEON_EXIT_01_PC11_mes  对话»
+
+【摩尔加纳】话说，约瑟好像说过只要一离开印象空间，
+    花朵就会消失的呢……
+    ……不过现在你身上也没有花，
+    要先撤退吗？ＪＯＫＥＲ。
+    «ID ATD_EXIT_REMIND_FLOWER_V  对话»
+
+【摩尔加纳】话说，约瑟好像说过只要一离开印象空间，
+    花朵就会消失的呢……
+    现在身上好像还带着[var 0]朵，
+    要先撤退吗？ＪＯＫＥＲ。
+    «ID ATD_EXIT_REMIND_FLOWER_V_2  对话»
+
+【摩尔加纳】嗯？你要撤退了吗？
+    现在你身上还带着着[var 0]朵花，
+    直接离开印象空间的话，花可是会消失的哦？
+    «ID ATD_EXIT_REMIND_FLOWER_V_3  对话»
+
+【摩尔加纳】在这里该做的事都做完了吧？
+    那今天就先撤退咯？
+    «ID ATD_EXIT_CABLE_VANISHED_  对话»
+
+【摩尔加纳】知道了。
+    那就再多探索一下吧。
+    «ID ATD_EXIT_CANCEL_CABLE_VA  对话»
+
+【坂本　龙司】那就回去吧。
+    «ID D_EXIT_OK_01_PC02_mes  对话»
+
+【摩尔加纳】嗯，今天就回去吧。
+    «ID D_EXIT_OK_01_PC03_mes  对话»
+
+【高卷　杏】好，我们回去吧。
+    «ID D_EXIT_OK_01_PC04_mes  对话»
+
+【喜多川　佑介】嗯　，回去吧。
+    «ID D_EXIT_OK_01_PC05_mes  对话»
+
+【新岛　真】也是，今天就到这里好了。
+    «ID D_EXIT_OK_01_PC06_mes  对话»
+
+【佐仓　双叶】很好！回去吧！
+    «ID D_EXIT_OK_01_PC07_mes  对话»
+
+【奥村　春】知道了，那就回去吧。
+    «ID D_EXIT_OK_01_PC08_mes  对话»
+
+【明智　吾郎】也是，那就先撤退吧。
+    «ID D_EXIT_OK_01_PC09_mes  对话»
+
+【sumi 10 0】我知道了。
+    那么今天就先回去吧。
+    «ID D_EXIT_OK_01_PC10_mes [  对话»
+
+【明智　吾郎】说得也是。那就撤退吧。
+    «ID D_EXIT_OK_01_PC11_mes  对话»
+
+【选项】DUNGEON_EXIT_151_EX_SEL
+    ▸ ※特殊
+    ▸ 启动『异世界导航Ａｐｐ』
+    ▸ 还是算了吧
+    «ID DUNGEON_EXIT_151_EX_SEL  选项»
+
+【坂本　龙司】在这附近使用『异世界导航Ａｐｐ』的话，
+    应该就能回到现实了。
+    «ID DUNGEON_EXIT_D01_EX_mes  对话»
+
+【坂本　龙司】很好！
+    成功启动了。
+    «ID D_EXIT_OK_D01_EX_mes  对话»
+
+【坂本　龙司】你在干什么啊？
+    赶快出去吧。
+    «ID D_EXIT_NG_D01_EX_mes  对话»
+
+【坂本　龙司】好啊，我还可以继续。
+    «ID D_EXIT_CANCEL_PC02_mes  对话»
+
+【摩尔加纳】也是啊，
+    那就继续探索吧。
+    «ID D_EXIT_CANCEL_PC03_mes  对话»
+
+【高卷　杏】嗯，再努力一下吧。
+    «ID D_EXIT_CANCEL_PC04_mes  对话»
+
+【喜多川　佑介】就这样做吧，
+    应该还有一些地方是值得去查看的。
+    «ID D_EXIT_CANCEL_PC05_mes  对话»
+
+【新岛　真】是啊，应该还能继续的。
+    «ID D_EXIT_CANCEL_PC06_mes  对话»
+
+【佐仓　双叶】是吗？那就再努力一下吧。
+    «ID D_EXIT_CANCEL_PC07_mes  对话»
+
+【奥村　春】嗯，那就继续探索吧。
+    «ID D_EXIT_CANCEL_PC08_mes  对话»
+
+【明智　吾郎】是啊，再努力一下吧。
+    «ID D_EXIT_CANCEL_PC09_mes  对话»
+
+【sumi 10 0】说得也是。
+    那就再努力一下吧。
+    «ID D_EXIT_CANCEL_PC10_mes [  对话»
+
+【明智　吾郎】说得没错。
+    但不能过度勉强自己。
+    «ID D_EXIT_CANCEL_PC11_mes  对话»
+
+【摩尔加纳】呜，糟糕了！
+    宫殿的警戒变得太强了！
+    再继续探索下去的话，
+    我们的小命就有危险了。
+    撤退了，ＪＯＫＥＲ！
+    «ID ALERT_MAX_EXIT_mes00  对话»
+
+【坂本　龙司】等、等等，再等一下……
+    «ID ALERT_MAX_EXIT_mes01  对话»
+
+【摩尔加纳】今天先放弃！
+    暗影变得越来越多了！快点！
+    «ID ALERT_MAX_EXIT_mes02  对话»
+
+【坂本　龙司】你等等！
+    不是已经发了预告信吗！？
+    今天不夺取秘宝的话，
+    之前吃的苦头就都白费了！
+    «ID D_EXIT_NG_ACTIVE_01_PC02  对话»
+
+【摩尔加纳】啊！？
+    你听清楚了吾辈的话吗！？
+    今天不夺取秘宝的话，
+    一切就全都白费了啊！？
+    «ID D_EXIT_NG_ACTIVE_01_PC03  对话»
+
+【高卷　杏】不不不不！
+    不行的啦！
+    不在今天之内把秘宝拿走的话，
+    截至目前为止的一切就都白费了！
+    «ID D_EXIT_NG_ACTIVE_01_PC04  对话»
+
+【喜多川　佑介】返回……？
+    难得你会在作战中说笑啊。
+    走了，ＪＯＫＥＲ。
+    «ID D_EXIT_NG_ACTIVE_01_PC05  对话»
+
+【新岛　真】好啦，别说丧气话了。
+    你可是团长啊？
+    不管怎么样，今天都
+    必须拿走秘宝！
+    «ID D_EXIT_NG_ACTIVE_01_PC06  对话»
+
+【佐仓　双叶】好，那就回家……
+    ……
+    ……不，我开玩笑的哦？别闪人哦？
+    «ID D_EXIT_NG_ACTIVE_01_PC07  对话»
+
+【奥村　春】既然都发出了预告信
+    就不能半途而废吧？
+    没问题的，大家都在你的身后呢！
+    «ID D_EXIT_NG_ACTIVE_01_PC08  对话»
+
+【明智　吾郎】都走到这里了，竟然要回去吗？
+    真不像你呢。
+    我也会帮忙的，试试看吧。
+    «ID D_EXIT_NG_ACTIVE_01_PC09  对话»
+
+【sumi 10 0】都已经寄出预告信了，
+    我们应该没后路了吧？
+    我也会尽自己所能的，
+    所以ＪＯＫＥＲ学长，我们继续前进吧。
+    «ID D_EXIT_NG_ACTIVE_01_PC10 [  对话»
+
+【明智　吾郎】都走到这了，不该撤退吧？
+    来做个收尾吧。
+    «ID D_EXIT_NG_ACTIVE_01_PC11  对话»
+
+【摩尔加纳】真的要回去吗？ＪＯＫＥＲ？
+    «ID SAFEROOM_EXIT_PC03_mes  对话»
+
+【佐仓　双叶】你真的要回去吗？ＪＯＫＥＲ？
+    «ID SAFEROOM_EXIT_PC07_mes  对话»
+
+【坂本　龙司】接下来就剩夺取出现的秘宝了。
+    总算到这个时候了。
+    «ID D01_04_e166_015_mes01  对话»
+
+【高卷　杏】不过，还得先发出『预告信』啊。
+    什么时候发？
+    «ID D01_04_e166_015_mes02  对话»
+
+【摩尔加纳】等一下等一下，今天先撤退吧。
+    预告信的事情等下次在秘密基地集合的时候再谈。
+    各位，今天辛苦你们了！
+    «ID D01_04_e166_015_mes03  对话»
+
+【摩尔加纳】为了解除中庭的安保系统，
+    先暂时撤退吧。
+    «ID D02_MISSION_POINT_PC03_m  对话»
+
+【坂本　龙司】很好，虽然有些不安……但是也只能动手了。
+    «ID D02_04_e210_240_mes01  对话»
+
+【喜多川　佑介】斑目的秘宝……
+    到底会是什么样的东西呢……
+    «ID D02_04_e210_240_mes02  对话»
+
+【高卷　杏】今天也彻底偷了个够吧？
+    总之，大家都辛苦了！
+    «ID D02_04_e210_240_mes03  对话»
+
+【摩尔加纳】考虑到认知之门的关系，
+    我们暂时先撤退吧？
+    «ID D03_FIRST_END_PC03_mes  对话»
+
+【新岛　真】先回去整顿吧。
+    «ID D06_FIRST_END_PC06_mes  对话»
+
+【摩尔加纳】好了，撤退吧，ＪＯＫＥＲ！
+    «ID D07_FIRST_END_PC03_mes  对话»
+
+【摩尔加纳】ＪＯＫＥＲ，你打算去哪里？
+    地牢已经调查得很详细了吧？
+    接下来去调查城堡的前方吧。
+    «ID D01_EXIT_NG_EV01_mes01  对话»
+
+【摩尔加纳】要去那里的话，只能通过玄关的大厅才行吗……
+    但是通往大厅的门关着吧。
+    得找另一条通往大厅１楼的路，
+    不然就没法去了。
+    «ID D01_EXIT_NG_EV01_mes02  对话»
+
+【坂本　龙司】好不容易来一趟，
+    还是在这里多调查一下吧。
+    «ID D07_DUNGEON_EXIT_SC_mes0  对话»

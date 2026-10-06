@@ -1,0 +1,183 @@
+================================================================================
+来源文件: FACILITY\MSG_CHALLENGE_BATTLE_SELECT.BMD
+对话条目: 51 条
+================================================================================
+
+〔旁白〕空白
+    空白
+    空白
+    «ID msg_cbs_mode_help_000  对话»
+
+〔旁白〕运用弱点攻击、辅助以及
+    换手等基本技巧战斗的入门模式。
+    «ID msg_cbs_mode_help_001  对话»
+
+〔旁白〕通过观察敌人的属性相克，在战斗中
+    接连换手，获取高分的模式。
+    «ID msg_cbs_mode_help_002  对话»
+
+〔旁白〕通过运用异常状态与ＴＥＣＨＮＩＣＡＬ
+    获取高分的进阶模式。
+    «ID msg_cbs_mode_help_003  对话»
+
+〔旁白〕承受敌人猛攻，以获取高分为目标，
+    高等级的生存战斗模式。
+    «ID msg_cbs_mode_help_004  对话»
+
+〔旁白〕考验攻击、防御、辅助等等
+    所有战斗要素的困难模式。
+    «ID msg_cbs_mode_help_005  对话»
+
+〔旁白〕能与某位沉浮于大众潜意识之中，
+    并反抗毁灭的少年人格面具操控者的
+    认知存在进行对决的特别战斗模式。
+    «ID msg_cbs_mode_help_006  对话»
+
+〔旁白〕能与某位沉浮于大众潜意识之中，
+    并让迷雾散去的少年人格面具操控者的
+    认知存在进行对决的特别战斗模式。
+    «ID msg_cbs_mode_help_007  对话»
+
+【卡萝莉娜】要开始战斗吗？
+    «ID msg_cbs_confirm_message  对话»
+
+【拉雯妲】要开始战斗吗？
+    «ID msg_cbs_confirm_message_  对话»
+
+【选项】msg_cbs_confirm_select
+    ▸ 是
+    ▸ 否
+    «ID msg_cbs_confirm_select  选项»
+
+【拉雯妲】ＨＩＨＯ～
+    «ID msg_cbs_devil_message_00  对话»
+
+【拉雯妲】杀了你ＨＯ！
+    «ID msg_cbs_devil_message_00_2  对话»
+
+【拉雯妲】Ｈｅｅ……
+    «ID msg_cbs_devil_message_00_3  对话»
+
+【拉雯妲】ＨＡＷ！
+    «ID msg_cbs_devil_message_00_4  对话»
+
+【拉雯妲】赶快互相残杀ＨＯ～！！
+    «ID msg_cbs_devil_message_00_5  对话»
+
+【拉雯妲】本大爷我……
+    «ID msg_cbs_devil_message_00_6  对话»
+
+【拉雯妲】要把你……
+    «ID msg_cbs_devil_message_00_7  对话»
+
+【拉雯妲】一口吃下肚！
+    «ID msg_cbs_devil_message_00_8  对话»
+
+【拉雯妲】我们……
+    «ID msg_cbs_devil_message_00_9  对话»
+
+【拉雯妲】一口吞下肚──！
+    «ID msg_cbs_devil_message_00_10  对话»
+
+【拉雯妲】杀～
+    «ID msg_cbs_devil_message_00_11  对话»
+
+【拉雯妲】杀了你！！！
+    «ID msg_cbs_devil_message_00_12  对话»
+
+【拉雯妲】好困……
+    «ID msg_cbs_devil_message_00_13  对话»
+
+【拉雯妲】快点……
+    «ID msg_cbs_devil_message_00_14  对话»
+
+【拉雯妲】随便了……
+    «ID msg_cbs_devil_message_00_16  对话»
+
+【拉雯妲】可以为我而死吗？
+    «ID msg_cbs_devil_message_00_17  对话»
+
+【拉雯妲】这里又窄又小……
+    «ID msg_cbs_devil_message_00_19  对话»
+
+【拉雯妲】抱歉……
+    «ID msg_cbs_devil_message_00_21  对话»
+
+【拉雯妲】你就死在这里吧！
+    «ID msg_cbs_devil_message_00_22  对话»
+
+【拉雯妲】这里是……
+    «ID msg_cbs_devil_message_00_23  对话»
+
+【拉雯妲】好窄……
+    «ID msg_cbs_devil_message_00_24  对话»
+
+【拉雯妲】这里是……
+    «ID msg_cbs_devil_message_00_27  对话»
+
+【拉雯妲】下一次满月的日子是……
+    «ID msg_cbs_devil_message_00_28  对话»
+
+【拉雯妲】无所谓了……
+    «ID msg_cbs_devil_message_00_30  对话»
+
+【拉雯妲】这里是……
+    «ID msg_cbs_devil_message_00_32  对话»
+
+【拉雯妲】下一次起雾的日子是……
+    «ID msg_cbs_devil_message_00_35  对话»
+
+〔旁白〕该战斗尚未开放。
+    «ID msg_cbs_lock_sys_message  对话»
+
+〔旁白〕测试用战斗的
+    新难度已开放。
+    «ID msg_cbs_unlock_trial_2_s  对话»
+
+〔旁白〕测试用战斗的
+    新难度已开放。
+    «ID msg_cbs_unlock_trial_3_s  对话»
+
+〔旁白〕测试用战斗的
+    新难度已开放。
+    «ID msg_cbs_unlock_trial_4_s  对话»
+
+〔旁白〕测试用战斗的
+    新难度已开放。
+    «ID msg_cbs_unlock_trial_5_s  对话»
+
+〔旁白〕挑战关卡的新战斗模式
+    ＣＨＡＩＮ已开放。
+    «ID msg_cbs_unlock_chain_sys  对话»
+
+〔旁白〕挑战关卡的新战斗模式
+    ＴＥＣＨＩＮＩＣＩＡＮ已开放。
+    «ID msg_cbs_unlock_technical  对话»
+
+〔旁白〕挑战关卡的新战斗模式
+    ＳＵＲＶＩＶＡＬ已开放。
+    «ID msg_cbs_unlock_suvival_s  对话»
+
+〔旁白〕挑战关卡的新战斗模式
+    ＴＲＩＣＫＳＴＥＲ已开放。
+    «ID msg_cbs_unlock_trickster  对话»
+
+〔旁白〕挑战关卡的新战斗模式
+    ＦＵＬＬＭＯＯＮ已开放。
+    «ID msg_cbs_unlock_p3_sys_me  对话»
+
+〔旁白〕挑战关卡的新战斗模式
+    ＦＯＧＧＹ　ＤＡＹ已开放。
+    «ID msg_cbs_unlock_p4_sys_me  对话»
+
+〔旁白〕ＦＵＬＬＭＯＯＮ模式的
+    新难度已开放。
+    «ID msg_cbs_unlock_p3_hard_s  对话»
+
+〔旁白〕ＦＯＧＧＹ　ＤＡＹ模式的
+    新难度已开放。
+    «ID msg_cbs_unlock_p4_hard_s  对话»
+
+〔旁白〕挑战关卡的
+    新战斗模式已开放。
+    «ID msg_cbs_unlock_new_mode_  对话»

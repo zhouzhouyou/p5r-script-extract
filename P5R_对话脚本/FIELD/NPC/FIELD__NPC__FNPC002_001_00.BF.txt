@@ -1,0 +1,3603 @@
+================================================================================
+来源文件: FIELD\NPC\FNPC002_001_00.BF
+对话条目: 936 条
+================================================================================
+
+〔旁白〕问候
+    «ID NPC_GREETING_MSG  对话»
+
+〔旁白〕会话
+    «ID NPC_01  对话»
+
+〔旁白〕这是测试用的暂时设置ＮＰＣ。
+    «ID KARIOKI_NPC_talk00  对话»
+
+【棕发的男学生】你是个胖子，要不干脆把名字从秀雄改成胖雄吧？
+    怎么样啊，是个不错的名字吧？
+    啊，还是说让鸭志田来攻击你一下？
+    肥猪炸弹攻击，之类的！
+    «ID MSG_IJIMEKKO_001_0_0  对话»
+
+【偏胖的男学生】为什么要说这种话……
+    «ID MSG_IJIMEKKO_001_1_0  对话»
+
+【棕发的男学生】别当真啊，这是『带有爱意的捉弄』对吧？
+    这种玩笑都听不懂，你还真可怜。
+    «ID MSG_IJIMEKKO_001_2_0  对话»
+
+【棕发的男学生】喂，笔记能不能帮我复印一下？
+    加上我的死党，全科目都要五人份哦～
+    «ID MSG_IJIMEKKO_002_0_0  对话»
+
+【偏胖的男学生】可以是可以，高梨……复印的钱……
+    «ID MSG_IJIMEKKO_002_1_0  对话»
+
+【棕发的男学生】别这么小气啦，你老爸是医生吧？
+    让爸爸出钱不就好了吗！
+    明天之前记得要拿来哦，
+    如果你敢背叛，应该知道会有什么下场吧？
+    «ID MSG_IJIMEKKO_002_2_0  对话»
+
+【棕发的男学生】喂，肥猪炸弹，借点钱给我们啦。
+    前辈好像很困扰呢……拜托啦。
+    «ID MSG_IJIMEKKO_003_0_0  对话»
+
+【偏胖的男学生】真的会还我吗……？
+    «ID MSG_IJIMEKKO_003_1_0  对话»
+
+【棕发的男学生】猪叫声吵死了，肥猪！
+    快点乖乖拿出来！
+    啊，就算告诉老师也没用哦。
+    因为鸭志田的关系，那些家伙都吓得发抖呢。
+    «ID MSG_IJIMEKKO_003_2_0  对话»
+
+【棕发的男学生】我要和左右田前辈去吃饭，你也会去的吧？
+    当然是你请客。
+    «ID MSG_IJIMEKKO_004_0_0  对话»
+
+【名为左右田的男学生】要不就选肥雄推荐的那家寿司店吧？
+    你也不想同类相残地吃猪肉吧？
+    «ID MSG_IJIMEKKO_004_1_0  对话»
+
+【偏胖的男学生】呃……可是……我……
+    «ID MSG_IJIMEKKO_004_2_0  对话»
+
+【棕发的男学生】好啦，我都叫你出钱了！
+    别让我不耐烦啊！
+    «ID MSG_IJIMEKKO_004_3_0  对话»
+
+【摩尔加纳】好像发现目标了喵！
+    去秘密基地和大家商量吧！
+    «ID MSG_quest03_morgana_01  对话»
+
+【任务出现！】『印象空间出现』
+    目标已确认。
+    接下来，就去『秘密基地』和伙伴们商量吧。
+    «ID HELP_MEMENTOS_MISSION_01  对话»
+
+【棕发的男学生】看到你这样，就忍不住很火大。
+    没用的废物！
+    «ID MSG_IJIMEKKO_004_6_0  对话»
+
+【偏胖的男学生】就、就算你这么说……
+    «ID MSG_IJIMEKKO_004_7_0  对话»
+
+【棕发的男学生】你这家伙除了有钱就没有什么用处了！
+    你知道吗？肥猪炸弹！
+    «ID MSG_IJIMEKKO_004_8_0  对话»
+
+【名为左右田的男学生】噗哈哈！大辅，你真伤人啊！
+    肥雄都快哭了。
+    «ID MSG_IJIMEKKO_004_9_0  对话»
+
+【高梨　大辅】那个……以前对你做了许多过分的事，非常抱歉。
+    我现在答应你以后不会再犯了。
+    «ID MSG_IJIMEKKO_005_0_0  对话»
+
+【偏胖的男学生】为、为什么突然……
+    是不是先让我放松警戒，然后再问我要钱……
+    «ID MSG_IJIMEKKO_005_1_0  对话»
+
+【高梨　大辅】不是……不是有个叫左右田的前辈吗？
+    我被他抓住了把柄。
+    不，抱歉。这种事和你没关系……
+    一直以来真的非常抱歉……
+    «ID MSG_IJIMEKKO_005_2_0  对话»
+
+【高梨　大辅】至今为止给你添了这么多麻烦，真的很抱歉。
+    我会还你钱的，你再等我一阵子。
+    «ID MSG_IJIMEKKO_005_5_0  对话»
+
+【偏胖的男学生】没、没关系吧……？
+    算了吧……
+    «ID MSG_IJIMEKKO_005_6_0  对话»
+
+【高梨　大辅】不，不能算了。
+    我要去和左右田前辈说，叫他还你钱。
+    我要和他划清界限。
+    别担心，不会把你卷进去的。
+    «ID MSG_IJIMEKKO_005_7_0  对话»
+
+【摩尔加纳】……看样子上面还有更糟糕的家伙呢。
+    要不时地留心观察一下。
+    «ID MSG_quest12_morgana_00  对话»
+
+【名为左右田的男学生】喂喂，你知道自己的处境吗？
+    你是想让我把盗窃现场的视频合集公开吗？
+    «ID MSG_IJIMEKKO_006_0_0  对话»
+
+【高梨　大辅】……就算这样也没关系！
+    所以，请你不要再让我去勒索了！
+    «ID MSG_IJIMEKKO_006_1_0  对话»
+
+【名为左右田的男学生】啊？　是你自己去做的吧？
+    可以吗？我可要去告诉老师了哦，高梨？
+    你要是继续找茬的话，
+    我说不定会把你那见不得人的影片传出去哦～？
+    『佳守收藏品』可能会很热门哦～？
+    «ID MSG_IJIMEKKO_006_2_0  对话»
+
+【高梨　大辅】什么……那是你命令我做的事吧……！
+    别开玩笑了……可恶……！
+    «ID MSG_IJIMEKKO_006_3_0  对话»
+
+【任务出现！】『印象空间出现』
+    目标已确认。
+    接下来，就去『秘密基地』和伙伴们商量吧。
+    «ID HELP_MEMENTOS_MISSION_03  对话»
+
+【摩尔加纳】就是这样，上面还有更加恶劣的家伙呢。
+    不可原谅！
+    «ID MSG_quest12_morgana_01  对话»
+
+【左右田　佳守】高梨，要去吃饭吗？
+    呃，你要请我吗？
+    真不好意思～！
+    «ID MSG_IJIMEKKO_006_4_0  对话»
+
+【高梨　大辅】可恶，真肮脏……
+    «ID MSG_IJIMEKKO_006_5_0  对话»
+
+【左右田　佳守】手机照片和视频，全都删除了。
+    这样你能原谅我了吗……？
+    «ID MSG_IJIMEKKO_007_0_0  对话»
+
+【高梨　大辅】事到如今，
+    我怎么可能还会相信你啊。
+    «ID MSG_IJIMEKKO_007_1_0  对话»
+
+【左右田　佳守】的确啊……
+    干脆，现在就去找警察自首吧……
+    «ID MSG_IJIMEKKO_007_2_0  对话»
+
+【高梨　大辅】等一下。我也是，同罪……
+    所以，我和你一起去……
+    «ID MSG_IJIMEKKO_007_3_0  对话»
+
+【挂着相机的女性】……防守果然很坚固呢～
+    或者说，是对自己人的负面事件很敏感？
+    今天就先回去，下次再来吧……
+    要是有人报警就麻烦了。
+    «ID MSG_OOYA_001_0_0  对话»
+
+【挂着相机的女性】啊～啊……又是无可奉告吗？
+    这样可写不成报导啊。
+    没办法正面突破吗……
+    明明一定是隐瞒着些什么啊～
+    «ID MSG_OOYA_002_0_0  对话»
+
+【挂着相机的女性】那么，该怎么办呢……
+    只能考虑一下别的路线了……
+    «ID MSG_OOYA_002_1_0  对话»
+
+【挂着相机的女性】你看过匿名网站了吗？
+    你看，就是那家伙……
+    «ID MSG_GRT_main_All_001_01_  对话»
+
+【挂着相机的女性】那个人，就是匿名网站说的
+    犯过罪的转校生对吧……
+    «ID MSG_GRT_main_All_001_02_  对话»
+
+【挂着相机的女性】背着前科逃过来的
+    那个转校生吗……？
+    «ID MSG_GRT_main_All_001_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_001_04_  对话»
+
+【挂着相机的女性】就算现在很老实，
+    肯定又会闹出事情来的吧？
+    «ID MSG_GRT_main_All_002_01_  对话»
+
+【挂着相机的女性】不知道他会干什么，
+    还是别去理他比较好……
+    «ID MSG_GRT_main_All_002_02_  对话»
+
+【挂着相机的女性】希望他在退学之前，
+    都能老老实实的呢……
+    «ID MSG_GRT_main_All_002_03_  对话»
+
+【挂着相机的女性】只是靠近他就觉得好可怕……
+    «ID MSG_GRT_main_All_002_04_  对话»
+
+【挂着相机的女性】又来学校了啊……
+    脸皮到底是有多厚啊？
+    «ID MSG_GRT_main_All_003_01_  对话»
+
+【挂着相机的女性】听说他惹怒了鸭志田老师
+    要被退学了呢……
+    «ID MSG_GRT_main_All_003_02_  对话»
+
+【挂着相机的女性】突然就要被退学了，
+    到底做了什么事啊？
+    «ID MSG_GRT_main_All_003_03_  对话»
+
+【挂着相机的女性】要和坂本一起，
+    被退学了呢……
+    «ID MSG_GRT_main_All_003_04_  对话»
+
+【挂着相机的女性】那张告示单，你看到了吗？
+    鸭志田到底做了什么啊？
+    «ID MSG_GRT_main_All_004_01_  对话»
+
+【挂着相机的女性】留言板上那个预告信？
+    也太有意思了吧！
+    «ID MSG_GRT_main_All_004_02_  对话»
+
+【挂着相机的女性】怪盗的预告信
+    太有趣了吧！
+    «ID MSG_GRT_main_All_004_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_004_04_  对话»
+
+【挂着相机的女性】鸭志田果然要被开除了？
+    «ID MSG_GRT_main_All_005_01_  对话»
+
+【挂着相机的女性】那种告示，
+    不可能是真的吧……
+    «ID MSG_GRT_main_All_005_02_  对话»
+
+【挂着相机的女性】心灵怪盗什么的，
+    怎么可能真的存在啊！
+    «ID MSG_GRT_main_All_005_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_005_04_  对话»
+
+【挂着相机的女性】是不是和坂本勾结起来，
+    做了些什么啊……？
+    «ID MSG_GRT_main_All_006_01_  对话»
+
+【挂着相机的女性】在他惹麻烦之前，
+    快把他赶走吧……
+    «ID MSG_GRT_main_All_006_02_  对话»
+
+【挂着相机的女性】不仅鸭志田不在了，
+    就连退学骚动也一笔勾销了吗……
+    «ID MSG_GRT_main_All_006_03_  对话»
+
+【挂着相机的女性】难道
+    是被威胁了吗……？
+    «ID MSG_GRT_main_All_006_04_  对话»
+
+【挂着相机的女性】鸭志田消失了，
+    排球社也完蛋了呢。
+    «ID MSG_GRT_main_All_007_01_  对话»
+
+【挂着相机的女性】排球社再也没办法
+    那么嚣张了呢～
+    «ID MSG_GRT_main_All_007_02_  对话»
+
+【挂着相机的女性】咱们学校
+    今后会不太妙吧？
+    «ID MSG_GRT_main_All_007_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_007_04_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_204_01_  对话»
+
+【挂着相机的女性】斑目是那个画家吗？
+    «ID MSG_GRT_main_All_204_02_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_204_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_204_04_  对话»
+
+【挂着相机的女性】又收到了
+    奇怪的信息……
+    «ID MSG_GRT_main_All_205_01_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_205_02_  对话»
+
+【挂着相机的女性】好像有谁说过
+    涩谷很危险……
+    «ID MSG_GRT_main_All_205_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_205_04_  对话»
+
+【挂着相机的女性】真的有什么
+    怪盗吗？
+    «ID MSG_GRT_main_All_008_01_  对话»
+
+【挂着相机的女性】在斑目的道歉会之前
+    也有过预告信吗？
+    «ID MSG_GRT_main_All_008_02_  对话»
+
+【挂着相机的女性】斑目的道歉记者会，
+    好像是怪盗搞的鬼……
+    «ID MSG_GRT_main_All_008_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_008_04_  对话»
+
+【挂着相机的女性】被盯上的都是
+    学生对吧？
+    «ID MSG_GRT_main_All_009_01_  对话»
+
+【挂着相机的女性】我们学校里
+    好像也有人受害呢……
+    «ID MSG_GRT_main_All_009_02_  对话»
+
+【挂着相机的女性】真希望警察能
+    快点逮捕他们呢……
+    «ID MSG_GRT_main_All_009_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_009_04_  对话»
+
+【挂着相机的女性】怪盗好像发出了
+    预告信呢……
+    «ID MSG_GRT_main_All_010_01_  对话»
+
+【挂着相机的女性】涩谷居然出现了预告信哦！
+    «ID MSG_GRT_main_All_010_02_  对话»
+
+【挂着相机的女性】这次的预告信
+    是发给一个叫金城的人哦！
+    «ID MSG_GRT_main_All_010_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_010_04_  对话»
+
+【挂着相机的女性】黑帮的老大
+    已经招供了呢！
+    «ID MSG_GRT_main_All_011_01_  对话»
+
+【挂着相机的女性】逮捕金城
+    也和怪盗有关吗？
+    «ID MSG_GRT_main_All_011_02_  对话»
+
+【挂着相机的女性】居然打倒了连警察都抓不到的人，
+    真是厉害呢！
+    «ID MSG_GRT_main_All_011_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_011_04_  对话»
+
+【挂着相机的女性】只要在怪盗的留言板上发出委托，
+    他们就会去惩罚坏人！
+    «ID MSG_GRT_main_All_012_01_  对话»
+
+【挂着相机的女性】怪盗会惩罚坏人这件事
+    在网络上引起轰动了！
+    «ID MSG_GRT_main_All_012_02_  对话»
+
+【挂着相机的女性】有很多人都说自己
+    被怪盗帮助了呢！
+    «ID MSG_GRT_main_All_012_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_012_04_  对话»
+
+【挂着相机的女性】怪盗是从鸭志田那时候开始的，
+    难道他们是……
+    «ID MSG_GRT_main_All_013_01_  对话»
+
+【挂着相机的女性】果然是因为怪盗偷了
+    坏人的心吗？
+    «ID MSG_GRT_main_All_013_02_  对话»
+
+【挂着相机的女性】盗取心灵的怪盗团什么的
+    好像还挺帅气的！
+    «ID MSG_GRT_main_All_013_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_013_04_  对话»
+
+【挂着相机的女性】怪盗果然是
+    存在的啊！
+    «ID MSG_GRT_main_All_014_01_  对话»
+
+【挂着相机的女性】黑客ＶＳ怪盗
+    超级期待的呢！
+    «ID MSG_GRT_main_All_014_02_  对话»
+
+【挂着相机的女性】从这封犯罪声明能看出
+    他们对怪盗团很关注呢。
+    «ID MSG_GRT_main_All_014_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_014_04_  对话»
+
+【挂着相机的女性】怪盗团准备要怎么
+    惩罚黑客呢？
+    «ID MSG_GRT_main_All_015_01_  对话»
+
+【挂着相机的女性】怪盗会怎么
+    对付黑客呢？
+    «ID MSG_GRT_main_All_015_02_  对话»
+
+【挂着相机的女性】面对网络攻击集团
+    怪盗会怎么做呢？
+    «ID MSG_GRT_main_All_015_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_015_04_  对话»
+
+【挂着相机的女性】竟然打倒了梅吉多，
+    怪盗团真的好厉害～！
+    «ID MSG_GRT_main_All_016_01_  对话»
+
+【挂着相机的女性】明智还真是丢人啊！
+    «ID MSG_GRT_main_All_016_02_  对话»
+
+【挂着相机的女性】好像在世界范围内
+    都变得有名了呢！
+    «ID MSG_GRT_main_All_016_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_016_04_  对话»
+
+【挂着相机的女性】果然早就知道体罚的事……
+    «ID MSG_GRT_main_All_150_01_  对话»
+
+【挂着相机的女性】真是无法信任呢，
+    这个学校……
+    «ID MSG_GRT_main_All_150_02_  对话»
+
+【挂着相机的女性】校长居然还自杀了，
+    这个学校真可怕……
+    «ID MSG_GRT_main_All_017_01_  对话»
+
+【挂着相机的女性】校长自杀了……
+    是因为感觉到自责了吗？
+    «ID MSG_GRT_main_All_017_02_  对话»
+
+【挂着相机的女性】校长自杀了……
+    警察又要来干预了吗？
+    «ID MSG_GRT_main_All_017_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_017_04_  对话»
+
+【挂着相机的女性】媒体向我采访
+    怪盗的事情了哦？
+    «ID MSG_GRT_main_All_018_01_  对话»
+
+【挂着相机的女性】你觉得怪盗的真面目
+    到底是一群怎样的家伙啊！
+    «ID MSG_GRT_main_All_018_02_  对话»
+
+【挂着相机的女性】不管到哪里，怪盗的话题
+    都是最热门的！
+    «ID MSG_GRT_main_All_018_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_018_04_  对话»
+
+【挂着相机的女性】奥村食品社长的女儿
+    好像是秀尽的学生呢……
+    «ID MSG_GRT_main_All_019_01_  对话»
+
+【挂着相机的女性】最近很有名的那个奥村社长，
+    他家孩子好像是秀尽的学生呢……
+    «ID MSG_GRT_main_All_019_02_  对话»
+
+【挂着相机的女性】其实奥村社长的女儿
+    在我们学校里哦！
+    «ID MSG_GRT_main_All_019_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_019_04_  对话»
+
+【挂着相机的女性】怪盗会让他们悔改的，
+    没关系的吧！
+    «ID MSG_GRT_main_All_020_01_  对话»
+
+【挂着相机的女性】还有很多坏人！
+    再多收拾一些吧！
+    «ID MSG_GRT_main_All_020_02_  对话»
+
+【挂着相机的女性】真想将一切交给怪盗团，
+    让他们继续惩罚坏人呢！
+    «ID MSG_GRT_main_All_020_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_020_04_  对话»
+
+【挂着相机的女性】那么差劲的大人
+    赶快收拾掉吧，怪盗团！
+    «ID MSG_GRT_main_All_021_01_  对话»
+
+【挂着相机的女性】干得好怪盗团！
+    继续再接再厉吧！
+    «ID MSG_GRT_main_All_021_02_  对话»
+
+【挂着相机的女性】腐败的大人，
+    怪盗会去收拾的！
+    «ID MSG_GRT_main_All_021_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_021_04_  对话»
+
+【挂着相机的女性】奥村的道歉记者会
+    非常吓人呢……
+    «ID MSG_GRT_main_All_022_01_  对话»
+
+【挂着相机的女性】奥村记者会时的那个样子
+    果然是怪盗搞的鬼吧……
+    «ID MSG_GRT_main_All_022_02_  对话»
+
+【挂着相机的女性】也不用特地挑记者会的时候
+    做那种事吧……
+    «ID MSG_GRT_main_All_022_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_022_04_  对话»
+
+【挂着相机的女性】之前让人悔改
+    只是为了欺骗我们吧！
+    «ID MSG_GRT_main_All_023_01_  对话»
+
+【挂着相机的女性】不管怎么说，
+    也不用杀了他吧！
+    «ID MSG_GRT_main_All_023_02_  对话»
+
+【挂着相机的女性】没想到怪盗团居然是那么危险的
+    杀人集团！
+    «ID MSG_GRT_main_All_023_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_023_04_  对话»
+
+【挂着相机的女性】警察到底都在干什么……
+    快点去抓人啊……
+    «ID MSG_GRT_main_All_024_01_  对话»
+
+【挂着相机的女性】怪盗团和秀尽的学生
+    有关系的那个传闻是真的吗？
+    «ID MSG_GRT_main_All_024_02_  对话»
+
+【挂着相机的女性】警察就这样保持沉默
+    什么都不做吗！
+    «ID MSG_GRT_main_All_024_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_024_04_  对话»
+
+【挂着相机的女性】怪盗团的悬赏金你看到了吗！
+    «ID MSG_GRT_main_All_025_01_  对话»
+
+【挂着相机的女性】警察的行动太慢了！
+    «ID MSG_GRT_main_All_025_02_  对话»
+
+【挂着相机的女性】悬赏金居然有３０００万，
+    好厉害的金额啊……
+    «ID MSG_GRT_main_All_025_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_025_04_  对话»
+
+【挂着相机的女性】你有听说怪盗团
+    就是秀尽学生的传闻吗？
+    «ID MSG_GRT_main_All_026_01_  对话»
+
+【挂着相机的女性】之前的行动
+    都只是热身而已，真的假的？
+    «ID MSG_GRT_main_All_026_02_  对话»
+
+【挂着相机的女性】秀尽和怪盗的真面目
+    应该完全没关系吧……
+    «ID MSG_GRT_main_All_026_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_026_04_  对话»
+
+【挂着相机的女性】看了狮童的记者会了吗？
+    感觉被背叛了呢……
+    «ID MSG_GRT_main_All_027_01_  对话»
+
+【挂着相机的女性】狮童议员的记者会……
+    真是不想相信……
+    «ID MSG_GRT_main_All_027_02_  对话»
+
+【挂着相机的女性】狮童议员的身体不舒服，
+    让我父母很担心呢……
+    «ID MSG_GRT_main_All_027_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_027_04_  对话»
+
+【挂着相机的女性】不管怎样都好
+    快做些什么吧……
+    «ID MSG_GRT_main_All_028_01_  对话»
+
+【挂着相机的女性】反正就算读书
+    也是没用的……
+    «ID MSG_GRT_main_All_028_02_  对话»
+
+【挂着相机的女性】不管谁都好，
+    赶快想想办法啊……
+    «ID MSG_GRT_main_All_028_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_All_028_04_  对话»
+
+【挂着相机的女性】总之，
+    读书加油啊。
+    «ID MSG_GRT_SCH_main_All_029  对话»
+
+【挂着相机的女性】总觉得又有干劲了！
+    «ID MSG_GRT_SCH_main_All_029_2  对话»
+
+【挂着相机的女性】这点事情我也能做得很好哦！
+    «ID MSG_GRT_SCH_main_All_029_3  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SCH_main_All_029_4  对话»
+
+【挂着相机的女性】就是那家伙吗……
+    听说他有前科对吧……
+    «ID MSG_GRT_main_Lim_101_01_  对话»
+
+【挂着相机的女性】虽然看起来很正经，
+    但其实是很恐怖的人吧？
+    «ID MSG_GRT_main_Lim_101_02_  对话»
+
+【挂着相机的女性】听说他做了许多
+    坏事哦……
+    «ID MSG_GRT_main_Lim_101_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_Lim_101_04_  对话»
+
+【挂着相机的女性】听说他身上
+    藏着凶器哦……
+    «ID MSG_GRT_main_Lim_102_01_  对话»
+
+【挂着相机的女性】大家都说他一发飙
+    就会使用暴力呢……
+    «ID MSG_GRT_main_Lim_102_02_  对话»
+
+【挂着相机的女性】我不想和他扯上关系，
+    还是不要靠近吧……
+    «ID MSG_GRT_main_Lim_102_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_Lim_102_04_  对话»
+
+【挂着相机的女性】警察在学校里
+    到处巡逻啊……
+    «ID MSG_GRT_main_Lim_103_01_  对话»
+
+【挂着相机的女性】好像是在调查
+    鸭志田的事情？
+    «ID MSG_GRT_main_Lim_103_02_  对话»
+
+【挂着相机的女性】连警察都来了，
+    这下消息一定会传开吧……
+    «ID MSG_GRT_main_Lim_103_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_Lim_103_04_  对话»
+
+【挂着相机的女性】平时都不好好学习，
+    到了期中就会焦急吧？
+    «ID MSG_GRT_main_Lim_104_01_  对话»
+
+【挂着相机的女性】差不多要到期中考了吧？
+    读书还顺利吗？
+    «ID MSG_GRT_main_Lim_104_02_  对话»
+
+【挂着相机的女性】期中的考试复习还顺利吗？
+    «ID MSG_GRT_main_Lim_104_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_Lim_104_04_  对话»
+
+【挂着相机的女性】这次期末考试
+    得认真一点才行啊……
+    «ID MSG_GRT_main_Lim_105_01_  对话»
+
+【挂着相机的女性】差不多到了该准备
+    期末考试的时候了……
+    «ID MSG_GRT_main_Lim_105_02_  对话»
+
+【挂着相机的女性】只要保持这个状态，
+    期末考试应该也没问题了！
+    «ID MSG_GRT_main_Lim_105_03_  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_main_Lim_105_04_  对话»
+
+【挂着相机的女性】居然是前１０名吗！？
+    怎么可能？
+    «ID MSG_GRT_main_Lim_301_01_  对话»
+
+【挂着相机的女性】反正是作弊的吧？
+    真肮脏……
+    «ID MSG_GRT_main_Lim_301_02_  对话»
+
+【挂着相机的女性】输给了那种人……
+    我也得用功了……
+    «ID MSG_GRT_main_Lim_301_03_  对话»
+
+【挂着相机的女性】不管脑子多聪明，
+    一样是有前科的人……
+    «ID MSG_GRT_main_Lim_301_04_  对话»
+
+【挂着相机的女性】那个人是学期第一名！？
+    骗人的吧……
+    «ID MSG_GRT_main_Lim_302_01_  对话»
+
+【挂着相机的女性】作弊拿到第一名
+    有什么值得高兴的……
+    «ID MSG_GRT_main_Lim_302_02_  对话»
+
+【挂着相机的女性】输给了那种人……
+    太受打击了……
+    «ID MSG_GRT_main_Lim_302_03_  对话»
+
+【挂着相机的女性】罪犯居然拿到了第１名，
+    到底是怎么回事？
+    «ID MSG_GRT_main_Lim_302_04_  对话»
+
+【挂着相机的女性】进入前１０名的，
+    果然是那家伙吗……
+    «ID MSG_GRT_main_Lim_303_01_  对话»
+
+【挂着相机的女性】他有前科，
+    真可惜啊……
+    «ID MSG_GRT_main_Lim_303_02_  对话»
+
+【挂着相机的女性】本来只是觉得他挺老实的，
+    没想到成绩还这么好……
+    «ID MSG_GRT_main_Lim_303_03_  对话»
+
+【挂着相机的女性】好像也不是
+    靠作弊考出来的呢……
+    «ID MSG_GRT_main_Lim_303_04_  对话»
+
+【挂着相机的女性】学期第一
+    又是那家伙啊……
+    «ID MSG_GRT_main_Lim_304_01_  对话»
+
+【挂着相机的女性】拿到了很高的分数呢……
+    这不是什么大学都能上了吗……
+    «ID MSG_GRT_main_Lim_304_02_  对话»
+
+【挂着相机的女性】虽然难以置信……
+    但果然是那个人呢……
+    «ID MSG_GRT_main_Lim_304_03_  对话»
+
+【挂着相机的女性】就算他是装的，
+    拿到第一名还是很让人吃惊……
+    «ID MSG_GRT_main_Lim_304_04_  对话»
+
+【挂着相机的女性】看到名字我就想起来了……
+    是那个有前科的人啊……
+    «ID MSG_GRT_main_Lim_305_01_  对话»
+
+【挂着相机的女性】又是那家伙啊……
+    真是引起了各种骚动啊……
+    «ID MSG_GRT_main_Lim_305_02_  对话»
+
+【挂着相机的女性】也许，
+    是个大人物？
+    «ID MSG_GRT_main_Lim_305_03_  对话»
+
+【挂着相机的女性】成绩虽然很好，
+    但却是个犯过罪的人……
+    «ID MSG_GRT_main_Lim_305_04_  对话»
+
+【挂着相机的女性】也太能干了吧……
+    说实话，好羡慕……
+    «ID MSG_GRT_main_Lim_306_01_  对话»
+
+【挂着相机的女性】居然是成绩前几名的常客吗……
+    总觉得有点……
+    «ID MSG_GRT_main_Lim_306_02_  对话»
+
+【挂着相机的女性】是年级第１名对吧？
+    要不要请他教我功课呢……
+    «ID MSG_GRT_main_Lim_306_03_  对话»
+
+【挂着相机的女性】看，那个人……
+    就是拿到学期第一名的那个……
+    «ID MSG_GRT_main_Lim_306_04_  对话»
+
+【挂着相机的女性】最近发生的事件，
+    是不是有点奇怪？
+    «ID MSG_GRT_SHIBUYA_main_All  对话»
+
+【挂着相机的女性】真是无聊啊……
+    就没有什么有趣的事吗……
+    «ID MSG_GRT_SHIBUYA_main_All_2  对话»
+
+【挂着相机的女性】真是恐怖……
+    感觉还会发生什么事……
+    «ID MSG_GRT_SHIBUYA_main_All_3  对话»
+
+【挂着相机的女性】之前也发生过
+    电车事故吧？
+    «ID MSG_GRT_SHIBUYA_main_All_4  对话»
+
+【挂着相机的女性】好想轻松地赚钱……
+    有没有什么好差事啊？
+    «ID MSG_GRT_SHIBUYA_main_All_5  对话»
+
+【挂着相机的女性】真是诸事不顺呢……
+    谁来想想办法啦……
+    «ID MSG_GRT_SHIBUYA_main_All_6  对话»
+
+【挂着相机的女性】好想轻松地赚钱……
+    有没有什么好差事啊？
+    «ID MSG_GRT_SHIBUYA_main_All_7  对话»
+
+【挂着相机的女性】反正也不会有任何改变……
+    随便混混就行……
+    «ID MSG_GRT_SHIBUYA_main_All_8  对话»
+
+【挂着相机的女性】懒得去打工啊……
+    干脆翘掉算了……
+    «ID MSG_GRT_SHIBUYA_main_All_9  对话»
+
+【挂着相机的女性】真是诸事不顺呢……
+    谁来想想办法啦……
+    «ID MSG_GRT_SHIBUYA_main_All_10  对话»
+
+【挂着相机的女性】反正也不会有任何改变……
+    随便混混就行……
+    «ID MSG_GRT_SHIBUYA_main_All_11  对话»
+
+【挂着相机的女性】真是诸事不顺呢……
+    谁来想想办法啊……
+    «ID MSG_GRT_SHIBUYA_main_All_12  对话»
+
+【挂着相机的女性】真是诸事不顺呢……
+    谁来想想办法啦……
+    «ID MSG_GRT_SHIBUYA_main_All_13  对话»
+
+【挂着相机的女性】净是一些无聊的事……
+    没有什么有趣的事吗……
+    «ID MSG_GRT_SHIBUYA_main_All_14  对话»
+
+【挂着相机的女性】反正也不会有任何改变……
+    随便混混就行……
+    «ID MSG_GRT_SHIBUYA_main_All_15  对话»
+
+【挂着相机的女性】好想轻松地赚钱……
+    有没有什么好差事啊？
+    «ID MSG_GRT_SHIBUYA_main_All_16  对话»
+
+【挂着相机的女性】听说之前的事故
+    也是那个原因造成的……
+    «ID MSG_GRT_SHIBUYA_main_All_17  对话»
+
+【挂着相机的女性】听说突然就失去意识了，
+    根本没法防备啊……
+    «ID MSG_GRT_SHIBUYA_main_All_18  对话»
+
+【挂着相机的女性】发生了这么多怪事，
+    我还是早点回家吧……
+    «ID MSG_GRT_SHIBUYA_main_All_19  对话»
+
+【挂着相机的女性】接下来还会发生什么事啊……
+    真令人害怕呢……
+    «ID MSG_GRT_SHIBUYA_main_All_20  对话»
+
+【挂着相机的女性】营业额也下降了……
+    真是让人头痛啊……
+    «ID MSG_GRT_SHIBUYA_main_All_21  对话»
+
+【挂着相机的女性】政治家真是没用。
+    还不赶快想出对策啊。
+    «ID MSG_GRT_SHIBUYA_main_All_22  对话»
+
+【挂着相机的女性】自从目击到那场事故，
+    我就好害怕……
+    «ID MSG_GRT_SHIBUYA_main_All_23  对话»
+
+【挂着相机的女性】那些怪事发生的原因，
+    到现在还没查出来吗？
+    «ID MSG_GRT_SHIBUYA_main_All_24  对话»
+
+【挂着相机的女性】拜托饶了我吧……
+    我可不想被卷进事故里面去。
+    «ID MSG_GRT_SHIBUYA_main_All_25  对话»
+
+【挂着相机的女性】警察真是太差劲了～
+    他们有仔细搜查吗？
+    «ID MSG_GRT_SHIBUYA_main_All_26  对话»
+
+【挂着相机的女性】自从目击到那场事故，
+    我就好害怕……
+    «ID MSG_GRT_SHIBUYA_main_All_27  对话»
+
+【挂着相机的女性】整个人的个性骤变，
+    还失去了记忆……
+    «ID MSG_GRT_SHIBUYA_main_All_28  对话»
+
+【挂着相机的女性】如此腐败的社会……
+    到底都是谁造成的啊……
+    «ID MSG_GRT_SHIBUYA_main_All_29  对话»
+
+【挂着相机的女性】真是诸事不顺呢……
+    谁来想想办法啦……
+    «ID MSG_GRT_SHIBUYA_main_All_30  对话»
+
+【挂着相机的女性】尽是一些无聊的事……
+    就没有什么有趣的吗？
+    «ID MSG_GRT_SHIBUYA_main_All_31  对话»
+
+【挂着相机的女性】真是诸事不顺呢……
+    谁来想想办法啊……
+    «ID MSG_GRT_SHIBUYA_main_All_32  对话»
+
+【挂着相机的女性】那个事件发生在哪所学校？
+    是叫……秀尽吗？
+    «ID MSG_GRT_SHIBUYA_main_All_33  对话»
+
+【挂着相机的女性】什么金牌得主，
+    也不过是个色老头而已嘛。
+    «ID MSG_GRT_SHIBUYA_main_All_34  对话»
+
+【挂着相机的女性】色狼老师被抓了，
+    真是太好笑了！
+    «ID MSG_GRT_SHIBUYA_main_All_35  对话»
+
+【挂着相机的女性】对女社员为所欲为……
+    真令人作呕……
+    «ID MSG_GRT_SHIBUYA_main_All_36  对话»
+
+【挂着相机的女性】居然自己坦白了罪行……
+    那一开始别做不就好了……
+    «ID MSG_GRT_SHIBUYA_main_All_37  对话»
+
+【挂着相机的女性】什么金牌得主，
+    也不过是个色老头而已嘛。
+    «ID MSG_GRT_SHIBUYA_main_All_38  对话»
+
+【挂着相机的女性】色狼老师被抓了，
+    真是太好笑了！
+    «ID MSG_GRT_SHIBUYA_main_All_39  对话»
+
+【挂着相机的女性】利用职务之便来性骚扰女性，
+    这种人真是太恶劣了。
+    «ID MSG_GRT_SHIBUYA_main_All_40  对话»
+
+【挂着相机的女性】居然自己坦白了罪行……
+    那一开始别做不就好了……
+    «ID MSG_GRT_SHIBUYA_main_All_41  对话»
+
+【挂着相机的女性】也许他曾是金牌得主，
+    但现在已经完蛋了。
+    «ID MSG_GRT_SHIBUYA_main_All_42  对话»
+
+【挂着相机的女性】对女社员为所欲为……
+    太恶心了……
+    «ID MSG_GRT_SHIBUYA_main_All_43  对话»
+
+【挂着相机的女性】什么金牌得主，
+    也不过是个色老头而已嘛。
+    «ID MSG_GRT_SHIBUYA_main_All_44  对话»
+
+【挂着相机的女性】就算是金牌得主，
+    这下也完蛋了。
+    «ID MSG_GRT_SHIBUYA_main_All_45  对话»
+
+【挂着相机的女性】什么金牌得主，
+    也不过是个色老头而已嘛。
+    «ID MSG_GRT_SHIBUYA_main_All_46  对话»
+
+【挂着相机的女性】色狼老师被抓了，
+    真是太好笑了！
+    «ID MSG_GRT_SHIBUYA_main_All_47  对话»
+
+【挂着相机的女性】利用职务之便来性骚扰女性，
+    这种人真是太恶劣了。
+    «ID MSG_GRT_SHIBUYA_main_All_48  对话»
+
+【挂着相机的女性】虽然我对艺术没什么兴趣，
+    但听说他很有名呢。
+    «ID MSG_GRT_SHIBUYA_main_All_49  对话»
+
+【挂着相机的女性】你知道斑目吗？
+    他好像是个人气画家。
+    «ID MSG_GRT_SHIBUYA_main_All_50  对话»
+
+【挂着相机的女性】那个人的画
+    应该能卖很高的价钱吧……
+    «ID MSG_GRT_SHIBUYA_main_All_51  对话»
+
+【挂着相机的女性】他很受欢迎啊。
+    我看我也去当艺术家好了……
+    «ID MSG_GRT_SHIBUYA_main_All_52  对话»
+
+【挂着相机的女性】他很受欢迎啊。
+    我看我也去当艺术家好了……
+    «ID MSG_GRT_SHIBUYA_main_All_53  对话»
+
+【挂着相机的女性】新闻报导上说
+    有位名人正在举行个展……
+    «ID MSG_GRT_SHIBUYA_main_All_54  对话»
+
+【挂着相机的女性】听说全世界对他的评价
+    都非常高哦！
+    «ID MSG_GRT_SHIBUYA_main_All_55  对话»
+
+【挂着相机的女性】那个画家
+    应该赚了不少钱吧……
+    «ID MSG_GRT_SHIBUYA_main_All_56  对话»
+
+【挂着相机的女性】你知道斑目吗？
+    他好像是个人气画家。
+    «ID MSG_GRT_SHIBUYA_main_All_57  对话»
+
+【挂着相机的女性】那个画家的画
+    应该能卖很高的价钱吧……
+    «ID MSG_GRT_SHIBUYA_main_All_58  对话»
+
+【挂着相机的女性】新闻有报导说，
+    有位名人正在举行个展……
+    «ID MSG_GRT_SHIBUYA_main_All_59  对话»
+
+【挂着相机的女性】我在电视上看到过，
+    他的画很不错哦。
+    «ID MSG_GRT_SHIBUYA_main_All_60  对话»
+
+【挂着相机的女性】你知道斑目吗？
+    他好像是个人气画家。
+    «ID MSG_GRT_SHIBUYA_main_All_61  对话»
+
+【挂着相机的女性】那个画家的画
+    应该能卖很高的价钱吧……
+    «ID MSG_GRT_SHIBUYA_main_All_62  对话»
+
+【挂着相机的女性】新闻有报导说，
+    有位名人正在举行个展……
+    «ID MSG_GRT_SHIBUYA_main_All_63  对话»
+
+【挂着相机的女性】我在电视上看到过，
+    他的画很不错哦。
+    «ID MSG_GRT_SHIBUYA_main_All_64  对话»
+
+【挂着相机的女性】我收到一封奇怪的信息，
+    这是什么？
+    «ID MSG_GRT_SHIBUYA_main_All_65  对话»
+
+【挂着相机的女性】偶尔会看到
+    混混流氓……
+    «ID MSG_GRT_SHIBUYA_main_All_66  对话»
+
+【挂着相机的女性】被人抢钱什么的，
+    好吓人……
+    «ID MSG_GRT_SHIBUYA_main_All_67  对话»
+
+【挂着相机的女性】我看到网上说，
+    涩谷现在很危险……
+    «ID MSG_GRT_SHIBUYA_main_All_68  对话»
+
+【挂着相机的女性】最近涩谷传来的
+    都是一些坏消息呢……
+    «ID MSG_GRT_SHIBUYA_main_All_69  对话»
+
+【挂着相机的女性】大白天就有流氓
+    在街上走来走去的……
+    «ID MSG_GRT_SHIBUYA_main_All_70  对话»
+
+【挂着相机的女性】专挑学生下手，
+    很糟糕吧？
+    «ID MSG_GRT_SHIBUYA_main_All_71  对话»
+
+【挂着相机的女性】听说涩谷有
+    诈骗集团……
+    «ID MSG_GRT_SHIBUYA_main_All_72  对话»
+
+【挂着相机的女性】钓鱼诈骗吗……
+    那要小心些才行啊。
+    «ID MSG_GRT_SHIBUYA_main_All_73  对话»
+
+【挂着相机的女性】警察在干什么呢。
+    赶快想想办法啊……
+    «ID MSG_GRT_SHIBUYA_main_All_74  对话»
+
+【挂着相机的女性】来涩谷的时候，
+    必须小心点才行呢……
+    «ID MSG_GRT_SHIBUYA_main_All_75  对话»
+
+【挂着相机的女性】听说这附近的犯罪事件
+    正在逐渐增加……
+    «ID MSG_GRT_SHIBUYA_main_All_76  对话»
+
+【挂着相机的女性】如果遇到可疑的人，
+    就只能逃走了……
+    «ID MSG_GRT_SHIBUYA_main_All_77  对话»
+
+【挂着相机的女性】我看还是不要
+    靠近涩谷好了……
+    «ID MSG_GRT_SHIBUYA_main_All_78  对话»
+
+【挂着相机的女性】知道涩谷很危险后，
+    我都好害怕一个人走在街上……
+    «ID MSG_GRT_SHIBUYA_main_All_79  对话»
+
+【挂着相机的女性】我朋友被骗了……
+    «ID MSG_GRT_SHIBUYA_main_All_80  对话»
+
+【挂着相机的女性】这么说来，那些奇怪事故
+    好像没有再发生了？
+    «ID MSG_GRT_SHIBUYA_main_All_81  对话»
+
+【挂着相机的女性】上次的事故
+    是什么时候发生的来着？
+    «ID MSG_GRT_SHIBUYA_main_All_82  对话»
+
+【挂着相机的女性】连环事故
+    是不是已经平息下来了……
+    «ID MSG_GRT_SHIBUYA_main_All_83  对话»
+
+【挂着相机的女性】脱轨的原因
+    后来是怎么说的啊……
+    «ID MSG_GRT_SHIBUYA_main_All_84  对话»
+
+【挂着相机的女性】反正社会
+    还是很危险啦……
+    «ID MSG_GRT_SHIBUYA_main_All_85  对话»
+
+【挂着相机的女性】事故相关的新闻
+    变少了吗……？
+    «ID MSG_GRT_SHIBUYA_main_All_86  对话»
+
+【挂着相机的女性】之前经常
+    发生呢。
+    «ID MSG_GRT_SHIBUYA_main_All_87  对话»
+
+【挂着相机的女性】之前发生了那么多事故，
+    现在突然没了，反而很吓人……
+    «ID MSG_GRT_SHIBUYA_main_All_88  对话»
+
+【挂着相机的女性】感觉马上就快发生
+    重大事件了。
+    «ID MSG_GRT_SHIBUYA_main_All_89  对话»
+
+【挂着相机的女性】我都把事故给忘了……
+    «ID MSG_GRT_SHIBUYA_main_All_90  对话»
+
+【挂着相机的女性】最近都没听说
+    有精神失控的事情发生了……
+    «ID MSG_GRT_SHIBUYA_main_All_91  对话»
+
+【挂着相机的女性】只是碰巧的吧……
+    一定还会发生事故的……
+    «ID MSG_GRT_SHIBUYA_main_All_92  对话»
+
+【挂着相机的女性】不管怎么说，
+    这个社会还是很奇怪啊……
+    «ID MSG_GRT_SHIBUYA_main_All_93  对话»
+
+【挂着相机的女性】事故这种事情，
+    随时都在发生啊。
+    «ID MSG_GRT_SHIBUYA_main_All_94  对话»
+
+【挂着相机的女性】还是没办法放心啊，
+    毕竟事故一直持续发生……
+    «ID MSG_GRT_SHIBUYA_main_All_95  对话»
+
+【挂着相机的女性】之前都说事故原因不明，
+    引起了很大的骚动呢～
+    «ID MSG_GRT_SHIBUYA_main_All_96  对话»
+
+【挂着相机的女性】听说斑目举办的个展
+    有好多人去看。
+    «ID MSG_GRT_SHIBUYA_main_All_97  对话»
+
+【挂着相机的女性】斑目的个展什么时候结束？
+    «ID MSG_GRT_SHIBUYA_main_All_98  对话»
+
+【挂着相机的女性】我朋友看完以后，
+    一直赞不绝口。
+    «ID MSG_GRT_SHIBUYA_main_All_99  对话»
+
+【挂着相机的女性】去了会场
+    就能见到斑目画伯吗？
+    «ID MSG_GRT_SHIBUYA_main_All_100  对话»
+
+【挂着相机的女性】要从事艺术不是不可以，
+    但首先得把肚子填饱……
+    «ID MSG_GRT_SHIBUYA_main_All_101  对话»
+
+【挂着相机的女性】我也让我们家的孩子
+    去当艺术家好了……
+    «ID MSG_GRT_SHIBUYA_main_All_102  对话»
+
+【挂着相机的女性】他都能上电视了，
+    应该是厉害的人物吧？
+    «ID MSG_GRT_SHIBUYA_main_All_103  对话»
+
+【挂着相机的女性】斑目老师好有风度，
+    好迷人……
+    «ID MSG_GRT_SHIBUYA_main_All_104  对话»
+
+【挂着相机的女性】《小百合》
+    没有被展出哦。
+    «ID MSG_GRT_SHIBUYA_main_All_105  对话»
+
+【挂着相机的女性】听说斑目的个展深受好评呢。
+    要一起去看吗？
+    «ID MSG_GRT_SHIBUYA_main_All_106  对话»
+
+【挂着相机的女性】斑目个展很好看啊！
+    «ID MSG_GRT_SHIBUYA_main_All_107  对话»
+
+【挂着相机的女性】听说去看展的人很多，
+    我还是早点去看好了……
+    «ID MSG_GRT_SHIBUYA_main_All_108  对话»
+
+【挂着相机的女性】那个斑目算什么嘛……
+    那种画我也画得出来啊～
+    «ID MSG_GRT_SHIBUYA_main_All_109  对话»
+
+【挂着相机的女性】现在不是陶醉在
+    艺术里的时候吧……
+    «ID MSG_GRT_SHIBUYA_main_All_110  对话»
+
+【挂着相机的女性】我好想去看
+    斑目老师的画哦！
+    «ID MSG_GRT_SHIBUYA_main_All_111  对话»
+
+【挂着相机的女性】他生活过得很朴素，
+    是位很了不起的人。
+    «ID MSG_GRT_SHIBUYA_main_All_112  对话»
+
+【挂着相机的女性】竟然把抄袭的作品拿来卖，
+    他已经无可救药了呢。
+    «ID MSG_GRT_SHIBUYA_main_All_113  对话»
+
+【挂着相机的女性】居然剽窃徒弟的作品，
+    他脑子是怎么长的啊？
+    «ID MSG_GRT_SHIBUYA_main_All_114  对话»
+
+【挂着相机的女性】看那场记者会了吗？
+    我都快笑死了！
+    «ID MSG_GRT_SHIBUYA_main_All_115  对话»
+
+【挂着相机的女性】他外表看起来很和善，
+    我才被他骗了……
+    «ID MSG_GRT_SHIBUYA_main_All_116  对话»
+
+【挂着相机的女性】听说有犯罪预告，
+    这件事是真的吗？
+    «ID MSG_GRT_SHIBUYA_main_All_117  对话»
+
+【挂着相机的女性】一把年纪了还哭哭啼啼的，
+    真丢人啊。
+    «ID MSG_GRT_SHIBUYA_main_All_118  对话»
+
+【挂着相机的女性】有传闻说，
+    有人已经『预告』过了……
+    «ID MSG_GRT_SHIBUYA_main_All_119  对话»
+
+【挂着相机的女性】都是因为媒体在捧他，
+    我才会受骗的！
+    «ID MSG_GRT_SHIBUYA_main_All_120  对话»
+
+【挂着相机的女性】那场道歉记者会，
+    太可怕了吧？
+    «ID MSG_GRT_SHIBUYA_main_All_121  对话»
+
+【挂着相机的女性】听说有人预告过了，
+    是真的还是假的？
+    «ID MSG_GRT_SHIBUYA_main_All_122  对话»
+
+【挂着相机的女性】他放声大哭的样子
+    看起来好恶心～
+    «ID MSG_GRT_SHIBUYA_main_All_123  对话»
+
+【挂着相机的女性】为什么突然坦白了？
+    «ID MSG_GRT_SHIBUYA_main_All_124  对话»
+
+【挂着相机的女性】电视上说，
+    之前有『预告』呢……
+    «ID MSG_GRT_SHIBUYA_main_All_125  对话»
+
+【挂着相机的女性】『怪盗』？是指什么啊？
+    «ID MSG_GRT_SHIBUYA_main_All_126  对话»
+
+【挂着相机的女性】他以为只要哭出来，
+    大家就会原谅他吗？
+    «ID MSG_GRT_SHIBUYA_main_All_127  对话»
+
+【挂着相机的女性】花了大把钞票买画的人，
+    简直跟笨蛋没两样啊……
+    «ID MSG_GRT_SHIBUYA_main_All_128  对话»
+
+【挂着相机的女性】最近涩谷传来的
+    都是一些坏消息呢……
+    «ID MSG_GRT_SHIBUYA_main_All_129  对话»
+
+【挂着相机的女性】我总觉得路上的小混混
+    好像变多了……
+    «ID MSG_GRT_SHIBUYA_main_All_130  对话»
+
+【挂着相机的女性】我听说他们是
+    被叫到涩谷来的……
+    «ID MSG_GRT_SHIBUYA_main_All_131  对话»
+
+【挂着相机的女性】最近这附近的
+    小混混好像变多了……？
+    «ID MSG_GRT_SHIBUYA_main_All_132  对话»
+
+【挂着相机的女性】听说还会收到
+    钓鱼诈骗的信息呢。
+    «ID MSG_GRT_SHIBUYA_main_All_133  对话»
+
+【挂着相机的女性】我总觉得路上的小混混
+    好像变多了……
+    «ID MSG_GRT_SHIBUYA_main_All_134  对话»
+
+【挂着相机的女性】听说他们专挑学生下手，
+    是真的吗？
+    «ID MSG_GRT_SHIBUYA_main_All_135  对话»
+
+【挂着相机的女性】恐吓和诈骗的事情，
+    都是真的吗……
+    «ID MSG_GRT_SHIBUYA_main_All_136  对话»
+
+【挂着相机的女性】最近涩谷传来的
+    都是一些坏消息呢……
+    «ID MSG_GRT_SHIBUYA_main_All_137  对话»
+
+【挂着相机的女性】警察在干什么呢。
+    赶快想想办法啊……
+    «ID MSG_GRT_SHIBUYA_main_All_138  对话»
+
+【挂着相机的女性】大家都害怕到
+    不想来涩谷了……
+    «ID MSG_GRT_SHIBUYA_main_All_139  对话»
+
+【挂着相机的女性】钓鱼诈骗也
+    太可怕了吧？
+    «ID MSG_GRT_SHIBUYA_main_All_140  对话»
+
+【挂着相机的女性】最近涩谷传来的
+    都是一些坏消息呢……
+    «ID MSG_GRT_SHIBUYA_main_All_141  对话»
+
+【挂着相机的女性】涩谷到底是怎么了？
+    «ID MSG_GRT_SHIBUYA_main_All_142  对话»
+
+【挂着相机的女性】大家都害怕到
+    不想来涩谷了……
+    «ID MSG_GRT_SHIBUYA_main_All_143  对话»
+
+【挂着相机的女性】钓鱼诈骗也
+    太可怕了吧？
+    «ID MSG_GRT_SHIBUYA_main_All_144  对话»
+
+【挂着相机的女性】听说有预告信，是真的吗？
+    «ID MSG_GRT_SHIBUYA_main_All_145  对话»
+
+【挂着相机的女性】听说涩谷的各处
+    都贴满了预告信……
+    «ID MSG_GRT_SHIBUYA_main_All_146  对话»
+
+【挂着相机的女性】反正只是恶作剧吧？
+    «ID MSG_GRT_SHIBUYA_main_All_147  对话»
+
+【挂着相机的女性】如果真有预告信的话，
+    那就有趣了～
+    «ID MSG_GRT_SHIBUYA_main_All_148  对话»
+
+【挂着相机的女性】什么预告信，
+    只是网络谣言吧？
+    «ID MSG_GRT_SHIBUYA_main_All_149  对话»
+
+【挂着相机的女性】怎么可能
+    会有什么怪盗啊……
+    «ID MSG_GRT_SHIBUYA_main_All_150  对话»
+
+【挂着相机的女性】听说汽车上
+    也被贴满了哦？
+    «ID MSG_GRT_SHIBUYA_main_All_151  对话»
+
+【挂着相机的女性】怪盗啊……
+    他们真的存在吗？
+    «ID MSG_GRT_SHIBUYA_main_All_152  对话»
+
+【挂着相机的女性】听说整条街道
+    都贴满了。
+    «ID MSG_GRT_SHIBUYA_main_All_153  对话»
+
+【挂着相机的女性】怪盗的预告信
+    是怎么一回事？
+    «ID MSG_GRT_SHIBUYA_main_All_154  对话»
+
+【挂着相机的女性】如果真有预告信的话，
+    那就有趣了～
+    «ID MSG_GRT_SHIBUYA_main_All_155  对话»
+
+【挂着相机的女性】话说回来，金城是谁？
+    «ID MSG_GRT_SHIBUYA_main_All_156  对话»
+
+【挂着相机的女性】什么怪盗啊，
+    那真的存在吗～？
+    «ID MSG_GRT_SHIBUYA_main_All_157  对话»
+
+【挂着相机的女性】警察给我好好做事啊……
+    «ID MSG_GRT_SHIBUYA_main_All_158  对话»
+
+【挂着相机的女性】如果他们真的存在
+    就好了……
+    «ID MSG_GRT_SHIBUYA_main_All_159  对话»
+
+【挂着相机的女性】你相信怪盗的存在吗？
+    «ID MSG_GRT_SHIBUYA_main_All_160  对话»
+
+【挂着相机的女性】听说抓到主犯了！
+    «ID MSG_GRT_SHIBUYA_main_All_161  对话»
+
+【挂着相机的女性】涩谷也恢复平静了，
+    我们去玩吧！
+    «ID MSG_GRT_SHIBUYA_main_All_162  对话»
+
+【挂着相机的女性】终于可以放心地玩了！
+    «ID MSG_GRT_SHIBUYA_main_All_163  对话»
+
+【挂着相机的女性】涩谷能恢复平静，
+    真的是太好了……
+    «ID MSG_GRT_SHIBUYA_main_All_164  对话»
+
+【挂着相机的女性】听说已经抓到
+    组织里的主犯了！
+    «ID MSG_GRT_SHIBUYA_main_All_165  对话»
+
+【挂着相机的女性】新闻有报导说，
+    已经抓到了！
+    «ID MSG_GRT_SHIBUYA_main_All_166  对话»
+
+【挂着相机的女性】涩谷能恢复平静，
+    真的是太好了。
+    «ID MSG_GRT_SHIBUYA_main_All_167  对话»
+
+【挂着相机的女性】这样我就能放心地
+    走在街上了！
+    «ID MSG_GRT_SHIBUYA_main_All_168  对话»
+
+【挂着相机的女性】听说已经抓到
+    组织里的主犯了！
+    «ID MSG_GRT_SHIBUYA_main_All_169  对话»
+
+【挂着相机的女性】终于不会再碰上
+    诈骗之类的事情了。
+    «ID MSG_GRT_SHIBUYA_main_All_170  对话»
+
+【挂着相机的女性】这样我就能放心地
+    在涩谷玩了！
+    «ID MSG_GRT_SHIBUYA_main_All_171  对话»
+
+【挂着相机的女性】听说那个诈骗集团
+    已经被抓了！
+    «ID MSG_GRT_SHIBUYA_main_All_172  对话»
+
+【挂着相机的女性】能抓到他们真是值得庆祝啊～
+    «ID MSG_GRT_SHIBUYA_main_All_173  对话»
+
+【挂着相机的女性】危险人物被逮捕以后，
+    真让人松了一口气啊。
+    «ID MSG_GRT_SHIBUYA_main_All_174  对话»
+
+【挂着相机的女性】这样我就能放心地
+    在涩谷玩了！
+    «ID MSG_GRT_SHIBUYA_main_All_175  对话»
+
+【挂着相机的女性】听说那个诈骗集团
+    已经被抓了！
+    «ID MSG_GRT_SHIBUYA_main_All_176  对话»
+
+【挂着相机的女性】原来预告信
+    是真的呢！
+    «ID MSG_GRT_SHIBUYA_main_All_177  对话»
+
+【挂着相机的女性】如果真的是怪盗搞的鬼，
+    未免也太厉害了吧！
+    «ID MSG_GRT_SHIBUYA_main_All_178  对话»
+
+【挂着相机的女性】那些怪盗的传闻，
+    原来都是真的啊……
+    «ID MSG_GRT_SHIBUYA_main_All_179  对话»
+
+【挂着相机的女性】你看新闻了吗？
+    听说是怪盗啊！
+    «ID MSG_GRT_SHIBUYA_main_All_180  对话»
+
+【挂着相机的女性】原来怪盗的预告信
+    不是恶作剧啊！
+    «ID MSG_GRT_SHIBUYA_main_All_181  对话»
+
+【挂着相机的女性】听说好像跟
+    怪盗团有关哦。
+    «ID MSG_GRT_SHIBUYA_main_All_182  对话»
+
+【挂着相机的女性】那封预告信
+    果然是真的呢！
+    «ID MSG_GRT_SHIBUYA_main_All_183  对话»
+
+【挂着相机的女性】新闻里也有报导说
+    此事与怪盗有关……
+    «ID MSG_GRT_SHIBUYA_main_All_184  对话»
+
+【挂着相机的女性】如果真的是怪盗搞的鬼，
+    未免也太厉害了吧！
+    «ID MSG_GRT_SHIBUYA_main_All_185  对话»
+
+【挂着相机的女性】听说好像和
+    怪盗团有关联！
+    «ID MSG_GRT_SHIBUYA_main_All_186  对话»
+
+【挂着相机的女性】事情都照怪盗预告信上
+    所写的那样发生了呢！
+    «ID MSG_GRT_SHIBUYA_main_All_187  对话»
+
+【挂着相机的女性】新闻里也有报导说
+    此事与怪盗有关……
+    «ID MSG_GRT_SHIBUYA_main_All_188  对话»
+
+【挂着相机的女性】如果真的是怪盗搞的鬼，
+    未免也太厉害了吧！
+    «ID MSG_GRT_SHIBUYA_main_All_189  对话»
+
+【挂着相机的女性】听说好像跟
+    怪盗团有关联！
+    «ID MSG_GRT_SHIBUYA_main_All_190  对话»
+
+【挂着相机的女性】那些怪盗的传闻，
+    原来都是真的啊……
+    «ID MSG_GRT_SHIBUYA_main_All_191  对话»
+
+【挂着相机的女性】解决这次事件的人，
+    真的是怪盗吗？
+    «ID MSG_GRT_SHIBUYA_main_All_192  对话»
+
+【挂着相机的女性】你看到新闻声明稿了吗？
+    不知道怪盗团会怎么做呢？
+    «ID MSG_GRT_SHIBUYA_main_All_193  对话»
+
+【挂着相机的女性】我真是不明白为什么要
+    突然把怪盗视为眼中钉啊。
+    «ID MSG_GRT_SHIBUYA_main_All_194  对话»
+
+【挂着相机的女性】有人说怪盗是虚假的正义，
+    这是怎么一回事啊？
+    «ID MSG_GRT_SHIBUYA_main_All_195  对话»
+
+【挂着相机的女性】都被批评成这样了，
+    怪盗会采取什么行动呢？
+    «ID MSG_GRT_SHIBUYA_main_All_196  对话»
+
+【挂着相机的女性】你看梅吉多的声明稿了吗？
+    不知道怪盗会怎么做？
+    «ID MSG_GRT_SHIBUYA_main_All_197  对话»
+
+【挂着相机的女性】有人说怪盗是虚假的正义，
+    这是怎么一回事啊？
+    «ID MSG_GRT_SHIBUYA_main_All_198  对话»
+
+【挂着相机的女性】看来他们对怪盗团
+    相当在意呢～
+    «ID MSG_GRT_SHIBUYA_main_All_199  对话»
+
+【挂着相机的女性】都被批评成这样了，
+    怪盗会采取什么行动呢？
+    «ID MSG_GRT_SHIBUYA_main_All_200  对话»
+
+【挂着相机的女性】梅吉多到底想干什么？
+    «ID MSG_GRT_SHIBUYA_main_All_201  对话»
+
+【挂着相机的女性】有人说怪盗是虚假的正义，
+    真是莫名其妙……
+    «ID MSG_GRT_SHIBUYA_main_All_202  对话»
+
+【挂着相机的女性】说了这么自私的话，
+    梅吉多是打算干什么？
+    «ID MSG_GRT_SHIBUYA_main_All_203  对话»
+
+【挂着相机的女性】都被批评成这样了，
+    怪盗会采取什么行动呢？
+    «ID MSG_GRT_SHIBUYA_main_All_204  对话»
+
+【挂着相机的女性】那个梅吉多
+    真是会给人制造麻烦啊～
+    «ID MSG_GRT_SHIBUYA_main_All_205  对话»
+
+【挂着相机的女性】有人说怪盗是虚假的正义，
+    真是莫名其妙……
+    «ID MSG_GRT_SHIBUYA_main_All_206  对话»
+
+【挂着相机的女性】梅吉多那件事，
+    怪盗会怎么做呢？
+    «ID MSG_GRT_SHIBUYA_main_All_207  对话»
+
+【挂着相机的女性】都被批评成这样了，
+    怪盗会采取什么行动呢？
+    «ID MSG_GRT_SHIBUYA_main_All_208  对话»
+
+【挂着相机的女性】怪盗面对黑客这个对手，
+    会用什么方法来对付他？
+    «ID MSG_GRT_SHIBUYA_main_All_209  对话»
+
+【挂着相机的女性】怪盗团……
+    该出来说句话了吧。
+    «ID MSG_GRT_SHIBUYA_main_All_210  对话»
+
+【挂着相机的女性】怪盗团一直闷不吭声，
+    事情到底会怎么样啊……
+    «ID MSG_GRT_SHIBUYA_main_All_211  对话»
+
+【挂着相机的女性】日本已经被盯上了，
+    真希望有人能想想办法啊。
+    «ID MSG_GRT_SHIBUYA_main_All_212  对话»
+
+【挂着相机的女性】怪盗面对黑客这个对手，
+    会用什么方法来对付他？
+    «ID MSG_GRT_SHIBUYA_main_All_213  对话»
+
+【挂着相机的女性】说是要打击经济，
+    那可就糟糕了！
+    «ID MSG_GRT_SHIBUYA_main_All_214  对话»
+
+【挂着相机的女性】日本已经被盯上了，
+    真希望有人能想想办法啊。
+    «ID MSG_GRT_SHIBUYA_main_All_215  对话»
+
+【挂着相机的女性】只要怪盗能表明真实身份，
+    对方应该会放过他们的吧？
+    «ID MSG_GRT_SHIBUYA_main_All_216  对话»
+
+【挂着相机的女性】怪盗团……
+    该出来说句话了吧。
+    «ID MSG_GRT_SHIBUYA_main_All_217  对话»
+
+【挂着相机的女性】怪盗团在干嘛啊……
+    «ID MSG_GRT_SHIBUYA_main_All_218  对话»
+
+【挂着相机的女性】怪盗团一直闷不吭声，
+    事情到底会怎么样啊……
+    «ID MSG_GRT_SHIBUYA_main_All_219  对话»
+
+【挂着相机的女性】只要怪盗能表明真实身份，
+    对方应该会放过他们的吧？
+    «ID MSG_GRT_SHIBUYA_main_All_220  对话»
+
+【挂着相机的女性】怪盗团……
+    该出来说句话了吧。
+    «ID MSG_GRT_SHIBUYA_main_All_221  对话»
+
+【挂着相机的女性】怪盗团在干嘛啊……
+    «ID MSG_GRT_SHIBUYA_main_All_222  对话»
+
+【挂着相机的女性】怪盗团一直闷不吭声，
+    事情到底会怎么样啊……
+    «ID MSG_GRT_SHIBUYA_main_All_223  对话»
+
+【挂着相机的女性】只要怪盗愿意表明真实身份，
+    对方应该会放过他们的吧？
+    «ID MSG_GRT_SHIBUYA_main_All_224  对话»
+
+【挂着相机的女性】听说梅吉多的网站
+    被篡改了！
+    «ID MSG_GRT_SHIBUYA_main_All_225  对话»
+
+【挂着相机的女性】居然连梅吉多都能战胜……
+    真是太厉害了！
+    «ID MSG_GRT_SHIBUYA_main_All_226  对话»
+
+【挂着相机的女性】听说梅吉多被怪盗团
+    击溃了！
+    «ID MSG_GRT_SHIBUYA_main_All_227  对话»
+
+【挂着相机的女性】是怪盗团干的吧？
+    太厉害了～！
+    «ID MSG_GRT_SHIBUYA_main_All_228  对话»
+
+【挂着相机的女性】听说梅吉多的网站
+    被篡改了！
+    «ID MSG_GRT_SHIBUYA_main_All_229  对话»
+
+【挂着相机的女性】是怪盗团拯救了
+    我们吧？
+    «ID MSG_GRT_SHIBUYA_main_All_230  对话»
+
+【挂着相机的女性】是怪盗团干的吧？
+    必须要谢谢他们！
+    «ID MSG_GRT_SHIBUYA_main_All_231  对话»
+
+【挂着相机的女性】他们竟然能
+    打倒梅吉多！
+    «ID MSG_GRT_SHIBUYA_main_All_232  对话»
+
+【挂着相机的女性】居然连梅吉多都能战胜……
+    真是太厉害了！
+    «ID MSG_GRT_SHIBUYA_main_All_233  对话»
+
+【挂着相机的女性】是怪盗团
+    拯救了我们吧？
+    «ID MSG_GRT_SHIBUYA_main_All_234  对话»
+
+【挂着相机的女性】听说黑客的网站上，
+    有怪盗的标志！
+    «ID MSG_GRT_SHIBUYA_main_All_235  对话»
+
+【挂着相机的女性】竟然能打倒
+    世界级水准的黑客！
+    «ID MSG_GRT_SHIBUYA_main_All_236  对话»
+
+【挂着相机的女性】居然连梅吉多都能战胜……
+    真是太厉害了！
+    «ID MSG_GRT_SHIBUYA_main_All_237  对话»
+
+【挂着相机的女性】还要警察干什么，
+    反正已经有怪盗团了。
+    «ID MSG_GRT_SHIBUYA_main_All_238  对话»
+
+【挂着相机的女性】梅吉多的网站
+    好像关闭了！
+    «ID MSG_GRT_SHIBUYA_main_All_239  对话»
+
+【挂着相机的女性】竟然能打倒
+    世界级水准的黑客！
+    «ID MSG_GRT_SHIBUYA_main_All_240  对话»
+
+【挂着相机的女性】听说他们保护了日本，
+    让我们免受黑客攻击！
+    «ID MSG_GRT_SHIBUYA_main_All_241  对话»
+
+【挂着相机的女性】我就知道怪盗团
+    果然是对的！
+    «ID MSG_GRT_SHIBUYA_main_All_242  对话»
+
+【挂着相机的女性】幸好我一直
+    都相信怪盗！
+    «ID MSG_GRT_SHIBUYA_main_All_243  对话»
+
+【挂着相机的女性】竟然能打败梅吉多，
+    这未免也太帅了吧！
+    «ID MSG_GRT_SHIBUYA_main_All_244  对话»
+
+【挂着相机的女性】简直是正义之士啊！
+    «ID MSG_GRT_SHIBUYA_main_All_245  对话»
+
+【挂着相机的女性】日本被怪盗拯救了！
+    «ID MSG_GRT_SHIBUYA_main_All_246  对话»
+
+【挂着相机的女性】竟然能打倒梅吉多，
+    真是太猛了～！
+    «ID MSG_GRT_SHIBUYA_main_All_247  对话»
+
+【挂着相机的女性】怪盗团才是正义！
+    «ID MSG_GRT_SHIBUYA_main_All_248  对话»
+
+【挂着相机的女性】多亏了怪盗团，
+    我们才能得救！
+    «ID MSG_GRT_SHIBUYA_main_All_249  对话»
+
+【挂着相机的女性】我就知道怪盗团
+    果然是对的！
+    «ID MSG_GRT_SHIBUYA_main_All_250  对话»
+
+【挂着相机的女性】竟然打倒了梅吉多，
+    怪盗团干得漂亮！
+    «ID MSG_GRT_SHIBUYA_main_All_251  对话»
+
+【挂着相机的女性】多亏了怪盗团，
+    我们才能得救！
+    «ID MSG_GRT_SHIBUYA_main_All_252  对话»
+
+【挂着相机的女性】多亏了怪盗团，
+    我们才能得救！
+    «ID MSG_GRT_SHIBUYA_main_All_253  对话»
+
+【挂着相机的女性】我就知道怪盗团
+    果然是对的！
+    «ID MSG_GRT_SHIBUYA_main_All_254  对话»
+
+【挂着相机的女性】居然连黑客都能打倒，
+    真是太厉害了！
+    «ID MSG_GRT_SHIBUYA_main_All_255  对话»
+
+【挂着相机的女性】多亏了怪盗团，
+    我们才能得救！
+    «ID MSG_GRT_SHIBUYA_main_All_256  对话»
+
+【挂着相机的女性】怪盗真是太神了！
+    «ID MSG_GRT_SHIBUYA_main_All_257  对话»
+
+【挂着相机的女性】只要有怪盗团在，
+    就不需要什么警察了吧？
+    «ID MSG_GRT_SHIBUYA_main_All_258  对话»
+
+【挂着相机的女性】我们会一直
+    追随怪盗团的！
+    «ID MSG_GRT_SHIBUYA_main_All_259  对话»
+
+【挂着相机的女性】现在店里在卖
+    怪盗团的周边商品吧？
+    «ID MSG_GRT_SHIBUYA_main_All_260  对话»
+
+【挂着相机的女性】只要交给怪盗，
+    就能放心了！
+    «ID MSG_GRT_SHIBUYA_main_All_261  对话»
+
+【挂着相机的女性】谜团、疑团……
+    这就是怪盗团！
+    «ID MSG_GRT_SHIBUYA_main_All_262  对话»
+
+【挂着相机的女性】怪盗的人气超高的呢！
+    «ID MSG_GRT_SHIBUYA_main_All_263  对话»
+
+【挂着相机的女性】只要有怪盗团在，
+    就没有什么好畏惧的了！
+    «ID MSG_GRT_SHIBUYA_main_All_264  对话»
+
+【挂着相机的女性】我也好想帅气地
+    做出预告啊！
+    «ID MSG_GRT_SHIBUYA_main_All_265  对话»
+
+【挂着相机的女性】怪盗真的好厉害啊！
+    «ID MSG_GRT_SHIBUYA_main_All_266  对话»
+
+【挂着相机的女性】他们是真正的英雄！
+    «ID MSG_GRT_SHIBUYA_main_All_267  对话»
+
+【挂着相机的女性】好想见见怪盗团！
+    «ID MSG_GRT_SHIBUYA_main_All_268  对话»
+
+【挂着相机的女性】怪盗团
+    果然好帅啊～
+    «ID MSG_GRT_SHIBUYA_main_All_269  对话»
+
+【挂着相机的女性】谜团、疑团……
+    这就是怪盗团！
+    «ID MSG_GRT_SHIBUYA_main_All_270  对话»
+
+【挂着相机的女性】怪盗有女朋友吗？
+    «ID MSG_GRT_SHIBUYA_main_All_271  对话»
+
+【挂着相机的女性】我好想要
+    怪盗的周边商品哦～
+    «ID MSG_GRT_SHIBUYA_main_All_272  对话»
+
+【挂着相机的女性】你听说了吗？
+    奥村食品发生的事……
+    «ID MSG_GRT_SHIBUYA_main_All_273  对话»
+
+【挂着相机的女性】这根本就是把员工当社畜了吧？
+    真是黑心到令人难以置信啊。
+    «ID MSG_GRT_SHIBUYA_main_All_274  对话»
+
+【挂着相机的女性】奥村食品的那个传闻，
+    到底是真是假啊……
+    «ID MSG_GRT_SHIBUYA_main_All_275  对话»
+
+【挂着相机的女性】奥村食品就是那间
+    开大爆炸汉堡的企业吗？
+    «ID MSG_GRT_SHIBUYA_main_All_276  对话»
+
+【挂着相机的女性】你听说了吗？
+    奥村食品发生的事……
+    «ID MSG_GRT_SHIBUYA_main_All_277  对话»
+
+【挂着相机的女性】原来那家企业成长得这么快，
+    是因为暗地里做了这些事啊……
+    «ID MSG_GRT_SHIBUYA_main_All_278  对话»
+
+【挂着相机的女性】奥村食品就是那间
+    开大爆炸汉堡的企业吗？
+    «ID MSG_GRT_SHIBUYA_main_All_279  对话»
+
+【挂着相机的女性】听说还把员工当作牲口对待，
+    真是太恶劣了……
+    «ID MSG_GRT_SHIBUYA_main_All_280  对话»
+
+【挂着相机的女性】听说那家公司的
+    工作环境非常的糟糕……
+    «ID MSG_GRT_SHIBUYA_main_All_281  对话»
+
+【挂着相机的女性】听说还曾有公司员工暴动，
+    真的假的啊……
+    «ID MSG_GRT_SHIBUYA_main_All_282  对话»
+
+【挂着相机的女性】黑心企业
+    还真可怕……
+    «ID MSG_GRT_SHIBUYA_main_All_283  对话»
+
+【挂着相机的女性】听说还把员工当作牲口对待，
+    太扯了吧？
+    «ID MSG_GRT_SHIBUYA_main_All_284  对话»
+
+【挂着相机的女性】原来那家企业成长得这么快，
+    是因为暗地里做了这些事啊……
+    «ID MSG_GRT_SHIBUYA_main_All_285  对话»
+
+【挂着相机的女性】电视好像报导过，
+    曾经发生过公司员工暴动呢……
+    «ID MSG_GRT_SHIBUYA_main_All_286  对话»
+
+【挂着相机的女性】奥村食品的那个传闻，
+    到底是真是假啊……
+    «ID MSG_GRT_SHIBUYA_main_All_287  对话»
+
+【挂着相机的女性】听说还把员工当作牲口对待，
+    太恐怖了吧……
+    «ID MSG_GRT_SHIBUYA_main_All_288  对话»
+
+【挂着相机的女性】真希望他们可以
+    继续改变社会啊！
+    «ID MSG_GRT_SHIBUYA_main_All_289  对话»
+
+【挂着相机的女性】只要交给怪盗团，
+    他们肯定会想办法的！
+    «ID MSG_GRT_SHIBUYA_main_All_290  对话»
+
+【挂着相机的女性】只要交给怪盗团，
+    就不会有问题了啦！
+    «ID MSG_GRT_SHIBUYA_main_All_291  对话»
+
+【挂着相机的女性】该选谁来当作
+    下一个目标呢！
+    «ID MSG_GRT_SHIBUYA_main_All_292  对话»
+
+【挂着相机的女性】哎呀，只要交给怪盗团，
+    就不会有问题了啦！
+    «ID MSG_GRT_SHIBUYA_main_All_293  对话»
+
+【挂着相机的女性】怪盗会一个接一个地
+    打倒罪恶的！
+    «ID MSG_GRT_SHIBUYA_main_All_294  对话»
+
+【挂着相机的女性】该选谁来当作
+    下一个目标呢！
+    «ID MSG_GRT_SHIBUYA_main_All_295  对话»
+
+【挂着相机的女性】要改变社会的话，
+    真希望他们能做得更彻底一点！
+    «ID MSG_GRT_SHIBUYA_main_All_296  对话»
+
+【挂着相机的女性】怪盗团肯定会
+    想出办法的！
+    «ID MSG_GRT_SHIBUYA_main_All_297  对话»
+
+【挂着相机的女性】无论有多少坏人，
+    全都要让他们悔改！
+    «ID MSG_GRT_SHIBUYA_main_All_298  对话»
+
+【挂着相机的女性】只要交给怪盗团，
+    就不会有问题了啦！
+    «ID MSG_GRT_SHIBUYA_main_All_299  对话»
+
+【挂着相机的女性】既然要改变社会，
+    那就做得更彻底一点吧！
+    «ID MSG_GRT_SHIBUYA_main_All_300  对话»
+
+【挂着相机的女性】怪盗团肯定会
+    想出办法的！
+    «ID MSG_GRT_SHIBUYA_main_All_301  对话»
+
+【挂着相机的女性】无论有多少坏人，
+    全都要让他们悔改！
+    «ID MSG_GRT_SHIBUYA_main_All_302  对话»
+
+【挂着相机的女性】只要交给怪盗团，
+    就不会有问题了啦！
+    «ID MSG_GRT_SHIBUYA_main_All_303  对话»
+
+【挂着相机的女性】既然要改变社会，
+    那就做得更彻底一点吧！
+    «ID MSG_GRT_SHIBUYA_main_All_304  对话»
+
+【挂着相机的女性】怪盗团干得好啊。
+    彻底消灭他们吧！
+    «ID MSG_GRT_SHIBUYA_main_All_305  对话»
+
+【挂着相机的女性】预告信出现了！
+    目标果然是奥村啊！
+    «ID MSG_GRT_SHIBUYA_main_All_306  对话»
+
+【挂着相机的女性】怪盗团的预告信
+    我等了好久啊！
+    «ID MSG_GRT_SHIBUYA_main_All_307  对话»
+
+【挂着相机的女性】这种金钱的俘虏，
+    理当接受惩罚！
+    «ID MSG_GRT_SHIBUYA_main_All_308  对话»
+
+【挂着相机的女性】怪盗团干得好啊。
+    彻底消灭他们吧！
+    «ID MSG_GRT_SHIBUYA_main_All_309  对话»
+
+【挂着相机的女性】不要以为逃得出
+    怪盗团的手掌心哦？
+    «ID MSG_GRT_SHIBUYA_main_All_310  对话»
+
+【挂着相机的女性】做了那么过分的事，
+    自然应该接受惩罚！
+    «ID MSG_GRT_SHIBUYA_main_All_311  对话»
+
+【挂着相机的女性】真想亲眼看看比斑目还夸张的
+    那种下跪方式！
+    «ID MSG_GRT_SHIBUYA_main_All_312  对话»
+
+【挂着相机的女性】奥村那种人，
+    会被打倒也是理所当然的吧！
+    «ID MSG_GRT_SHIBUYA_main_All_313  对话»
+
+【挂着相机的女性】怪盗团，我们等你好久了！
+    «ID MSG_GRT_SHIBUYA_main_All_314  对话»
+
+【挂着相机的女性】赶快打倒那个
+    恶劣的社长吧！
+    «ID MSG_GRT_SHIBUYA_main_All_315  对话»
+
+【挂着相机的女性】当然没问题，怪盗团！
+    上吧～！
+    «ID MSG_GRT_SHIBUYA_main_All_316  对话»
+
+【挂着相机的女性】让那个黑心社长
+    见识一下什么叫地狱吧～！
+    «ID MSG_GRT_SHIBUYA_main_All_317  对话»
+
+【挂着相机的女性】我现在已经开始期待
+    奥村的道歉记者会了！
+    «ID MSG_GRT_SHIBUYA_main_All_318  对话»
+
+【挂着相机的女性】赶快打倒像他那种
+    黑心的社长吧！
+    «ID MSG_GRT_SHIBUYA_main_All_319  对话»
+
+【挂着相机的女性】当然没问题，怪盗团！
+    上吧～！
+    «ID MSG_GRT_SHIBUYA_main_All_320  对话»
+
+【挂着相机的女性】他们是故意选在记者会过程中
+    这么做的吧？
+    «ID MSG_GRT_SHIBUYA_main_All_321  对话»
+
+【挂着相机的女性】说实在的，
+    那样做太过分了……
+    «ID MSG_GRT_SHIBUYA_main_All_322  对话»
+
+【挂着相机的女性】没必要
+    连命都夺走吧！
+    «ID MSG_GRT_SHIBUYA_main_All_323  对话»
+
+【挂着相机的女性】那个怪盗团
+    根本就是杀人集团吧！
+    «ID MSG_GRT_SHIBUYA_main_All_324  对话»
+
+【挂着相机的女性】他们是故意选在记者会过程中
+    这么做的吧？
+    «ID MSG_GRT_SHIBUYA_main_All_325  对话»
+
+【挂着相机的女性】我们都被怪盗欺骗了！
+    没想到他们竟然是杀人集团！
+    «ID MSG_GRT_SHIBUYA_main_All_326  对话»
+
+【挂着相机的女性】怪盗哪里称得上是正义！
+    他们才是坏蛋啊
+    «ID MSG_GRT_SHIBUYA_main_All_327  对话»
+
+【挂着相机的女性】竟然动手杀人，
+    怪盗团太恶劣了……！
+    «ID MSG_GRT_SHIBUYA_main_All_328  对话»
+
+【挂着相机的女性】他们是故意选在记者会过程中
+    这么做的吧？
+    «ID MSG_GRT_SHIBUYA_main_All_329  对话»
+
+【挂着相机的女性】他们那种方式，简直就像
+    在享受杀人的乐趣……
+    «ID MSG_GRT_SHIBUYA_main_All_330  对话»
+
+【挂着相机的女性】那个怪盗团
+    根本就是杀人集团吧！
+    «ID MSG_GRT_SHIBUYA_main_All_331  对话»
+
+【挂着相机的女性】没想到他们竟然是杀人集团！
+    «ID MSG_GRT_SHIBUYA_main_All_332  对话»
+
+【挂着相机的女性】他们是故意选在记者会过程中
+    这么做的吧？
+    «ID MSG_GRT_SHIBUYA_main_All_333  对话»
+
+【挂着相机的女性】他们那种方式，简直就像
+    在享受杀人的乐趣……
+    «ID MSG_GRT_SHIBUYA_main_All_334  对话»
+
+【挂着相机的女性】那个怪盗团
+    根本就是杀人集团吧！
+    «ID MSG_GRT_SHIBUYA_main_All_335  对话»
+
+【挂着相机的女性】没想到他们竟然是杀人集团！
+    «ID MSG_GRT_SHIBUYA_main_All_336  对话»
+
+【挂着相机的女性】警察在搞什么啦……
+    快点想想办法啊！
+    «ID MSG_GRT_SHIBUYA_main_All_337  对话»
+
+【挂着相机的女性】赶快去逮捕
+    怪盗团啊！
+    «ID MSG_GRT_SHIBUYA_main_All_338  对话»
+
+【挂着相机的女性】不管是谁都好，
+    快想办法对付怪盗团啊！
+    «ID MSG_GRT_SHIBUYA_main_All_339  对话»
+
+【挂着相机的女性】快想办法对付怪盗团啊！
+    击垮那个犯罪集团！
+    «ID MSG_GRT_SHIBUYA_main_All_340  对话»
+
+【挂着相机的女性】警察在干什么！
+    一点用都没有！
+    «ID MSG_GRT_SHIBUYA_main_All_341  对话»
+
+【挂着相机的女性】精神失控事件
+    也是怪盗干的好事吧？
+    «ID MSG_GRT_SHIBUYA_main_All_342  对话»
+
+【挂着相机的女性】听说那些怪事
+    全都是怪盗干的！
+    «ID MSG_GRT_SHIBUYA_main_All_343  对话»
+
+【挂着相机的女性】警察在干什么！
+    赶快逮捕他们啦！
+    «ID MSG_GRT_SHIBUYA_main_All_344  对话»
+
+【挂着相机的女性】警察在搞什么啦……
+    快点想想办法啊！
+    «ID MSG_GRT_SHIBUYA_main_All_345  对话»
+
+【挂着相机的女性】我可是缴了不少税金的！
+    警察在搞什么啊！
+    «ID MSG_GRT_SHIBUYA_main_All_346  对话»
+
+【挂着相机的女性】不管是谁都好，
+    快想办法对付怪盗团啊……
+    «ID MSG_GRT_SHIBUYA_main_All_347  对话»
+
+【挂着相机的女性】在我受到伤害之前，
+    赶快把怪盗抓起来吧！
+    «ID MSG_GRT_SHIBUYA_main_All_348  对话»
+
+【挂着相机的女性】我可是缴了不少税金的！
+    警察在搞什么啊！
+    «ID MSG_GRT_SHIBUYA_main_All_349  对话»
+
+【挂着相机的女性】都没有人要出来
+    处理这件事吗！
+    «ID MSG_GRT_SHIBUYA_main_All_350  对话»
+
+【挂着相机的女性】不管是谁都好，
+    快想办法对付怪盗团啊……
+    «ID MSG_GRT_SHIBUYA_main_All_351  对话»
+
+【挂着相机的女性】在我受到伤害之前，
+    赶快把怪盗抓起来吧！
+    «ID MSG_GRT_SHIBUYA_main_All_352  对话»
+
+【挂着相机的女性】用悬赏金的方式
+    能抓到怪盗吗？
+    «ID MSG_GRT_SHIBUYA_main_All_353  对话»
+
+【挂着相机的女性】听说给怪盗团开出的悬赏金，
+    金额是有史以来最高的……
+    «ID MSG_GRT_SHIBUYA_main_All_354  对话»
+
+【挂着相机的女性】警察的处理
+    也太慢了吧……！
+    «ID MSG_GRT_SHIBUYA_main_All_355  对话»
+
+【挂着相机的女性】希望能在受害范围扩大之前，
+    赶快抓到怪盗啊……
+    «ID MSG_GRT_SHIBUYA_main_All_356  对话»
+
+【挂着相机的女性】听说只要提供怪盗团的情报，
+    就可以获得奖金啊！？
+    «ID MSG_GRT_SHIBUYA_main_All_357  对话»
+
+【挂着相机的女性】听说悬赏金３０００万
+    是目前为止最高的金额……
+    «ID MSG_GRT_SHIBUYA_main_All_358  对话»
+
+【挂着相机的女性】悬赏金啊……要是能因此
+    抓到怪盗就好了……
+    «ID MSG_GRT_SHIBUYA_main_All_359  对话»
+
+【挂着相机的女性】警察终于要开始
+    抓捕怪盗了啊……
+    «ID MSG_GRT_SHIBUYA_main_All_360  对话»
+
+【挂着相机的女性】精神失控好可怕啊……
+    赶快想想办法吧……
+    «ID MSG_GRT_SHIBUYA_main_All_361  对话»
+
+【挂着相机的女性】你听说悬赏金的事情了吗！？
+    «ID MSG_GRT_SHIBUYA_main_All_362  对话»
+
+【挂着相机的女性】悬赏金太扯了吧！
+    玩一辈子都花不完啊！
+    «ID MSG_GRT_SHIBUYA_main_All_363  对话»
+
+【挂着相机的女性】警察的处理
+    也太慢了吧！？
+    «ID MSG_GRT_SHIBUYA_main_All_364  对话»
+
+【挂着相机的女性】悬赏金开到３０００万，
+    怪盗团太恐怖了吧……
+    «ID MSG_GRT_SHIBUYA_main_All_365  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_366  对话»
+
+【挂着相机的女性】警察终于要开始
+    抓捕怪盗了啊……
+    «ID MSG_GRT_SHIBUYA_main_All_367  对话»
+
+【挂着相机的女性】要是这么做就能
+    抓到怪盗就好了……
+    «ID MSG_GRT_SHIBUYA_main_All_368  对话»
+
+【挂着相机的女性】下一次的选举
+    是什么时候啊？
+    «ID MSG_GRT_SHIBUYA_main_All_369  对话»
+
+【挂着相机的女性】成立新党派的政治家，
+    是哪一位来着……
+    «ID MSG_GRT_SHIBUYA_main_All_370  对话»
+
+【挂着相机的女性】现在的政治家这么无能，
+    会解散也是理所当然的。
+    «ID MSG_GRT_SHIBUYA_main_All_371  对话»
+
+【挂着相机的女性】下一次选举
+    是在今年吗？
+    «ID MSG_GRT_SHIBUYA_main_All_372  对话»
+
+【挂着相机的女性】执政党分裂的事，
+    你早就知道了吗？
+    «ID MSG_GRT_SHIBUYA_main_All_373  对话»
+
+【挂着相机的女性】看来今年得更加慎重地
+    选择要把票投给谁才行……
+    «ID MSG_GRT_SHIBUYA_main_All_374  对话»
+
+【挂着相机的女性】说起来，我记得选举
+    就是在今年吧……？
+    «ID MSG_GRT_SHIBUYA_main_All_375  对话»
+
+【挂着相机的女性】听说有新党派要成立，
+    局势会有什么变化吗……
+    «ID MSG_GRT_SHIBUYA_main_All_376  对话»
+
+【挂着相机的女性】听说选举是在年底的时候。
+    «ID MSG_GRT_SHIBUYA_main_All_377  对话»
+
+【挂着相机的女性】是因为要选举了，
+    才会有这么多演讲吗？
+    «ID MSG_GRT_SHIBUYA_main_All_378  对话»
+
+【挂着相机的女性】我爸妈也经常
+    讨论选举的事呢。
+    «ID MSG_GRT_SHIBUYA_main_All_379  对话»
+
+【挂着相机的女性】希望下个政权
+    能更加清廉一些。
+    «ID MSG_GRT_SHIBUYA_main_All_380  对话»
+
+【挂着相机的女性】毕竟目前的政权
+    有不少负面事件方面的争议……
+    «ID MSG_GRT_SHIBUYA_main_All_381  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_382  对话»
+
+【挂着相机的女性】选举是
+    年底开始吗？
+    «ID MSG_GRT_SHIBUYA_main_All_383  对话»
+
+【挂着相机的女性】之前不是有个议员
+    在发表演讲吗？
+    «ID MSG_GRT_SHIBUYA_main_All_384  对话»
+
+【挂着相机的女性】到底要到什么时候，
+    才能抓到怪盗啊……
+    «ID MSG_GRT_SHIBUYA_main_All_385  对话»
+
+【挂着相机的女性】赶快去逮捕
+    怪盗团啊！
+    «ID MSG_GRT_SHIBUYA_main_All_386  对话»
+
+【挂着相机的女性】到底什么时候才能抓到啊？
+    警察实在是太无能了！
+    «ID MSG_GRT_SHIBUYA_main_All_387  对话»
+
+【挂着相机的女性】到底要放任怪盗团
+    作乱到什么时候啊……
+    «ID MSG_GRT_SHIBUYA_main_All_388  对话»
+
+【挂着相机的女性】现在还没有抓到
+    那个怪盗团吧……？
+    «ID MSG_GRT_SHIBUYA_main_All_389  对话»
+
+【挂着相机的女性】警察在搞什么啦……
+    快点想想办法啊！
+    «ID MSG_GRT_SHIBUYA_main_All_390  对话»
+
+【挂着相机的女性】警察在干什么！？
+    还不快去抓犯人！
+    «ID MSG_GRT_SHIBUYA_main_All_391  对话»
+
+【挂着相机的女性】到底要等到什么时候，
+    警察才能采取对策啊！
+    «ID MSG_GRT_SHIBUYA_main_All_392  对话»
+
+【挂着相机的女性】到底要放任杀人集团
+    作乱到什么时候啊……
+    «ID MSG_GRT_SHIBUYA_main_All_393  对话»
+
+【挂着相机的女性】我可是缴了不少税金的！
+    警察在搞什么啊！
+    «ID MSG_GRT_SHIBUYA_main_All_394  对话»
+
+【挂着相机的女性】怪盗一开始出现的地方，
+    是在秀尽吧……
+    «ID MSG_GRT_SHIBUYA_main_All_395  对话»
+
+【挂着相机的女性】精神失控也是怪盗干的好事吧……
+    赶快想想办法。
+    «ID MSG_GRT_SHIBUYA_main_All_396  对话»
+
+【挂着相机的女性】谁能代替无能的警察，
+    来逮捕怪盗啊！
+    «ID MSG_GRT_SHIBUYA_main_All_397  对话»
+
+【挂着相机的女性】都没有人要出来
+    处理这件事吗！
+    «ID MSG_GRT_SHIBUYA_main_All_398  对话»
+
+【挂着相机的女性】警察也无法信任……
+    谁来想想办法啊……
+    «ID MSG_GRT_SHIBUYA_main_All_399  对话»
+
+【挂着相机的女性】到底要到什么时候，
+    才能抓到怪盗啊！
+    «ID MSG_GRT_SHIBUYA_main_All_400  对话»
+
+【挂着相机的女性】听说那个叫狮童的，
+    是个很有能力的人！
+    «ID MSG_GRT_SHIBUYA_main_All_401  对话»
+
+【挂着相机的女性】你听到那个狮童议员
+    所说的话了吗？
+    «ID MSG_GRT_SHIBUYA_main_All_402  对话»
+
+【挂着相机的女性】听说那个叫狮童的政治家，
+    是个很厉害的人物。
+    «ID MSG_GRT_SHIBUYA_main_All_403  对话»
+
+【挂着相机的女性】狮童先生和其他政治家不同，
+    很值得期待！
+    «ID MSG_GRT_SHIBUYA_main_All_404  对话»
+
+【挂着相机的女性】狮童先生好像是位
+    值得期待的人物啊。
+    «ID MSG_GRT_SHIBUYA_main_All_405  对话»
+
+【挂着相机的女性】我如果要去投票，
+    该投给狮童吗……
+    «ID MSG_GRT_SHIBUYA_main_All_406  对话»
+
+【挂着相机的女性】那个叫狮童的人，
+    好会演讲啊～
+    «ID MSG_GRT_SHIBUYA_main_All_407  对话»
+
+【挂着相机的女性】听说狮童先生已经成立新党派了，
+    真像是他的行事作风啊！
+    «ID MSG_GRT_SHIBUYA_main_All_408  对话»
+
+【挂着相机的女性】你听过狮童的演讲了吗？
+    我真的太仰慕他了……
+    «ID MSG_GRT_SHIBUYA_main_All_409  对话»
+
+【挂着相机的女性】狮童所说的每字每句，
+    都跟那些没用的政治家完全不同……
+    «ID MSG_GRT_SHIBUYA_main_All_410  对话»
+
+【挂着相机的女性】我的父母对他赞不绝口，
+    都说他是位很棒的议员！
+    «ID MSG_GRT_SHIBUYA_main_All_411  对话»
+
+【挂着相机的女性】演讲太精彩了。
+    我记得他好像是狮童议员……
+    «ID MSG_GRT_SHIBUYA_main_All_412  对话»
+
+【挂着相机的女性】狮童先生好像和其他
+    政治家不太一样呢～
+    «ID MSG_GRT_SHIBUYA_main_All_413  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_414  对话»
+
+【挂着相机的女性】那个狮童正义，
+    长得挺帅气的！
+    «ID MSG_GRT_SHIBUYA_main_All_415  对话»
+
+【挂着相机的女性】那个叫狮童的，
+    是个很厉害的政治家吧？
+    «ID MSG_GRT_SHIBUYA_main_All_416  对话»
+
+【挂着相机的女性】因为被逮捕就决定自杀，
+    搞什么鬼啊……
+    «ID MSG_GRT_SHIBUYA_main_All_417  对话»
+
+【挂着相机的女性】听说怪盗的主犯被抓到了，
+    这是真的吗！？
+    «ID MSG_GRT_SHIBUYA_main_All_418  对话»
+
+【挂着相机的女性】好不容易抓到了怪盗，
+    最后却自杀了……
+    «ID MSG_GRT_SHIBUYA_main_All_419  对话»
+
+【挂着相机的女性】听说怪盗还是未成年，
+    这是真的吗！？
+    «ID MSG_GRT_SHIBUYA_main_All_420  对话»
+
+【挂着相机的女性】听说怪盗的主犯
+    终于被抓到了！
+    «ID MSG_GRT_SHIBUYA_main_All_421  对话»
+
+【挂着相机的女性】还未查明怪盗的具体目的，
+    就这样不了了之了……
+    «ID MSG_GRT_SHIBUYA_main_All_422  对话»
+
+【挂着相机的女性】我听到怪盗自杀的事情，
+    觉得好惊讶啊……
+    «ID MSG_GRT_SHIBUYA_main_All_423  对话»
+
+【挂着相机的女性】在被逮捕的当天自杀，
+    真是太不寻常了……
+    «ID MSG_GRT_SHIBUYA_main_All_424  对话»
+
+【挂着相机的女性】听说怪盗团的团长死了，
+    这件事是真的吗！？
+    «ID MSG_GRT_SHIBUYA_main_All_425  对话»
+
+【挂着相机的女性】听说怪盗自杀了，
+    真的假的……他脑子有问题吧。
+    «ID MSG_GRT_SHIBUYA_main_All_426  对话»
+
+【挂着相机的女性】一被抓到就自杀了，
+    到底是怎么回事啊！？
+    «ID MSG_GRT_SHIBUYA_main_All_427  对话»
+
+【挂着相机的女性】被逮捕的当天就自杀？
+    这结局太令人意外了吧？
+    «ID MSG_GRT_SHIBUYA_main_All_428  对话»
+
+【挂着相机的女性】好不容易抓到，
+    最后却自杀了……
+    «ID MSG_GRT_SHIBUYA_main_All_429  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_430  对话»
+
+【挂着相机的女性】听说抓到怪盗团了！
+    真是太好啦～！
+    «ID MSG_GRT_SHIBUYA_main_All_431  对话»
+
+【挂着相机的女性】怪盗都消失了，
+    这下就能放心啦。
+    «ID MSG_GRT_SHIBUYA_main_All_432  对话»
+
+【挂着相机的女性】现在这个时代，最需要的
+    就是像狮童这样的政治家！
+    «ID MSG_GRT_SHIBUYA_main_All_433  对话»
+
+【挂着相机的女性】今后的时代，
+    还是得由狮童来带领！
+    «ID MSG_GRT_SHIBUYA_main_All_434  对话»
+
+【挂着相机的女性】任何人都不是狮童先生的对手！
+    他一定会当选的！
+    «ID MSG_GRT_SHIBUYA_main_All_435  对话»
+
+【挂着相机的女性】下一任首相
+    一定是狮童了！
+    «ID MSG_GRT_SHIBUYA_main_All_436  对话»
+
+【挂着相机的女性】下一任首相
+    一定是狮童吧！
+    «ID MSG_GRT_SHIBUYA_main_All_437  对话»
+
+【挂着相机的女性】从今以后，狮童将会
+    为我们改变这个国家的……
+    «ID MSG_GRT_SHIBUYA_main_All_438  对话»
+
+【挂着相机的女性】交给狮童议员，
+    果然就是对的！
+    «ID MSG_GRT_SHIBUYA_main_All_439  对话»
+
+【挂着相机的女性】除了狮童先生，
+    没人能胜任的！
+    «ID MSG_GRT_SHIBUYA_main_All_440  对话»
+
+【挂着相机的女性】不需要等到选举那天了，
+    当选的肯定是狮童先生！
+    «ID MSG_GRT_SHIBUYA_main_All_441  对话»
+
+【挂着相机的女性】怪盗也那样了，
+    只能拜托狮童了！
+    «ID MSG_GRT_SHIBUYA_main_All_442  对话»
+
+【挂着相机的女性】人们都说只要有狮童议员在，
+    就什么都不用操心！
+    «ID MSG_GRT_SHIBUYA_main_All_443  对话»
+
+【挂着相机的女性】只有狮童先生才能肩负起
+    这个国家的重任！
+    «ID MSG_GRT_SHIBUYA_main_All_444  对话»
+
+【挂着相机的女性】从今以后将会是
+    狮童先生的时代！
+    «ID MSG_GRT_SHIBUYA_main_All_445  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_446  对话»
+
+【挂着相机的女性】只要有狮童先生在，
+    就不会有问题了吧！
+    «ID MSG_GRT_SHIBUYA_main_All_447  对话»
+
+【挂着相机的女性】狮童先生接下来
+    会改变一切的！
+    «ID MSG_GRT_SHIBUYA_main_All_448  对话»
+
+【挂着相机的女性】狮童议员就是那个
+    没有负面消息的政治家吧？
+    «ID MSG_GRT_SHIBUYA_main_All_449  对话»
+
+【挂着相机的女性】那个叫狮童的政治家，
+    他的演讲你听过吗？很厉害哦！
+    «ID MSG_GRT_SHIBUYA_main_All_450  对话»
+
+【挂着相机的女性】只要交给狮童先生，
+    就不会有问题了！
+    «ID MSG_GRT_SHIBUYA_main_All_451  对话»
+
+【挂着相机的女性】狮童先生也很努力，
+    每天都在从事竞选活动！
+    «ID MSG_GRT_SHIBUYA_main_All_452  对话»
+
+【挂着相机的女性】不用选举也知道，
+    没有人赢得了狮童啦！
+    «ID MSG_GRT_SHIBUYA_main_All_453  对话»
+
+【挂着相机的女性】听说如果狮童在竞选中获胜，
+    他就会成为首相呢。
+    «ID MSG_GRT_SHIBUYA_main_All_454  对话»
+
+【挂着相机的女性】那个狮童正义的气场，
+    和其他人就是不一样！
+    «ID MSG_GRT_SHIBUYA_main_All_455  对话»
+
+【挂着相机的女性】狮童先生会想办法
+    拯救这个国家的……
+    «ID MSG_GRT_SHIBUYA_main_All_456  对话»
+
+【挂着相机的女性】干脆直接让狮童
+    当首相不就好了？
+    «ID MSG_GRT_SHIBUYA_main_All_457  对话»
+
+【挂着相机的女性】为了把票投给狮童，
+    我得去参加选举啊～
+    «ID MSG_GRT_SHIBUYA_main_All_458  对话»
+
+【挂着相机的女性】那个叫狮童的人，
+    真受大家欢迎啊～
+    «ID MSG_GRT_SHIBUYA_main_All_459  对话»
+
+【挂着相机的女性】真想把所有事情都交给
+    像狮童先生这样的人！
+    «ID MSG_GRT_SHIBUYA_main_All_460  对话»
+
+【挂着相机的女性】能赢过狮童先生的人，
+    可是少之又少哦。
+    «ID MSG_GRT_SHIBUYA_main_All_461  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_462  对话»
+
+【挂着相机的女性】狮童先生说的话
+    很有说服力呢！
+    «ID MSG_GRT_SHIBUYA_main_All_463  对话»
+
+【挂着相机的女性】狮童先生之前也一直在
+    努力从事竞选活动！
+    «ID MSG_GRT_SHIBUYA_main_All_464  对话»
+
+【挂着相机的女性】怪盗和狮童先生……
+    到底应该相信谁啊……
+    «ID MSG_GRT_SHIBUYA_main_All_465  对话»
+
+【挂着相机的女性】怪盗和狮童……
+    谁才是对的？
+    «ID MSG_GRT_SHIBUYA_main_All_466  对话»
+
+【挂着相机的女性】既然狮童先生一直在否认，
+    那应该就是怪盗在说谎吧……？
+    «ID MSG_GRT_SHIBUYA_main_All_467  对话»
+
+【挂着相机的女性】怪盗口中所说的，
+    难道都是真的吗？
+    «ID MSG_GRT_SHIBUYA_main_All_468  对话»
+
+【挂着相机的女性】反正，狮童才是对的吧。
+    «ID MSG_GRT_SHIBUYA_main_All_469  对话»
+
+【挂着相机的女性】突然复活这种事
+    感觉还是很可疑吧……
+    «ID MSG_GRT_SHIBUYA_main_All_470  对话»
+
+【挂着相机的女性】怪盗干的信号劫持，
+    真是太猛了……
+    «ID MSG_GRT_SHIBUYA_main_All_471  对话»
+
+【挂着相机的女性】我已经不想去管
+    哪边才是对的了……
+    «ID MSG_GRT_SHIBUYA_main_All_472  对话»
+
+【挂着相机的女性】就当狮童说的是对的，
+    有什么不好的吗？
+    «ID MSG_GRT_SHIBUYA_main_All_473  对话»
+
+【挂着相机的女性】是谁都无所谓了……
+    «ID MSG_GRT_SHIBUYA_main_All_474  对话»
+
+【挂着相机的女性】怪盗所说的事，
+    会是真的吗……
+    «ID MSG_GRT_SHIBUYA_main_All_475  对话»
+
+【挂着相机的女性】虽然狮童先生否认了，
+    但他说的是真的吧……？
+    «ID MSG_GRT_SHIBUYA_main_All_476  对话»
+
+【挂着相机的女性】谁对谁错
+    都没关系了！
+    «ID MSG_GRT_SHIBUYA_main_All_477  对话»
+
+【挂着相机的女性】怪盗不是死了吗？
+    这是怎么回事？
+    «ID MSG_GRT_SHIBUYA_main_All_478  对话»
+
+【挂着相机的女性】狮童的负面事件？
+    那只是在找茬吧？
+    «ID MSG_GRT_SHIBUYA_main_All_479  对话»
+
+【挂着相机的女性】怪盗所说的事，
+    会是真的吗……
+    «ID MSG_GRT_SHIBUYA_main_All_480  对话»
+
+【挂着相机的女性】狮童的那些事……
+    难道都是在骗我们吗？
+    «ID MSG_GRT_SHIBUYA_main_All_481  对话»
+
+【挂着相机的女性】要是狮童以后不在了，
+    我们该何去何从啊……
+    «ID MSG_GRT_SHIBUYA_main_All_482  对话»
+
+【挂着相机的女性】听说狮童先生是身体不适，
+    但他不会就这样弃选吧……
+    «ID MSG_GRT_SHIBUYA_main_All_483  对话»
+
+【挂着相机的女性】交给狮童先生处理，
+    应该不会有问题才对的……
+    «ID MSG_GRT_SHIBUYA_main_All_484  对话»
+
+【挂着相机的女性】明明狮童可以替我们
+    改变这个国家的……
+    «ID MSG_GRT_SHIBUYA_main_All_485  对话»
+
+【挂着相机的女性】事情变成这样
+    总不会没人管吧？
+    «ID MSG_GRT_SHIBUYA_main_All_486  对话»
+
+【挂着相机的女性】为什么啊……狮童议员
+    应该不会有错吧……？
+    «ID MSG_GRT_SHIBUYA_main_All_487  对话»
+
+【挂着相机的女性】狮童先生应该不会
+    就这样辞任吧……？
+    «ID MSG_GRT_SHIBUYA_main_All_488  对话»
+
+【挂着相机的女性】这不是真的吧，狮童！
+    那件事竟然是谎言……
+    «ID MSG_GRT_SHIBUYA_main_All_489  对话»
+
+【挂着相机的女性】等一下，狮童先生！
+    那种事不是真的吧！？
+    «ID MSG_GRT_SHIBUYA_main_All_490  对话»
+
+【挂着相机的女性】如果是狮童议员的话，
+    不是应该就没问题了吗？
+    «ID MSG_GRT_SHIBUYA_main_All_491  对话»
+
+【挂着相机的女性】明明有狮童议员在，
+    应该就没问题了……
+    «ID MSG_GRT_SHIBUYA_main_All_492  对话»
+
+【挂着相机的女性】为什么，为什么啊……
+    狮童先生……
+    «ID MSG_GRT_SHIBUYA_main_All_493  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_494  对话»
+
+【挂着相机的女性】为什么狮童先生会……？
+    这不是真的吧……
+    «ID MSG_GRT_SHIBUYA_main_All_495  对话»
+
+【挂着相机的女性】狮童先生不是说过，
+    不会有问题的吗！
+    «ID MSG_GRT_SHIBUYA_main_All_496  对话»
+
+【挂着相机的女性】谁能代替狮童先生
+    来想想办法啊……
+    «ID MSG_GRT_SHIBUYA_main_All_497  对话»
+
+【挂着相机的女性】谁都可以……
+    快想想办法呀。
+    «ID MSG_GRT_SHIBUYA_main_All_498  对话»
+
+【挂着相机的女性】发生什么事了……
+    谁来帮帮忙啊……
+    «ID MSG_GRT_SHIBUYA_main_All_499  对话»
+
+【挂着相机的女性】这该怎么办才好啊……
+    谁来想想办法……
+    «ID MSG_GRT_SHIBUYA_main_All_500  对话»
+
+【挂着相机的女性】为什么会发生这种事……
+    «ID MSG_GRT_SHIBUYA_main_All_501  对话»
+
+【挂着相机的女性】不管是谁都好，
+    赶快想想办法吧……
+    «ID MSG_GRT_SHIBUYA_main_All_502  对话»
+
+【挂着相机的女性】已经结束了……
+    再干什么都没有用了。
+    «ID MSG_GRT_SHIBUYA_main_All_503  对话»
+
+【挂着相机的女性】现在不管干什么，
+    都无济于事了……
+    «ID MSG_GRT_SHIBUYA_main_All_504  对话»
+
+【挂着相机的女性】一旦少了狮童，
+    这个国家就没救了……
+    «ID MSG_GRT_SHIBUYA_main_All_505  对话»
+
+【挂着相机的女性】这个国家已经完了……
+    没有救了……
+    «ID MSG_GRT_SHIBUYA_main_All_506  对话»
+
+【挂着相机的女性】是谁造成的啊……
+    为什么会这样子……
+    «ID MSG_GRT_SHIBUYA_main_All_507  对话»
+
+【挂着相机的女性】为什么会变成这样……
+    谁来想想办法啊……
+    «ID MSG_GRT_SHIBUYA_main_All_508  对话»
+
+【挂着相机的女性】到底是怎么回事啦！
+    快想想办法啊……
+    «ID MSG_GRT_SHIBUYA_main_All_509  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_510  对话»
+
+【挂着相机的女性】不管再做什么都没用了……
+    «ID MSG_GRT_SHIBUYA_main_All_511  对话»
+
+【挂着相机的女性】发生什么事了啊……
+    «ID MSG_GRT_SHIBUYA_main_All_512  对话»
+
+【挂着相机的女性】不要放弃，努力试试看吧！
+    «ID MSG_GRT_SHIBUYA_main_All_513  对话»
+
+【挂着相机的女性】那家伙最近很认真呢。
+    «ID MSG_GRT_SHIBUYA_main_All_514  对话»
+
+【挂着相机的女性】转眼间就过了一年……
+    «ID MSG_GRT_SHIBUYA_main_All_515  对话»
+
+【挂着相机的女性】天气变得暖和多了……
+    «ID MSG_GRT_SHIBUYA_main_All_516  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_517  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_518  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_519  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_520  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_521  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_522  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_523  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_524  对话»
+
+【挂着相机的女性】去年的春天
+    没发生事件吗？
+    «ID MSG_GRT_SHIBUYA_main_All_525  对话»
+
+【挂着相机的女性】已经春天了啊……
+    «ID MSG_GRT_SHIBUYA_main_All_526  对话»
+
+【挂着相机的女性】转眼间就过了一年……
+    «ID MSG_GRT_SHIBUYA_main_All_527  对话»
+
+【挂着相机的女性】天气变得暖和多了……
+    «ID MSG_GRT_SHIBUYA_main_All_528  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_529  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_530  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_531  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_532  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_533  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_534  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_535  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_536  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_537  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_538  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_539  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_540  对话»
+
+【挂着相机的女性】懒得去打工啊……
+    干脆翘掉算了……
+    «ID MSG_GRT_SHIBUYA_main_All_541  对话»
+
+【挂着相机的女性】没有什么有趣的事吗……
+    «ID MSG_GRT_SHIBUYA_main_All_542  对话»
+
+【挂着相机的女性】我什么都办不到……
+    «ID MSG_GRT_SHIBUYA_main_All_543  对话»
+
+【挂着相机的女性】没有什么好事吗……
+    谁来想想办法啊……
+    «ID MSG_GRT_SHIBUYA_main_All_544  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_545  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_546  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_547  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_All_548  对话»
+
+【挂着相机的女性】听说又出那种事了，
+    人会突然发疯那个。
+    «ID MSG_GRT_SHIBUYA_main_Lim  对话»
+
+【挂着相机的女性】看过那个画面以后，
+    我都不敢搭乘电车了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_2  对话»
+
+【挂着相机的女性】电车一直停着不开……
+    好让人生气哦～
+    «ID MSG_GRT_SHIBUYA_main_Lim_3  对话»
+
+【挂着相机的女性】真的是事故吗？
+    如果是什么诅咒的话……
+    «ID MSG_GRT_SHIBUYA_main_Lim_4  对话»
+
+【挂着相机的女性】电车一直停着不开……
+    真的很让人火大啊……
+    «ID MSG_GRT_SHIBUYA_main_Lim_5  对话»
+
+【挂着相机的女性】最近经常发生啊……
+    搞不好又要出事了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_6  对话»
+
+【挂着相机的女性】说什么安全都是骗人的。
+    我都不敢搭电车了啦……
+    «ID MSG_GRT_SHIBUYA_main_Lim_7  对话»
+
+【挂着相机的女性】最近经常发生呢……
+    搞不好又要出事了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_8  对话»
+
+【挂着相机的女性】那个画家斑目，
+    他上了情热帝国哦！
+    «ID MSG_GRT_SHIBUYA_main_Lim_9  对话»
+
+【挂着相机的女性】既然他都能上情热帝国了，
+    应该是个很有名的画家吧！
+    «ID MSG_GRT_SHIBUYA_main_Lim_10  对话»
+
+【挂着相机的女性】据说在日本画的业界里，
+    没有人能与他相提并论！
+    «ID MSG_GRT_SHIBUYA_main_Lim_11  对话»
+
+【挂着相机的女性】既然他都能上情热帝国了，
+    应该是个很有名的画家吧？
+    «ID MSG_GRT_SHIBUYA_main_Lim_12  对话»
+
+【挂着相机的女性】那个画家斑目，
+    他上了情热帝国哦！
+    «ID MSG_GRT_SHIBUYA_main_Lim_13  对话»
+
+【挂着相机的女性】既然他都能上情热帝国了，
+    应该是个很有名的画家吧！
+    «ID MSG_GRT_SHIBUYA_main_Lim_14  对话»
+
+【挂着相机的女性】既然他都能上情热帝国了，
+    应该是个很有名的画家吧？
+    «ID MSG_GRT_SHIBUYA_main_Lim_15  对话»
+
+【挂着相机的女性】那个画家斑目，
+    他上了情热帝国哦！
+    «ID MSG_GRT_SHIBUYA_main_Lim_16  对话»
+
+【挂着相机的女性】据说在日本画的业界里，
+    没有人能与他相提并论！
+    «ID MSG_GRT_SHIBUYA_main_Lim_17  对话»
+
+【挂着相机的女性】既然他都能上情热帝国了，
+    应该是个很有名的画家吧？
+    «ID MSG_GRT_SHIBUYA_main_Lim_18  对话»
+
+【挂着相机的女性】据说在日本画的业界里，
+    没有人能与他相提并论！
+    «ID MSG_GRT_SHIBUYA_main_Lim_19  对话»
+
+【挂着相机的女性】那个画家斑目，
+    他上了情热帝国哦！
+    «ID MSG_GRT_SHIBUYA_main_Lim_20  对话»
+
+【挂着相机的女性】据说在日本画的业界里，
+    没有人能与他相提并论！
+    «ID MSG_GRT_SHIBUYA_main_Lim_21  对话»
+
+【挂着相机的女性】既然他都能上情热帝国了，
+    应该是个很有名的画家吧？
+    «ID MSG_GRT_SHIBUYA_main_Lim_22  对话»
+
+【挂着相机的女性】据说在日本画的业界里，
+    没有人能与他相提并论！
+    «ID MSG_GRT_SHIBUYA_main_Lim_23  对话»
+
+【挂着相机的女性】那个画家斑目，
+    他上了情热帝国哦！
+    «ID MSG_GRT_SHIBUYA_main_Lim_24  对话»
+
+【挂着相机的女性】听说因为他被抓住把柄，
+    所以一直饱受威胁……
+    «ID MSG_GRT_SHIBUYA_main_Lim_25  对话»
+
+【挂着相机的女性】听说警察也束手无策，
+    是不是真的？
+    «ID MSG_GRT_SHIBUYA_main_Lim_26  对话»
+
+【挂着相机的女性】听说还有人
+    被迫卖春……
+    «ID MSG_GRT_SHIBUYA_main_Lim_27  对话»
+
+【挂着相机的女性】听说被抓走的话，
+    就会被迫去做很糟糕的事……
+    «ID MSG_GRT_SHIBUYA_main_Lim_28  对话»
+
+【挂着相机的女性】传闻说
+    已经出现很多受害者了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_29  对话»
+
+【挂着相机的女性】听说他们使用的手法恶劣，
+    是一群相当危险的人……
+    «ID MSG_GRT_SHIBUYA_main_Lim_30  对话»
+
+【挂着相机的女性】听说被抓走的话，
+    就会被迫去做很糟糕的事……
+    «ID MSG_GRT_SHIBUYA_main_Lim_31  对话»
+
+【挂着相机的女性】听说警察也感到很棘手，
+    到底该怎么办啊……
+    «ID MSG_GRT_SHIBUYA_main_Lim_32  对话»
+
+【挂着相机的女性】听说警察也束手无策，
+    是不是真的？
+    «ID MSG_GRT_SHIBUYA_main_Lim_33  对话»
+
+【挂着相机的女性】听说他们使用的手法恶劣，
+    是一群相当危险的人……
+    «ID MSG_GRT_SHIBUYA_main_Lim_34  对话»
+
+【挂着相机的女性】听说还有人因此
+    被迫卖春啊……
+    «ID MSG_GRT_SHIBUYA_main_Lim_35  对话»
+
+【挂着相机的女性】听说警察也感到很棘手，
+    到底该怎么办啊……
+    «ID MSG_GRT_SHIBUYA_main_Lim_36  对话»
+
+【挂着相机的女性】听说警察也不能
+    随便插手干涉……
+    «ID MSG_GRT_SHIBUYA_main_Lim_37  对话»
+
+【挂着相机的女性】听说他们使用的手法恶劣，
+    是一群相当危险的人……
+    «ID MSG_GRT_SHIBUYA_main_Lim_38  对话»
+
+【挂着相机的女性】听说是个恐吓集团，
+    还让受害者们卖春……
+    «ID MSG_GRT_SHIBUYA_main_Lim_39  对话»
+
+【挂着相机的女性】听说警察也感到很棘手，
+    到底该怎么办啊……
+    «ID MSG_GRT_SHIBUYA_main_Lim_40  对话»
+
+【挂着相机的女性】要穿着浴衣去看烟花吗？
+    «ID MSG_GRT_SHIBUYA_main_Lim_41  对话»
+
+【挂着相机的女性】已经是烟花大会的季节了吗……
+    «ID MSG_GRT_SHIBUYA_main_Lim_42  对话»
+
+【挂着相机的女性】看烟花时要穿浴衣吗？
+    «ID MSG_GRT_SHIBUYA_main_Lim_43  对话»
+
+【挂着相机的女性】好期待烟花大会呢！
+    «ID MSG_GRT_SHIBUYA_main_Lim_44  对话»
+
+【挂着相机的女性】要穿着浴衣去看烟花吗？
+    «ID MSG_GRT_SHIBUYA_main_Lim_45  对话»
+
+【挂着相机的女性】我已经好几年
+    没看过烟花了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_46  对话»
+
+【挂着相机的女性】好期待烟花大会呢！
+    «ID MSG_GRT_SHIBUYA_main_Lim_47  对话»
+
+【挂着相机的女性】烟花到底哪里好看啊……
+    «ID MSG_GRT_SHIBUYA_main_Lim_48  对话»
+
+【挂着相机的女性】那样子公开处刑……
+    实在有点夸张了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_49  对话»
+
+【挂着相机的女性】你看奥村社长的记者会了吗？
+    那个也太吓人了吧……
+    «ID MSG_GRT_SHIBUYA_main_Lim_50  对话»
+
+【挂着相机的女性】奥村社长的记者会，
+    超级可怕的啦……
+    «ID MSG_GRT_SHIBUYA_main_Lim_51  对话»
+
+【挂着相机的女性】虽然我的确希望他受到惩罚，
+    但那样子有些太过火了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_52  对话»
+
+【挂着相机的女性】那个应该
+    不是电脑特效吧……
+    «ID MSG_GRT_SHIBUYA_main_Lim_53  对话»
+
+【挂着相机的女性】怎么突然就翻着白眼倒下了，
+    太反常了吧……
+    «ID MSG_GRT_SHIBUYA_main_Lim_54  对话»
+
+【挂着相机的女性】光是想起来，
+    就觉得好恶心……
+    «ID MSG_GRT_SHIBUYA_main_Lim_55  对话»
+
+【挂着相机的女性】不管怎么样，
+    那实在有点……
+    «ID MSG_GRT_SHIBUYA_main_Lim_56  对话»
+
+【挂着相机的女性】不管怎么样，
+    那样实在有点过火了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_57  对话»
+
+【挂着相机的女性】那样子公开处刑……
+    实在有点夸张了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_58  对话»
+
+【挂着相机的女性】那个应该不会是
+    电脑特效吧……
+    «ID MSG_GRT_SHIBUYA_main_Lim_59  对话»
+
+【挂着相机的女性】他翻白眼真的很吓人……
+    «ID MSG_GRT_SHIBUYA_main_Lim_60  对话»
+
+【挂着相机的女性】不管怎么样，
+    那样实在有点过火了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_61  对话»
+
+【挂着相机的女性】那样子公开处刑……
+    实在有点夸张了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_62  对话»
+
+【挂着相机的女性】那个应该不会是
+    电脑特效吧……
+    «ID MSG_GRT_SHIBUYA_main_Lim_63  对话»
+
+【挂着相机的女性】他翻白眼真的太吓人了……
+    «ID MSG_GRT_SHIBUYA_main_Lim_64  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_65  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_66  对话»
+
+【挂着相机的女性】明智侦探
+    最近很受欢迎呢──
+    «ID MSG_GRT_SHIBUYA_main_Lim_67  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_68  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_69  对话»
+
+【挂着相机的女性】头脑灵活的高中生侦探……
+    未来的前途无限啊……
+    «ID MSG_GRT_SHIBUYA_main_Lim_70  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_71  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_72  对话»
+
+【挂着相机的女性】你听说了吗？
+    那个名侦探的事！
+    «ID MSG_GRT_SHIBUYA_main_Lim_73  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_74  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_75  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_76  对话»
+
+【挂着相机的女性】那个叫明智的侦探，
+    你听说了吗？
+    «ID MSG_GRT_SHIBUYA_main_Lim_77  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_78  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_79  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_80  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_81  对话»
+
+【挂着相机的女性】明智说的
+    也有一番道理啊……
+    «ID MSG_GRT_SHIBUYA_main_Lim_82  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_83  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_84  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_85  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_86  对话»
+
+【挂着相机的女性】能破坏人心什么的，
+    想想就觉得可怕……
+    «ID MSG_GRT_SHIBUYA_main_Lim_87  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_88  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_89  对话»
+
+【挂着相机的女性】电视上关于明智的报导……
+    你怎么看？
+    «ID MSG_GRT_SHIBUYA_main_Lim_90  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_91  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_92  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_93  对话»
+
+【挂着相机的女性】如果他们专挑坏人下手，
+    那应该就无所谓了吧？
+    «ID MSG_GRT_SHIBUYA_main_Lim_94  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_95  对话»
+
+【挂着相机的女性】０
+    «ID MSG_GRT_SHIBUYA_main_Lim_96  对话»
+
+【挂着相机的女性】在补习班挺不错的。
+    说不定比在学校还舒服。
+    «ID MSG_GRT_main_All_030_01_  对话»
+
+【挂着相机的女性】哥哥说要教我学习，
+    你来吗？
+    «ID MSG_GRT_main_All_030_02_  对话»
+
+【挂着相机的女性】嗯，我还和妹妹住同个房间。
+    虽然有时候很吵，但也很开心啦！
+    «ID MSG_GRT_main_All_030_03_  对话»
+
+【挂着相机的女性】都这么晚了还不回家，不好吧？
+    会被教育辅导的。
+    «ID MSG_GRT_main_All_030_04_  对话»
+
+【挂着相机的女性】生物课我漏听的部分，
+    可以回去再听一次吗？
+    «ID MSG_GRT_main_All_030_05_  对话»
+
+【挂着相机的女性】你不是搬家了吗……？
+    «ID MSG_GRT_main_All_030_06_  对话»
+
+【挂着相机的女性】总觉得你没以前给面子了啊？
+    或者说变正经了……？
+    «ID MSG_GRT_main_All_030_07_  对话»
+
+【挂着相机的女性】我把那家伙也叫来吧！
+    大家一起去比较好玩嘛。
+    «ID MSG_GRT_main_All_031_08_  对话»
+
+【挂着相机的女性】船到桥头自然直嘛，
+    我们去散心吧。
+    «ID MSG_GRT_main_All_031_09_  对话»
+
+【挂着相机的女性】我毕业后打算去拜师。
+    都已经谈好了。
+    «ID MSG_GRT_main_All_031_10_  对话»
+
+【挂着相机的女性】社团活动的时间也太短了吧？
+    真希望活动时间能再长一点。
+    «ID MSG_GRT_main_All_031_11_  对话»
+
+【挂着相机的女性】我是听说……
+    你要暂时休息一阵子呢。
+    «ID MSG_GRT_main_All_031_12_  对话»
+
+【挂着相机的女性】我们学校，好像因为鸭志田
+    的事件被喷得很严重呢……
+    «ID MSG_GRT_main_Lim_503_02_  对话»
+
+【挂着相机的女性】我说你啊，要不要去
+    接受心理咨询？
+    «ID MSG_GRT_main_Lim_503_03_  对话»
+
+【挂着相机的女性】那个叫做丸喜的人，
+    真的靠得住吗……？
+    «ID MSG_GRT_main_Lim_503_04_  对话»
+
+【挂着相机的女性】是在医务室吗？
+    虽然我也有点好奇啦……
+    «ID MSG_GRT_main_Lim_503_05_  对话»
+
+【挂着相机的女性】可以相信
+    那个老师吗……
+    «ID MSG_GRT_main_Lim_503_06_  对话»
+
+【挂着相机的女性】不过那个丸喜老师
+    长得还不错呢……
+    «ID MSG_GRT_main_Lim_503_07_  对话»
+
+【挂着相机的女性】清扫活动
+    到底有什么意义……
+    «ID MSG_GRT_main_All_504_01_  对话»
+
+【挂着相机的女性】心灵怪盗什么的，
+    不可能真的存在吧……
+    «ID MSG_GRT_main_All_504_02_  对话»
+
+【挂着相机的女性】３０日有清扫活动……
+    让人一点干劲也没有啊……
+    «ID MSG_GRT_main_Lim_504_03_  对话»
+
+【挂着相机的女性】鸭志田应该被解聘了吧。
+    «ID MSG_GRT_main_All_504_04_  对话»
+
+【挂着相机的女性】为什么突然要办清扫活动啊？
+    这有什么意义啊！
+    «ID MSG_GRT_main_Lim_504_05_  对话»
+
+【挂着相机的女性】打扫真的太蠢了……
+    只会白费体力而已……
+    «ID MSG_GRT_main_Lim_504_06_  对话»
+
+【挂着相机的女性】扫什么扫啊……
+    真的累死了……
+    «ID MSG_GRT_main_Lim_504_07_  对话»
+
+【挂着相机的女性】穿着运动服在公园里走来走去，
+    还挺丢人的呢。
+    «ID MSG_GRT_main_All_504_08_  对话»
+
+【挂着相机的女性】一年级那个叫做芳泽的人，
+    好像跟那个转校生关系不错……
+    «ID MSG_GRT_main_Lim_505_01_  对话»
+
+【挂着相机的女性】真的假的？
+    她超可爱的啊……
+    «ID MSG_GRT_main_All_505_02_  对话»
+
+【挂着相机的女性】那个转校生跟芳泽同学
+    为什么会那么亲密啊……？
+    «ID MSG_GRT_main_All_505_03_  对话»
+
+【挂着相机的女性】不过他们挺配的吧，
+    不都是被特别对待的人物吗？
+    «ID MSG_GRT_main_Lim_505_04_  对话»
+
+【挂着相机的女性】对天才大人来说，
+    不管什么都是手到擒来呢……
+    «ID MSG_GRT_main_Lim_505_05_  对话»
+
+【挂着相机的女性】你听说了吗？
+    那个练艺术体操的……
+    «ID MSG_GRT_main_All_506_01_  对话»
+
+【挂着相机的女性】不要再批评别人了，
+    她已经很努力练习了不是吗。
+    «ID MSG_GRT_main_All_506_02_  对话»
+
+【挂着相机的女性】不是不是，
+    她的确是很努力啦。
+    «ID MSG_GRT_main_All_506_03_  对话»
+
+【挂着相机的女性】明明就做不到，
+    还要装模作样……
+    «ID MSG_GRT_main_All_506_04_  对话»
+
+【挂着相机的女性】赶快放弃体育特长生的
+    身份不就好了……
+    «ID MSG_GRT_main_Lim_506_05_  对话»
+
+【挂着相机的女性】芳泽同学只是这次稍微
+    失误了而已啦。
+    «ID MSG_GRT_main_All_506_06_  对话»
+
+【挂着相机的女性】这些女生真的很吵……
+    可以不要再嫉妒别人了吗……
+    «ID MSG_GRT_main_All_506_07_  对话»
+
+【挂着相机的女性】她真的……
+    很擅长体操吗？
+    «ID MSG_GRT_main_Lim_506_08_  对话»
+
+【挂着相机的女性】一年级那个叫芳泽的人，
+    好像是很厉害的艺术体操选手呢……
+    «ID MSG_GRT_main_All_601_01_  对话»
+
+【挂着相机的女性】那个叫芳泽的女生，
+    好像备受期待呢。
+    «ID MSG_GRT_main_Lim_601_02_  对话»
+
+【挂着相机的女性】听说大家都期待她会是
+    下一个奖牌选手呢。
+    «ID MSG_GRT_main_All_601_03_  对话»
+
+【挂着相机的女性】她好像在初中时
+    成绩就很不错哦！
+    «ID MSG_GRT_main_Lim_601_04_  对话»
+
+【挂着相机的女性】校长好像对她
+    抱有很大的期待呢……
+    «ID MSG_GRT_main_Lim_601_05_  对话»
+
+【挂着相机的女性】和丸喜老师谈过后，
+    觉得神清气爽呢！
+    «ID MSG_GRT_main_All_602_01_  对话»
+
+【挂着相机的女性】丸喜老师很温柔，
+    而且也很好说话呢！
+    «ID MSG_GRT_main_All_602_02_  对话»
+
+【挂着相机的女性】下次我也要
+    去医务室！
+    «ID MSG_GRT_main_All_602_03_  对话»
+
+【挂着相机的女性】你也去一趟医务室吧，
+    还有点心可以吃哦！
+    «ID MSG_GRT_main_All_602_04_  对话»
+
+【挂着相机的女性】有没有什么能搭上话的机会呢，
+    ……但她也不会理我的吧。
+    «ID MSG_GRT_main_All_501_01_  对话»
+
+【挂着相机的女性】那个练艺术体操的女生，
+    好像非常受到大家的期待哦！
+    «ID MSG_GRT_main_Lim_501_02_  对话»
+
+【挂着相机的女性】听说一年级来了一个
+    艺术体操的王牌哦！
+    «ID MSG_GRT_main_All_501_03_  对话»
+
+【挂着相机的女性】她的腿好细啊……
+    不愧是体操选手……
+    «ID MSG_GRT_main_Lim_501_04_  对话»
+
+【挂着相机的女性】要吃什么才能有她
+    那种身材啊？
+    «ID MSG_GRT_main_Lim_501_05_  对话»
+
+【挂着相机的女性】那家伙也来了啊，
+    还装成乖宝宝的样子……
+    «ID MSG_GRT_main_All_501_06_  对话»
+
+【挂着相机的女性】要是她一边做体操一边打扫，
+    该多有意思啊。
+    «ID MSG_GRT_main_All_501_07_  对话»
+
+【挂着相机的女性】我也很想把考试往后延呢。
+    «ID MSG_GRT_main_All_501_08_  对话»
+
+【挂着相机的女性】如果每天都努力特训，
+    应该是理所当然的吧。
+    «ID MSG_GRT_main_All_501_09_  对话»
+
+【挂着相机的女性】实在感觉不到我们都是一年级生呢……
+    «ID MSG_GRT_main_Lim_501_10_  对话»
+
+【挂着相机的女性】她好像是体育特长生的样子……
+    好像很厉害呢……
+    «ID MSG_GRT_main_Lim_501_11_  对话»
+
+【挂着相机的女性】那个新生……
+    老师们好像也都很喜欢她呢。
+    «ID MSG_GRT_main_Lim_501_12_  对话»
+
+【挂着相机的女性】我们一起去一年级生的教室看看啦。
+    «ID MSG_GRT_main_Lim_501_13_  对话»
+
+【挂着相机的女性】她和二年级那些糟糕的不良学生比起来，
+    可以说是天差地别呢……
+    «ID MSG_GRT_main_Lim_501_14_  对话»
+
+【挂着相机的女性】她有自己专属的教练对吧？
+    太强了……
+    «ID MSG_GRT_main_Lim_501_15_  对话»
+
+【挂着相机的女性】真的吗？
+    那个一年级生也太夸张了吧……
+    «ID MSG_GRT_main_Lim_501_16_  对话»
+
+【武石】啊，[lName]……
+    你听坂本说了吗？
+    他好像要回田径社了……
+    «ID MSG_TAKEISHI_001_0_0  对话»
+
+【中冈】不要动不动就被突发谣言吓到好吗！？
+    他不是说在搬家以前都要做复健的吗。
+    不过一想到还能再和那家伙一起跑步……
+    就觉得很开心呢。
+    «ID MSG_TAKEISHI_002_0_0  对话»
+
+【武石】我们也决定要
+    全力帮助坂本归来！
+    那家伙真的很有才能！
+    我觉得他一定能成为我们的支柱。
+    «ID MSG_TAKEISHI_003_0_0  对话»
+
+【中冈】对啊对啊！所以你就放心吧。
+    就算你回老家去了，
+    还是会有人照顾那家伙的啦。
+    «ID MSG_TAKEISHI_004_0_0  对话»
+
+【武石】你在老家那边估计也会很忙，
+    不要轻易认输哦。
+    «ID MSG_TAKEISHI_005_0_0  对话»
+
+【中冈】坂本就交给我们照顾吧，
+    你大可放心。
+    «ID MSG_TAKEISHI_END_0  对话»
+
+【武石】你在老家那边估计也会很忙，
+    不要轻易认输哦。
+    «ID MSG_TAKEISHI_END_1  对话»
+
+【武石】[lName]……
+    我听坂本说了……
+    你要回老家是吗？
+    «ID MSG_TAKEISHI_001_0_1  对话»
+
+【中冈】……总觉得对你有点愧疚啊。
+    把你卷入了田径社的纷争当中。
+    之前都没机会和你好好道谢，
+    今天能见到你真是太好了。
+    «ID MSG_TAKEISHI_002_0_1  对话»
+
+【武石】我想你在那里应该也会很忙的，
+    不要轻易认输哦。
+    «ID MSG_TAKEISHI_003_0_1  对话»
+
+【中冈】如果觉得很辛苦的话，就回来这里吧。
+    我们一起练田径也不错！
+    «ID MSG_TAKEISHI_004_0_1  对话»
+
+【武石】再见啦！要保重啊！
+    «ID MSG_TAKEISHI_005_0_1  对话»
+
+【武石】再见啦！要保重啊！
+    «ID MSG_TAKEISHI_END_0_1  对话»
+
+【中冈】如果觉得很辛苦的话，就回来这里吧。
+    我们可以一起练田径啊！
+    «ID MSG_TAKEISHI_END_1_1  对话»

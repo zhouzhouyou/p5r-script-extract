@@ -1,0 +1,637 @@
+================================================================================
+来源文件: EVENT_DATA\SCRIPT\E900\E980_767.BF
+对话条目: 154 条
+================================================================================
+
+【摩尔加纳】跟[var 0]已经搭档合作好几次了呢……
+    «ID MSG_DB_ChkBaton_Common  对话»
+
+【选项】SEL_DB_ChkBaton
+    ▸ 决定搭档合作
+    ▸ 重新考虑
+    «ID SEL_DB_ChkBaton  选项»
+
+【坂本　龙司】太用力会失误的哦。
+    放轻松，放轻松！
+    «ID MSG_DartsStartTalk_Ryuji  对话»
+
+【摩尔加纳】你们还挺有两下子的嘛，
+    吾辈可是心服口服哦。
+    «ID MSG_DartsStartTalk_Moru  对话»
+
+【高卷　杏】大家都好厉害哦！
+    我也不能输给你们！
+    «ID MSG_DartsStartTalk_Anne  对话»
+
+【喜多川　佑介】连指尖都要小心使力……
+    真是深奥啊。
+    «ID MSG_DartsStartTalk_Yusuk  对话»
+
+【新岛　真】这还挺难的呢……
+    让我开始想磨练自己的技术了。
+    «ID MSG_DartsStartTalk_Makot  对话»
+
+【佐仓　双叶】这、这种地方……
+    仅仅是来这里，我就很努力了！
+    «ID MSG_DartsStartTalk_Futab  对话»
+
+【奥村　春】呵呵，大家都好厉害哦。
+    我也得好好加油呢。
+    «ID MSG_DartsStartTalk_Haru  对话»
+
+【明智　吾郎】※未使用
+    «ID MSG_DartsStartTalk_Akech  对话»
+
+【芳泽　堇】这里的氛围好成熟……
+    我开始兴奋起来了！
+    «ID MSG_DartsStartTalk_Yoshi  对话»
+
+【坂本　龙司】你就放手投吧！
+    有我们在！
+    «ID MSG_DartsYellTalk_Ryuji  对话»
+
+【摩尔加纳】冷静下来！
+    吾辈等人没有办不到的事！
+    «ID MSG_DartsYellTalk_Moru  对话»
+
+【高卷　杏】加油！
+    没问题，你行的！
+    «ID MSG_DartsYellTalk_Anne  对话»
+
+【喜多川　佑介】来看你怎么做吧……
+    «ID MSG_DartsYellTalk_Yusuke  对话»
+
+【新岛　真】记得要冷静！
+    要记得注意还有几分哦？
+    «ID MSG_DartsYellTalk_Makoto  对话»
+
+【佐仓　双叶】上吧──！
+    让大家看看你的实力──！
+    «ID MSG_DartsYellTalk_Futaba  对话»
+
+【奥村　春】加油！
+    肯定没问题的！
+    «ID MSG_DartsYellTalk_Haru  对话»
+
+【明智　吾郎】加油哦。
+    «ID MSG_DartsYellTalk_Akechi  对话»
+
+【芳泽　堇】学长加油！
+    最重要的是心态！
+    «ID MSG_DartsYellTalk_Yoshiz  对话»
+
+【坂本　龙司】第３局，交给你啦！
+    «ID MSG_Change_2to3_ryuji  对话»
+
+【摩尔加纳】第３局，交给你咯！
+    «ID MSG_Change_2to3_Moru  对话»
+
+【高卷　杏】第３局，请多指教！
+    «ID MSG_Change_2to3_Anne  对话»
+
+【喜多川　佑介】第３局，交给你了！
+    «ID MSG_Change_2to3_Yusuke  对话»
+
+【新岛　真】第３局，要拜托你了。
+    «ID MSG_Change_2to3_Makoto  对话»
+
+【佐仓　双叶】第３局，交给你啦！
+    «ID MSG_Change_2to3_Futaba  对话»
+
+【奥村　春】第３局，要拜托你咯。
+    «ID MSG_Change_2to3_Haru  对话»
+
+【明智　吾郎】第３局，交给你咯。
+    «ID MSG_Change_2to3_Akechi  对话»
+
+【芳泽　堇】第３局要拜托你了！
+    «ID MSG_Change_2to3_Sumire  对话»
+
+【坂本　龙司】最后一局，交给你啦！
+    «ID MSG_Change_4to5_ryuji  对话»
+
+【摩尔加纳】最后一局，交给你咯！
+    «ID MSG_Change_4to5_Moru  对话»
+
+【高卷　杏】最后一局，请多指教！
+    «ID MSG_Change_4to5_Anne  对话»
+
+【喜多川　佑介】最后一局，交给你了！
+    «ID MSG_Change_4to5_Yusuke  对话»
+
+【新岛　真】最后一局，要拜托你了。
+    «ID MSG_Change_4to5_Makoto  对话»
+
+【佐仓　双叶】最后一局，交给你啦！
+    «ID MSG_Change_4to5_Futaba  对话»
+
+【奥村　春】最后一局，要拜托你咯。
+    «ID MSG_Change_4to5_Haru  对话»
+
+【明智　吾郎】最后一局，交给你咯。
+    «ID MSG_Change_4to5_Akechi  对话»
+
+【芳泽　堇】最后一局要拜托你了！
+    «ID MSG_Change_4to5_Sumire  对话»
+
+【坂本　龙司】好！[var 0]分！
+    还挺不错的嘛？
+    «ID MSG_Chara_GetScore_nice_  对话»
+
+【摩尔加纳】好！[var 0]分！
+    真不愧是吾辈！
+    «ID MSG_Chara_GetScore_nice__2  对话»
+
+【高卷　杏】太好了！[var 0]分！
+    很厉害吧！？
+    «ID MSG_Chara_GetScore_nice__3  对话»
+
+【喜多川　佑介】来咯！[var 0]分……！
+    我能看见轨迹……！
+    «ID MSG_Chara_GetScore_nice__4  对话»
+
+【新岛　真】嗯！[var 0]分！
+    我好像抓到诀窍了！
+    «ID MSG_Chara_GetScore_nice__5  对话»
+
+【佐仓　双叶】扣了[var 0]分吗……！
+    嗯，轻松得胜呢！
+    «ID MSG_Chara_GetScore_nice__6  对话»
+
+【奥村　春】哇……[var 0]分！
+    越来越好玩了！
+    «ID MSG_Chara_GetScore_nice__7  对话»
+
+【明智　吾郎】好……[var 0]分啊。
+    大概就是这样吧。
+    «ID MSG_Chara_GetScore_nice__8  对话»
+
+【芳泽　堇】扣了[var 0]分哦！
+    平衡似乎很重要！！
+    «ID MSG_Chara_GetScore_nice__9  对话»
+
+【坂本　龙司】哎呀……[var 0]分啊。
+    糟糕，就差一点点。
+    «ID MSG_Chara_GetScore_bad_r  对话»
+
+【摩尔加纳】嗯……[var 0]分啊。
+    抱歉，射得不太准。
+    «ID MSG_Chara_GetScore_bad_m  对话»
+
+【高卷　杏】唔哇……[var 0]分……
+    对不起，分数很微妙。
+    «ID MSG_Chara_GetScore_bad_a  对话»
+
+【喜多川　佑介】嗯……竟然是[var 0]分……？
+    抱歉，给你添麻烦了。
+    «ID MSG_Chara_GetScore_bad_y  对话»
+
+【新岛　真】竟然是[var 0]分……
+    我得再加把劲了……
+    «ID MSG_Chara_GetScore_bad_m_2  对话»
+
+【佐仓　双叶】什么──！[var 0]分！？
+    抱歉……
+    «ID MSG_Chara_GetScore_bad_f  对话»
+
+【奥村　春】[var 0]分吗……
+    我是不是扯了后腿……
+    «ID MSG_Chara_GetScore_bad_h  对话»
+
+【明智　吾郎】[var 0]分吗……嗯。
+    果然双人组合就……不……
+    «ID MSG_Chara_GetScore_bad_a_2  对话»
+
+【芳泽　堇】是[var 0]分吗……
+    我得更集中精神才行……！
+    «ID MSG_Chara_GetScore_bad_s  对话»
+
+【坂本　龙司】还剩[var 1]分！
+    这样就能结镖了吧？
+    «ID MSG_Chara_GetScore_finis  对话»
+
+【摩尔加纳】还剩[var 1]分！
+    快要结镖了哦！
+    «ID MSG_Chara_GetScore_finis_2  对话»
+
+【高卷　杏】还剩[var 1]分！
+    离结镖还差一点点！
+    «ID MSG_Chara_GetScore_finis_3  对话»
+
+【喜多川　佑介】还剩[var 1]分……！
+    拜托你划下句点！
+    «ID MSG_Chara_GetScore_finis_4  对话»
+
+【新岛　真】还剩[var 1]分吗……！
+    之后就拜托你咯！
+    «ID MSG_Chara_GetScore_finis_5  对话»
+
+【佐仓　双叶】还剩[var 1]分！
+    相信自己结镖获胜吧！
+    «ID MSG_Chara_GetScore_finis_6  对话»
+
+【奥村　春】哇，还剩[var 1]分！
+    很快就能结镖了哦！
+    «ID MSG_Chara_GetScore_finis_7  对话»
+
+【明智　吾郎】还剩[var 1]分啊。
+    似乎能结镖了。
+    «ID MSG_Chara_GetScore_finis_8  对话»
+
+【芳泽　堇】还剩[var 1]分哦！
+    已经看到胜利的曙光了！
+    «ID MSG_Chara_GetScore_finis_9  对话»
+
+【坂本　龙司】天啊，竟然在第３局就完成了！？
+    你、你还真强……
+    可恶，你太帅了吧。
+    我也开始热血起来了！
+    «ID MSG_BatonTouchGet_BigGoo  对话»
+
+【坂本　龙司】太好啦！０分！
+    我们是最强的组合啦！
+    «ID MSG_BatonTouchGet_Good_R  对话»
+
+【坂本　龙司】还剩[var 0]分啊。
+    可恶，还差一点就能０分了……
+    «ID MSG_BatonTouchGet_Bad_Ry  对话»
+
+【坂本　龙司】剩下[var 0]分……
+    结果真让人难过。
+    «ID MSG_BatonTouchGet_BigBad  对话»
+
+【摩尔加纳】在第３局就结镖……！？
+    你还真有本事！
+    吾辈看得好陶醉啊！
+    «ID MSG_BatonTouchGet_BigGoo_2  对话»
+
+【摩尔加纳】正好０分！
+    只要和吾辈等人齐心协力，你就所向无敌！
+    «ID MSG_BatonTouchGet_Good_M  对话»
+
+【摩尔加纳】剩下[var 0]分啊……真可惜……
+    «ID MSG_BatonTouchGet_Bad_Mo  对话»
+
+【摩尔加纳】剩下[var 0]分……不怎么样呢。
+    抱歉，要是吾辈的状态更好一点的话……
+    «ID MSG_BatonTouchGet_BigBad_2  对话»
+
+【高卷　杏】哇、哇……！
+    在第３局就结束了吗！？
+    我有点起鸡皮疙瘩了。
+    真的好厉害哦！
+    «ID MSG_BatonTouchGet_BigGoo_3  对话»
+
+【高卷　杏】太好了！刚好０分呢！
+    我们会不会是最棒的组合？
+    «ID MSG_BatonTouchGet_Good_A  对话»
+
+【高卷　杏】还剩[var 0]分啊……好可惜哦。
+    «ID MSG_BatonTouchGet_Bad_An  对话»
+
+【高卷　杏】剩下[var 0]分……哈哈，不怎么样呢。
+    抱歉，这好难哦……
+    «ID MSG_BatonTouchGet_BigBad_3  对话»
+
+【喜多川　佑介】什么……！
+    没想到在这局就结束了！？
+    犹如神技……！
+    我的心情非常激昂！
+    «ID MSG_BatonTouchGet_BigGoo_4  对话»
+
+【喜多川　佑介】刚好０分……也就是成功了呢。
+    看来我们的组合非常有默契。
+    «ID MSG_BatonTouchGet_Good_Y  对话»
+
+【喜多川　佑介】还剩[var 0]分吗……真遗憾。
+    «ID MSG_BatonTouchGet_Bad_Yu  对话»
+
+【喜多川　佑介】还剩[var 0]……真可惜。
+    这游戏真不简单啊……
+    «ID MSG_BatonTouchGet_BigBad_4  对话»
+
+【新岛　真】在、在这局就结束了吗！？
+    虽然我对专注力很有自信……
+    但现在明白没有极限这一点了！
+    «ID MSG_BatonTouchGet_BigGoo_5  对话»
+
+【新岛　真】太好了，０分！
+    我们很默契吧？
+    «ID MSG_BatonTouchGet_Good_M_2  对话»
+
+【新岛　真】剩下[var 0]分……
+    感觉真不容易。
+    «ID MSG_BatonTouchGet_Bad_Ma  对话»
+
+【新岛　真】剩下[var 0]分……不太理想呢。
+    抱歉，是我努力不足。
+    «ID MSG_BatonTouchGet_BigBad_5  对话»
+
+【佐仓　双叶】哇哇哇……在第３局就……！
+    谁能料想得到这种结局呢……！
+    你本领真高超呢。
+    老实说，我被迷住了！
+    «ID MSG_BatonTouchGet_BigGoo_6  对话»
+
+【佐仓　双叶】呜哇～０分！
+    我们太完美啦！
+    «ID MSG_BatonTouchGet_Good_F  对话»
+
+【佐仓　双叶】竟然剩下[var 0]分……真可惜。
+    «ID MSG_BatonTouchGet_Bad_Fu  对话»
+
+【佐仓　双叶】竟然剩下[var 0]分……有点受打击。
+    «ID MSG_BatonTouchGet_BigBad_6  对话»
+
+【奥村　春】真、真厉害……！
+    这样就结束了……对吧？
+    一击必杀……不对，是一发必中？
+    哇啊，总觉得好兴奋哦！
+    «ID MSG_BatonTouchGet_BigGoo_7  对话»
+
+【奥村　春】你看，是０分哦！
+    我们很努力呢！
+    «ID MSG_BatonTouchGet_Good_H  对话»
+
+【奥村　春】剩下[var 0]分啊……真可惜呢。
+    «ID MSG_BatonTouchGet_Bad_Ha  对话»
+
+【奥村　春】剩下[var 0]分啊……真可惜呢。
+    对不起，可能是我扯了后腿。
+    «ID MSG_BatonTouchGet_BigBad_7  对话»
+
+【明智　吾郎】真有一套。
+    在第３局就结镖了啊。
+    真不甘心……我的心跳变得有点快。
+    不过这感觉还不坏。
+    «ID MSG_BatonTouchGet_BigGoo_8  对话»
+
+【明智　吾郎】这样就结镖了，０分。
+    我们俩似乎挺合得来呢。
+    «ID MSG_BatonTouchGet_Good_A_2  对话»
+
+【明智　吾郎】还剩[var 0]分吗……真可惜。
+    «ID MSG_BatonTouchGet_Bad_Ak  对话»
+
+【明智　吾郎】剩下[var 0]分……真可惜。
+    究竟为什么会失败呢？
+    «ID MSG_BatonTouchGet_BigBad_8  对话»
+
+【芳泽　堇】学长……真的吗！
+    这、这样一来就……结镖了！？
+    我在发抖。
+    是紧张兴奋的发抖！
+    «ID MSG_BatonTouchGet_BigGoo_9  对话»
+
+【芳泽　堇】哇，学、学长！是０分哦！
+    这代表我们配合得很好吗！？
+    «ID MSG_BatonTouchGet_Good_Y_2  对话»
+
+【芳泽　堇】还剩[var 0]分……真可惜呢。
+    «ID MSG_BatonTouchGet_Bad_Yo  对话»
+
+【芳泽　堇】还剩[var 0]分……真可惜呢。
+    呜呜……非常抱歉。
+    «ID MSG_BatonTouchGet_BigBad_9  对话»
+
+〔旁白〕提升[var 0]的『换手级别』！
+    强化接受『换手』时的效果！
+    攻击力上升，能恢复ＨＰ！
+    «ID SYS_BatonTouchGet_Rank2  对话»
+
+〔旁白〕提升[var 0]的『换手级别』！
+    强化接受『换手』时的效果！
+    攻击力与ＨＰ恢复量提升得更多了！
+    另外，连续发生换手时，
+    也能恢复ＳＰ！
+    «ID SYS_BatonTouchGet_Rank3  对话»
+
+〔旁白〕提升的『换手级别』！
+    强化接受『换手』时的效果！
+    攻击力上升，能恢复ＨＰ！
+    «ID SYS_BatonTouchGet_Hero_R  对话»
+
+〔旁白〕提升的『换手级别』！
+    强化接受『换手』时的效果！
+    攻击力与ＨＰ恢复量提升得更多了！
+    另外，连续发生换手时，
+    也能恢复ＳＰ！
+    «ID SYS_BatonTouchGet_Hero_R_2  对话»
+
+〔旁白〕似乎通过双人合作
+    掌握到什么了……！
+    «ID MND_DartsHeroBatonInfo  对话»
+
+【摩尔加纳】集中精神投飞镖，
+    似乎磨练了[stIcon 2][stLabel 2]呢。
+    «ID MSG_Minigame_Success_Kiy  对话»
+
+【摩尔加纳】嗯，怎么说呢……下次加油吧！
+    «ID MSG_Minigame_Fault  对话»
+
+【摩尔加纳】能一边玩一边特训……
+    这个地方挺不错的嘛。
+    «ID MSG_DartsEnd_Moru  对话»
+
+【坂本　龙司】[coop 2 2 3][coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 9 2 9][coop 10 2 8][coop 33 2 10]大家聚在一起玩果然很热闹！
+    «ID MSG_DartsEnd_Ryuji  对话»
+
+【高卷　杏】[coop 2 2 3][coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 9 2 9][coop 10 2 8][coop 33 2 10]呼……虽然好紧张，不过真的好好玩哦！
+    «ID MSG_DartsEnd_Anne  对话»
+
+【喜多川　佑介】[coop 2 2 3][coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 9 2 9][coop 10 2 8][coop 33 2 10]投飞镖的感觉……还不错呢。
+    «ID MSG_DartsEnd_Yusuke  对话»
+
+【新岛　真】[coop 2 2 3][coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 9 2 9][coop 10 2 8][coop 33 2 10]每次调整姿势的感觉……
+    我还挺喜欢的。
+    «ID MSG_DartsEnd_Makoto  对话»
+
+【佐仓　双叶】[coop 2 2 3][coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 9 2 9][coop 10 2 8][coop 33 2 10]好像在当忍者呢！
+    这个好好玩！
+    «ID MSG_DartsEnd_Futaba  对话»
+
+【奥村　春】[coop 2 2 3][coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 9 2 9][coop 10 2 8][coop 33 2 10]大家一起玩，气氛就变得很热闹呢。
+    «ID MSG_DartsEnd_Haru  对话»
+
+【明智　吾郎】[coop 2 2 3][coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 9 2 9][coop 10 2 8][coop 33 2 10]大家看起来玩得很开心呢。
+    «ID MSG_DartsEnd_Akechi  对话»
+
+【芳泽　堇】[coop 2 2 3][coop 3 2 6][coop 4 2 7][coop 5 2 5][coop 7 2 4][coop 8 2 2][coop 9 2 9][coop 10 2 8][coop 33 2 10]该怎么说呢，燃烧起来了！
+    是灵魂在燃烧！
+    «ID MSG_DartsEnd_Yoshizawa  对话»
+
+【坂本　龙司】先这样吧，再见啦！
+    «ID MSG_DartsBye_Ryuji  对话»
+
+【摩尔加纳】那我们回去吧。
+    «ID MSG_DartsBye_Moru  对话»
+
+【高卷　杏】那，再见啦～
+    «ID MSG_DartsBye_Anne  对话»
+
+【喜多川　佑介】那就告辞了。
+    «ID MSG_DartsBye_Yusuke  对话»
+
+【新岛　真】那么，再见啦。
+    «ID MSG_DartsBye_Makoto  对话»
+
+【佐仓　双叶】拜拜见再！
+    «ID MSG_DartsBye_Futaba  对话»
+
+【奥村　春】我们下次再会吧。
+    «ID MSG_DartsBye_Haru  对话»
+
+【明智　吾郎】那么，再见啦。
+    «ID MSG_DartsBye_Akechi  对话»
+
+【芳泽　堇】那么，下次有机会再玩吧！
+    «ID MSG_DartsBye_Yoshizawa  对话»
+
+【摩尔加纳】双人组合的等级是１，采３０１规则。
+    «ID MSG_DB_r1  对话»
+
+【摩尔加纳】双人组合的等级是２，采５０１规则。
+    «ID MSG_DB_r2  对话»
+
+【摩尔加纳】双人组合的级别是３，可任意选择难度。
+    «ID MSG_DB_r3  对话»
+
+〔旁白〕要列哪些同伴入队？
+    «ID MND_chr_haiti  对话»
+
+【选项】SEL_chr_haiti_dbg
+    ▸ 到杏加入为止（预设）
+    ▸ 到佑介加入为止
+    ▸ 到真加入为止
+    ▸ 到双叶加入为止
+    ▸ 到春加入为止
+    ▸ 到明智加入为止
+    ▸ 到堇加入为止
+    ▸ 以现在的状态开始
+    «ID SEL_chr_haiti_dbg  选项»
+
+〔旁白〕要叫谁？
+    由于是暂定，请勿选择同一人。
+    «ID MND_chr_haiti00  对话»
+
+【选项】SEL_chr_haiti01
+    ▸ ０．龙司
+    ▸ １．摩尔加纳
+    ▸ ２．杏
+    ▸ ３．佑介
+    ▸ ４．真
+    ▸ ５・春
+    ▸ ６．双叶
+    ▸ ７．明智
+    ▸ ８．堇
+    «ID SEL_chr_haiti01  选项»
+
+【选项】SEL_chr_haiti02
+    ▸ ０．龙司
+    ▸ １．杏
+    ▸ ２．佑介
+    ▸ ３．真
+    ▸ ４．春
+    ▸ ５．双叶
+    ▸ ６．明智
+    ▸ ７．堇
+    ▸ ８．不叫任何人
+    «ID SEL_chr_haiti02  选项»
+
+【选项】SEL_chr_haiti03
+    ▸ ０．龙司
+    ▸ １．杏
+    ▸ ２．佑介
+    ▸ ３．真
+    ▸ ４．春
+    ▸ ５．双叶
+    ▸ ６．明智
+    ▸ ７．堇
+    ▸ ８．不叫任何人
+    «ID SEL_chr_haiti03  选项»
+
+〔旁白〕要继续玩吗？
+    最多可玩３次。
+    «ID MND_chr_Replay  对话»
+
+【选项】SEL_chr_Replay
+    ▸ 继续玩
+    ▸ 不玩了，选择结束
+    «ID SEL_chr_Replay  选项»
+
+〔旁白〕谁要玩飞镖呢？
+    «ID MND_chr_asetto  对话»
+
+【选项】SEL_chr_asetto
+    ▸ 叫的人
+    ▸ 被叫的人Ａ
+    ▸ 被叫的人Ｂ
+    «ID SEL_chr_asetto  选项»
+
+〔旁白〕变更难度
+    «ID MND_datu_sentaku  对话»
+
+【选项】SEL_datu_sentaku
+    ▸ ３０１
+    ▸ ５０１
+    ▸ ７０１
+    «ID SEL_datu_sentaku  选项»
+
+〔旁白〕决定要叫谁来玩？
+    «ID MND_InviteAndPosSet  对话»
+
+【选项】SEL_InviteAndPosSet
+    ▸ 强制设定
+    ▸ 什么也不做
+    «ID SEL_InviteAndPosSet  选项»
+
+【选项】SELGEN_InviteAndPosSet
+    ▸ 叫龙司来玩
+    ▸ 叫摩尔加纳来玩
+    ▸ 叫杏来玩
+    ▸ 叫佑介来玩
+    ▸ 叫真来玩
+    ▸ 叫春来玩
+    ▸ 叫双叶来玩
+    ▸ 叫明智来玩
+    ▸ 叫堇来玩
+    ▸ 以现在的状态开始
+    «ID SELGEN_InviteAndPosSet  选项»
+
+〔旁白〕请选择是否重玩时要转交给第２位队员，
+    以及要哪一个模式
+    «ID MSG_DUMMY01  对话»
+
+〔旁白〕叫来一起玩的对象如果协助级别已满，
+    会在这个时间点选择模式
+    «ID MSG_DUMMY02  对话»
+
+〔旁白〕更新显示器的分数
+    «ID MSG_DUMMY03  对话»
+
+〔旁白〕将显示器的模式切换至
+    『选择模式状态』
+    «ID MSG_DUMMY04  对话»
+
+〔旁白〕进行搭档与配置的计数器设定
+    «ID MSG_DUMMY05  对话»
+
+〔旁白〕将显示器的模式切换至
+    『游戏状态』
+    «ID MSG_DUMMY06  对话»
+
+〔旁白〕测试结镖模式
+    剩下６０分以下时
+    触发结镖用对话
+    «ID MSG_DUMMY07  对话»
+
+【坂本　龙司】好！目标是结镖！
+    «ID MSG_FinishJudge_ryuji  对话»
+
+【选项】SEL_FinishJudge
+    ▸ 果决地上吧
+    ▸ 冷静下来
+    «ID SEL_FinishJudge  选项»
+
+【坂本　龙司】进入结镖模式了！
+    «ID MSG_FinishJudge_OK_ryuji  对话»
