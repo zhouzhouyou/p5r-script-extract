@@ -95,19 +95,48 @@ cd ..\batch_flow && dotnet build -c Release
 | `find_speaker_anomalies.py` | 排查说话人标签的异常（当初就是靠它发现「礼司」的） |
 | `reference/` | 为理解格式而收录的上游文档与关键源码（版权属上游） |
 
+### 发布后的验证
+
+`verify_published.js` 用来检查**部署出去的那份**是否真的能渲染：
+
+```powershell
+# 先把部署站的 reader 目录抓下来（含 data/），再本地验证
+node tools/verify_published.js <下载目录>
+```
+
+它会用下载下来的 `index.html` 里的真实渲染函数，去跑下载下来的数据，
+断言「解析出的场景数 > 0」「渲染出非空对话」「没有隐藏选项」「没有假选择」。
+网络抓取不放进这个脚本，是因为它不该依赖任何代理设置。
+
 ---
 
 ## 自检
 
-改完阅读器或数据后建议跑一遍，三条都是无依赖的 Node 脚本：
+改完阅读器或数据后建议跑一遍，四条都是无依赖的 Node 脚本：
 
 ```powershell
-node test_nav_toggle.js       # 左侧导航展开/收起逻辑
-node test_timeline_render.js  # 时间线渲染逻辑（分支、折叠、索引对齐）
+node test_nav_toggle.js       # 左侧导航展开/收起逻辑（26 项）
+node test_timeline_render.js  # 时间线渲染逻辑：分支、折叠、索引对齐（71 项）
+node test_scene_load.js       # 真实执行 boot() + openScene()（13 项）
 node verify_timeline_e2e.js   # 用真实数据全量验证
 ```
 
-`verify_timeline_e2e.js` 是重要的一道闸，它会断言：
+**`test_scene_load.js` 值得单独说明。** 它会用一套 mock DOM 与读本地文件的
+`fetch`，去**真正执行**页面里的 `boot()` 与 `openScene()`，断言：
+
+- 整个页面脚本能求值不抛错
+- 导航构建出与 `index.json` 一致的分类数
+- **每个分类都能打开一个场景、并渲染出非空对话文本**
+- 载入进度回调会报告字节数与总量（进度条的数据来源）
+- `fetch` 失败时显示错误信息，而不是静默空白
+
+它存在的理由是一个真实教训：给阅读器加「载入中转圈」时，我把
+`fetchJSON` / `buildLoading` / `updateLoading` 写在 `boot()` 之后，
+而 `boot()` 在脚本末尾立即调用——`node --check` 只验语法，完全看不出问题，
+但页面一打开就抛 `ReferenceError`，阅读器彻底空白。这类「声明顺序 / 未定义引用 /
+路径写错」的 bug 只有真正跑一遍才抓得到。
+
+`verify_timeline_e2e.js` 则是正确性的一道闸，它会断言：
 
 - 引用的对话索引**都存在**
 - **没有任何选项被折叠隐藏**

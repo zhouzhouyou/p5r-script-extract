@@ -126,6 +126,30 @@
   .dl .ref{color:#4a5468;font-size:10.5px;margin-top:3px;font-family:Consolas,monospace}
   .dl mark{background:#5a3a12;color:#ffd79a;border-radius:2px;padding:0 1px}
 
+  /* ---- loading indicator (category files are 0.1-15 MB) ---- */
+  .loading{text-align:center;padding:56px 20px;color:var(--fg2)}
+  .spin{
+    width:34px;height:34px;margin:0 auto 16px;border-radius:50%;
+    border:3px solid #2b323f;border-top-color:var(--accent);
+    animation:spin .9s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .loadingMsg{font-size:13.5px;color:var(--fg);margin-bottom:10px;word-break:break-word}
+  .loadingPct{font-size:12px;color:var(--accent2);font-family:Consolas,monospace;
+    font-variant-numeric:tabular-nums}
+  .loadingBar{
+    width:min(360px,80%);height:5px;margin:10px auto 0;border-radius:3px;
+    background:#232b3a;overflow:hidden;
+  }
+  .loadingFill{
+    height:100%;width:2%;border-radius:3px;
+    background:linear-gradient(90deg,var(--accent),var(--accent2));
+    transition:width .25s ease;
+  }
+  .loadingHint{font-size:11.5px;color:var(--fg3);margin-top:14px;line-height:1.8}
+  #brandSub.busy::after{content:' …'}
+  @media (prefers-reduced-motion:reduce){ .spin{animation-duration:2.4s} }
+
   /* ---- timeline view: selections, branches, join points ---- */
   .modeTag{
     display:inline-block;margin-left:6px;padding:1px 8px;border-radius:10px;
@@ -325,22 +349,137 @@ function toast(msg){
   clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove('on'),1800);
 }
 
+/**
+ * fetch() + JSON.parse with progress reporting.
+ *
+ * A category file is 0.1–15 MB, so on a slow link this can take a while; the
+ * caller uses `onProgress` to keep the user informed instead of showing nothing.
+ * Streaming also lets the browser report bytes received, which JSON.parse of a
+ * single blob cannot.
+ */
+async function fetchJSON(url, onProgress){
+  const ctrl = new AbortController();
+  const timer = setTimeout(()=>ctrl.abort(), 120000);
+  try{
+    const res = await fetch(url, {signal: ctrl.signal});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+
+    const total = Number(res.headers.get('content-length')) || 0;
+    if(!res.body || !res.body.getReader){
+      const txt = await res.text();
+      if(onProgress) onProgress(txt.length, txt.length);
+      return JSON.parse(txt);
+    }
+
+    const reader = res.body.getReader();
+    const chunks = [];
+    let got = 0;
+    for(;;){
+      const {done, value} = await reader.read();
+      if(done) break;
+      chunks.push(value);
+      got += value.length;
+      if(onProgress) onProgress(got, total);
+    }
+    // decode + parse the whole buffer
+    const buf = new Uint8Array(got);
+    let off = 0;
+    for(const c of chunks){ buf.set(c, off); off += c.length; }
+    const txt = new TextDecoder('utf-8').decode(buf);
+    return JSON.parse(txt);
+  }finally{
+    clearTimeout(timer);
+  }
+}
+
+async function loadCategory(cat, onProgress){
+  if(S.cache.has(cat)) return S.cache.get(cat);
+  const p = await fetchJSON('data/scenes/'+cat+'.json', onProgress);
+  S.cache.set(cat,p);
+  return p;
+}
+
+/** Timeline payload for a category (choice branches). Missing file = no data. */
+async function loadTimeline(cat, onProgress){
+  if(S.tlCache.has(cat)) return S.tlCache.get(cat);
+  let p = {};
+  try{
+    p = await fetchJSON('data/timeline/'+cat+'.json', onProgress);
+  }catch(e){
+    p = {};
+  }
+  S.tlCache.set(cat,p);
+  return p;
+}
+
 /* ------------------------------------------------------------------ loading */
 
+const fmtMB = n => (n/1048576).toFixed(1)+' MB';
+
+/** A spinner block shown while a scene's data is being fetched. */
+function buildLoading(what, got, total){
+  const box = el('div','loading');
+  box.appendChild(el('div','spin'));
+  const msg = el('div','loadingMsg', what);
+  box.appendChild(msg);
+  if(total){
+    box.appendChild(el('div','loadingPct',
+      got ? fmtMB(got)+' / '+fmtMB(total)+'  ('+Math.round(100*got/total)+'%)'
+          : '共 '+fmtMB(total)));
+    const bar = el('div','loadingBar');
+    const fill = el('div','loadingFill');
+    fill.style.width = Math.max(2, Math.round(100*got/total)) + '%';
+    bar.appendChild(fill);
+    box.appendChild(bar);
+  }else if(got){
+    box.appendChild(el('div','loadingPct', fmtMB(got)));
+  }
+  box.appendChild(el('div','loadingHint',
+    '首次打开某个分类需要下载该分类的数据（最大约 15 MB），之后会缓存在内存里、切换场景不再下载。'));
+  return box;
+}
+
+/** Update a loading block in place without re-creating it (no flicker). */
+function updateLoading(box, got, total){
+  const pct = box.querySelector ? box.querySelector('.loadingPct') : null;
+  const fill = box.querySelector ? box.querySelector('.loadingFill') : null;
+  if(pct && total) pct.textContent = fmtMB(got)+' / '+fmtMB(total)+'  ('+Math.round(100*got/total)+'%)';
+  else if(pct) pct.textContent = fmtMB(got);
+  if(fill && total) fill.style.width = Math.max(2, Math.round(100*got/total))+'%';
+}
+
+
 async function boot(){
+  // The shell renders immediately; the index is small but show progress anyway
+  // so a slow first paint never looks like a blank/broken page.
+  $('#brandSub').classList.add('busy');
+  $('#brandSub').textContent = '正在载入索引…';
+  const boot0 = buildLoading('正在载入索引…', 0, 0);
+  const bootHost = $('#inner');
+  bootHost.innerHTML='';
+  bootHost.appendChild(boot0);
+
   let index;
   try{
-    index = await (await fetch('data/index.json')).json();
+    index = await fetchJSON('data/index.json',
+      (got,total)=>{
+        updateLoading(boot0, got, total);
+        $('#brandSub').textContent = total
+          ? '索引 '+Math.round(100*got/total)+'%'
+          : '索引载入中…';
+      });
   }catch(e){
+    $('#brandSub').classList.remove('busy');
     $('#brandSub').textContent='数据载入失败';
     $('#inner').innerHTML =
-      '<div class="empty">无法读取 <code>data/index.json</code>。<br>'+
-      '浏览器不允许 <code>file://</code> 页面读取本地数据文件，'+
-      '请通过本地服务器打开本页面。<br><br>'+
-      '在工作区根目录执行：<br><code>python -m http.server 8777</code><br>'+
+      '<div class="empty">无法读取 <code>data/index.json</code>。<br><br>'+
+      '<code>'+String(e && e.message || e)+'</code><br><br>'+
+      '如果是直接双击打开的本地文件，浏览器不允许 <code>file://</code> 页面读取本地数据；'+
+      '请通过本地服务器打开：<br><code>python -m http.server 8777</code><br>'+
       '然后访问 <code>http://127.0.0.1:8777/reader/</code></div>';
     return;
   }
+  $('#brandSub').classList.remove('busy');
   S.index = index;
   // resolve the directory this page was served from, so links work from any mount
   S.base = location.pathname.replace(/[^/]*$/, '');
@@ -359,7 +498,7 @@ async function boot(){
   if(!index.timeline){
     chip.disabled=true;
     chip.textContent='时间线不可用';
-    chip.title='未找到 data/timeline/，请先运行 _tools/build_timeline.py 和 _tools/build_reader.py';
+    chip.title='未找到 data/timeline/，请先运行 tools/build_timeline.py 和 tools/build_reader.py';
   }else{
     chip.onclick=()=>setMode(S.mode==='timeline'?'raw':'timeline');
     setModeChip();
@@ -378,25 +517,7 @@ function setModeChip(){
       : '原序：按 .msg 文件里的原始顺序平铺显示') + '\n点击切换';
 }
 
-async function loadCategory(cat){
-  if(S.cache.has(cat)) return S.cache.get(cat);
-  const p = await (await fetch('data/scenes/'+cat+'.json')).json();
-  S.cache.set(cat,p);
-  return p;
-}
-
-/** Timeline payload for a category (choice branches). Missing file = no data. */
-async function loadTimeline(cat){
-  if(S.tlCache.has(cat)) return S.tlCache.get(cat);
-  let p = {};
-  try{
-    p = await (await fetch('data/timeline/'+cat+'.json')).json();
-  }catch(e){
-    p = {};
-  }
-  S.tlCache.set(cat,p);
-  return p;
-}
+/* ------------------------------------------------------------------ loading */
 
 /* --------------------------------------------------------------- navigation */
 
@@ -1197,15 +1318,47 @@ async function openScene(sid,scrollTop){
   const meta=S.index.scenes.find(s=>s.id===sid);
   if(!meta) return;
 
-  const payload=await loadCategory(meta.c);
-  const scene=payload[sid];
+  // Show a spinner straight away: a cold category can be 10-15 MB, and leaving
+  // the pane blank for that long looks like a failure.
+  const inner=$('#inner');
+  const loading = buildLoading('正在载入「'+meta.chl+' · '+meta.l+'」…', 0, 0);
+  inner.innerHTML='';
+  inner.appendChild(loading);
   $('#rtitle').textContent=meta.chl+' · '+meta.l;
-  const sub=$('#rsub'); sub.innerHTML='';
+
+  const catCached = S.cache.has(meta.c);
+  const onProg = (got,total)=>{ updateLoading(loading, got, total); };
+
+  let payload, scene;
+  try{
+    payload = await loadCategory(meta.c, onProg);
+    scene = payload[sid];
+  }catch(e){
+    inner.innerHTML='';
+    const box = el('div','empty');
+    box.innerHTML = '无法载入该分类的数据（'+meta.c+'）。<br><br>'+
+      '<code>'+String(e && e.message || e)+'</code><br><br>'+
+      '请刷新页面重试；若持续失败，可能是网络或 GitHub Pages 的问题。';
+    inner.appendChild(box);
+    return;
+  }
+  if(!scene){
+    inner.innerHTML='';
+    inner.appendChild(el('div','empty','该场景在数据里没有找到。'));
+    return;
+  }
+  $('#rsub').innerHTML='';
+  const sub=$('#rsub');
   const fallbackSrc=(scene.src && scene.src[0]) || '';
 
   let tl=null;
+  if(S.mode==='timeline' && !S.tlCache.has(meta.c)){
+    const msg = loading.children && loading.children[1];
+    if(msg) msg.textContent = '正在载入分支时间线…';
+    updateLoading(loading, 0, 0);
+  }
   if(S.mode==='timeline'){
-    const tlp=await loadTimeline(meta.c);
+    const tlp=await loadTimeline(meta.c, onProg);
     tl = tlp[sid] || null;
   }
 
@@ -1232,7 +1385,7 @@ async function openScene(sid,scrollTop){
     const c=el('code',null,f); sub.appendChild(c);
   });
 
-  const inner=$('#inner'); inner.innerHTML='';
+  inner.innerHTML='';                 // clears the loading spinner
   if(varPanelOpen) inner.appendChild(buildVarPanel());
   const title=el('div','sceneTitle',meta.chl+' · '+meta.l);
   inner.appendChild(title);
